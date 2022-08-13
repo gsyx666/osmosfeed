@@ -1,10 +1,516 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-08-12T21:49:42.138Z</id>
+    <id>urn:2022-08-13T10:41:03.955Z</id>
     <title>osmos::feed</title>
-    <updated>2022-08-12T21:49:42.138Z</updated>
+    <updated>2022-08-13T10:41:03.955Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[A JavaScript monolith ready to scale]]></title>
+        <id>https://dev.to/joelbonetr/a-javascript-monolith-ready-to-scale-25o1</id>
+        <link href="https://dev.to/joelbonetr/a-javascript-monolith-ready-to-scale-25o1"/>
+        <updated>2022-08-13T10:26:34.000Z</updated>
+        <summary type="html"><![CDATA[In many projects I use this stack to quickly getting the things done at the lowest cost possible.
+Next JS provides both Node and React sweetened with built-in features like file-system based routing and much more.
+
+If I need to create a project for a client (and assuming there's no showstopper or impediment to proceed this way after the initial analysis) I'll do the following:
+1- Create a Next JS app.
+2- Create a DB instance on my VPS (or any provider).
+3- Add an ORM with the proper DB driver (I use Sequelize -mostly- or Mongoose but there are a tone out there, you can pick your favourite one).
+4- Define the data model.
+5- Add some validation library (I usually use Joi but as the ORM, pick whichever suits best for you).
+6- Create a directory "api" inside "pages".
+7- Add a folder for each b…]]></summary>
+        <author>
+            <name>JoelBonetR</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Converting Binary to Decimal with parseInt's Base Feature]]></title>
+        <id>https://dev.to/smpnjn/converting-binary-to-decimal-with-parseints-base-feature-5d3c</id>
+        <link href="https://dev.to/smpnjn/converting-binary-to-decimal-with-parseints-base-feature-5d3c"/>
+        <updated>2022-08-13T10:14:00.000Z</updated>
+        <summary type="html"><![CDATA[Binary numbers are numbers which are expressed in base 2 notation, rather than the base 10 we are used to. Consider how we normally count in base 10 - when we reach 10, we have to add an extra number to express it. Similarly, in base 2, when we reach 1, the next number has to be expressed by adding a new number to it. So while 1 is equivalent to 1, 10 is equivalent to 2.
+You can convert any binary numbers to decimal using the calculator below.
+
+
+
+
+
+  
+  
+  Converting Binary to Decimal using parseInt in Javascript
+
+
+You've probably used parseInt before if you've worked in Javascript - but did you know you can set the base using parseInt? If you use the second argument of parseInt, you can set the base:
+let x = parseInt('10101', 2);
+console.log(x); // Returns 21
+
+Most likely, you'll want to …]]></summary>
+        <author>
+            <name>Johnny Simpson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The solution of Elixir continuous runtime system code coverage collection]]></title>
+        <id>https://dev.to/yeshan333/the-solution-of-elixir-continuous-runtime-system-code-coverage-collection-36p4</id>
+        <link href="https://dev.to/yeshan333/the-solution-of-elixir-continuous-runtime-system-code-coverage-collection-36p4"/>
+        <updated>2022-08-13T10:02:48.000Z</updated>
+        <summary type="html"><![CDATA[zh_hans
+Code coverage is an effective means to assist software engineers in verifying code quality. The runtime environment's ability to collect code coverage fully combines black and white box testing capabilities and greatly increases engineers' confidence in software quality. This article introduces a solution for code coverage collection in the Elixir runtime environment, and provides an in-depth insight into its internal principles.
+As a SDET or a SWE, we often need to write unit tests or integration test cases to verify the correctness of the system/application, but at the same time we often question whether our tests are adequate. At this time, test coverage is a means of measuring the adequacy of our testing, enhancing the success rate and confidence of the software release, and gi…]]></summary>
+        <author>
+            <name>yeshan333</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2022 Essentials Presentation Template — Drive your business presentation without spending hours]]></title>
+        <id>https://www.producthunt.com/posts/2022-essentials-presentation-template</id>
+        <link href="https://www.producthunt.com/posts/2022-essentials-presentation-template"/>
+        <updated>2022-08-13T09:52:05.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Care about your code, like an artist about their painting]]></title>
+        <id>https://dev.to/nombrekeff/caring-is-one-key-point-to-good-code-3g1o</id>
+        <link href="https://dev.to/nombrekeff/caring-is-one-key-point-to-good-code-3g1o"/>
+        <updated>2022-08-13T09:35:00.000Z</updated>
+        <summary type="html"><![CDATA[Hey there 👋 I'm back with another little rant!
+The other day I was thinking about what makes good code good. Or better said, the variables that make it good. Good for me that is. 
+For me the variables of good code are: Planning, Skill, Consistency, Iterations/Refactor, Observing and most importantly Caring. Or PSICCO for short, as I know the industry loves a good acronym. It's not as good as KISS but whatever 🤣
+So let's go through them and give a bit more context!
+After thinking for a while I've come to the conclusion that one of the most important, or at least the first thing we must do to be able to create good code is to plan. 
+Days of coding can save you hours of planning...
+This sentence is funny because it's not true. Planning can save you hours of coding. Or at least hours of codi…]]></summary>
+        <author>
+            <name>Keff</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何使用 Watchtower 自动更新正在运行的 Docker 容器]]></title>
+        <id>https://linux.cn/article-14926-1.html?utm_source=rss&amp;utm_medium=rss</id>
+        <link href="https://linux.cn/article-14926-1.html?utm_source=rss&amp;utm_medium=rss"/>
+        <updated>2022-08-13T09:17:15.000Z</updated>
+        <summary type="html"><![CDATA[使用 Watchtower 自动更新 Docker 容器基础镜像
+
+
+对开发运维人员来说，保持 Docker 容器为最新版本是重要工作之一。手动更新 Docker 容器是一项耗时的工作。这篇文章解释了 Watchtower 是什么，如何安装它，以及在 Linux 中如何 使用 Watchtower 自动更新正在运行的 Docker 容器 。
+
+Watchtower 是什么？
+
+Watchtower 是一款自由开源的应用，用来监控运行中的 Docker 容器，并且当它发现基础镜像被更改后，可以自动的更新容器。
+
+若 Watchtower 发现一个运行中的容器需要更新，它会以发送 SIGTERM 信号的方式，优雅的结束运行中容器的运行。
+
+它会下载新镜像，然后以最初部署时使用的方式，重启容器。所有文件会在后台自动下载，因此不需要用户的介入。
+
+在这份指南中，我们将会明白如何在类 Unix 系统中使用 Watchtower 自动更新正在运行的 Docker 容器。
+
+我已经在 CentOS 和 Ubuntu 中测试了这份指南，所有的 Linux 发行版中操作过程都一样。
+
+在 Linux 中安装 Watchtower
+
+可以通过 Docker 镜像的方式下载 Watchtower 。因此，部署它是小事一桩。在你的 Linux 中安装 Docker 镜像，然后运行 Watchtower 立即开始监控 Docker 容器。
+
+参考下方指导在基于 PRM 和 DEB 包管理系统中安装 Docker
+
+
+如何在 CentOS 中安装 Docker
+
+如何在 Ubuntu 中安装 Docker
+
+适用于 Linux 的 Docker 桌面初学者手册
+
+
+安装 Docker 后，你可以使用以下命令以 root 用户身份部署 Watchtower 容器：
+
+…]]></summary>
+        <author>
+            <name>linux@linux.cn (linux)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何使用 LibreOffice Writer 模板]]></title>
+        <id>https://linux.cn/article-14925-1.html?utm_source=rss&amp;utm_medium=rss</id>
+        <link href="https://linux.cn/article-14925-1.html?utm_source=rss&amp;utm_medium=rss"/>
+        <updated>2022-08-13T08:59:59.000Z</updated>
+        <summary type="html"><![CDATA[使用 LibreOffice 模板快速开始在 Linux 上写作。
+
+
+任何办公软件套件中的主要部件都是文字处理器。无论你的需求如何，从记笔记到写书，文字处理器都能完成工作。大多数 Linux 发行版都包含 LibreOffice 套件，我使用 LibreOffice Writer 作为我的文字处理器。
+
+LibreOffice Writer 通过其工具栏、键盘快捷键和菜单提供了很大的灵活性。但是，如果你只是想轻松地开始一个文档，你可以使用其中一个预加载的模板。以下是如何使用 LibreOffice Writer 模板让你的工作更轻松。
+
+开始一个新文档
+
+LibreOffice Writer 从一个空白文档开始。大多数人就从这里开始写作，但这也是从模板创建新文档的地方。
+
+首先，打开“文件File”菜单，然后选择“新建New”、“模板Templetes”。此选项会打开模板选择对话框：
+
+
+
+模板选择对话框显示系统上可用的不同模板。默认的 LibreOffice Writer 安装包括用于不同类型的商务信函、简历和其他文档的模板。你可以使用对话框顶部的过滤器选项浏览列表或缩小结果范围。
+
+
+
+单击你想要的模板，然后单击“打开Open”以使用此模板开始一个新的 Writer 文档。一些模板包括样板文本或其他示例材料，你可以使用这些材料开始编写新文档。例如，现代商务信函由以下 “lorem ipsum” 示例文本组成：
+
+
+
+其他文档模板只是为你提供了一个具有一些漂亮的默认设置的空文档的起点。例如，现代文档模板对文本正文使用无衬线字体（例如 Linux 系统上的 Carlito）：
+
+
+
+下载模板
+
+如果你在内置选项中没有找到所需的模板，你可以从 LibreOffice 的网站下载合适的文档模板。进入 LibreOffice 扩展以开始使用 LibreOffice 扩展和模板库。
+
+
+
+在框中输入搜索词以查找你需要的文档模板。例如，学生可能会搜索 “APA” 来查找为 APA 样式设置的文档模板，这是学术论文的常见样式。
+
+
+
+总结
+
+如果你需要编写文档，请浏览 LibreOffice 模板以找到适合你的模板。使用模板意味着你可以花费更少的时间来设置文档以使其具有某种外观，并且可以更快地工作。在支持你的工作的 LibreOffice 扩展和模板库中查找其他文档模板。
+
+（图片来源：Jim Hall，CC BY-SA 4.0）
+
+
+via: https://opensource.com/article/22/7/libreoffice-writer-templates
+
+作者：Jim Hall 选题：lkxed 译者：geekpi 校对：wxy
+
+本文由 LCTT 原创编译，Linux中国 荣誉推出]]></summary>
+        <author>
+            <name>linux@linux.cn (linux)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Logging in Python]]></title>
+        <id>https://dev.to/ravgeetdhillon/logging-in-python-97g</id>
+        <link href="https://dev.to/ravgeetdhillon/logging-in-python-97g"/>
+        <updated>2022-08-13T08:53:50.000Z</updated>
+        <summary type="html"><![CDATA[When an application runs, it performs a tremendous number of tasks. A simple to-do app can have tons of tasks like - user logins, creating to-dos, updating to-dos, deleting to-dos, and duplicating to-dos. These tasks can result in success or may end up with some errors. Hence, there is a need to monitor events happening and analyze them to identify bottlenecks in the performance of the application. This is where logging is useful.
+In this article, you'll learn how to create logs in a Python application using the Python logging module. Logging can help Python developers of all experience levels develop and analyze an application's performance more quickly.
+Read the full blog on Honeybadger.
+Thanks for reading 💜
+I publish a monthly newsletter in which I share personal stories, things that I am working on, what is happening in the world of tech, and some interesting dev-related posts which I come across while surfing the web.
+Connect with me through Twitter • LinkedIn • Github or send me an Email.
+— Ravgeet, Full Stack Developer and Technical Content Writer]]></summary>
+        <author>
+            <name>Ravgeet Dhillon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JavaScript Example]]></title>
+        <id>https://dev.to/kavyagreatrgb/javascript-example-185e</id>
+        <link href="https://dev.to/kavyagreatrgb/javascript-example-185e"/>
+        <updated>2022-08-13T08:28:00.000Z</updated>
+        <summary type="html"><![CDATA[JavaScript Example
+
+
+Javascript example is easy to code. JavaScript provides 3 places to put the JavaScript code: within body tag, within head tag and external JavaScript file.
+Let’s create the first JavaScript example.
+
+<script type="text/javascript">  
+document.write("JavaScript is a simple language for Educatque learners");  
+</script>  
+
+
+The script tag specifies that we are using JavaScript.
+The text/javascript is the content type that provides information to the browser about the data.
+The document.write() function is used to display dynamic content through JavaScript. We will learn about document object in detail later.
+Between the body tag of html
+Between the head tag of html
+In .js file (external javaScript)
+In the above example, we have displayed the dynamic content using JavaScript. Let’s see the simple example of JavaScript that displays alert dialog box.
+<script type="text/javascript">  
+ alert("Hello Javatpoint");  
+</script>  
+
+Let’s see the same example of displaying alert dialog box of JavaScript that is contained inside the head tag.
+In this example, we are creating a function msg(). To create function in JavaScript, you need to write function with function_name as given below.
+To call function, you need to work on event. Here we are using onclick event to call msg() function.
+<html>  
+<head>  
+<script type="text/javascript">  
+function msg(){  
+ alert("Hello Javatpoint");  
+}  
+</script>  
+</head>  
+<body>  
+<p>Welcome to JavaScript</p>  
+<form>  
+<input type="button" value="click" onclick="msg()"/>  
+</form>  
+</body>  
+</html>  
+
+
+Source Code]]></summary>
+        <author>
+            <name>doson87386</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introduction To JavaScript]]></title>
+        <id>https://dev.to/kavyagreatrgb/introduction-to-javascript-5f4</id>
+        <link href="https://dev.to/kavyagreatrgb/introduction-to-javascript-5f4"/>
+        <updated>2022-08-13T08:10:28.000Z</updated>
+        <summary type="html"><![CDATA[What Is JavaScript
+
+
+JavaScript (Js) is a light-weight object-oriented programming language which is used by several websites for scripting the webpages. It is an interpreted, full-fledged programming language that enables dynamic interactivity on websites when applied to an HTML document. It was introduced in the year 1995 for adding programs to the webpages in the Netscape Navigator browser. Since then, it has been adopted by all other graphical web browsers. With JavaScript, users can build modern web applications to interact directly without reloading the page every time. The traditional website uses js to provide several forms of interactivity and simplicity.
+There are following features of JavaScript:
+All popular web browsers support JavaScript as they provide built-in execution envi…]]></summary>
+        <author>
+            <name>doson87386</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why every programmer should write]]></title>
+        <id>https://dev.to/ezeanamichael/why-every-programmer-should-write-5f49</id>
+        <link href="https://dev.to/ezeanamichael/why-every-programmer-should-write-5f49"/>
+        <updated>2022-08-13T07:42:00.000Z</updated>
+        <summary type="html"><![CDATA[Reading this topic, you may wonder "Don't all programmers write?" Yeah, we write code but the main point of this write-up is what some call technical writing.
+Technical writing is a fairly huge aspect in tech that most people don't pursue, I normally didn't see the need to until I forced myself to put a post out there, my fears?
+Criticism: like most people I dislike criticism the fact that I'll spend long hours of my day working on write-ups just to put them out and get a bad review or response. Then I went with something I know, Python basics, I felt no one can go wrong with Python basics so I wrote stuff on that. But I learned some criticism can be good. They help me improve and soon enough I got over this fear.
+
+
+Unread posts:this waned on me for some time, some of us are familiar with …]]></summary>
+        <author>
+            <name>E.Michael</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Browser extensions - new tab extension]]></title>
+        <id>https://dev.to/dailydevtips1/browser-extensions-new-tab-extension-3i6a</id>
+        <link href="https://dev.to/dailydevtips1/browser-extensions-new-tab-extension-3i6a"/>
+        <updated>2022-08-13T07:35:54.000Z</updated>
+        <summary type="html"><![CDATA[We already looked at our first extension that didn't have a view and a custom theme.
+Now let's look at how we can make a new tab extension.
+The result will be a new tab like this:
+
+To get started, we first have to create a new folder and navigate into it.
+mkdir new-tab-extension && cd new-tab-extension
+
+Now open up the project in your favorite editor.
+The first thing we will add is the manifest.json. This is always the main entry point for any browser extension.
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "New Tab Extension",
+  "description": "A demo first new tab experience",
+  "action": {
+    "default_icon": "icons/icon-48.png"
+  },
+  "icons": {
+    "48": "icons/icon-48.png"
+  },
+  "chrome_url_overrides" : {
+    "newtab": "new-tab.html"
+  }
+}
+
+We defined this one as manifest…]]></summary>
+        <author>
+            <name>Chris Bongers</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS Icon: Google Pay]]></title>
+        <id>https://dev.to/j471n/css-icon-google-pay-ni5</id>
+        <link href="https://dev.to/j471n/css-icon-google-pay-ni5"/>
+        <updated>2022-08-13T07:19:00.000Z</updated>
+        <summary type="html"><![CDATA[I will create the Google Pay icon in this article using CSS only. Let's look at how we do that.
+
+
+
+
+
+First, we need to create the structure for this logo then we will style that structure.
+<div class="wrapper">
+  <div class="red"></div>
+  <div class="yellow"></div>
+  <div class="green"></div>
+  <div class="blue"></div>
+</div>
+
+Let's first style the .wrapper and it's making it's all child absolute:
+.wrapper {
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+.wrapper > *{
+  position: absolute;
+}
+
+Styling .blue strip:
+.blue {
+  width: 140px;
+  height: 80px;
+  background: #297aec;
+  transform: rotate(-60deg) translate(-35px, -70px);
+  border-radius: 50px 25px 25px 0;
+}
+
+
+Now, Styling .green strip:
+.green {
+  width: 170px;
+  height: 80px;
+  background: #2da94f;
+  transform: rota…]]></summary>
+        <author>
+            <name>Jatin Sharma</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Level up your HTML document with CSS]]></title>
+        <id>70147 at https://opensource.com</id>
+        <link href="https://opensource.com/article/22/8/css-html-project-documentation"/>
+        <updated>2022-08-13T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Level up your HTML document with CSS
+Jim Hall
+Sat, 08/13/2022 - 03:00
+
+    
+Register or Login to like
+Register or Login to like
+When you write documentation, whether that's for an open source project or a technical writing project, you should have two goals: The document should be written well, and the document should be easy to read. The first is addressed by clear writing skills and technical editing. The second can be addressed with a few simple changes to an HTML document.
+HyperText Markup Language, or HTML, is the backbone of the internet. Since the dawn of the "World Wide Web" in 1994, every web browser uses HTML to display documents and websites. And for almost as long, HTML has supported the stylesheet, a special addition to an HTML document that defines how the text should appear …]]></summary>
+        <author>
+            <name>Jim Hall</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Javascript Tagalog - Break Statement]]></title>
+        <id>https://dev.to/mmvergara/javascript-tagalog-break-statement-1ghc</id>
+        <link href="https://dev.to/mmvergara/javascript-tagalog-break-statement-1ghc"/>
+        <updated>2022-08-13T05:54:33.000Z</updated>
+        <summary type="html"><![CDATA[Disclaimer: This is a Blog i made with the intention of reinforcing my knowledge in javascript. I just thought sharing my blogs might be helpful for someone since they are written in tagalog (mostly in informal style). Incase of Misinformation I won't be responsible for it and if you have the time you can comment on the blog to address the mistake. Rest assured I'm always trying my best to be as accurate as possible
+Ano ngaba ang Break Statement sa Javascript?
+Sa tingin ko yung best way para ma-understand niyo yung break statement ay to show it to you nalang
+Break Statement sa while loop (also works on for loops ofcourse)
+Without Break
+
+With Break
+
+Naterminate yung execution kasi na execute yung break sa block ng  if condition therefore 1,2,3,4 nalang yung na console.log. 
+one thing to note that if yung while loop ay nasa loob ng function tapos may "Break" sa loob ng while loop. Yung effect ng Break non ay enclosed lang sa while loop and di pwedeng maapektuhan yung execution ng function
+
+Break on switch statement
+
+as per usual oversimplified and baka inacurrate information nasulat ko so here's a better in depth documentation (english)
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/break
+More tagalog Javascript Learning Resources:
+https://javascript-in-tagalog.netlify.app]]></summary>
+        <author>
+            <name>Mark Matthew Vergara</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Desk Height Calculator – 站立式办公桌高度计算器]]></title>
+        <id>https://www.appinn.com/?p=43046</id>
+        <link href="https://www.appinn.com/desk-height-calculator/"/>
+        <updated>2022-08-13T04:50:34.000Z</updated>
+        <summary type="html"><![CDATA[Desk Height Calculator 是一个简单的在线站立式办公桌高度计算器，只需要输入穿上鞋子以后的身高，就能给出站立式办公桌高度建议，另外还提供坐姿高度建议。@Appinn 来自 免費資源]]></summary>
+        <author>
+            <name>青小蛙</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cutefish OS 开发重启]]></title>
+        <id>https://linux.cn/article-14924-1.html?utm_source=rss&amp;utm_medium=rss</id>
+        <link href="https://linux.cn/article-14924-1.html?utm_source=rss&amp;utm_medium=rss"/>
+        <updated>2022-08-13T04:38:00.000Z</updated>
+        <summary type="html"><![CDATA[经过了一个月，可能是在讨论、会谈和对话之后，Cutefish OS 正式重启了开发。
+
+不久前，我们报道了 Cutefish OS 停止开发，而且 GitHub 上没有任何活动。好吧，看起来开发者在 GitHub 上复活了这个项目，并对该操作系统的未来有了一些设想。
+
+7 月 31 日，Cutefish OS 的 GitHub 主仓库进行了更新，内容如下：
+
+
+你喜欢的 CutefishOS 现在回来了！新网站正在建设中（即将推出）
+
+
+不仅如此，该团队还简要介绍了这个项目的路线图。
+
+
+
+Cutefish OS 的开发：即将到来的里程碑
+
+首先，主要目标是官方网站的准备工作。
+
+其次，根据 GitHub 上的说明，下一个版本可能会基于 Ubuntu 22.04 LTS。Cutefish OS 有不同的桌面定制版，如 Ubuntu 和 Debian。另外，你可以在 Arch Linux 上只安装Cutefish 桌面。
+
+第三，该团队旨在评估当前的问题并开始接受拉取请求。完成这项工作后，将更容易确定需要修复的项目的优先次序。最后，为未来版本的新功能进行规划。
+
+不仅如此，还有一种可能性，即用 openEuler Linux 开发新的 Cutefish 桌面定制版。openEuler Linux 是华为为商业和企业用途而创建的一个发行版。
+
+
+
+（LCTT 译注：但是从 GitHub 仓库来看，最近并没有任何实质动作。）
+
+一个新的名字？
+
+当我在寻找更多的信息时，我发现该团队注册了一个新的域名，有一个新的名字，即 openfish.org（LCTT 译注：因无备案，展示无法访问）。桌面环境或整个操作系统将被重新命名为 openfish。在这一点上，我有一个猜测：
+
+旧的域名 cutefishos.com 可能被别人接管了，因此这样决定。
+
+但是，在我看来，“openfish” 是一个比 “cutefish” 更好的品牌名称。
+
+（LCTT 译注：究竟是原班人马中的部分人决定重启，还是整个团队复活，目前不得而知，从改名上看，似乎新的团队并没有 cutefish 相关的品牌控制权。）
+
+下一步是什么
+
+最新的 0.8 版有几个与键盘、设置窗口、Flatpak 应用程序等有关的问题。最好的办法是在最后的基线上首先解决这些问题。然后可能是带有额外功能的 1.0 版本。
+
+希望在未来几周内，我们能看到更多关于开发的更新。如果你想发表意见，询问有关期望或功能要求，在 GitHub 上创建一个帖子。
+
+欢迎回来，Cutefish OS。
+
+
+via: https://www.debugpoint.com/cutefish-development-restarts/
+
+作者：Arindam 选题：lkxed 译者：wxy 校对：wxy
+
+本文由 LCTT 原创编译，Linux中国 荣誉推出]]></summary>
+        <author>
+            <name>linux@linux.cn (linux)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[An overview of Amazon's Leadership Principles and Culture - Part 1 🌱]]></title>
+        <id>https://dev.to/hunghvu/an-overview-of-amazons-leadership-principles-and-culture-part-1-3h0b</id>
+        <link href="https://dev.to/hunghvu/an-overview-of-amazons-leadership-principles-and-culture-part-1-3h0b"/>
+        <updated>2022-08-13T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Recently, I have been learning more about Amazon's Leadership Principles. At first glance, these 16 principles seem to be distinct and a lot to memorize, but after a while, there seem to be certain relationships between them. If you recognize the flow, then it all makes sense. This article is my interpretation of 16 Amazon's Leadership Principles. Writing everything down (in a conversational tone) can help organize my thought flow when going over the topic, and hopefully, these notes are useful to you in some ways too. As always, correction to any of the errors is welcome!
+To answer this, we might need to know a bit more about Amazon's history. The company was founded in 1994 and went public in 1997. Going public has never been an easy feat by any means, so how did Amazon achieve this? Thi…]]></summary>
+        <author>
+            <name>Hung Vu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Single Flaw Broke Every Layer of Security in MacOS]]></title>
+        <id>62f6a62e922c62d7df489f42</id>
+        <link href="https://www.wired.com/story/a-single-flaw-broke-every-layer-of-security-in-macos/"/>
+        <updated>2022-08-12T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[An injection flaw allowed a researcher to access all files on a Mac. Apple issued a fix, but some machines may still be vulnerable.]]></summary>
+        <author>
+            <name>Matt Burgess</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[With the Inflation Reduction Act, the US brings climate goals within reach]]></title>
         <id>https://www.theverge.com/2022/8/12/23302050/inflation-reduction-act-house-vote-climate-change-clean-energy</id>
@@ -19,6 +525,50 @@ The bulk of the bill’s spending — $369 billion — goes toward building up d
 Continue reading…]]></summary>
         <author>
             <name>The Verge -  All Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[minimarks — Compact bookmark manager for teams and web enthusiasts]]></title>
+        <id>https://www.producthunt.com/posts/minimarks</id>
+        <link href="https://www.producthunt.com/posts/minimarks"/>
+        <updated>2022-08-12T21:22:07.000Z</updated>
+        <summary type="html"><![CDATA[https://roadmap.minimarks.io
+
+SPECIAL OFFER:
+All Product Hunters are welcome to use promo code PH20 to save 20% forever. Please note that this offer is only valid for a limited time.
+
+If you have any questions or want to share your comments, please get in touch with me directly.
+
+Thanks again for giving minimarks a try! It means the world to get to share my product with you guys.
+
+- Seb (@sebfontan)
+              ”
+              
+Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kidy King Games — Kidy King Games: Educational Games for Kids]]></title>
+        <id>https://www.producthunt.com/posts/kidy-king-games</id>
+        <link href="https://www.producthunt.com/posts/kidy-king-games"/>
+        <updated>2022-08-12T21:06:33.000Z</updated>
+        <summary type="html"><![CDATA[contact@kidyking.com 
+ 👉 Get in touch with us on Discord: https://discord.gg/7YnR3EhB 
+ 👉 Twitter: https://twitter.com/kidykinggames 
+ 👉 Telegram: https://t.me/kidyking
+ 👉 Whatsapp: https://chat.whatsapp.com/Ch0vCj...  
+ 👉 Facebook Group: https://www.facebook.com/groups/...
+              ”
+              
+Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -38,6 +588,16 @@ Continue reading…]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[What is a Java Hashmap?]]></title>
+        <id>https://www.freecodecamp.org/news/what-is-a-java-hashmap/</id>
+        <link href="https://www.freecodecamp.org/news/what-is-a-java-hashmap/"/>
+        <updated>2022-08-12T20:53:24.000Z</updated>
+        <summary type="html"><![CDATA[In Java, you use a HashMap to store items in key/value pairs. You can access items stored in a HashMap using the item's key, which is unique for each item.  In this article, we'll talk about the features of a HashMap, how to create a  HashMap, and the]]></summary>
+        <author>
+            <name>Ihechikara Vincent Abba</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Apple held up Telegram’s latest update over emoji]]></title>
         <id>https://www.theverge.com/2022/8/12/23303446/telegram-update-apple-emoji-telemoji</id>
         <link href="https://www.theverge.com/2022/8/12/23303446/telegram-update-apple-emoji-telemoji"/>
@@ -51,17 +611,6 @@ Telegram released a new update on Frida,y just one day after Telegram CEO and fo
 Continue reading…]]></summary>
         <author>
             <name>The Verge -  All Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MEAN Stack Alternative: More Power with Less Stack]]></title>
-        <id>https://dev.to/harperdb/mean-stack-alternative-more-power-with-less-stack-2bo6</id>
-        <link href="https://dev.to/harperdb/mean-stack-alternative-more-power-with-less-stack-2bo6"/>
-        <updated>2022-08-12T20:47:00.000Z</updated>
-        <summary type="html"><![CDATA[Technology stacks like LAMP, MEAN, and MERN have been a boon to developer productivity. With just four components you have everything you need to develop web applications quickly and easily. And while these stacks do provide a robust framework out of the box, they are not without complexity, and aren’t always designed to scale. As a result, organizations often find themselves transitioning away from their V1 application built in a four part stack to a simpler configuration. Reducing complexity is a great way to improve stability, which, in turn, is a great way to reduce costs.
-Here at HarperDB, we refer to this process of simplification as Collapsing The Stack. Fewer moving parts means less can go wrong, after all. In this article, we’ll outline challenges with the four-part stack and prop…]]></summary>
-        <author>
-            <name>Jaxon Repp</name>
         </author>
     </entry>
     <entry>
@@ -107,32 +656,6 @@ Continue reading…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Comparing databases for Vercel and Netlify]]></title>
-        <id>https://dev.to/fauna/comparing-databases-for-vercel-and-netlify-34i1</id>
-        <link href="https://dev.to/fauna/comparing-databases-for-vercel-and-netlify-34i1"/>
-        <updated>2022-08-12T20:24:12.000Z</updated>
-        <summary type="html"><![CDATA[Vercel and Netlify make it easy for developers to build and ship full-stack serverless applications. Both platforms provide features such as serverless edge functions, CDN (content delivery network), build tools, analytics, etc. While building full-stack applications on these platforms, developers have quite a few options for their data layer (database). This article compares the databases commonly used with Vercel and Netlify, so you can make an informed decision when picking a new database for your project.
-PlanetScale is an easy to use MySQL-compatible serverless database. MySQL is easy to get up and running. However, you have to scale up your MySQL instances as your database grows. Database sharding is a common technique that is used to scale MySQL.
-Sharding is a scale-out technique in…]]></summary>
-        <author>
-            <name>Shadid Haque</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building a YT Analytics / Post Scheduler]]></title>
-        <id>https://dev.to/diogovski/building-a-yt-analytics-post-scheduler-4e4b</id>
-        <link href="https://dev.to/diogovski/building-a-yt-analytics-post-scheduler-4e4b"/>
-        <updated>2022-08-12T19:42:02.000Z</updated>
-        <summary type="html"><![CDATA[Hi, i am going to try (and hopefully succeed) a Youtube app as a Saas, now, i already know the Stack i will be using (or not, kkkkk),
-i am going to use React obviously and probably NextJs , for the backend normal NodeJS, now here it comes the problem, database, i have no idea of what type of database (postgres,mysql...) or service ( aws, azure... ) To use, RIP. Can someone help me? i know this is going to be hard, that's why i am going to make it first as a personal object and later if it works as intented and with no bugs... i would scale it to a Saas and offer it at a price!
-Soooooo, can someone help me on choosing the stack in terms of storaging users and their information, + the actual post scheduler (this one i quite know what to do already, my problem would be more of how to handle the upload/save the videos to my database and make the script know which ones to post ( i know on this case i can do " NodeJS calls the database every minute to retrieve all the videos that need to be sent out that minute. " ))
-I've seen a user use Fauna as a database for twitter scheduling, and another one (owner of feedhive.io) use AWS Amplify. I don't really know what to do in this part!
-So can you help me, kek?!]]></summary>
-        <author>
-            <name>Diogo Ribeiro</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Peloton gears up to hike prices, lay off 800 employees, and shutter stores]]></title>
         <id>https://www.theverge.com/2022/8/12/23303209/peloton-layoffs-bike-tread-price-increase</id>
         <link href="https://www.theverge.com/2022/8/12/23303209/peloton-layoffs-bike-tread-price-increase"/>
@@ -152,27 +675,20 @@ Continue reading…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Creating a React icon library]]></title>
-        <id>https://dev.to/omridevk/creating-a-react-icon-library-5fp6</id>
-        <link href="https://dev.to/omridevk/creating-a-react-icon-library-5fp6"/>
-        <updated>2022-08-12T19:06:44.000Z</updated>
-        <summary type="html"><![CDATA[A new library that helps creating A React/Vue/Angular Icon component library easily.
-Auto download Icons as SVG directly from figma
-Optimized using SVGO
-Supports:
+        <title type="html"><![CDATA[ClipReply — The interactive video infrastructure for the internet.]]></title>
+        <id>https://www.producthunt.com/posts/clipreply</id>
+        <link href="https://www.producthunt.com/posts/clipreply"/>
+        <updated>2022-08-12T19:18:27.000Z</updated>
+        <summary type="html"><![CDATA[https://clipreply.com/pricing
 
-
-React
-Vue
-React MUI
-Start using it right now using npx:
-npx @figus/cli ini
-
-Documentation site:
-https://www.figus.dev/
-https://github.com/figus-cli/figus]]></summary>
+We're just getting started on our journey. For questions, support and feedback, contact us at jerrick@clipreply.com.
+              ”
+              
+Discussion
+            |
+            Link]]></summary>
         <author>
-            <name>Omri</name>
+            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -202,22 +718,6 @@ Continue reading…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How I update my Twitter profile automatically using Python.]]></title>
-        <id>https://dev.to/viniciusenari/how-i-update-my-twitter-profile-automatically-using-python-5d57</id>
-        <link href="https://dev.to/viniciusenari/how-i-update-my-twitter-profile-automatically-using-python-5d57"/>
-        <updated>2022-08-12T18:25:28.000Z</updated>
-        <summary type="html"><![CDATA[Introduction
-
-
-I find automating tasks one of the coolest things about programming. Lately, I've been thinking about ways to utilize APIs to automatize some things, and I came up with the idea of making my Twitter profile banner image change automatically from time to time. It would be like having access to a Twitter feature that no one has, the capability of having a slideshow as a banner instead of a single image.
-I will use NASA's Astronomy Picture of the Day API to obtain the images I will use. This API provides a different image daily, making it appropriate for this specific purpose. Also, by using this API, I know that my Twitter banner will repeat no pictures. You can use images from other APIs or your own.
-Before starting, you'll need access to the Twitter API and the NASA API.
-To …]]></summary>
-        <author>
-            <name>Vinicius Koji Enari</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How to Use the Sieve Of Eratosthenes Algorithm]]></title>
         <id>https://www.freecodecamp.org/news/sieve-of-eratosthenes-algorithm/</id>
         <link href="https://www.freecodecamp.org/news/sieve-of-eratosthenes-algorithm/"/>
@@ -225,25 +725,6 @@ To …]]></summary>
         <summary type="html"><![CDATA[One day, while learning algorithms in JavaScript, I found this challenge: > Using a for loop, iterate from 0 to 100, and return an array of all prime numbers within that range. It seemed easy initially, but I couldn't quite figure it out. So I did a google search and]]></summary>
         <author>
             <name>Divine Orji</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What Is the Difference Between Coding and Programming?]]></title>
-        <id>https://dev.to/michaellarocca/what-is-the-difference-between-coding-and-programming-1l55</id>
-        <link href="https://dev.to/michaellarocca/what-is-the-difference-between-coding-and-programming-1l55"/>
-        <updated>2022-08-12T18:21:30.000Z</updated>
-        <summary type="html"><![CDATA[What Is the Difference Between Coding and Programming?
-Coding has to do with the computer's syntax, whereas programming has to do with the thought process of the program.
-Why is this distinction important? Because employers hire programmers!
-In this article, we cover the difference between coding and programming and why employers hire programmers, not coders!
-Coding has to do with the computer language's syntax.
-Ok, so what exactly is “syntax?” 🤔
-Wikipedia defines syntax as “the set of rules that defines the combinations of symbols that are considered to be correctly structured statements or expressions in that language.”
-Keywords such as let and function, the = sign, quotes, and bracket symbols all represent the computer language's syntax.
-
-In simpler terms, coding is the process of "spe…]]></summary>
-        <author>
-            <name>Michael J. Larocca</name>
         </author>
     </entry>
     <entry>
@@ -333,30 +814,6 @@ Continue reading…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How to set up your own personal blog: Step-By-Step Guide]]></title>
-        <id>https://dev.to/itsrakesh/how-to-set-up-your-own-personal-blog-step-by-step-guide-2233</id>
-        <link href="https://dev.to/itsrakesh/how-to-set-up-your-own-personal-blog-step-by-step-guide-2233"/>
-        <updated>2022-08-12T17:54:03.000Z</updated>
-        <summary type="html"><![CDATA[I published an article about how I built my blog and why I used specific technology. Many folks enjoyed it and wanted to start their own blogs. So, if you want to start a personal blog without using third-party platforms, follow this tutorial.
-blog. I'll go over everything from SEO to hosting and Google AdSense set up. Don't worry, all of the third-party tools and services used to develop this site have free plans.
-Full control over your content.
-Add your own features.
-Monetize your content however you want.
-
-Posts - Articles/Tutorials/Guides
-Snippets - Mini blogs
-Search,
-
-
-Main search - A central search function that allows users to search for anything.
-Search page - A category search that allows visitors to look for specific content.
-Audio posts - Add audio articles
-Comment system - A Gi…]]></summary>
-        <author>
-            <name>Rakesh Potnuru</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Ikea and Electrify America team up to install over 200 public fast chargers in 18 states]]></title>
         <id>https://www.theverge.com/2022/8/12/23303144/ikea-electrify-america-public-ev-electric-vehicle-fast-charging-deal</id>
         <link href="https://www.theverge.com/2022/8/12/23303144/ikea-electrify-america-public-ev-electric-vehicle-fast-charging-deal"/>
@@ -384,46 +841,6 @@ Continue reading…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Low-cost best practices in AWS]]></title>
-        <id>https://dev.to/aws-builders/low-cost-best-practices-in-aws-234</id>
-        <link href="https://dev.to/aws-builders/low-cost-best-practices-in-aws-234"/>
-        <updated>2022-08-12T17:25:41.000Z</updated>
-        <summary type="html"><![CDATA[Have you ever felt that doing things right is way too expensive? Well, you're not entirely wrong. The absolute best, bleeding edge best of the best of the best humanity is capable of will make your wallet bleed significantly, and to be honest it's often not even worth it except for very few use cases. 
-But that's no excuse to doing things completely wrong either! There is an acceptable middle point, where you invest a little to get a lot. In this article I'm going to show you a few things you can do in your AWS solution to improve your Reliability, Performance Efficiency, Security, Operational Excellence or Cost Optimization, or perhaps more than one of those. They're not hard and they're not expensive. You'll spend very little time and money, and get a big impact out of this. They're low-…]]></summary>
-        <author>
-            <name>guilleojeda</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Build your «Smart device» for Google Home]]></title>
-        <id>https://dev.to/davidnadejdin/build-your-for-google-home-2b2a</id>
-        <link href="https://dev.to/davidnadejdin/build-your-for-google-home-2b2a"/>
-        <updated>2022-08-12T17:21:05.000Z</updated>
-        <summary type="html"><![CDATA[Creating Google Home project
-
-
-We will use Cloud-to-cloud integration method. So we need to navigate to Actions on Google console and create a new project:
-
-
-
-
-
-Cloud-to-cloud integration required OAuth2 server for linking your smart device service to Google Home application. In this article, we will implement it with Laravel framework and Passport package. You should pass base steps, like Laravel and Passport installation, database setup, and make fake users or you can find example code here. All additional actions will be described next.
-Move to your Laravel project and run the command to generate OAuth Client Information for Google Home.
-$ php artisan passport:client
-
-Which user ID should the client be assigned to?:
-> 1
-
-What should we name the client?:
-> Google
-
-Where should we redirec…]]></summary>
-        <author>
-            <name>David</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Xiaomi clones the Galaxy Fold, makes it 40% thinner, adds a bigger battery]]></title>
         <id>https://arstechnica.com/?p=1873429</id>
         <link href="https://arstechnica.com/?p=1873429"/>
@@ -431,25 +848,6 @@ Where should we redirec…]]></summary>
         <summary type="html"><![CDATA[Samsung hasn't changed the Galaxy Fold battery density for four years, and it shows.]]></summary>
         <author>
             <name>Ron Amadeo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Does every DBA need to understand Transparent Data Encryption (TDE)?]]></title>
-        <id>https://dev.to/vaultree/does-every-dba-need-to-understand-transparent-data-encryption-tde-nk6</id>
-        <link href="https://dev.to/vaultree/does-every-dba-need-to-understand-transparent-data-encryption-tde-nk6"/>
-        <updated>2022-08-12T16:58:00.000Z</updated>
-        <summary type="html"><![CDATA[Protecting sensitive information requires the latest and most advanced privacy enhancing technologies. Wether you're a DBA or someone who's simply curious about the topic, here's our take on DBA's and Transparent Data Encryption.
-
-
-
-
-
-A DBA (Database Administrator) is the professional responsible for the creation, installation, monitoring, repair and analysis of the database architecture. They have the responsibility of analysing the banks periodically so that there are no overloads in the system, and also to check that the destination of the servers is correct, according to the company's standardisation and good development practices. In addition to these functions, a DBA can also: 
-Deliver data in perfect integrity and availability
-Work with the security and development teams
-Ensure maxi…]]></summary>
-        <author>
-            <name>Lorena C Silva</name>
         </author>
     </entry>
     <entry>
@@ -500,62 +898,6 @@ Ensure maxi…]]></summary>
         <summary type="html"><![CDATA[玄武盾的几种绕过姿势]]></summary>
         <author>
             <name>先知安全技术社区</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SVG + CSS Spinners!]]></title>
-        <id>https://dev.to/n3r4zzurr0/svg-css-spinners-10kc</id>
-        <link href="https://dev.to/n3r4zzurr0/svg-css-spinners-10kc"/>
-        <updated>2022-08-12T15:49:44.000Z</updated>
-        <summary type="html"><![CDATA[I created a collection of 24 x 24 dp SVG + SMIL spinners a month ago. Now, the collection also has SVG + CSS versions corresponding to the existing SVG + SMIL ones!
-Here: https://github.com/n3r4zzurr0/svg-spinners
-Thanks.]]></summary>
-        <author>
-            <name>Utkarsh Verma</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MongoDB $weeklyUpdate #82 (August 12, 2022): Community Cafe, Atlas Search, & International MUGs!]]></title>
-        <id>https://dev.to/mongodb/mongodb-weeklyupdate-82-august-12-2022-community-cafe-atlas-search-international-mugs-598e</id>
-        <link href="https://dev.to/mongodb/mongodb-weeklyupdate-82-august-12-2022-community-cafe-atlas-search-international-mugs-598e"/>
-        <updated>2022-08-12T15:46:00.000Z</updated>
-        <summary type="html"><![CDATA[👋 Hi everyone!
-
-
-Welcome to MongoDB $weeklyUpdate. 
-Here, you'll find the latest developer tutorials, upcoming official MongoDB events, and get a heads up on our latest YouTube videos and podcasts.
-Enjoy!
-—
-
-
-  
-  
-  🎓 Freshest Tutorials on Dev Center
-
-
-Want to find the latest MongoDB tutorials and articles created for developers, by developers? Look no further than our Dev Center!
-Building an eCommerce Content Catalog with Atlas Search
-
-
-@joellord 
-Cross Cluster Search Using Atlas Search and Data Federation
-
-
-Pavel Duchovny 
-Using LINQ to Query MongoDB in a .NET Core Application
-
-
-@nraboy 
-Atlas Query Federation SQL to Form Powerful Data Interactions
-
-
-Pavel Duchovny 
-Events & Community Events
-
-
-Attend an official MongoDB event near you! Chat with MongoDB experts, learn something new, m…]]></summary>
-        <author>
-            <name>Megan Grant</name>
         </author>
     </entry>
     <entry>
@@ -972,6 +1314,18 @@ BSD 发行版 NetBSD 刚刚释出了一个小更新版本 9.3，在一系列的�
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Sho-u — Create/collaborate/share list of places]]></title>
+        <id>https://www.producthunt.com/posts/sho-u</id>
+        <link href="https://www.producthunt.com/posts/sho-u"/>
+        <updated>2022-08-12T08:40:59.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[为什么 Fedora 一开始允许使用 CC0 许可证]]></title>
         <id>https://linux.cn/article-14921-1.html?utm_source=rss&amp;utm_medium=rss</id>
         <link href="https://linux.cn/article-14921-1.html?utm_source=rss&amp;utm_medium=rss"/>
@@ -1026,31 +1380,6 @@ Discussion
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[文科博士生的数字文具盒：这一年里我真正在用的那些 App]]></title>
-        <id>https://sspai.com/post/75111</id>
-        <link href="https://sspai.com/post/75111"/>
-        <updated>2022-08-12T07:59:16.000Z</updated>
-        <summary type="html"><![CDATA[Matrix 首页推荐
-Matrix 是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选 Matrix 最优质的文章，展示来自用户的最真实的体验和观点。
-文章代表作者个人观点，少数派仅对标题和排版略作修改。 
-本文参与数字文具盒征文活动。
-
-因为去年写了这篇文章分享我的 workflow，所以在这次的征文题目公布时，少数派的编辑也贴心的来问我有没有想分享的工具。说实话，对于这次的征文题目，我是喜忧参半。喜的是，可以期待一波好工具的分享，满足我对工具的探索欲； 忧的是，对工具探索的过度好奇往往会占用额外的时间和精力，反而加剧了我的论文写作拖延症。 相信很多少数派的读者和我一样，对于新的工具总是充满好奇，迫不及待地探索一番后，又往往很快搁置到一边， 真正能用下去的工具，往往还是那几个常用的。
-我想其原因可以有以下几个：
-
-一些新的工具，虽然有全新的名字和界面，但是功能往往与已有的工具重合，并不能给工作效率带来实质帮助。
-另一些新的工具可能会意识到上述问题，但是开发新的功能毕竟困难，于是转而希望努力改变或者教导用户一套新的方法论或使用逻辑。然而，愿景虽好，但这往往并没有从用户的实际需要出发，反而带来了过高的学习成本。
-工具自身的缺陷问题，譬如平台覆盖不足，导入导出不够开放，系统不够稳定，乃至字体不够大等等。
-确实有一些好工具提供了实用且简洁的功能，但是介绍中并没有提供实际的应用场景，所以有时不知如何将之纳入自己的工作流中进行合理使用。
-个人主观的好恶。
-
-当然，作为一个不懂任何工具开发的文科菜鸟，我自然也没有资格吹毛求疵，对工具大加评判。所以本文，我只想从一个长期用户的实际使用体验出发，分享一些我实际研究学习过程中真正用到的一些工具和使用场景，希望读到本文的你有一点点帮助。
-另外，我每天用到的学术工具首先包括 Devonthink ， obi…]]></summary>
-        <author>
-            <name>chyixian</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Akurateco Payment Orchestration Platform — Payment software to increase your revenue up to 30%]]></title>
         <id>https://www.producthunt.com/posts/akurateco-payment-orchestration-platform</id>
         <link href="https://www.producthunt.com/posts/akurateco-payment-orchestration-platform"/>
@@ -1072,6 +1401,18 @@ Demo: https://www.youtube.com/shorts/n...
               ”
               
 Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Highlighted for iOS — Stop forgetting  what you read.]]></title>
+        <id>https://www.producthunt.com/posts/highlighted-for-ios</id>
+        <link href="https://www.producthunt.com/posts/highlighted-for-ios"/>
+        <updated>2022-08-12T07:51:26.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
             |
             Link]]></summary>
         <author>
@@ -1139,6 +1480,36 @@ I am teaching Python using Raspberry Pi 400 computers in a local library for the
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Collabtools — Realtime collaboration using whiteboard, code editor]]></title>
+        <id>https://www.producthunt.com/posts/collabtools</id>
+        <link href="https://www.producthunt.com/posts/collabtools"/>
+        <updated>2022-08-12T05:15:14.000Z</updated>
+        <summary type="html"><![CDATA[“
+              Are you looking out for a realtime whiteboard that integrates seamlessly in your platform, is performant and allows more control -   Here are the salient features of our CollabBoard ->
+
+- Infinite whiteboard
+- Integrable with any framework (Angular, React etc.)
+- Works realtime (changes done by one are seen by other peers)
+- Basic functionalities like add text to the board, free hand drawing with multiple colors, eraser, undo/redo drawings, shapes, selection
+- Advanced functionalities like image upload, cursor activities sync, support for unlimited number of peers
+- Downloadable as a snapshot
+
+Try out our board for free here - https://collabtools.co.in/free-b...
+
+We provide our own realtime syncing services OR you can integrate your own
+
+Sounds something of your interest OR still having some queries?? - You can revert to us here or we are also reachable via email on collabtoolsforeveryone@gmail.com
+ P.S. We are all ears to understand your online teaching requirements/needs or feedbacks regarding the board. Please feel free to reach out
+              ”
+              
+Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Recoded — Create beautiful images and videos of your code online]]></title>
         <id>https://www.producthunt.com/posts/recoded</id>
         <link href="https://www.producthunt.com/posts/recoded"/>
@@ -1155,6 +1526,18 @@ I am teaching Python using Raspberry Pi 400 computers in a local library for the
         <id>https://www.producthunt.com/posts/ytgrep-2</id>
         <link href="https://www.producthunt.com/posts/ytgrep-2"/>
         <updated>2022-08-12T03:59:32.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Grouptag — The Gen Z networking app to connect, learn & get job ready.]]></title>
+        <id>https://www.producthunt.com/posts/grouptag-2</id>
+        <link href="https://www.producthunt.com/posts/grouptag-2"/>
+        <updated>2022-08-12T01:45:37.000Z</updated>
         <summary type="html"><![CDATA[Discussion
             |
             Link]]></summary>
@@ -1309,6 +1692,18 @@ Discussion
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[CoinCurrently — The cryptocurrency tracker for everyone iOS/Android]]></title>
+        <id>https://www.producthunt.com/posts/coincurrently-2</id>
+        <link href="https://www.producthunt.com/posts/coincurrently-2"/>
+        <updated>2022-08-11T17:28:32.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Tools for Building SaaS — 100+ tools for startups]]></title>
         <id>https://www.producthunt.com/posts/tools-for-building-saas</id>
         <link href="https://www.producthunt.com/posts/tools-for-building-saas"/>
@@ -1417,6 +1812,18 @@ Discussion
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Sidekick Ai — We help you schedule your meetings]]></title>
+        <id>https://www.producthunt.com/posts/sidekick-ai</id>
+        <link href="https://www.producthunt.com/posts/sidekick-ai"/>
+        <updated>2022-08-11T15:38:04.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[A Bioengineered Cornea Shows It Can Improve People’s Sight]]></title>
         <id>62f2d0bae450f63c28dddf16</id>
         <link href="https://www.wired.com/story/a-bioengineered-cornea-shows-it-can-improve-peoples-sight/"/>
@@ -1444,6 +1851,40 @@ Discussion
         <summary type="html"><![CDATA[SnakeYaml反序列化]]></summary>
         <author>
             <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Flutter 绘制3D效果动画]]></title>
+        <id>https://juejin.cn/post/7130620207000715301</id>
+        <link href="https://juejin.cn/post/7130620207000715301"/>
+        <updated>2022-08-11T14:08:35.000Z</updated>
+        <summary type="html"><![CDATA[theme: v-green
+highlight: atom-one-dark
+携手创作，共同成长！这是我参与「掘金日新计划 · 8 月更文挑战」的第3天，点击查看活动详情
+前言
+本篇我们继续介绍 Flutter 绘图的 Path 的应用。Flutter 的 Path 类提供了一个三维空间的变换方法，可以实现路径在三维空间的平移、旋转等操作，从而可以实现3D 绘制的效果。通过本篇你将了解到：
+Path的三维转换方法 transform 的使用。
+绕三维空间某一点的旋转实现。
+卡片3D 旋转动效。
+类似日历的三维翻页效果。
+Path 的 transform 方法
+Path 类的 transform 方法 将给定的Path 通过一个Float64List的对象进行三维变换，然后返回变换后的 Path对象，方法定义如下。
+Path transform(Float64List matrix4) {
+  assert(_matrix4IsValid(matrix4));
+  final Path path = Path._();
+  _transform(path, matrix4);
+  return path;
+}
+
+其中 Float64List 一般都是通过 Matrix4 对象的 storage得到，例如我们在 x 方向平移5.0，可以按如下方式得到对应的 Float64List 对象。
+var transform = (Matrix4.identity()
+  ..translate(5.0, 0.0, 0.0)).storage;
+
+Matrix4提供了平移、旋转、逆矩阵等多种方法，有兴趣的可以看一下 Matrix4的源码，实际上就是大学线性代数课（这门课还挺难的😂）的矩阵乘法内容。
+绕任意点旋转
+网上关于绕任意点的旋转推导很多，这里就不再赘述，结论就是实际上三个矩阵，…]]></summary>
+        <author>
+            <name>岛上码农</name>
         </author>
     </entry>
     <entry>
@@ -1533,6 +1974,31 @@ LibreOffice 添加龙芯架构支持
 老王点评：一个有趣的数据，值得思考。]]></summary>
         <author>
             <name>linux@linux.cn (linux)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[文科博士生的数字文具盒：这一年里我真正在用的那些 App]]></title>
+        <id>https://sspai.com/post/75111</id>
+        <link href="https://sspai.com/post/75111"/>
+        <updated>2022-08-11T12:42:20.000Z</updated>
+        <summary type="html"><![CDATA[Matrix 首页推荐
+Matrix 是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选 Matrix 最优质的文章，展示来自用户的最真实的体验和观点。
+文章代表作者个人观点，少数派仅对标题和排版略作修改。 
+本文参与数字文具盒征文活动。
+
+因为去年写了这篇文章分享我的 workflow，所以在这次的征文题目公布时，少数派的编辑也贴心的来问我有没有想分享的工具。说实话，对于这次的征文题目，我是喜忧参半。喜的是，可以期待一波好工具的分享，满足我对工具的探索欲； 忧的是，对工具探索的过度好奇往往会占用额外的时间和精力，反而加剧了我的论文写作拖延症。 相信很多少数派的读者和我一样，对于新的工具总是充满好奇，迫不及待地探索一番后，又往往很快搁置到一边， 真正能用下去的工具，往往还是那几个常用的。
+我想其原因可以有以下几个：
+
+一些新的工具，虽然有全新的名字和界面，但是功能往往与已有的工具重合，并不能给工作效率带来实质帮助。
+另一些新的工具可能会意识到上述问题，但是开发新的功能毕竟困难，于是转而希望努力改变或者教导用户一套新的方法论或使用逻辑。然而，愿景虽好，但这往往并没有从用户的实际需要出发，反而带来了过高的学习成本。
+工具自身的缺陷问题，譬如平台覆盖不足，导入导出不够开放，系统不够稳定，乃至字体不够大等等。
+确实有一些好工具提供了实用且简洁的功能，但是介绍中并没有提供实际的应用场景，所以有时不知如何将之纳入自己的工作流中进行合理使用。
+个人主观的好恶。
+
+当然，作为一个不懂任何工具开发的文科菜鸟，我自然也没有资格吹毛求疵，对工具大加评判。所以本文，我只想从一个长期用户的实际使用体验出发，分享一些我实际研究学习过程中真正用到的一些工具和使用场景，希望读到本文的你有一点点帮助。
+另外，我每天用到的学术工具首先包括 Devonthink ， obi…]]></summary>
+        <author>
+            <name>chyixian</name>
         </author>
     </entry>
     <entry>
@@ -1879,18 +2345,6 @@ QQ？
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Thirdboard — Turn your side project into the next big thing]]></title>
-        <id>https://www.producthunt.com/posts/thirdboard</id>
-        <link href="https://www.producthunt.com/posts/thirdboard"/>
-        <updated>2022-08-11T07:25:57.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[FlipClock 2.0 — It's more than just a clock]]></title>
         <id>https://www.producthunt.com/posts/flipclock-2-0</id>
         <link href="https://www.producthunt.com/posts/flipclock-2-0"/>
@@ -1987,18 +2441,6 @@ via: https://opensource.com/article/22/8/delete-local-reference-remote-branch-g
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Guul Board Games for Slack — Online team building board games for Slack]]></title>
-        <id>https://www.producthunt.com/posts/guul-board-games-for-slack</id>
-        <link href="https://www.producthunt.com/posts/guul-board-games-for-slack"/>
-        <updated>2022-08-11T07:05:42.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Comparing solar power to traditional power generation the open way]]></title>
         <id>70153 at https://opensource.com</id>
         <link href="https://opensource.com/open-organization/22/8/solar-power-vs-traditional-power"/>
@@ -2084,18 +2526,6 @@ via: https://www.opensourceforu.com/2022/08/ai-ml-and-dl-whats-the-difference/
 本文由 LCTT 原创编译，Linux中国 荣誉推出]]></summary>
         <author>
             <name>linux@linux.cn (linux)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Awesomic for Webflow — Get design & Webflow tasks done all in one app]]></title>
-        <id>https://www.producthunt.com/posts/awesomic-for-webflow</id>
-        <link href="https://www.producthunt.com/posts/awesomic-for-webflow"/>
-        <updated>2022-08-11T06:42:14.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -2259,16 +2689,6 @@ Discussion
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Learn HTML and CSS by Building an Order Summary Component]]></title>
-        <id>https://www.freecodecamp.org/news/learn-html-and-css-order-summary-component/</id>
-        <link href="https://www.freecodecamp.org/news/learn-html-and-css-order-summary-component/"/>
-        <updated>2022-08-10T17:26:26.000Z</updated>
-        <summary type="html"><![CDATA[HTML and CSS are the most important technologies when it comes to creating websites. And building projects is one of the best ways to learn them. We just published a course on the freeCodeCamp.org YouTube channel that will help you learn HTML and CSS through building an order summary component.]]></summary>
-        <author>
-            <name>Beau Carnes</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Trackabi — Reinventing time tracking with gamification]]></title>
         <id>https://www.producthunt.com/posts/trackabi-2</id>
         <link href="https://www.producthunt.com/posts/trackabi-2"/>
@@ -2314,42 +2734,6 @@ Discussion
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Gyroscope V5 — New health & longevity insights to help you live longer]]></title>
-        <id>https://www.producthunt.com/posts/gyroscope-v5</id>
-        <link href="https://www.producthunt.com/posts/gyroscope-v5"/>
-        <updated>2022-08-10T14:56:48.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AnnounceKit 2.0 — Central hub for announcing product updates]]></title>
-        <id>https://www.producthunt.com/posts/announcekit-2-0</id>
-        <link href="https://www.producthunt.com/posts/announcekit-2-0"/>
-        <updated>2022-08-10T14:46:30.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Watch my logs! — PHP log monitor that helps to debug your apps. Discount 100%]]></title>
-        <id>https://www.producthunt.com/posts/watch-my-logs</id>
-        <link href="https://www.producthunt.com/posts/watch-my-logs"/>
-        <updated>2022-08-10T14:01:33.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[The Hacking of Starlink Terminals Has Begun]]></title>
         <id>62f300316f48e5c6d48d6fb7</id>
         <link href="https://www.wired.com/story/starlink-internet-dish-hack/"/>
@@ -2357,33 +2741,6 @@ Discussion
         <summary type="html"><![CDATA[It cost a researcher only $25 worth of parts to create a tool that allows custom code to run on the satellite dishes.]]></summary>
         <author>
             <name>Matt Burgess</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ZITADEL — Integrate user management and authentication easy as pie]]></title>
-        <id>https://www.producthunt.com/posts/zitadel</id>
-        <link href="https://www.producthunt.com/posts/zitadel"/>
-        <updated>2022-08-10T13:40:42.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Mellow for Google Sheets — Sync Google Sheets with your eCommerce store in seconds]]></title>
-        <id>https://www.producthunt.com/posts/mellow-for-google-sheets</id>
-        <link href="https://www.producthunt.com/posts/mellow-for-google-sheets"/>
-        <updated>2022-08-10T13:20:42.000Z</updated>
-        <summary type="html"><![CDATA[tal@playmellow.com for any suggestion, question, or general feedback ❤️
-              ”
-              
-Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -2603,53 +2960,6 @@ A few years later, Leslie Lamport created a set of macro…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[硬核观察 #724 美国巡回法庭裁决专利发明人必须是人类]]></title>
-        <id>https://linux.cn/article-14917-1.html?utm_source=rss&amp;utm_medium=rss</id>
-        <link href="https://linux.cn/article-14917-1.html?utm_source=rss&amp;utm_medium=rss"/>
-        <updated>2022-08-10T06:53:13.000Z</updated>
-        <summary type="html"><![CDATA[美国巡回法庭裁决专利发明人必须是人类
-
-美国联邦巡回上诉法庭上周裁决，专利发明人必须是人类。专利法中的术语“个人”指的是人类，因此 AI 不能申请作为专利发明人。这一裁决与澳大利亚、欧盟和英国法院的裁决相同。除非美国最高法院介入此类专利案件，联邦巡回上诉法庭的判决就是终判了。律师表态计划上诉到最高法院，认为上诉法庭对专利法采用了过于狭窄的定义，排除 AI 的发明将会产生负面影响。
-
-
-消息来源：Solidot
-
-
-
-老王点评：我也觉得不该授予 AI 专利，毕竟 AI 是受控于人的。这就像你不能将工资给电脑，而是应该给使用电脑的人类。
-
-
-
-
-Meta 的 AI 聊天机器人已经被玩坏
-
-Meta 上周五公布了它的 AI 聊天机器人 BlenderBot 3，和微软在 2016 年发布的聊天机器人 Tay 一样，上线数天它就被人类玩坏了，成为了阴谋论狂热者，并对 Meta CEO 扎克伯格出言不逊。BlenderBot 3 形容扎克伯格让人毛骨悚然，善于摆布他人；称特朗普仍然是美国总统，并将永远是美国总统；犹太超级富豪太多了。Meta 承认聊天机器人会说一些冒犯人的话，表示它仍然处于开发之中。
-
-
-消息来源：Solidot
-
-
-
-老王点评：AI 本身没有世界观和价值观，所以被玩坏的 AI 只是一面片面地被误导了的镜子？
-
-
-
-
-英特尔“坚不可摧”的 SGX 再次被攻破
-
-SGX 旨在为加密密钥和其他敏感数据的安全保管提供某种堡垒，即使操作系统或运行在上面的虚拟机被恶意破坏。SGX 的安全性和真实性保证的关键是它创建了所谓的“飞地”，即安全内存块。“飞地”的内容在离开处理器之前就被加密并写入内存中。它们只有在返回后才会被解密。SGX 是许多公司向用户提供安全保证的基石。例如，Signal 用于处理联系人发现的服务器，依靠 SGX 来确保该过程是匿名的。但英特尔最新一代的 CPU 被发现包含一个漏洞，允许攻击者获得加密密钥和其他由该公司的软件防护扩展保护的机密信息。
-
-
-消息来源：ARS Technica
-
-
-
-老王点评：所有理论上安全的措施，其实都有可能因为某些原因失效。]]></summary>
-        <author>
-            <name>linux@linux.cn (linux)</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Abookmark asnote – 为浏览器书签添加标签、备忘录、保存已打开的标签页功能[Chrome]]]></title>
         <id>https://www.appinn.com/?p=43021</id>
         <link href="https://www.appinn.com/abookmark-asnote/"/>
@@ -2690,71 +3000,41 @@ SGX 旨在为加密密钥和其他敏感数据的安全保管提供某种堡垒�
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[使用位字段和掩码写一个国际象棋游戏]]></title>
-        <id>https://linux.cn/article-14916-1.html?utm_source=rss&amp;utm_medium=rss</id>
-        <link href="https://linux.cn/article-14916-1.html?utm_source=rss&amp;utm_medium=rss"/>
-        <updated>2022-08-10T03:46:10.000Z</updated>
-        <summary type="html"><![CDATA[使用位字段和掩码是不用数据结构组合数据的常用方法。
+        <title type="html"><![CDATA[关于 Android 线程优化你应该了解的知识点]]></title>
+        <id>https://juejin.cn/post/7130110976472383496</id>
+        <link href="https://juejin.cn/post/7130110976472383496"/>
+        <updated>2022-08-10T05:12:25.000Z</updated>
+        <summary type="html"><![CDATA[本文已收录到 GitHub/Android-Notes 中,这里有 Android 进阶成长知识体系笔记，有志同道合的朋友，关注公众号 [小尘Android专栏] 跟我一起成长。
+前言
+在实际项目开发中会频繁的用到线程，线程使用起来是很简单，但是滥用线程会带来性能问题， 比如启动一个线程至少 占用16kb的内存、线程过多会导致cpu的频繁切换而cpu切换成本是很高的、消耗大量用户电量等问题， 所以应该让app的线程数保持在合理水平，这是性能优化中很重要的一部分。本文对线程优化方面的知识做了一个全面总结，主要内容如下：
 
-
-
-
-假设你在用 C 语言写一个国际象棋游戏。追踪棋盘上棋子的一种方法是定义一个结构，该结构定义了棋盘上每个可能的棋子及其颜色，因此每个格子都包含该结构中的一个元素。例如，你可以将结构定义成下面这样：
-
-struct chess_pc {
-   int piece;
-   int is_black;
-}
-
-
-有了这个数据结构，你的程序就会知道每个格子里是什么棋子及棋子的颜色。你可以快速识别出棋子是兵、车、马、象、后还是王，以及棋子是黑还是白。但是，有一种更直接的方法来跟踪这些信息，同时只用更少的数据和内存。与为棋盘上的每个方格存储两个 int 值的结构不同，我们可以存储单个 int 值，并使用二进制位字段和掩码来标识每个方格中的棋子和颜色。
-
-比特和二进制
-
-当使用位字段表示数据时，我们最好像计算机一样思考。让我们从列出可能的棋子开始，并为每个棋子分配一个数字。让我们进入下一个步骤，用二进制表示这个数字，也就是按照计算机追踪它的方式。记住，二进制数是由比特组成的，比特要么是 0，要么是 1。
-
-
-00000000: 空（0）
-
-00000001: 兵（1）
-
-00000010: 车（2）
-
-00000011: 马（3）
-
-00000100: 象（4）
-
-00000101: 后（5）
-
-00000110: 王（6）
-
-
-要列出一个棋盘上的所有棋子，我们只需要三个比特从右到左依次代表值 1、2 和 4。例如，数字 6 是二进制的 110。6 的二进制表示中的其他所有位都是 0。
-
-一个聪明一点的方法：我们可以使用那些额外的总是为零的比特来跟踪一个棋子是黑还是白。我们可以使用数字 8（二进制 00001000）来表示棋子是否为黑色。如果这一位是 1，则代表该棋子是黑色；如果是 0，则…]]></summary>
+一、线程调度原理解析
+线程调度的原理
+在任意时刻，CPU 只能执行一条机器指令，每个线程只有获得了 CPU 的使用权之后才能执行指令，也就是说 在任意时刻，只有一个线程占用 CPU，处于运行状态。而我们平常所说的 多线程并发运行，实际上说的是多个线程轮流获取 CPU 的使用权，然后分别执行各自的任务。其实在可运行池当中有多个处于就绪状态的线程在等待 CPU，而 JVM 负责线程调度，按照特定机制为多个线程分配 CPU 使用权。
+上面的描述提到了三个主要信息：
+在任意时刻，只有一个线程占用 CPU，处于运行状态
+多线程并发运行，实际上说的是多个线程轮流获取 CPU 的使用权
+JVM 负责线程调度，按照特定机制为多个线程分配 CPU 使用权
+线程调度模型
+线程调度模型可以分为两类，分别是 分时调度模型 和 抢占式调度模型。
+分时调度模型：让所有线程轮流获取 CPU 的使用权，而且均分每个线程占用 CPU 的时间片，这种方式非常公平
+抢占式调度模型：JVM 使用的是抢占式调度模型，让优先级高的线程优先获取到 CPU 的使用权，如果在可运行池当中的线程优先级都一样，那就随机选取一个
+Android 的线程调度
+Android 的线程调度从两个因素决定，一个是 nic…]]></summary>
         <author>
-            <name>linux@linux.cn (linux)</name>
+            <name>小尘</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[以太网分离器会降低网速吗？]]></title>
-        <id>https://linux.cn/article-14915-1.html?utm_source=rss&amp;utm_medium=rss</id>
-        <link href="https://linux.cn/article-14915-1.html?utm_source=rss&amp;utm_medium=rss"/>
-        <updated>2022-08-10T02:48:49.000Z</updated>
-        <summary type="html"><![CDATA[这篇文章详细总结了以太网分离器，以及它们的速度，还有各种常见问题等信息，来帮助你选择最合适的硬件。
-
-
-交换机Switch、集线器Hub，还有以太网分离器Ethernet Splitter 是用来帮助扩展网络的网络设备。这其中，最基础的设备就是小巧的以太网分离器了。它们是一种小型设备，可以将一个以太网信号分成两个。它们简单易用，并且还便宜。这可以算是最简单的网络设备之一了，因为它们不需要提供电源，也没有特定的按键或者 LED 灯来提示状态。只是在一个小设备上有三个以太网端口，其中两个在一侧，另一个在另一侧。有些品种是在一侧有带着一小段 RJ45 接口的网线，另一侧是两个以太网端口。
-
-尽管在网络世界中，分离器已经存在了相当长一段时间了，很多人还是不知道如何有效使用它们。与普遍的看法相反的是，以太网分离器应该总是成对购买。直接把分离器的一端和路由器连接，再把两个设备与分离器的两个端口连接，这样是不行的。想让分离器在网络中正常工作，是有一个正确的设置技巧的。
-
-如何使用以太网分离器进行一个基本的设置
-
-要让不同房间的两个设备连接到主信号源，以太网分离器是非常方便的。大多数情况下，它们可以节约网线、墙上的网络插座，并提供了可靠的连接。就像之前说的，以太网分离器是成对出售的。一个分离器将来自设备（通常是路由器）上的信号合并，然后另一个把信号分成两个信道，这样就可以让两个设备通信了。
-
-路由器在房间 A，两个 PC 在房间 B，但是每个房间的墙上只有一个以太网插座。这种情况下，就需要一个分离器，两条网线连到路由器上，网线的另外一端连到分离器上，然后分离器的另一端连到房间 A 墙上的接口。这样路由器的两个信号就合并到一起了。接下来，另一个分离器只有一个端口的那一端接到房间 B 墙上的接口上。从房间 A 合并的信号现在就会分成两个，这样在房间 B 里面，你就可以有两个以太网端…]]></summary>
+        <title type="html"><![CDATA[True Pace — Compare dynamic pacing strategies on iOS]]></title>
+        <id>https://www.producthunt.com/posts/true-pace</id>
+        <link href="https://www.producthunt.com/posts/true-pace"/>
+        <updated>2022-08-10T01:59:13.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
         <author>
-            <name>linux@linux.cn (linux)</name>
+            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -3251,18 +3531,6 @@ Business disruption is happening through new technology or methods, which will s
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Vinovest — Investing in fine wine, no longer for only the 1%]]></title>
-        <id>https://www.producthunt.com/posts/vinovest</id>
-        <link href="https://www.producthunt.com/posts/vinovest"/>
-        <updated>2022-08-08T02:03:25.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Mantis BT  CVE-2017-7615任意密码重置+认证后RCE漏洞分析]]></title>
         <id>https://xz.aliyun.com/t/11592</id>
         <link href="https://xz.aliyun.com/t/11592"/>
@@ -3324,18 +3592,6 @@ Glide
         <summary type="html"><![CDATA[#javascript #webdev #debugging #programming]]></summary>
         <author>
             <name>Bentil Shadrack</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Weather Strip — Forecasts at a glance]]></title>
-        <id>https://www.producthunt.com/posts/weather-strip</id>
-        <link href="https://www.producthunt.com/posts/weather-strip"/>
-        <updated>2022-08-07T22:48:29.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -3638,36 +3894,6 @@ class LoadingAnimations extends StatefulWidget {
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Why we chose the Clojure programming language for Penpot]]></title>
-        <id>70121 at https://opensource.com</id>
-        <link href="https://opensource.com/article/22/7/why-we-chose-clojure-penpot"/>
-        <updated>2022-08-07T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Why we chose the Clojure programming language for Penpot
-Andrey Antukh
-Sun, 08/07/2022 - 03:00
-
-    
-1 reader likes this
-1 reader likes this
-"Why Clojure?" is probably the question we've been asked the most at Penpot. We have a vague explanation on our FAQ page, so with this article, I'll explain the motivations and spirit behind our decision.
-It all started in a PIWEEK. Of course!
-During one of our Personal Innovation Weeks (PIWEEK) in 2015, a small team had the idea to create an open source prototyping tool. They started work immediately, and were able to release a working prototype after a week of hard work (and lots of fun). This was the first static prototype, without a backend.
-I was not part of the initial team, but there were many reasons to choose ClojureScript back then. Building…]]></summary>
-        <author>
-            <name>Andrey Antukh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AVNC – Android 上的开源 VNC 客户端]]></title>
-        <id>https://www.appinn.com/?p=42969</id>
-        <link href="https://www.appinn.com/avnc-for-android/"/>
-        <updated>2022-08-07T04:59:52.000Z</updated>
-        <summary type="html"><![CDATA[AVNC 是一款 Android 端的开源 VNC 客户端，它允许远程控制运行 VNC 服务器的任何设备。@Appinn 来自发现频道，@God-Asimov 同学的推荐： AVNC：Android]]></summary>
-        <author>
-            <name>青小蛙</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Android实现倒计时的几种方案汇总]]></title>
         <id>https://juejin.cn/post/7128947531471388709</id>
         <link href="https://juejin.cn/post/7128947531471388709"/>
@@ -3868,32 +4094,6 @@ Apple 设备看到的视频信息
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[关于mmap不为人知的秘密]]></title>
-        <id>https://juejin.cn/post/7128675991819386893</id>
-        <link href="https://juejin.cn/post/7128675991819386893"/>
-        <updated>2022-08-06T08:25:08.000Z</updated>
-        <summary type="html"><![CDATA[携手创作，共同成长！这是我参与「掘金日新计划 · 8 月更文挑战」的第1天，点击查看活动详情
-mmap初入
-我们常说的mmap，其实是一种内存映射文件的方法，mmap将一个文件或者其它对象映射进内存。但是更加确切的来说，其实是linux中的线性区提供的可以和基于磁盘文件系统的普通文件的某一个部分相关联的操作。线性区其实是由进程中连续的一块虚拟文件区域，由struct vm_area_struct结构体表示，我们的mmap操作，其实就是最本质的，就是通过其进行的内存操作。
-按照归类的思想，其实mmap主要用到的分为两类（还有其他标识不讨论）
-共享的：即对该线性区中的页（注意是以页为单位）的任何写操作，都会修改磁盘上的文件，并且如果一个进程对进行了mmap的页进行了写操作，那么对于其他进程（同样也通过mmap进行了映射），同样也是可见的
-私有的：对于私有映射页的任何写操作，都会使linux内核停止映射该文件的页（注意，假如有进程a，b同时映射了该页，a对页进行了修改，此时这个页就相当于复制出来了一份，a以后的操作就在复制的该页进行操作，b还是引用原来的页，原来的页就可以继续参与内存映射，而复制出来的页，就被停止映射了），因此，在私有情况下，写操作是不会改变磁盘上的文件，同时所做的修改对于其他进程来说，就是不可见的。
-我们看一下图片
-共享模式下
-
-私有模式下
-
-mmap分析
-概念我们有了，我们看一下代码mmap定义
-#if defined(__USE_FILE_OFFSET64)
-void* mmap(void* __addr, size_t __size, int __prot, int __flags, int __fd, off_t __offset) __RENAME(mmap64);
-#else
-void* mmap(void* __addr, size_t __siz…]]></summary>
-        <author>
-            <name>Pika</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[发布Android库至Maven Central详解]]></title>
         <id>https://juejin.cn/post/7128578180662689823</id>
         <link href="https://juejin.cn/post/7128578180662689823"/>
@@ -3982,43 +4182,6 @@ grouId的话最好使用: io.github.github_name, 要不然使用其他的还需�
         <summary type="html"><![CDATA[BlenderBot 3 learns by chatting with you and tries to ignore the trolls. Like so many of us, it’s very much a work in progress.]]></summary>
         <author>
             <name>Will Knight</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Android 开发还有必要深耕吗？现状怎么样？未来前景将会怎样？]]></title>
-        <id>https://juejin.cn/post/7128425172998029320</id>
-        <link href="https://juejin.cn/post/7128425172998029320"/>
-        <updated>2022-08-05T16:10:58.000Z</updated>
-        <summary type="html"><![CDATA[截止到今天，Android的生态发生了不少变化
-以前的鼎盛时期，堪称是个公司就做App，由于当时市场上缺乏Android开发，招聘往往是低要求、高薪资，只要你面试说得上四大组件，第二天马上拎包入职，线下的Android培训也是一抓一大把，吸引了一大批人涌入Android开发行业。Android招聘市场的需求逐渐被填充，招聘要求逐步提高……
-随着“互联网寒冬”的到来，大批互联网公司纷纷倒闭，大厂也纷纷裁员节流，人才供给大幅增加、需求大幅降低，造成当时的市场迅速达到饱和。培训出来的初级Android开发找不到工作，大厂被裁员的Android开发放不下薪资要求，这批人找不到工作，再加上当时自媒体的大肆渲染，Android开发可不就“凉了”吗？
-毫不夸张的说，早期说得上四大组件稍微能做一点点，拿个15-20k是比较轻松的，要是你还有过完整开发经验，30k真是一点都不过分，而在“寒冬”之后，当招聘市场供给过剩时，面试官有了充分的选择权，你会四大组件，那我就有完整App独立开发经验，另一人或许有过十万级App开发经验，你说面试官会收下谁呢？岗位招聘要求也是在这时迅速拔高，整个Android市场逐渐趋于平稳，大家感觉Android开发来到了内卷期……
-再来说现在：
-Android凉了吗？
-其实并不是Android凉了，而是技术不过硬的Android凉了
-被高薪晃晕了头脑放不下身段的假高工凉了
-现在的Android市场，Android初级工程师早就已经严重饱和了，供远大于求。这就导致了很多Android开发会面临被优化、被毕业、找不到工作这种情况，然后这部分人又出来说Android凉了，如此循环之下，以致于很多人都觉得Android凉了……
-其核心原因只是Android开发市场由鼎盛的疯狂逐渐趋于平稳
-这里也给出Android开发薪资/年限图给大家参考：
-
-也不缺少学历突出的、能力突出的、…]]></summary>
-        <author>
-            <name>像程序一样思考</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Convo Cash — Conversational commerce for mobile developers]]></title>
-        <id>https://www.producthunt.com/posts/convo-cash</id>
-        <link href="https://www.producthunt.com/posts/convo-cash"/>
-        <updated>2022-08-05T16:06:05.000Z</updated>
-        <summary type="html"><![CDATA[https://discord.gg/3PFn3rDjAR
-              ”
-              
-Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -4197,16 +4360,6 @@ class Ball {
         <summary type="html"><![CDATA[#mobile #tables #responsivene #css]]></summary>
         <author>
             <name>TURINUMUGISHA Souvenir</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An Attack on Albanian Government Suggests New Iranian Aggression]]></title>
-        <id>62ec01f070af0aae2b3992ae</id>
-        <link href="https://www.wired.com/story/iran-cyberattack-albania/"/>
-        <updated>2022-08-04T21:30:27.000Z</updated>
-        <summary type="html"><![CDATA[A Tehran-linked hack of a NATO member marks a significant escalation against the backdrop of US-Iran nuclear talks.]]></summary>
-        <author>
-            <name>Lily Hay Newman</name>
         </author>
     </entry>
     <entry>
