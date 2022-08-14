@@ -1,73 +1,196 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-08-13T10:41:03.955Z</id>
+    <id>urn:2022-08-14T10:40:59.236Z</id>
     <title>osmos::feed</title>
-    <updated>2022-08-13T10:41:03.955Z</updated>
+    <updated>2022-08-14T10:40:59.236Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[A JavaScript monolith ready to scale]]></title>
-        <id>https://dev.to/joelbonetr/a-javascript-monolith-ready-to-scale-25o1</id>
-        <link href="https://dev.to/joelbonetr/a-javascript-monolith-ready-to-scale-25o1"/>
-        <updated>2022-08-13T10:26:34.000Z</updated>
-        <summary type="html"><![CDATA[In many projects I use this stack to quickly getting the things done at the lowest cost possible.
-Next JS provides both Node and React sweetened with built-in features like file-system based routing and much more.
+        <title type="html"><![CDATA[在 Linux 中如何使用命令行管理文件]]></title>
+        <id>https://linux.cn/article-14930-1.html?utm_source=rss&amp;utm_medium=rss</id>
+        <link href="https://linux.cn/article-14930-1.html?utm_source=rss&amp;utm_medium=rss"/>
+        <updated>2022-08-14T09:26:07.000Z</updated>
+        <summary type="html"><![CDATA[如果你更喜欢用终端与系统交互，请了解一下我最喜欢的管理文件的命令。
 
-If I need to create a project for a client (and assuming there's no showstopper or impediment to proceed this way after the initial analysis) I'll do the following:
-1- Create a Next JS app.
-2- Create a DB instance on my VPS (or any provider).
-3- Add an ORM with the proper DB driver (I use Sequelize -mostly- or Mongoose but there are a tone out there, you can pick your favourite one).
-4- Define the data model.
-5- Add some validation library (I usually use Joi but as the ORM, pick whichever suits best for you).
-6- Create a directory "api" inside "pages".
-7- Add a folder for each b…]]></summary>
+
+
+
+在如 GNOME 或 KDE 等图形桌面中使用鼠标点击管理文件。你点击文件的图标，将它移动到另一个文件夹中，或者移动到回收站里。图形交互使得桌面计算机便于使用。
+
+但是在 Linux 中，我们并不总是与图形界面交互。如果你在服务器上工作，那么你可能需要使用命令行来解决问题。即使像我这样使用桌面的用户，可能也更喜欢使用终端和命令行和系统交互。我倾向于通过命令行运行命令来管理我的文件：
+
+使用 ls 显示文件
+
+ls
+
+
+对任何使用命令行的人来说，如果不知道有什么文件，工作将很难进行下去。ls 命令 会罗列出文件夹中的文件。例如，要查看 Web 服务器的文档根目录 /var/www/html 中的内容，你可以键入：
+
+ls /var/www/html
+
+
+大多数情况，我使用 ls 命令查看当前文件夹内的文件。只需要输入 ls 即可查看所有文件。例如，当我在我的网页项目的根目录时，输入 ls 后可以看到这些：
+
+$ ls
+about  fontawesome      fonts   index.php  styles
+docs   fontawesome.zip  images  prism
+
+
+ls 命令包含 60 种选项，可以以任意方式显示文件和目录。-l 是一个很有用的选项，可以详细的显示文件，包含权限、文件大小以及所有者等信息。
+
+$ ls -l
+
+total 6252
+drwxrwxr-x. 2 jhall jhall    4096 Jun 22 16:18 about
+drwxr-xr-x. 2 jhall jhall    4096 Jun 25 16:35 docs
+drwxr-xr-x. 2 jhall jhall    4096 Jun …]]></summary>
         <author>
-            <name>JoelBonetR</name>
+            <name>linux@linux.cn (linux)</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Converting Binary to Decimal with parseInt's Base Feature]]></title>
-        <id>https://dev.to/smpnjn/converting-binary-to-decimal-with-parseints-base-feature-5d3c</id>
-        <link href="https://dev.to/smpnjn/converting-binary-to-decimal-with-parseints-base-feature-5d3c"/>
-        <updated>2022-08-13T10:14:00.000Z</updated>
-        <summary type="html"><![CDATA[Binary numbers are numbers which are expressed in base 2 notation, rather than the base 10 we are used to. Consider how we normally count in base 10 - when we reach 10, we have to add an extra number to express it. Similarly, in base 2, when we reach 1, the next number has to be expressed by adding a new number to it. So while 1 is equivalent to 1, 10 is equivalent to 2.
-You can convert any binary numbers to decimal using the calculator below.
+        <title type="html"><![CDATA[修复 Linux 上的文件权限错误]]></title>
+        <id>https://linux.cn/article-14929-1.html?utm_source=rss&amp;utm_medium=rss</id>
+        <link href="https://linux.cn/article-14929-1.html?utm_source=rss&amp;utm_medium=rss"/>
+        <updated>2022-08-14T09:08:15.000Z</updated>
+        <summary type="html"><![CDATA[不要让文件权限拖你后腿。以下是在 Linux 和 macOS 上管理它们的方法。
 
 
+如果你通过网络或“跑腿网络”（将文件保存到硬盘，以将其复制到一台计算机）在两个用户之间共享文件，那么在尝试读取或写入文件时可能会遇到权限错误。即使你了解它的概念，你也可能不知道该如何诊断或解决问题。我曾经将数据迁移作为一项服务执行，因此我遇到了相当多的权限错误和所有权冲突。这是我快速修复它们的方法。
+
+1、确定正确的用户
+
+在修复权限错误之前，你必须确定需要权限的人是谁。你可能认为你已经知道这一点，但你可能没有意识到用户名并不是用户身份的最确定属性。你的计算机不会将你视为一个人，而是将你视为一个数字。要了解你的号码，请查看你的用户 ID：
+
+$ id --user
+1005
 
 
+2、获取当前所有者
 
-  
-  
-  Converting Binary to Decimal using parseInt in Javascript
+接下来，确定你无法与之交互的文件的所有者。由于发生了文件权限问题，你可能需要使用 sudo 命令查看有关文件的信息：
+
+$ sudo ls --numeric-uid-gid
+-rw------- 1 1000 100  23041 Aug  2 05:26 bar
+-rw------- 1 1000 100  54281 Aug  2 04:58 baz
+-rw------- 1 1000 100    822 Aug  2 08:19 foo
 
 
-You've probably used parseInt before if you've worked in Javascript - but did you know you can set the base using parseInt? If you use the second argument of parseInt, you can set the base:
-let x = parseInt('10101', 2);
-console.log(x); // Returns 21
+在此示例中，拥有文件的用户被标识为用户 ID 1000，这就是用户 ID 1005 无法与它们交互的原因。更糟糕的是，这些文件标记为仅由拥有它们的用户可读和可写，因此即使是同一组的成员也不能与这些文件进行交互。
 
-Most likely, you'll want to …]]></summary>
+3、更改权限以匹配
+
+你知道需要权限的用户，因此你可以更改当前所有者以匹配你当前的用户：
+
+$ sudo chown 1005 foo
+
+
+你还可以通过更改文件模式授予你的组成员以及系统上可能的其他用户对文件的访问权限。例如，在向组和任何其他用户授予读取权限（4）的同时保持读取和写入权限（7）：
+
+$ sudo chmod 744 foo
+
+
+了解更多
+
+当你对文件权限不熟悉时，它们似乎很棘手。有关文件所有权如何工作的更多信息，请阅读 chown 简介。
+
+
+via: https://opensource.com/article/22/8/fix-file-permission-errors-linux
+
+作者：Seth Kenlon 选题：lkxed 译者：geekpi 校对：wxy
+
+本文由 LCTT 原创编译，Linux中国 荣誉推出]]></summary>
         <author>
-            <name>Johnny Simpson</name>
+            <name>linux@linux.cn (linux)</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The solution of Elixir continuous runtime system code coverage collection]]></title>
-        <id>https://dev.to/yeshan333/the-solution-of-elixir-continuous-runtime-system-code-coverage-collection-36p4</id>
-        <link href="https://dev.to/yeshan333/the-solution-of-elixir-continuous-runtime-system-code-coverage-collection-36p4"/>
-        <updated>2022-08-13T10:02:48.000Z</updated>
-        <summary type="html"><![CDATA[zh_hans
-Code coverage is an effective means to assist software engineers in verifying code quality. The runtime environment's ability to collect code coverage fully combines black and white box testing capabilities and greatly increases engineers' confidence in software quality. This article introduces a solution for code coverage collection in the Elixir runtime environment, and provides an in-depth insight into its internal principles.
-As a SDET or a SWE, we often need to write unit tests or integration test cases to verify the correctness of the system/application, but at the same time we often question whether our tests are adequate. At this time, test coverage is a means of measuring the adequacy of our testing, enhancing the success rate and confidence of the software release, and gi…]]></summary>
+        <title type="html"><![CDATA[Insights into Forms in Flask]]></title>
+        <id>https://dev.to/1995yogeshsharma/insights-into-forms-in-flask-2abl</id>
+        <link href="https://dev.to/1995yogeshsharma/insights-into-forms-in-flask-2abl"/>
+        <updated>2022-08-14T07:11:00.000Z</updated>
+        <summary type="html"><![CDATA[Hey there!
+Today, we will look into implementing forms in Flask. We will start with quick rendering of forms and look into details of customising the form.
+Flask is popular web development framework implemented in python. 
+wtform module for flask. For frontend, we will use jinja2 templating.
+A basic understanding of python and flask is required. It is expected that you know how a flask server is started and have it running.
+With all the above information, let's get started -
+We need following things before we can render a form to frontend - 
+A basic flask app running
+A python form class implemented
+A controller which would render the form
+It is assumed that you already have (1) running. For (2), add the following code to your forms.py
+# forms.py
+from flask_wtf import FlaskForm
+from wtforms…]]></summary>
         <author>
-            <name>yeshan333</name>
+            <name>Yogesh Sharma</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[2022 Essentials Presentation Template — Drive your business presentation without spending hours]]></title>
-        <id>https://www.producthunt.com/posts/2022-essentials-presentation-template</id>
-        <link href="https://www.producthunt.com/posts/2022-essentials-presentation-template"/>
-        <updated>2022-08-13T09:52:05.000Z</updated>
+        <title type="html"><![CDATA[What is CI/CD, and why is it important?]]></title>
+        <id>https://dev.to/snehal_02/what-is-cicd-and-why-is-it-important-3dee</id>
+        <link href="https://dev.to/snehal_02/what-is-cicd-and-why-is-it-important-3dee"/>
+        <updated>2022-08-14T07:09:00.000Z</updated>
+        <summary type="html"><![CDATA[One of the worst messages a developer might get in Git is "Merge conflict." You've worked on a feature for hours, and your code is now flawless. However, another developer altered the same section of the file, so you need to examine the differences, decide which adjustments to preserve, and run all your tests once more before attempting to merge again.
+A merge conflict that occasionally arises is only a minor annoyance. However, picture yourself as a member of a highly integrated team that is tasked with releasing new features quickly. Multiple developers must collaborate on the same file due to the timeframe. Merge conflicts exist if everyone pushes their contributions at the same time.   This kind of mistake is not only annoying but also ineffective.
+Thus, The CI/CD methodology was devel…]]></summary>
+        <author>
+            <name>Snehal Adbol</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[External JavaScript]]></title>
+        <id>https://dev.to/kavyagreatrgb/external-javascript-53ad</id>
+        <link href="https://dev.to/kavyagreatrgb/external-javascript-53ad"/>
+        <updated>2022-08-14T06:59:07.000Z</updated>
+        <summary type="html"><![CDATA[External JavaScript file
+
+
+We can create external JavaScript file and embed it in many html page.
+It provides code re usability because single JavaScript file can be used in several html pages.
+An external JavaScript file must be saved by .js extension. It is recommended to embed all JavaScript files into a single file. It increases the speed of the webpage.
+Let's create an external JavaScript file that prints 'Hello JavaScript' in a alert dialog box.
+function msg(){  
+ alert("Hello JavaScript");  
+}  
+
+Let's include the JavaScript file into html page. It calls the JavaScript function on button click.
+<html>  
+<head>  
+<script type="text/javascript" src="message.js"></script>  
+</head>  
+<body>  
+<p>Welcome to JavaScript</p>  
+<form>  
+<input type="button" value="click" onclick="msg()"/>  
+</form>  
+</body>  
+</html> 
+
+There will be following benefits if a user creates an external JavaScript:
+It helps in the reusability of code in more than one HTML file.
+It allows easy code readability.
+It is time-efficient as web browsers cache the external js files, which further reduces the page loading time.
+It enables both web designers and coders to work with html and js files parallelly and separately, i.e., without facing any code conflictions.
+The length of the code reduces as only we need to specify the location of the Js file.
+There are the following disadvantages of external files:
+The stealer may download the coder's code using the url of the js file.
+If two js files are dependent on one another, then a failure in one file may affect the execution of the other dependent file.
+The web browser needs to make an additional http request to get the js code.
+A tiny to a large change in the js code may cause unexpected results in all its dependent files.
+We need to check each file that depends on the commonly created external javascript file.
+If it is a few lines of code, then better to implement the internal javascript code.
+*## Source Code]]></summary>
+        <author>
+            <name>doson87386</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pie Chart Maker — Create a Pie Chart for free with easy to use tools]]></title>
+        <id>https://www.producthunt.com/posts/pie-chart-maker</id>
+        <link href="https://www.producthunt.com/posts/pie-chart-maker"/>
+        <updated>2022-08-14T05:34:43.000Z</updated>
         <summary type="html"><![CDATA[Discussion
             |
             Link]]></summary>
@@ -76,19 +199,644 @@ As a SDET or a SWE, we often need to write unit tests or integration test cases 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Care about your code, like an artist about their painting]]></title>
-        <id>https://dev.to/nombrekeff/caring-is-one-key-point-to-good-code-3g1o</id>
-        <link href="https://dev.to/nombrekeff/caring-is-one-key-point-to-good-code-3g1o"/>
-        <updated>2022-08-13T09:35:00.000Z</updated>
-        <summary type="html"><![CDATA[Hey there 👋 I'm back with another little rant!
-The other day I was thinking about what makes good code good. Or better said, the variables that make it good. Good for me that is. 
-For me the variables of good code are: Planning, Skill, Consistency, Iterations/Refactor, Observing and most importantly Caring. Or PSICCO for short, as I know the industry loves a good acronym. It's not as good as KISS but whatever 🤣
-So let's go through them and give a bit more context!
-After thinking for a while I've come to the conclusion that one of the most important, or at least the first thing we must do to be able to create good code is to plan. 
-Days of coding can save you hours of planning...
-This sentence is funny because it's not true. Planning can save you hours of coding. Or at least hours of codi…]]></summary>
+        <title type="html"><![CDATA[Dark and Light Theme Toggler + YT Channel]]></title>
+        <id>https://dev.to/arjuncodess/dark-and-light-theme-toggler-yt-channel-4ikh</id>
+        <link href="https://dev.to/arjuncodess/dark-and-light-theme-toggler-yt-channel-4ikh"/>
+        <updated>2022-08-14T05:31:00.000Z</updated>
+        <summary type="html"><![CDATA[In this Article, I'll tell you how to create a DARK and LIGHT THEME TOGGLER with Pure HTML, CSS and JavaScript.
+
+
+
+
+
+First create three files: index.html, style.css and script.js
+Now paste this HTML code in your index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark & Light Theme Toggler</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <input type="checkbox" class="checkbox" id="inp">
+        <label class="label" for="inp">
+            <div class="ball"></div>
+        </label>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
+
+Now its time for the styling and all, so lets w…]]></summary>
         <author>
-            <name>Keff</name>
+            <name>Arjun Vijay Prakash</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Going to Production with Github Actions, Metaflow and AWS SageMaker]]></title>
+        <id>https://dev.to/aws-builders/going-to-production-with-github-actions-metaflow-and-aws-sagemaker-13oe</id>
+        <link href="https://dev.to/aws-builders/going-to-production-with-github-actions-metaflow-and-aws-sagemaker-13oe"/>
+        <updated>2022-08-14T04:38:00.000Z</updated>
+        <summary type="html"><![CDATA[A scalable (and cost-effective) strategy to transition your Machine Learning project from prototype to production
+Fully working source code is freely available here.
+Github Actions, Metaflow and AWS SageMaker are awesome technologies by themselves however they are seldom used together in the same sentence, even less so in the same Machine Learning project.
+
+Github Actions is every software developer's favorite CI/CD tool, from the makers of Github. It is used by millions of developers around the globe, and is very popular among the Open Source community and is mostly free.
+Metaflow, the Data Science framework developed in Netflix, is a very attractive proposition as it allows one to easily move from prototype stage to production, without the need for a separate specialist team of platform …]]></summary>
+        <author>
+            <name>jaeyow</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Angular: Star rating with no external libraries]]></title>
+        <id>https://dev.to/urstrulyvishwak/star-rating-with-no-external-libraries-in-angular-1lp5</id>
+        <link href="https://dev.to/urstrulyvishwak/star-rating-with-no-external-libraries-in-angular-1lp5"/>
+        <updated>2022-08-14T04:11:00.000Z</updated>
+        <summary type="html"><![CDATA[It is a very simple and very much needed small component required in every other blog to rate the services provided.
+Mostly, developers want to use some external start-rating libraries to show much styled and very interactive stars. Though, We can also create such stylistic stars using native JS and CSS support. 
+I always prefer to write things natively hence here is my implementation for the star rating without using any libraries. 
+Please let me know any improvements. I am always happy to update the article.
+
+// app.component.ts
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'my-app',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.scss'],
+})
+export class AppComponent {
+  title = 'Star Rating';
+
+  arr: any[] = [];
+  index: number = 0;
+
+  constr…]]></summary>
+        <author>
+            <name>Mahesh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Regular Expression (RegEx) Cheat Sheet you always wanted]]></title>
+        <id>https://dev.to/ruppysuppy/the-regular-expression-regex-cheat-sheet-you-always-wanted-1c8h</id>
+        <link href="https://dev.to/ruppysuppy/the-regular-expression-regex-cheat-sheet-you-always-wanted-1c8h"/>
+        <updated>2022-08-14T04:03:12.000Z</updated>
+        <summary type="html"><![CDATA[I get it even though Regex is incredibly useful, it is extremely hard to master! This is a cheat sheet that provides the most common RegEx use cases that will help you whenever need a sneak peek at the Regex syntax!
+
+
+
+Characters
+Legend
+Example
+Sample Match
+
+
+
+
+[abc], [a-c]
+Match the given characters/range of characters
+abc[abc]
+abca, abcb, abcc
+
+
+[^abc], [^a-c]
+Negate and match the given characters/range of characters
+abc[^abc]
+abcd, abce, abc1, ...
+
+
+.
+Any character except line break
+
+bc.
+bca, bcd, bc1, b., ...
+
+
+\d
+Any numeric character (equivalent to [0-9])
+c\d
+c1, c2, c3 ...
+
+
+\D
+Any non-numeric character (equivalent to [^0-9])
+c\D
+ca, c., c* ...
+
+
+\w
+Any alphanumeric character (equivalent to [A-Za-z0-9_])
+a\w
+aa, a1, a_ ...
+
+
+\W
+Any non-alphanumeric character (equivalent to [A-Za-z0-…]]></summary>
+        <author>
+            <name>Tapajyoti Bose</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[爱格升工作空间规划器 – 更易懂的办公桌、椅子高度计算器（站立、坐姿）]]></title>
+        <id>https://www.appinn.com/?p=43057</id>
+        <link href="https://www.appinn.com/ergotron-workspace-planner/"/>
+        <updated>2022-08-14T03:54:26.000Z</updated>
+        <summary type="html"><![CDATA[爱格升工作空间规划器是一个简单明了的办公桌、椅子高度计算器，它来自著名的显示器支架厂商爱格升，提供了更精准、中文，适用于站立与坐姿的办公桌、椅子高度计算器。@Appinn 昨日介绍了 Desk Hei]]></summary>
+        <author>
+            <name>青小蛙</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[I am no longer use Fedora 36, too restricted to be useful]]></title>
+        <id>https://dev.to/archerallstars/i-am-no-longer-use-fedora-36-too-restricted-to-be-useful-42nc</id>
+        <link href="https://dev.to/archerallstars/i-am-no-longer-use-fedora-36-too-restricted-to-be-useful-42nc"/>
+        <updated>2022-08-14T03:50:06.000Z</updated>
+        <summary type="html"><![CDATA[I used Fedora 36 for 3 months. It's a good ride, actually. Unfortunately, I hit a road block. I wanted to use my mirrorless camera as my webcam, which required a third-party kernel module called v4l2loopback to be loaded via modprobe.
+However, an unsigned kernel module can't be loaded on Fedora, see the kernel module signing process on Fedora docs. Therefore, if you need to modprobe anything outside the default kernel module, you'll have a lot of extra works to do instead of just sudo modprobe things. Moreover, if you upgrade the kernel, which happens very often on Fedora, you'll need to sign the module again. I don't plan to work on a system that would break my tools now and then. Here's how to sign the v4l2loopback module, directly from a Linux expert.
+Well, but no, thanks, I moved on 🦎…]]></summary>
+        <author>
+            <name>Archer Allstars</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JS MODULE LOADERS; or, a brief journey through hell]]></title>
+        <id>https://dev.to/tythos/js-module-loaders-or-a-brief-journey-through-hell-2d2n</id>
+        <link href="https://dev.to/tythos/js-module-loaders-or-a-brief-journey-through-hell-2d2n"/>
+        <updated>2022-08-14T02:07:18.000Z</updated>
+        <summary type="html"><![CDATA[Introduction
+
+
+There's a saying in defense circles: "amateurs talk strategy; professionals talk logistics". In other words, what seems like the most mundane element of complex engineering tasks (moving stuff on time from point A to point B) is a surprisingly critical element of success.
+If I had to force an analogy here, I'd say for the developer community that "amateurs talk code, professionals talk integration". It turns out that writing code (especially from scratch) is surprisingly easy, whereas putting code together (especially code you didn't write yourself) is surprisingly difficult.
+So, in the world of JavaScript, how do we put code together? Well, it depends. In the year of our lord two-thousand and twenty-two, 26 years after JavaScript was released, we still don't have a consiste…]]></summary>
+        <author>
+            <name>Brian Kirkpatrick</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Use Absolute path in importing components - React || Next]]></title>
+        <id>https://dev.to/mrpaulishaili/use-absolute-path-in-importing-components-react-next-3dl8</id>
+        <link href="https://dev.to/mrpaulishaili/use-absolute-path-in-importing-components-react-next-3dl8"/>
+        <updated>2022-08-14T01:38:27.000Z</updated>
+        <summary type="html"><![CDATA[Simply create a jsconfig.json file in your base directory, then copy this code into it, then save.
+{
+  "compilerOptions": {
+    // make all imports without a dot '.' prefix relative to the base url
+    "baseUrl": ".",
+    "paths": {
+      "@/component/*": ["compomponents/*"]
+    }
+  }
+}
+
+Programming class enrollment for August: https://paystack.com/pay/ovuc-xymw6]]></summary>
+        <author>
+            <name>Paul C. Ishaili</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Build API for CRUD application with Spring Boot JPA + H2]]></title>
+        <id>https://dev.to/fullstackhacker/build-api-for-crud-application-with-spring-boot-jpa-h2-1cnm</id>
+        <link href="https://dev.to/fullstackhacker/build-api-for-crud-application-with-spring-boot-jpa-h2-1cnm"/>
+        <updated>2022-08-14T01:33:03.000Z</updated>
+        <summary type="html"><![CDATA[A post by Full Stack Hacker]]></summary>
+        <author>
+            <name>Full Stack Hacker</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A New Tractor Jailbreak Rides the Right-to-Repair Wave]]></title>
+        <id>62f29ee96f48e5c6d48d6f73</id>
+        <link href="https://www.wired.com/story/john-deere-tractor-jailbreak-defcon-2022/"/>
+        <updated>2022-08-14T01:31:54.000Z</updated>
+        <summary type="html"><![CDATA[A hacker has formulated an exploit that provides root access to two popular models of the company’s farm equipment.]]></summary>
+        <author>
+            <name>Lily Hay Newman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Devonate — Unlimited development for startups and enterprises]]></title>
+        <id>https://www.producthunt.com/posts/devonate</id>
+        <link href="https://www.producthunt.com/posts/devonate"/>
+        <updated>2022-08-14T01:03:32.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Javascript Tagalog - Strings]]></title>
+        <id>https://dev.to/mmvergara/javascript-tagalog-strings-2ee0</id>
+        <link href="https://dev.to/mmvergara/javascript-tagalog-strings-2ee0"/>
+        <updated>2022-08-14T00:36:51.000Z</updated>
+        <summary type="html"><![CDATA[Disclaimer: This is a Blog i made with the initial intention of reinforcing my knowledge in JS. I just thought sharing my blogs might be helpful for someone since they are written in tagalog/taglish. Incase of Misinformation I won't be responsible for it and you can comment on the blog to address the mistake or email me. I'm always trying my best to be as accurate as possible. take a look at other resources just to be sure.
+Ano ngaba ang strings sa Javascript
+Strings Example
+
+May mga built in methods and properties ang javascript sa mga string
+
+Comparing Strings
+
+baka oversimplified,inacurrate information nasulat ko so here's a better in depth documentation (english)
+MDN Documentation - Strings
+More tagalog Javascript Learning Resources:
+https://javascript-in-tagalog.netlify.app]]></summary>
+        <author>
+            <name>Mark Matthew Vergara</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Elon Musk pitches lofty goals in a magazine run by China’s internet censorship agency]]></title>
+        <id>https://www.theverge.com/2022/8/13/23304250/elon-musk-pitch-magazine-china-cyberspace-cac-censorship-agency-tesla-spacex-neuralink</id>
+        <link href="https://www.theverge.com/2022/8/13/23304250/elon-musk-pitch-magazine-china-cyberspace-cac-censorship-agency-tesla-spacex-neuralink"/>
+        <updated>2022-08-13T21:49:53.000Z</updated>
+        <summary type="html"><![CDATA[Illustration by Kristen Radtke / The Verge; Getty Images
+    
+
+  
+Elon Musk pitched sustainable energy, brain implants, and space exploration in an article published in a Chinese magazine run by the country’s internet watchdog and censorship agency, according to a translation from Yang Liu, a reporter for the Chinese state press agency, Xinhua. (via WSJ reporter Karen Hao).
+Formed in 2013, the Cyberspace Administration of China (CAC) is in charge of creating and enforcing policies surrounding online content, user data, and digital security. The CAC later created a magazine that, according to China Media Project senior researcher, Stella Chen, typically includes regulatory announcements and research on internet policy. The magazine was initially called New Media before it was rebranded as China...
+Continue reading…]]></summary>
+        <author>
+            <name>The Verge -  All Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Flaw in the VA Medical Records Platform May Put Patients at Risk]]></title>
+        <id>62f29f21807038f14f5e919d</id>
+        <link href="https://www.wired.com/story/va-vista-medical-records-flaw/"/>
+        <updated>2022-08-13T19:33:31.000Z</updated>
+        <summary type="html"><![CDATA[The Veterans Affairs’ VistA software has a vulnerability that could let an attacker “masquerade as a doctor,” a security researcher warns.]]></summary>
+        <author>
+            <name>Lily Hay Newman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[that's a cow — Super milky, super destructive & super fun game]]></title>
+        <id>https://www.producthunt.com/posts/that-s-a-cow</id>
+        <link href="https://www.producthunt.com/posts/that-s-a-cow"/>
+        <updated>2022-08-13T18:24:00.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Uber is shutting down its free loyalty program later this year]]></title>
+        <id>https://www.theverge.com/2022/8/13/23304267/uber-shutting-down-rewards-loyalty-program-this-year-one-subscription</id>
+        <link href="https://www.theverge.com/2022/8/13/23304267/uber-shutting-down-rewards-loyalty-program-this-year-one-subscription"/>
+        <updated>2022-08-13T17:47:44.000Z</updated>
+        <summary type="html"><![CDATA[Illustration by Alex Castro / The Verge
+    
+
+  
+Uber is ending its free loyalty program, Uber Rewards, so it can turn its attention to its subscription-based Uber One membership. In an email sent to customers, Uber explains that users can still earn points until the end of August, and that the last day to redeem points is October 31st. 
+“Thank you for being part of Uber Rewards,” the email reads. “It’s been a great ride, but we’ve decided to end Rewards soon, as we shift our focus to our new Uber One membership program.”
+Screenshot: Uber via Michael Konen
+      The email sent to Uber Rewards users.
+  
+Uber has since posted an update about the loyalty program’s imminent shutdown, which will take place on November 1st, 2022. Launched in 2018, Uber Rewards is a free...
+Continue reading…]]></summary>
+        <author>
+            <name>The Verge -  All Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The DCEU has become a crisis of Warner Bros.’ own making]]></title>
+        <id>https://www.theverge.com/2022/8/13/23300237/dceu-ezra-miller-the-flashbatgirl-black-adam-david-zaslav</id>
+        <link href="https://www.theverge.com/2022/8/13/23300237/dceu-ezra-miller-the-flashbatgirl-black-adam-david-zaslav"/>
+        <updated>2022-08-13T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The fate of Warner Bros. DC Comics movies is looking grim
+Continue reading…]]></summary>
+        <author>
+            <name>The Verge -  All Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[图片系列（6）高低版本 Bitmap 内存分配与回收原理对比]]></title>
+        <id>https://juejin.cn/post/7131403037519642631</id>
+        <link href="https://juejin.cn/post/7131403037519642631"/>
+        <updated>2022-08-13T16:48:29.000Z</updated>
+        <summary type="html"><![CDATA[theme: jzman
+携手创作，共同成长！这是我参与「掘金日新计划 · 8 月更文挑战」的第8天，点击查看活动详情
+请点赞关注，你的支持对我意义重大。
+🔥 Hi，我是小彭。本文已收录到 GitHub · AndroidFamily 中。这里有 Android 进阶成长知识体系，有志同道合的朋友，关注公众号 [彭旭锐] 带你建立核心竞争力。
+前言
+Bitmap 是 Android 应用的内存占用大户，是最容易造成 OOM 的场景。为此，Google 也在不断尝试优化 Bitmap 的内存分配和回收策略，涉及：Java 堆、Native 堆、硬件等多种分配方案，未来会不会有新的方案呢？
+深入理解 Bitmap 的内存模型是有效开展图片内存优化的基础，在这篇文章里，我将深入 Android 6.0 和 Android 8.0 系统源码，为你总结出不同系统版本上的 Bitmap 运行时内存模型，以及 Bitmap 使用的 Native 内存回收兜底策略。 知其然，知其所以然，开干！
+这篇文章是 Android UI 开发系列图片专题文章第 6 篇，专题文章列表：
+1、图片控件：ImageView & Drawable & Bitmap 的关系
+2、ImageView 使用详解
+3、Bitmap 使用详解
+4、Drawable 详解
+5、资源图片加载过程
+6、Bitmap 内存分配和回收
+7、图片解码过程
+8、Bitmap 复用机制
+9、Bitmap 硬件位图
+10、计算图片内存占用
+11、常见图片格式
+12、图片优化概述
+13、图片优化：NativeBitmap
+14、图片优化：大图加载
+15、图片优化：大图检测
+16、图片优化：图片慢响应排查
+学习路线图：
+
+1. 认识 Bitmap 的内存模型
+1. 不同版本的 Bitmap 内存分配策略
+先说一下 Bitmap 在内存中…]]></summary>
+        <author>
+            <name>彭旭锐</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The weekend’s best deals: Apple MacBook Air, Resident Evil bundle, and more]]></title>
+        <id>https://arstechnica.com/?p=1873456</id>
+        <link href="https://arstechnica.com/?p=1873456"/>
+        <updated>2022-08-13T16:00:58.000Z</updated>
+        <summary type="html"><![CDATA[Dealmaster also has the Xbox Series S, Apple Watch Series 7, and Nvidia Shield TV.]]></summary>
+        <author>
+            <name>Jeff Dunn</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple and Samsung smartwatches need more buttons if they want more athletes]]></title>
+        <id>https://www.theverge.com/2022/8/13/23302966/apple-samsung-outdoor-smartwatches-physical-controls</id>
+        <link href="https://www.theverge.com/2022/8/13/23302966/apple-samsung-outdoor-smartwatches-physical-controls"/>
+        <updated>2022-08-13T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Galaxy Watch 5 Pro is meant to appeal to serious outdoors athletes, but relies on a touchscreen. | Photo by Allison Johnson / The Verge
+    
+
+  
+Earlier this week, Samsung announced the Galaxy Watch 5 Pro. It’s Samsung’s most durable smartwatch ever and at Unpacked it was clear that the company intends the watch to appeal to outdoor athletes. Apple also revealed at WWDC that watchOS 9 will feature a ton of new running metrics, adding fuel to rumors that a rugged Apple Watch may be on the way. It’s clear that both companies are looking to lure in users from the Garmin and Polar crowd — but aside from battery life and durability, there’s another obstacle that could derail these efforts. Touchscreens.
+For better or worse, Apple and Samsung have relied on touchscreen navigation on their smartwatches. That’s fine for casual exercise, or for the average person who isn’t traversing all...
+Continue reading…]]></summary>
+        <author>
+            <name>The Verge -  All Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[iRobot’s poop-avoiding Roomba j7 vacuum is on sale for $200 off today]]></title>
+        <id>https://www.theverge.com/good-deals/2022/8/13/23302903/irobot-roomba-j7-robot-vacuum-i3-plus-evo-lg-c2-oled-marvels-spiderman-remastered-deal-sale</id>
+        <link href="https://www.theverge.com/good-deals/2022/8/13/23302903/irobot-roomba-j7-robot-vacuum-i3-plus-evo-lg-c2-oled-marvels-spiderman-remastered-deal-sale"/>
+        <updated>2022-08-13T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Verge readers can save up to $200 on iRobot’s Roomba j7 and Roomba i3 Plus EVO for a limited time. | Photo by Jennifer Pattison Tuohy / The Verge
+    
+
+  
+Great news, folks! Wellbots is currently taking up to $200 off cat Ubers — err, robot vacuums. OK, it may not be the most exciting news of the week, but most people would agree that there is nothing remotely fun about cleaning. Luckily, robot vacuums like iRobot’s Roomba j7 and Roomba i3 Plus EVO can expedite the entire process and make it a lot less hands-on.
+Right now, you can buy the Roomba j7 — our favorite robot vacuum — for just $399 ($200 off) at Wellbots when you use promo code THEVERGE200 at checkout, which matches the robovac’s lowest price to date. The vacuum offers a wealth of great features, including scheduling, obstacle avoidance, the ability to map out your home’s layout, and Alexa, Google, and Siri support so you can...
+Continue reading…]]></summary>
+        <author>
+            <name>The Verge -  All Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Channel stores are officially the hottest new thing in streaming]]></title>
+        <id>https://www.theverge.com/2022/8/13/23304183/channel-bundles-youtube-streaming</id>
+        <link href="https://www.theverge.com/2022/8/13/23304183/channel-bundles-youtube-streaming"/>
+        <updated>2022-08-13T15:38:26.000Z</updated>
+        <summary type="html"><![CDATA[Image: YouTube
+    
+
+  
+ YouTube is building a system that would allow users to subscribe to streaming services through the YouTube app, The Wall Street Journal reported, and could launch the so-called “channel store” as early as this fall. The Journal’s report didn’t say which services might be part of the store, only that YouTube has been talking with various entertainment companies.
+A channel store makes perfect sense for YouTube, and it’s been a long time in the works: The Information reported on a similar plan way back in early 2020. More recently, the company has been signaling this is coming: “I think whether content is distributed in a bundle, or where over time we explore other ways of distributing it, I think YouTube can be a great partner there,”...
+Continue reading…]]></summary>
+        <author>
+            <name>The Verge -  All Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Now DoorDash could start delivering your Facebook Marketplace purchases, too]]></title>
+        <id>https://www.theverge.com/2022/8/13/23304106/doordash-deliveries-facebook-marketplace-purchases-meta-partnership</id>
+        <link href="https://www.theverge.com/2022/8/13/23304106/doordash-deliveries-facebook-marketplace-purchases-meta-partnership"/>
+        <updated>2022-08-13T15:29:20.000Z</updated>
+        <summary type="html"><![CDATA[Illustration by Alex Castro / The Verge
+    
+
+  
+You may soon have the option to have your Facebook Marketplace purchases picked up and delivered by DoorDash. According to a report from The Wall Street Journal, Facebook’s parent company, Meta, is partnering with DoorDash to deliver Marketplace items located up to 15 miles away.
+Not every item is eligible for delivery, though. Sources tell the WSJ that DoorDash will only deliver items that are small enough to fit in the trunk of a car, and that drivers are expected to make deliveries within 48 hours. Either way, it sounds like a helpful option for anyone who isn’t able to pick up an item themselves. 
+It also fills a gap in Facebook Marketplace’s existing local delivery options, which only lets you get larger items delivered through a...
+Continue reading…]]></summary>
+        <author>
+            <name>The Verge -  All Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[硬核观察 #727 微软再次改变对已知的 MSDT 漏洞的立场]]></title>
+        <id>https://linux.cn/article-14928-1.html?utm_source=rss&amp;utm_medium=rss</id>
+        <link href="https://linux.cn/article-14928-1.html?utm_source=rss&amp;utm_medium=rss"/>
+        <updated>2022-08-13T13:15:35.000Z</updated>
+        <summary type="html"><![CDATA[微软再次改变对已知的 MSDT 漏洞的立场
+
+尽管之前微软声称 DogWalk 漏洞不构成安全问题，但微软现在已经发布了一个补丁，以阻止攻击者积极利用该漏洞。该漏洞允许攻击者利用 Windows 微软支持诊断工具（MSDT）的一个弱点，以欺骗用户访问一个虚假的网站或打开一个恶意的文件，最终在被攻击的系统上获得远程代码执行。该漏洞在 2020 年 1 月首次被报告，影响到所有支持的 Windows 版本。但当时微软表示，它不认为该漏洞是一个安全问题。这是近几个月来微软第二次被迫改变对一个已知漏洞的立场，之前也曾拒绝承认另一个 MSDT 漏洞构成安全威胁，但在今年 6 月提供了补丁。
+
+
+消息来源：Computer World
+
+
+
+老王点评：其实有安全漏洞，对于微软的产品来说很正常，我好奇的是，微软为什么就不愿意承认，把 Bug 当功能呢？
+
+
+
+
+百度获得中国首批完全无人驾驶出租车的服务许可证
+
+据报道，中国首批完全自主的，没有安全司机的商业机器人出租车，即将在武汉和重庆对公众乘客开放。这两张新颁发的许可证允许百度在上述城市限定区域内提供无人驾驶收费出租车服务，每个区域将运行五辆第五代阿波罗汽车。如果车辆遇到任何棘手的情况，远程司机将会进行控制。之前，百度已经在中国一线城市使用相同的第五代汽车提供出租服务，但车上有备用司机。
+
+
+消息来源：New Atlas
+
+
+
+老王点评：看到百度能将资金和人力投入高科技行业是个好事，希望能转型成一家真正的高科技公司吧。
+
+
+
+
+英特尔 x86 CPU 份额跌破七成
+
+来自统计机构的最新数据显示，刚过去的二季度，桌面处理器销量创下 30 年来的新低，但 AMD 在移动笔记本、台式机、服务器以及整个 x86 市场的份额，都在继续增长。从整个 x86 处理器市场来看，AMD 的市场占比已经提高到 31.4%，也就是说英特尔的 x86 市场份额已不足七成。
+
+
+消息来源：Tom's Hardware
+
+
+
+老王点评：虽然可能只是暂时的波动变化，但是 AMD 似乎越来越得到市场青睐。]]></summary>
+        <author>
+            <name>linux@linux.cn (linux)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gradientify — Find the perfect gradient for your next projects.]]></title>
+        <id>https://www.producthunt.com/posts/gradientify</id>
+        <link href="https://www.producthunt.com/posts/gradientify"/>
+        <updated>2022-08-13T13:00:10.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google May Add Home Workouts to Its Smart TV Offerings]]></title>
+        <id>62f5977e7e7512dc132d1876</id>
+        <link href="https://www.wired.com/story/google-tv-home-workouts/"/>
+        <updated>2022-08-13T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Plus: Ring cameras get their own show, Google calls out Apple’s messaging, and we unpack Unpacked.]]></summary>
+        <author>
+            <name>Boone Ashworth</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[10 Laptops We’ve Tested and Love]]></title>
+        <id>5bedae82db23f3775e46679e</id>
+        <link href="https://www.wired.com/gallery/best-laptops/"/>
+        <updated>2022-08-13T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[These are our favorite Windows notebooks, MacBooks, and Chromebooks.]]></summary>
+        <author>
+            <name>Adam Speight, Gear Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Our Favorite Paper Planners for Crossing Tasks Off Your List]]></title>
+        <id>6113f99b7374835494528786</id>
+        <link href="https://www.wired.com/gallery/our-favorite-paper-planners/"/>
+        <updated>2022-08-13T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Digital tools are not always superior. Here are the good old-fashioned notebooks our team uses to keep on track.]]></summary>
+        <author>
+            <name>Medea Giordano, Gear Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Feds Gear Up for a Privacy Crackdown]]></title>
+        <id>62f6e9a17e7512dc132d18d3</id>
+        <link href="https://www.wired.com/story/ftc-privacy-crackdown-security-roundup/"/>
+        <updated>2022-08-13T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Plus: Cisco gets hit by ransomware, Twilio gets phished, a new way to fight email spammers, and much more.]]></summary>
+        <author>
+            <name>Matt Burgess, Andrew Couts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A little taste of everything that’s out there]]></title>
+        <id>https://arstechnica.com/?p=1872507</id>
+        <link href="https://arstechnica.com/?p=1872507"/>
+        <updated>2022-08-13T12:00:30.000Z</updated>
+        <summary type="html"><![CDATA[The book The Short Story of the Universe really does have it all.]]></summary>
+        <author>
+            <name>Diana Gitig</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[This customizable smart display is a fun desk accessory in need of a purpose]]></title>
+        <id>https://www.theverge.com/23303371/tidbyt-review-desk-accessory-screen</id>
+        <link href="https://www.theverge.com/23303371/tidbyt-review-desk-accessory-screen"/>
+        <updated>2022-08-13T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Part desk clock, part status board, all Nyan Cat
+Continue reading…]]></summary>
+        <author>
+            <name>The Verge -  All Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Pick the Right MacBook for You]]></title>
+        <id>5a78e59756f21920c2bf083b</id>
+        <link href="https://www.wired.com/story/which-macbook-should-you-buy/"/>
+        <updated>2022-08-13T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Apple’s laptops are expensive, and you’ll have to make some hard choices to pick the right one. Let us help.]]></summary>
+        <author>
+            <name>Julian Chokkattu, Brenda Stolyar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Is Coal Mining Increasing East Kentucky’s Flood Risk?]]></title>
+        <id>62f13f294d6c332046cb729e</id>
+        <link href="https://www.wired.com/story/is-coal-mining-increasing-east-kentuckys-flood-risk/"/>
+        <updated>2022-08-13T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Mountaintop removal destroyed Appalachia's land. Then came the floodwaters.]]></summary>
+        <author>
+            <name>John McCracken</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[与 CentOS 社区委员对话后 CentOS 时代]]></title>
+        <id>https://linux.cn/article-14927-1.html?utm_source=rss&amp;utm_medium=rss</id>
+        <link href="https://linux.cn/article-14927-1.html?utm_source=rss&amp;utm_medium=rss"/>
+        <updated>2022-08-13T11:10:00.000Z</updated>
+        <summary type="html"><![CDATA[近日，CentOS 社区委员会成员 Brian Exelbierd 和 Thomas Oulevey，以及 Linux 中国开源社区创始人王兴宇，跨越多个时区，远程进行了一场对话，讨论了 CentOS 社区和操作系统领域的创新与发展趋势。
+
+
+
+
+
+开源朗读者：淮晋阳
+
+主持人：王兴宇，Linux 中国开源社区创始人
+
+Brian Exelbierd，开源布道师，社区和开发者业务策略师
+
+Thomas Oulevey，CentOS 社区委员会成员
+
+注：Thomas 和 Brian 都是 CentOS 社区委员会成员。此外，Thomas 在欧洲核子研究组（CERN）工作，是控制组的系统工程师，更多请见他在 CentOS 社区官网上的 简历。
+
+现场翻译：璐璐，文字翻译：家驹，文字整理：老王
+
+
+
+以下是本次访问内容：
+
+Thomas：大家好，我叫 Thomas，我从 2012 年左右就在 CentOS 社区工作，从基础架构相关的工作开始，后来负责组织CentOS Dojo（译者注：CentOS Dojos 是一个为期一天，或偶尔为 2 天的活动，它将 CentOS 社区的人们聚集在一起，讨论系统管理、最佳实践和新兴技术），致力于帮助人们更好地融入社区，创造良好的氛围，让大家可以更开心的从事社区相关的工作。好，现在交给 Brian。
+
+Brian：大家好，我叫 Brian，我参与社区的经历和 Thomas 差不多。我很积极地投入到企业级 Linux 社区的工作已经有六七年时间，在那之前我更多的是企业级 Linux 的被动使用者，作为社区贡献者偶尔也对企业 Linux 社区有些贡献。事实上现在我是在红帽工作，我负责 RHEL 的业务战略，但今天我出现在这里，是因为我的另一个身份是 CentOS 社区董事会的红帽联络员。同时，我也参与过大量的社区工作，包括…]]></summary>
+        <author>
+            <name>linux@linux.cn (linux)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[30 Best Back-to-School Deals on Laptops, Headphones, and More]]></title>
+        <id>62f50c5e16995ea7b1a92d6d</id>
+        <link href="https://www.wired.com/story/back-to-school-deals-2022/"/>
+        <updated>2022-08-13T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Gearing up for the new school year? We’ve found plenty of savings on all the essential gadgets and supplies.]]></summary>
+        <author>
+            <name>Brenda Stolyar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How long will it take to understand long COVID?]]></title>
+        <id>https://arstechnica.com/?p=1873313</id>
+        <link href="https://arstechnica.com/?p=1873313"/>
+        <updated>2022-08-13T10:44:54.000Z</updated>
+        <summary type="html"><![CDATA[Researchers have proposed a variety of theories to explain symptoms of COVID long-haulers.]]></summary>
+        <author>
+            <name>Knowable Magazine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wins — Bring system-level arrange window features to Mac]]></title>
+        <id>https://www.producthunt.com/posts/wins-2</id>
+        <link href="https://www.producthunt.com/posts/wins-2"/>
+        <updated>2022-08-13T10:14:20.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -193,186 +941,15 @@ via: https://opensource.com/article/22/7/libreoffice-writer-templates
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Logging in Python]]></title>
-        <id>https://dev.to/ravgeetdhillon/logging-in-python-97g</id>
-        <link href="https://dev.to/ravgeetdhillon/logging-in-python-97g"/>
-        <updated>2022-08-13T08:53:50.000Z</updated>
-        <summary type="html"><![CDATA[When an application runs, it performs a tremendous number of tasks. A simple to-do app can have tons of tasks like - user logins, creating to-dos, updating to-dos, deleting to-dos, and duplicating to-dos. These tasks can result in success or may end up with some errors. Hence, there is a need to monitor events happening and analyze them to identify bottlenecks in the performance of the application. This is where logging is useful.
-In this article, you'll learn how to create logs in a Python application using the Python logging module. Logging can help Python developers of all experience levels develop and analyze an application's performance more quickly.
-Read the full blog on Honeybadger.
-Thanks for reading 💜
-I publish a monthly newsletter in which I share personal stories, things that I am working on, what is happening in the world of tech, and some interesting dev-related posts which I come across while surfing the web.
-Connect with me through Twitter • LinkedIn • Github or send me an Email.
-— Ravgeet, Full Stack Developer and Technical Content Writer]]></summary>
+        <title type="html"><![CDATA[FM Radio — 65,000+ Live radio stations for free]]></title>
+        <id>https://www.producthunt.com/posts/fm-radio</id>
+        <link href="https://www.producthunt.com/posts/fm-radio"/>
+        <updated>2022-08-13T08:52:08.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
         <author>
-            <name>Ravgeet Dhillon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JavaScript Example]]></title>
-        <id>https://dev.to/kavyagreatrgb/javascript-example-185e</id>
-        <link href="https://dev.to/kavyagreatrgb/javascript-example-185e"/>
-        <updated>2022-08-13T08:28:00.000Z</updated>
-        <summary type="html"><![CDATA[JavaScript Example
-
-
-Javascript example is easy to code. JavaScript provides 3 places to put the JavaScript code: within body tag, within head tag and external JavaScript file.
-Let’s create the first JavaScript example.
-
-<script type="text/javascript">  
-document.write("JavaScript is a simple language for Educatque learners");  
-</script>  
-
-
-The script tag specifies that we are using JavaScript.
-The text/javascript is the content type that provides information to the browser about the data.
-The document.write() function is used to display dynamic content through JavaScript. We will learn about document object in detail later.
-Between the body tag of html
-Between the head tag of html
-In .js file (external javaScript)
-In the above example, we have displayed the dynamic content using JavaScript. Let’s see the simple example of JavaScript that displays alert dialog box.
-<script type="text/javascript">  
- alert("Hello Javatpoint");  
-</script>  
-
-Let’s see the same example of displaying alert dialog box of JavaScript that is contained inside the head tag.
-In this example, we are creating a function msg(). To create function in JavaScript, you need to write function with function_name as given below.
-To call function, you need to work on event. Here we are using onclick event to call msg() function.
-<html>  
-<head>  
-<script type="text/javascript">  
-function msg(){  
- alert("Hello Javatpoint");  
-}  
-</script>  
-</head>  
-<body>  
-<p>Welcome to JavaScript</p>  
-<form>  
-<input type="button" value="click" onclick="msg()"/>  
-</form>  
-</body>  
-</html>  
-
-
-Source Code]]></summary>
-        <author>
-            <name>doson87386</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Introduction To JavaScript]]></title>
-        <id>https://dev.to/kavyagreatrgb/introduction-to-javascript-5f4</id>
-        <link href="https://dev.to/kavyagreatrgb/introduction-to-javascript-5f4"/>
-        <updated>2022-08-13T08:10:28.000Z</updated>
-        <summary type="html"><![CDATA[What Is JavaScript
-
-
-JavaScript (Js) is a light-weight object-oriented programming language which is used by several websites for scripting the webpages. It is an interpreted, full-fledged programming language that enables dynamic interactivity on websites when applied to an HTML document. It was introduced in the year 1995 for adding programs to the webpages in the Netscape Navigator browser. Since then, it has been adopted by all other graphical web browsers. With JavaScript, users can build modern web applications to interact directly without reloading the page every time. The traditional website uses js to provide several forms of interactivity and simplicity.
-There are following features of JavaScript:
-All popular web browsers support JavaScript as they provide built-in execution envi…]]></summary>
-        <author>
-            <name>doson87386</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why every programmer should write]]></title>
-        <id>https://dev.to/ezeanamichael/why-every-programmer-should-write-5f49</id>
-        <link href="https://dev.to/ezeanamichael/why-every-programmer-should-write-5f49"/>
-        <updated>2022-08-13T07:42:00.000Z</updated>
-        <summary type="html"><![CDATA[Reading this topic, you may wonder "Don't all programmers write?" Yeah, we write code but the main point of this write-up is what some call technical writing.
-Technical writing is a fairly huge aspect in tech that most people don't pursue, I normally didn't see the need to until I forced myself to put a post out there, my fears?
-Criticism: like most people I dislike criticism the fact that I'll spend long hours of my day working on write-ups just to put them out and get a bad review or response. Then I went with something I know, Python basics, I felt no one can go wrong with Python basics so I wrote stuff on that. But I learned some criticism can be good. They help me improve and soon enough I got over this fear.
-
-
-Unread posts:this waned on me for some time, some of us are familiar with …]]></summary>
-        <author>
-            <name>E.Michael</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Browser extensions - new tab extension]]></title>
-        <id>https://dev.to/dailydevtips1/browser-extensions-new-tab-extension-3i6a</id>
-        <link href="https://dev.to/dailydevtips1/browser-extensions-new-tab-extension-3i6a"/>
-        <updated>2022-08-13T07:35:54.000Z</updated>
-        <summary type="html"><![CDATA[We already looked at our first extension that didn't have a view and a custom theme.
-Now let's look at how we can make a new tab extension.
-The result will be a new tab like this:
-
-To get started, we first have to create a new folder and navigate into it.
-mkdir new-tab-extension && cd new-tab-extension
-
-Now open up the project in your favorite editor.
-The first thing we will add is the manifest.json. This is always the main entry point for any browser extension.
-{
-  "manifest_version": 3,
-  "version": "1.0",
-  "name": "New Tab Extension",
-  "description": "A demo first new tab experience",
-  "action": {
-    "default_icon": "icons/icon-48.png"
-  },
-  "icons": {
-    "48": "icons/icon-48.png"
-  },
-  "chrome_url_overrides" : {
-    "newtab": "new-tab.html"
-  }
-}
-
-We defined this one as manifest…]]></summary>
-        <author>
-            <name>Chris Bongers</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CSS Icon: Google Pay]]></title>
-        <id>https://dev.to/j471n/css-icon-google-pay-ni5</id>
-        <link href="https://dev.to/j471n/css-icon-google-pay-ni5"/>
-        <updated>2022-08-13T07:19:00.000Z</updated>
-        <summary type="html"><![CDATA[I will create the Google Pay icon in this article using CSS only. Let's look at how we do that.
-
-
-
-
-
-First, we need to create the structure for this logo then we will style that structure.
-<div class="wrapper">
-  <div class="red"></div>
-  <div class="yellow"></div>
-  <div class="green"></div>
-  <div class="blue"></div>
-</div>
-
-Let's first style the .wrapper and it's making it's all child absolute:
-.wrapper {
-  display: grid;
-  place-items: center;
-  position: relative;
-}
-
-.wrapper > *{
-  position: absolute;
-}
-
-Styling .blue strip:
-.blue {
-  width: 140px;
-  height: 80px;
-  background: #297aec;
-  transform: rotate(-60deg) translate(-35px, -70px);
-  border-radius: 50px 25px 25px 0;
-}
-
-
-Now, Styling .green strip:
-.green {
-  width: 170px;
-  height: 80px;
-  background: #2da94f;
-  transform: rota…]]></summary>
-        <author>
-            <name>Jatin Sharma</name>
+            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -385,38 +962,12 @@ Jim Hall
 Sat, 08/13/2022 - 03:00
 
     
-Register or Login to like
-Register or Login to like
+2 readers like this
+2 readers like this
 When you write documentation, whether that's for an open source project or a technical writing project, you should have two goals: The document should be written well, and the document should be easy to read. The first is addressed by clear writing skills and technical editing. The second can be addressed with a few simple changes to an HTML document.
-HyperText Markup Language, or HTML, is the backbone of the internet. Since the dawn of the "World Wide Web" in 1994, every web browser uses HTML to display documents and websites. And for almost as long, HTML has supported the stylesheet, a special addition to an HTML document that defines how the text should appear …]]></summary>
+HyperText Markup Language, or HTML, is the backbone of the internet. Since the dawn of the "World Wide Web" in 1994, every web browser uses HTML to display documents and websites. And for almost as long, HTML has supported the stylesheet, a special addition to an HTML document that defines how the text should appear on the scree…]]></summary>
         <author>
             <name>Jim Hall</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Javascript Tagalog - Break Statement]]></title>
-        <id>https://dev.to/mmvergara/javascript-tagalog-break-statement-1ghc</id>
-        <link href="https://dev.to/mmvergara/javascript-tagalog-break-statement-1ghc"/>
-        <updated>2022-08-13T05:54:33.000Z</updated>
-        <summary type="html"><![CDATA[Disclaimer: This is a Blog i made with the intention of reinforcing my knowledge in javascript. I just thought sharing my blogs might be helpful for someone since they are written in tagalog (mostly in informal style). Incase of Misinformation I won't be responsible for it and if you have the time you can comment on the blog to address the mistake. Rest assured I'm always trying my best to be as accurate as possible
-Ano ngaba ang Break Statement sa Javascript?
-Sa tingin ko yung best way para ma-understand niyo yung break statement ay to show it to you nalang
-Break Statement sa while loop (also works on for loops ofcourse)
-Without Break
-
-With Break
-
-Naterminate yung execution kasi na execute yung break sa block ng  if condition therefore 1,2,3,4 nalang yung na console.log. 
-one thing to note that if yung while loop ay nasa loob ng function tapos may "Break" sa loob ng while loop. Yung effect ng Break non ay enclosed lang sa while loop and di pwedeng maapektuhan yung execution ng function
-
-Break on switch statement
-
-as per usual oversimplified and baka inacurrate information nasulat ko so here's a better in depth documentation (english)
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/break
-More tagalog Javascript Learning Resources:
-https://javascript-in-tagalog.netlify.app]]></summary>
-        <author>
-            <name>Mark Matthew Vergara</name>
         </author>
     </entry>
     <entry>
@@ -488,17 +1039,6 @@ via: https://www.debugpoint.com/cutefish-development-restarts/
 本文由 LCTT 原创编译，Linux中国 荣誉推出]]></summary>
         <author>
             <name>linux@linux.cn (linux)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[An overview of Amazon's Leadership Principles and Culture - Part 1 🌱]]></title>
-        <id>https://dev.to/hunghvu/an-overview-of-amazons-leadership-principles-and-culture-part-1-3h0b</id>
-        <link href="https://dev.to/hunghvu/an-overview-of-amazons-leadership-principles-and-culture-part-1-3h0b"/>
-        <updated>2022-08-13T04:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Recently, I have been learning more about Amazon's Leadership Principles. At first glance, these 16 principles seem to be distinct and a lot to memorize, but after a while, there seem to be certain relationships between them. If you recognize the flow, then it all makes sense. This article is my interpretation of 16 Amazon's Leadership Principles. Writing everything down (in a conversational tone) can help organize my thought flow when going over the topic, and hopefully, these notes are useful to you in some ways too. As always, correction to any of the errors is welcome!
-To answer this, we might need to know a bit more about Amazon's history. The company was founded in 1994 and went public in 1997. Going public has never been an easy feat by any means, so how did Amazon achieve this? Thi…]]></summary>
-        <author>
-            <name>Hung Vu</name>
         </author>
     </entry>
     <entry>
@@ -598,37 +1138,6 @@ Continue reading…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Apple held up Telegram’s latest update over emoji]]></title>
-        <id>https://www.theverge.com/2022/8/12/23303446/telegram-update-apple-emoji-telemoji</id>
-        <link href="https://www.theverge.com/2022/8/12/23303446/telegram-update-apple-emoji-telemoji"/>
-        <updated>2022-08-12T20:51:24.000Z</updated>
-        <summary type="html"><![CDATA[The update is out now, but it doesn’t include Telemoji. | Illustration by Alex Castro / The Verge
-    
-
-  
-Telegram released a new update on Frida,y just one day after Telegram CEO and founder Pavel Durov said the update had been in Apple’s app review for two weeks without explanation. The update is packed with emoji-related features, but one is missing because Apple specifically requested its removal, according to Durov.
-“After extensive media coverage of my previous post, Apple got back to us with a demand to water down our pending Telegram update by removing Telemoji — higher quality vector-animated versions of the standard emoji,” Durov wrote on his Telegram channel on Friday. “This is a puzzling move on Apple’s behalf, because Telemoji would have brought an entire new dimension to its static low-resolution emoji and would have...
-Continue reading…]]></summary>
-        <author>
-            <name>The Verge -  All Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Twitch changes course, will now require masks at TwitchCon]]></title>
-        <id>https://www.theverge.com/2022/8/12/23303457/twitch-twitchcon-2022-mask-requirement-covid-19-monkeypox</id>
-        <link href="https://www.theverge.com/2022/8/12/23303457/twitch-twitchcon-2022-mask-requirement-covid-19-monkeypox"/>
-        <updated>2022-08-12T20:37:49.000Z</updated>
-        <summary type="html"><![CDATA[Twitch was all set to hold a giant maskless convention in San Diego this October in the midst of monkeypox and the continued threat of COVID-19 — but after an outcry that included both attendees and some of its own streamer partners, the platform has decided to require masks and proof of vaccination once again. 
-
-
-“We’ve been listening to all of your feedback and know that many of you–especially those who are immunocompromised and the people who support them–want stricter health measures in place to help you feel safe attending TwitchCon San Diego in person,” reads the beginning of a major update to the company’s blog post announcing that tickets were on sale. 
-To attend TwitchCon, attendees 5 years and older now need to wear an snug mask...
-Continue reading…]]></summary>
-        <author>
-            <name>The Verge -  All Posts</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Zoom’s Auto-Update Feature Came With Hidden Risks on Mac]]></title>
         <id>62eae890df99166348c7dfc6</id>
         <link href="https://www.wired.com/story/zoom-auto-update-mac-flaws/"/>
@@ -636,42 +1145,6 @@ Continue reading…]]></summary>
         <summary type="html"><![CDATA[The popular video meeting app makes it easy to keep the software up to date—but it also introduced vulnerabilities.]]></summary>
         <author>
             <name>Lily Hay Newman</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Zoom installer let a researcher hack his way to root access on macOS]]></title>
-        <id>https://www.theverge.com/2022/8/12/23303411/zoom-defcon-root-access-privilege-escalation-hack-patrick-wardle</id>
-        <link href="https://www.theverge.com/2022/8/12/23303411/zoom-defcon-root-access-privilege-escalation-hack-patrick-wardle"/>
-        <updated>2022-08-12T20:25:14.000Z</updated>
-        <summary type="html"><![CDATA[Illustration by Alex Castro / The Verge
-    
-
-  
-A security researcher has found a way that an attacker could leverage the macOS version of Zoom to gain access over the entire operating system.
-Details of the exploit were released in a presentation given by Mac security specialist Patrick Wardle at the Def Con hacking conference in Las Vegas on Friday. Some of the bugs involved have already been fixed by Zoom, but the researcher also presented one unpatched vulnerability that still affects systems now.
-The exploit works by targeting the installer for the Zoom application, which needs to run with special user permissions in order to install or remove the main Zoom application from a computer. Though the installer requires a user to enter their password on first adding the application to...
-Continue reading…]]></summary>
-        <author>
-            <name>The Verge -  All Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Peloton gears up to hike prices, lay off 800 employees, and shutter stores]]></title>
-        <id>https://www.theverge.com/2022/8/12/23303209/peloton-layoffs-bike-tread-price-increase</id>
-        <link href="https://www.theverge.com/2022/8/12/23303209/peloton-layoffs-bike-tread-price-increase"/>
-        <updated>2022-08-12T19:25:56.000Z</updated>
-        <summary type="html"><![CDATA[Peloton’s Bike Plus will return to its original $2,495 pricing from $1,995. | Photo by Amelia Holowaty Krales / The Verge
-    
-
-  
-Peloton CEO Barry McCarthy had his job cut out for him when he took over the helm in February as the company laid off 2,800 employees. Now, roughly six months later, McCarthy has sent out a memo to staffers warning the company plans to eliminate an additional 784 jobs in a third round of layoffs, reports Bloomberg. Peloton will also increase the prices of the Bike Plus and Tread, while shuttering retail showrooms starting in 2023.
-Peloton spokesperson Ben Boyd confirmed the news in a statement to The Verge, writing:
- “Peloton, today, took several steps to further advance our transformation strategy, better positioning the company for long term success as the largest, global Connected Fitness company. The moves we made include, the...
-
-  
-Continue reading…]]></summary>
-        <author>
-            <name>The Verge -  All Posts</name>
         </author>
     </entry>
     <entry>
@@ -702,22 +1175,6 @@ Discussion
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Endling - Extinction is Forever is not afraid to hurt you]]></title>
-        <id>https://www.theverge.com/2022/8/12/23300035/endling-extinction-is-forever-climate-change-review</id>
-        <link href="https://www.theverge.com/2022/8/12/23300035/endling-extinction-is-forever-climate-change-review"/>
-        <updated>2022-08-12T18:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Endling - Extinction is Forever title card | Herobeat Studios
-    
-
-  
-In a video game climate that bends over backwards to assure you the cute little creatures you play as or with cannot be harmed, it was shocking to hear the mother fox’s neck snap in Endling - Extinction is Forever. I was running with my trio of kits, trying to escape the murderous clutches of a furrier when he caught me. I struggled as he held me down before I heard the crack of the bones as the screen went dark, informing me I had failed as a mother and that my cubs were going to die. And while I thought that was a little too much, that kind of unflinching look at the reality of survival in a world ruined by climate change is exactly what the developers were going for. 
-“We wanted to put everything there,” Javier Romello, CEO of Endling’...
-Continue reading…]]></summary>
-        <author>
-            <name>The Verge -  All Posts</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How to Use the Sieve Of Eratosthenes Algorithm]]></title>
         <id>https://www.freecodecamp.org/news/sieve-of-eratosthenes-algorithm/</id>
         <link href="https://www.freecodecamp.org/news/sieve-of-eratosthenes-algorithm/"/>
@@ -738,23 +1195,6 @@ Continue reading…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The auto industry lost its spectrum fight with the FCC because V2V was always a fantasy]]></title>
-        <id>https://www.theverge.com/2022/8/12/23303191/car-v2v-fcc-spectrum-wifi-court-ruling</id>
-        <link href="https://www.theverge.com/2022/8/12/23303191/car-v2v-fcc-spectrum-wifi-court-ruling"/>
-        <updated>2022-08-12T18:18:41.000Z</updated>
-        <summary type="html"><![CDATA[V2V, or vehicle-to-vehicle technology, allows cars to receive messages about road conditions and crashes.
-    
-
-  
-Today, the DC circuit court released its decision, siding with the Federal Communications Commission, on its reallocation of part of the 5.9GHz band. It’s a big win for the FCC and a big loss for the auto industry, which has promised to use the airwaves to improve safety through a technology called “vehicle-to-vehicle” (V2V) or “vehicle-to-everything” (V2X) communication. 
-The problem, as hilariously put by Judge Justin Walker in his opinion, is that this technology has never really existed. It was one of those “just around the corner”-type innovations that has always been promised but never actually delivered. It was a fantasy, and today, the court’s basically said as much. 
-The problem, as hilariously put by Judge Justin Walker in his...
-Continue reading…]]></summary>
-        <author>
-            <name>The Verge -  All Posts</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[LG plans to introduce 20-inch OLED panels this year]]></title>
         <id>https://arstechnica.com/?p=1873435</id>
         <link href="https://arstechnica.com/?p=1873435"/>
@@ -762,25 +1202,6 @@ Continue reading…]]></summary>
         <summary type="html"><![CDATA[The smallest consumer OLED TV LG makes currently measures 42 inches.]]></summary>
         <author>
             <name>Samuel Axon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to use Flex Mode on the Galaxy Z Flip and Z Fold]]></title>
-        <id>https://www.theverge.com/23303069/galaxy-z-flip-fold-flex-mode-panel-touchpad-how-to-use</id>
-        <link href="https://www.theverge.com/23303069/galaxy-z-flip-fold-flex-mode-panel-touchpad-how-to-use"/>
-        <updated>2022-08-12T18:03:19.000Z</updated>
-        <summary type="html"><![CDATA[Samar Haddad; Amelia Holowaty Krales / The Verge
-    
-
-  
-So you’re the proud owner of one of Samsung’s foldables. Look at you, you early adopter! There are obviously a few more ways to use your phone than a typical slab-style phone, and that’s probably why you bought one. 
-Flex Mode is one of those features. That’s basically just a term for whenever you use the phone’s main screen folded halfway. It’s most useful if you want to set the phone down and use it hands-free, like for video calls, and some apps are optimized by default to take advantage of it. 
-Here’s how to use Flex Mode with the apps that support it natively — and also how to enable it for apps that don’t. I tested these steps on a Galaxy Z Fold 4 and Galaxy Z Flip 4 running One UI 4.1.1. 
-For apps that support Flex Mode
-To enter...
-Continue reading…]]></summary>
-        <author>
-            <name>The Verge -  All Posts</name>
         </author>
     </entry>
     <entry>
@@ -811,23 +1232,6 @@ Continue reading…]]></summary>
         <summary type="html"><![CDATA[FBI agents reportedly searched Mar-a-Lago for “nuclear documents.” That can fall into one of these four categories.]]></summary>
         <author>
             <name>Garrett M. Graff</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ikea and Electrify America team up to install over 200 public fast chargers in 18 states]]></title>
-        <id>https://www.theverge.com/2022/8/12/23303144/ikea-electrify-america-public-ev-electric-vehicle-fast-charging-deal</id>
-        <link href="https://www.theverge.com/2022/8/12/23303144/ikea-electrify-america-public-ev-electric-vehicle-fast-charging-deal"/>
-        <updated>2022-08-12T17:44:45.000Z</updated>
-        <summary type="html"><![CDATA[Image: Ikea / Electrify America
-    
-
-  
-Get ready for your shortest walk-through of an Ikea store yet because Electrify America is bringing its fast charging EV network to more than 25 Ikea locations in the US (via Electrek).
-The plan includes installing more than 220 individual fast chargers capable of charging up to 350kW speeds at Ikea stores in 18 different states. The first public chargers will make an appearance by the end of the year and the rest by the end of 2023.
-“This collaboration with Electrify America will not only bring ultra-fast public chargers to our stores for the first time but it will also help us take a big leap as we work towards our targets to become circular and climate positive,” said Ikea US CEO Javier Quiñones. Ikea set that climate goal for 2030,...
-Continue reading…]]></summary>
-        <author>
-            <name>The Verge -  All Posts</name>
         </author>
     </entry>
     <entry>
@@ -878,6 +1282,49 @@ Continue reading…]]></summary>
         <summary type="html"><![CDATA[Printer makers have a history of invasive practices that hurt user repairability, experience.]]></summary>
         <author>
             <name>Scharon Harding</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JVM 系列（6）吊打面试官：为什么 finalize() 方法只会执行一次？]]></title>
+        <id>https://juejin.cn/post/7131027741163388958</id>
+        <link href="https://juejin.cn/post/7131027741163388958"/>
+        <updated>2022-08-12T16:31:40.000Z</updated>
+        <summary type="html"><![CDATA[theme: jzman
+携手创作，共同成长！这是我参与「掘金日新计划 · 8 月更文挑战」的第7天，点击查看活动详情
+请点赞关注，你的支持对我意义重大。
+🔥 Hi，我是小彭。本文已收录到 GitHub · AndroidFamily 中。这里有 Android 进阶成长知识体系，有志同道合的朋友，关注公众号 [彭旭锐] 带你建立核心竞争力。
+前言
+Java Finalizer 机制提供了一个在对象被回收之前释放占用资源的时机，但是都说 Finalizer 机制是不稳定且危险的，不推荐使用，这是为什么呢？今天我们来深入理解这个问题。
+这篇文章是 JVM 系列文章第 6 篇，专栏文章列表：
+一、内存管理：
+1、内存区域划分
+2、垃圾回收机制
+3、对象创建过程
+4、对象内存布局
+5、引用类型
+6、Finalizer 机制
+二、编译链接过程
+1、Java 编译过程
+2、Class 文件格式
+3、注解处理器
+4、注解机制
+5、类加载机制
+6、泛型机制
+三、执行系统
+1、方法调用与返回
+2、重载与重写
+3、反射机制
+4、异常机制
+提示：很多内容都已经发表过了，最近会整理出来
+学习路线图：
+
+1. 认识 Finalizer 机制
+1.1 为什么要使用 Finalizer 机制？
+Java 的 Finalizer 机制的作用在一定程度上是跟 C/C++ 析构函数类似的机制。当一个对象的生命周期即将终结时，也就是即将被垃圾收集器回收之前，虚拟机就会调用对象的 finalize() 方法，从而提供了一个释放资源的时机。
+1.2 Finalizer 存在的问题
+虽然 Java Finalizer 机制是起到与 C/C++ 析构函数类似的作用，但两者的定位是有差异的。C/C++ 析构函数是回收对象资源的正常方式，与构造函数是一一对应的，而 Java Finalizer 机制是不稳定且危险的，不…]]></summary>
+        <author>
+            <name>彭旭锐</name>
         </author>
     </entry>
     <entry>
@@ -1380,6 +1827,31 @@ Discussion
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[文科博士生的数字文具盒：这一年里我真正在用的那些 App]]></title>
+        <id>https://sspai.com/post/75111</id>
+        <link href="https://sspai.com/post/75111"/>
+        <updated>2022-08-12T07:59:16.000Z</updated>
+        <summary type="html"><![CDATA[Matrix 首页推荐
+Matrix 是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选 Matrix 最优质的文章，展示来自用户的最真实的体验和观点。
+文章代表作者个人观点，少数派仅对标题和排版略作修改。 
+本文参与数字文具盒征文活动。
+
+因为去年写了这篇文章分享我的 workflow，所以在这次的征文题目公布时，少数派的编辑也贴心的来问我有没有想分享的工具。说实话，对于这次的征文题目，我是喜忧参半。喜的是，可以期待一波好工具的分享，满足我对工具的探索欲； 忧的是，对工具探索的过度好奇往往会占用额外的时间和精力，反而加剧了我的论文写作拖延症。 相信很多少数派的读者和我一样，对于新的工具总是充满好奇，迫不及待地探索一番后，又往往很快搁置到一边， 真正能用下去的工具，往往还是那几个常用的。
+我想其原因可以有以下几个：
+
+一些新的工具，虽然有全新的名字和界面，但是功能往往与已有的工具重合，并不能给工作效率带来实质帮助。
+另一些新的工具可能会意识到上述问题，但是开发新的功能毕竟困难，于是转而希望努力改变或者教导用户一套新的方法论或使用逻辑。然而，愿景虽好，但这往往并没有从用户的实际需要出发，反而带来了过高的学习成本。
+工具自身的缺陷问题，譬如平台覆盖不足，导入导出不够开放，系统不够稳定，乃至字体不够大等等。
+确实有一些好工具提供了实用且简洁的功能，但是介绍中并没有提供实际的应用场景，所以有时不知如何将之纳入自己的工作流中进行合理使用。
+个人主观的好恶。
+
+当然，作为一个不懂任何工具开发的文科菜鸟，我自然也没有资格吹毛求疵，对工具大加评判。所以本文，我只想从一个长期用户的实际使用体验出发，分享一些我实际研究学习过程中真正用到的一些工具和使用场景，希望读到本文的你有一点点帮助。
+另外，我每天用到的学术工具首先包括 Devonthink ， obi…]]></summary>
+        <author>
+            <name>chyixian</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Akurateco Payment Orchestration Platform — Payment software to increase your revenue up to 30%]]></title>
         <id>https://www.producthunt.com/posts/akurateco-payment-orchestration-platform</id>
         <link href="https://www.producthunt.com/posts/akurateco-payment-orchestration-platform"/>
@@ -1612,36 +2084,6 @@ Discussion
         <summary type="html"><![CDATA[Australian scientists find first biomechanical evidence for a long-suspected idea.]]></summary>
         <author>
             <name>Jennifer Ouellette</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Sonos delays its hotly anticipated Sub Mini after a rough financial quarter]]></title>
-        <id>https://arstechnica.com/?p=1873189</id>
-        <link href="https://arstechnica.com/?p=1873189"/>
-        <updated>2022-08-11T20:25:19.000Z</updated>
-        <summary type="html"><![CDATA[The Sub Mini was expected any day, but it's been pushed back.]]></summary>
-        <author>
-            <name>Samuel Axon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Disney-owned streaming trifecta unveils price hikes, ad-supported Disney+]]></title>
-        <id>https://arstechnica.com/?p=1873237</id>
-        <link href="https://arstechnica.com/?p=1873237"/>
-        <updated>2022-08-11T20:11:30.000Z</updated>
-        <summary type="html"><![CDATA[That's one way to say you're not necessarily raising prices, Disney+.]]></summary>
-        <author>
-            <name>Sam Machkovech</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Musk wants Twitter to identify employees who calculate spam percentage]]></title>
-        <id>https://arstechnica.com/?p=1873200</id>
-        <link href="https://arstechnica.com/?p=1873200"/>
-        <updated>2022-08-11T19:31:47.000Z</updated>
-        <summary type="html"><![CDATA[Musk tells judge Twitter isn't producing names of employees he wants to question.]]></summary>
-        <author>
-            <name>Jon Brodkin</name>
         </author>
     </entry>
     <entry>
@@ -1977,31 +2419,6 @@ LibreOffice 添加龙芯架构支持
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[文科博士生的数字文具盒：这一年里我真正在用的那些 App]]></title>
-        <id>https://sspai.com/post/75111</id>
-        <link href="https://sspai.com/post/75111"/>
-        <updated>2022-08-11T12:42:20.000Z</updated>
-        <summary type="html"><![CDATA[Matrix 首页推荐
-Matrix 是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选 Matrix 最优质的文章，展示来自用户的最真实的体验和观点。
-文章代表作者个人观点，少数派仅对标题和排版略作修改。 
-本文参与数字文具盒征文活动。
-
-因为去年写了这篇文章分享我的 workflow，所以在这次的征文题目公布时，少数派的编辑也贴心的来问我有没有想分享的工具。说实话，对于这次的征文题目，我是喜忧参半。喜的是，可以期待一波好工具的分享，满足我对工具的探索欲； 忧的是，对工具探索的过度好奇往往会占用额外的时间和精力，反而加剧了我的论文写作拖延症。 相信很多少数派的读者和我一样，对于新的工具总是充满好奇，迫不及待地探索一番后，又往往很快搁置到一边， 真正能用下去的工具，往往还是那几个常用的。
-我想其原因可以有以下几个：
-
-一些新的工具，虽然有全新的名字和界面，但是功能往往与已有的工具重合，并不能给工作效率带来实质帮助。
-另一些新的工具可能会意识到上述问题，但是开发新的功能毕竟困难，于是转而希望努力改变或者教导用户一套新的方法论或使用逻辑。然而，愿景虽好，但这往往并没有从用户的实际需要出发，反而带来了过高的学习成本。
-工具自身的缺陷问题，譬如平台覆盖不足，导入导出不够开放，系统不够稳定，乃至字体不够大等等。
-确实有一些好工具提供了实用且简洁的功能，但是介绍中并没有提供实际的应用场景，所以有时不知如何将之纳入自己的工作流中进行合理使用。
-个人主观的好恶。
-
-当然，作为一个不懂任何工具开发的文科菜鸟，我自然也没有资格吹毛求疵，对工具大加评判。所以本文，我只想从一个长期用户的实际使用体验出发，分享一些我实际研究学习过程中真正用到的一些工具和使用场景，希望读到本文的你有一点点帮助。
-另外，我每天用到的学术工具首先包括 Devonthink ， obi…]]></summary>
-        <author>
-            <name>chyixian</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Growtoro — Highly-targeted cold email at scale using social intent]]></title>
         <id>https://www.producthunt.com/posts/growtoro</id>
         <link href="https://www.producthunt.com/posts/growtoro"/>
@@ -2019,26 +2436,6 @@ Matrix 是少数派的写作社区，我们主张分享真实的产品体验，�
         <link href="https://www.producthunt.com/posts/literal-2-0"/>
         <updated>2022-08-11T12:29:42.000Z</updated>
         <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[One Thing — Put a single task or goal in your Mac's menu bar]]></title>
-        <id>https://www.producthunt.com/posts/one-thing</id>
-        <link href="https://www.producthunt.com/posts/one-thing"/>
-        <updated>2022-08-11T12:14:42.000Z</updated>
-        <summary type="html"><![CDATA[obsessed about menu bar apps). I made it to help myself focus on a single task at the time, as I get easily distracted. The intention is to put an important task or goal in the menu bar, where it's always visible. However, you can of course put anything there. The app is scriptable. For example, some users have used it to show the next todo item from Things. Another user used it to show their blood sugar level.
-
-- FAQ
-- Tips
-
-I'm happy to receive feedback either here or through the feedback button in the app.
-              ”
-              
-Discussion
             |
             Link]]></summary>
         <author>
@@ -2094,18 +2491,6 @@ Discussion
         <id>https://www.producthunt.com/posts/gypser</id>
         <link href="https://www.producthunt.com/posts/gypser"/>
         <updated>2022-08-11T11:22:29.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[kAiron — Chatbot lifecycle management platform]]></title>
-        <id>https://www.producthunt.com/posts/kairon-2</id>
-        <link href="https://www.producthunt.com/posts/kairon-2"/>
-        <updated>2022-08-11T11:10:37.000Z</updated>
         <summary type="html"><![CDATA[Discussion
             |
             Link]]></summary>
@@ -2200,33 +2585,6 @@ Discussion
         <id>https://www.producthunt.com/posts/productlist</id>
         <link href="https://www.producthunt.com/posts/productlist"/>
         <updated>2022-08-11T10:30:10.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cats — Upgrade Your Twitter Game]]></title>
-        <id>https://www.producthunt.com/posts/cats-2</id>
-        <link href="https://www.producthunt.com/posts/cats-2"/>
-        <updated>2022-08-11T08:56:39.000Z</updated>
-        <summary type="html"><![CDATA[@jared_jacobsen and @chikabtc
-              ”
-              
-Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RyterAI — AI copywriter for small businesses and freelancers]]></title>
-        <id>https://www.producthunt.com/posts/ryterai</id>
-        <link href="https://www.producthunt.com/posts/ryterai"/>
-        <updated>2022-08-11T08:45:30.000Z</updated>
         <summary type="html"><![CDATA[Discussion
             |
             Link]]></summary>
@@ -2333,15 +2691,45 @@ QQ？
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Note It — A feature packed note-taking extension with OCR support]]></title>
-        <id>https://www.producthunt.com/posts/note-it-2</id>
-        <link href="https://www.producthunt.com/posts/note-it-2"/>
-        <updated>2022-08-11T08:02:37.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
+        <title type="html"><![CDATA[Android—以面试角度剖析HashMap源码]]></title>
+        <id>https://juejin.cn/post/7130524758059253774</id>
+        <link href="https://juejin.cn/post/7130524758059253774"/>
+        <updated>2022-08-11T07:57:50.000Z</updated>
+        <summary type="html"><![CDATA[theme: channing-cyan
+前言
+HashMap 这个词想必大家都挺熟悉的！但往往大多数都知其所用，而不知其原理，导致面试的处处碰壁！因此，这一篇的作用就是以面试的角度剖析HashMap！话不多说，直接开始！
+温馨提示：此文有点长，建议先插眼，等有空闲时间观看
+1、为什么要学HashMap?
+刚刚说了本篇是以面试角度剖析HashMap，那么面试常见的问题有哪些呢？
+HashMap的原理？内部数据结构？
+HashMap中put方法的过程是怎样实现的？
+HashMap中hash函数是怎样实现的？
+HashMap是怎样扩容的呢？
+HashMap中某个Entry链太长，查找时间复杂度可能达到O(n)，怎么优化？
+2、剖析HashMap
+2.1 HashMap初始化
+虽然这一步大家很熟悉，但过程还是少补了！
+HashMap<Integer,Integer> hashMap = new HashMap<>(6, 1);
+HashMap<Integer, Integer> hashMap2 = new HashMap<>();
+
+源码解析
+这个就很简单了，初始化HashMap有两个构造器，一个无参，一个有参。（泛型就不说了吧）
+那就从简先看无参的！
+
+/**
+ * The default initial capacity - MUST be a power of two.
+ */
+static final int DEFAULT_INITIAL_CAPACITY = 1 << 4; // aka 16
+
+/**
+ * The load factor used when none specified in constructor.
+ */
+static final float DEFAULT_LOAD_FACTOR = 0.75f;
+
+public HashMap() {
+ …]]></summary>
         <author>
-            <name>Product Hunt — The best new products, every day</name>
+            <name>hqk</name>
         </author>
     </entry>
     <entry>
@@ -2359,85 +2747,6 @@ Discussion
             Link]]></summary>
         <author>
             <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[删除 Git 远程分支的本地引用]]></title>
-        <id>https://linux.cn/article-14919-1.html?utm_source=rss&amp;utm_medium=rss</id>
-        <link href="https://linux.cn/article-14919-1.html?utm_source=rss&amp;utm_medium=rss"/>
-        <updated>2022-08-11T07:06:14.000Z</updated>
-        <summary type="html"><![CDATA[遵循几个简单的步骤来保持 Git 仓库的整洁
-
-
-在合并一个 GibLab 的合并请求（MR）或 GitHub 的拉取请求（PR）后，你通常需要从远程仓库中删掉这个主题分支来保持仓库的整洁。然而，这只会删掉远程仓库的主题分支。本地 Git 仓库也会从例行清理中收益。
-
-要同步本地仓库和远程仓库的信息，可以执行 git prune 命令来删除本地仓库中远程分支的本地引用。
-
-按照以下三个简单的步骤：
-
-1、检出仓库中的核心分支（比如 main 或者 master）：
-
-$ git checkout <central_branch_name>
-
-
-2、列出所有远程和本地分支：
-
-$ git branch -a
-
-
-示例输出：
-
-4.10.z
-* master
-  remotes/mydata/4.9-stage
-  remotes/mydata/4.9.z
-  remotes/mydata/test-branch
-
-
-在这个例子中，test-branch 是从远程仓库中删除的主题分支的名字。
-
-3、删除远程分支的本地引用：
-
-首先，列出所有可以从本地仓库中删除的分支：
-
-$ git remote prune origin --dry-run
-
-
-示例输出：
-
-Pruning origin
-URL: git@example.com:myorg/mydata-4.10.git
-* [would prune] origin/test-branch
-
-
-然后，删除远程分支的本地引用：
-
-$ git remote prune origin
-
-
-示例输出：
-
-Pruning origin
-URL: git@example.com:myorg/mydata-4.10.git
-* [pruned] origin/test-branch
-
-
-就是这样！
-
-维护 Git 仓库
-
-保持 Git 仓库的整洁，一开始似乎并不紧急，但是随着仓库规模的增长，删除不必要的数据就变得更为重要。不要让从无用的数据筛选而拖慢你。
-
-经常删除远程分支的本地引用，是维护一个可用的 Git 仓库是一个好方法。
-
-
-via: https://opensource.com/article/22/8/delete-local-reference-remote-branch-git
-
-作者：Agil Antony 选题：lkxed 译者：Yufei-Yan 校对：wxy
-
-本文由 LCTT 原创编译，Linux中国 荣誉推出]]></summary>
-        <author>
-            <name>linux@linux.cn (linux)</name>
         </author>
     </entry>
     <entry>
@@ -2476,56 +2785,6 @@ Collect words to fill a paragraph
 Let…]]></summary>
         <author>
             <name>Jim Hall</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[人工智能（AI）、机器学习（ML）和深度学习（DL）：有什么区别？]]></title>
-        <id>https://linux.cn/article-14918-1.html?utm_source=rss&amp;utm_medium=rss</id>
-        <link href="https://linux.cn/article-14918-1.html?utm_source=rss&amp;utm_medium=rss"/>
-        <updated>2022-08-11T06:47:47.000Z</updated>
-        <summary type="html"><![CDATA[我们经常交替使用人工智能（AI）、机器学习（ML）和深度学习（DL）这些术语，尽管我们几乎每天都阅读或听到它们。本文解释了这些技术是如何演变的以及它们有何不同。
-
-
-
-
-人工智能Artificial Intelligence（AI）、机器学习Machine Learning（ML）和深度学习Deep Learning（DL）通常可以互换使用。但是，它们并不完全相同。人工智能是最广泛的概念，它赋予机器模仿人类行为的能力。机器学习是将人工智能应用到系统或机器中，帮助其自我学习和不断改进。最后，深度学习使用复杂的算法和深度神经网络来重复训练特定的模型或模式。
-
-让我们看看每个术语的演变和历程，以更好地理解人工智能、机器学习和深度学习实际指的是什么。
-
-人工智能
-
-自过去 70 多年以来，人工智能已经取得了长足的进步。无论我们是否知道，也不管喜欢与否，，它已经渗透到了我们生活的方方面面。在过去十年中，机器学习和深度学习的进步已经在各种规模的行业和组织中创造了人工智能热潮。云服务提供商通过开发免费的开源服务和提供新的场景进一步推动的这种势头。
-
-
-
-人工智能可能是自 1956 年以来最受关注的概念。到 2015 年，GPU 的广泛使用使并行处理更快、更强大、更便宜。而愈加廉价的存储可以大规模地存储大数据（从纯文本到图像、映射等）。这产生了对数据分析的需求，它被更普遍地称为数据科学data science，导致机器学习发展为实现人工智能的方法。
-
-机器学习
-
-机器学习是使用算法来处理、学习和理解或预测可用数据的模式。最近，软件开发的低代码和无代码概念被用作机器学习中的自学习过程，它给出了完成特定任务的特定指令。通过使用数据和算法对机器进行“训练”，使其能够学习如何执行任务，更重要的是，将学习应用到不断发展的过程中。
-
-
-
-机器学习是在开发者社区专注于 AI 时发展起来的，然后发展了算法决策树学习、逻辑编程、聚类、并行处理和强化学习。这些都是朝着正确方向迈出的良好一步，但不足以解决世界感兴趣的场景。
-
-深度学习
-
-深度学习是神经网络和机器学习的进化，是人工智能社区的创意。它学习了人类思维在特定场景中的工作方式，然后在这项工作上比人类做得更好！例如，IBM 的 Watson 与自己下国际象棋，并在游戏中取得了很大进步，最终击败了世界冠军。谷歌的 AlphaGo 也学会了如何玩围棋游戏，一遍又一遍地玩它以提高自己，并成为冠军。
-
-人工智能、机器学习和深度学习正在不断发展。参与数据科学的每个人都希望推进这些概念以改善我们的日常生活。而开源社区、私营企业、科学家和政府机构都在为此共同努力。
-
-
-
-总而言之，虽然 AI 有助于创建智能机器，但机器学习有助于构建 AI 驱动的应用。深度学习是机器学习的一个子集。它通过利用复杂算法处理大量数据来训练特定模型。由于狭义 AI 极难开发，机器学习正在通过刚性计算解决这一领域的机遇。至少对于实现通用 AI，深度学习有助于将 AI 和机器学习结合在一起。
-
-
-via: https://www.opensourceforu.com/2022/08/ai-ml-and-dl-whats-the-difference/
-
-作者：Bala Kalavala 选题：lkxed 译者：geekpi 校对：wxy
-
-本文由 LCTT 原创编译，Linux中国 荣誉推出]]></summary>
-        <author>
-            <name>linux@linux.cn (linux)</name>
         </author>
     </entry>
     <entry>
@@ -2603,27 +2862,6 @@ Discussion
         <summary type="html"><![CDATA[A multidimensional array is simply an array [/news/java-array-how-to-declare-and-initialize-an-array-in-java-example/] of arrays. You can look it as a single container that stores multiple containers.  In this article, we'll talk two dimensional arrays in Java. You'll see the syntax for creating one, and how to add and access items in a two]]></summary>
         <author>
             <name>Ihechikara Vincent Abba</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Insply — The world’s first ads inspiration software for LinkedIn]]></title>
-        <id>https://www.producthunt.com/posts/insply</id>
-        <link href="https://www.producthunt.com/posts/insply"/>
-        <updated>2022-08-10T19:41:41.000Z</updated>
-        <summary type="html"><![CDATA[https://chrome.google.com/websto...
-
-If you enjoy it, please give it a positive review.
-
-If you have any feedback, input or ideas - please share it with us on https://www.insply.io/faq.
-
-Otherwise, just DM me on Linkedin if you have any questions: https://www.linkedin.com/in/adam....
-              ”
-              
-Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -2721,6 +2959,42 @@ Discussion
             Link]]></summary>
         <author>
             <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[还在写重复代码？写个超简单插件来自动生成吧！]]></title>
+        <id>https://juejin.cn/post/7130278049186054175</id>
+        <link href="https://juejin.cn/post/7130278049186054175"/>
+        <updated>2022-08-10T16:00:52.000Z</updated>
+        <summary type="html"><![CDATA[携手创作，共同成长！这是我参与「掘金日新计划 · 8 月更文挑战」的第3天，点击查看活动详情
+本文又名：Android Studio插件开发（二）：Editors编辑篇
+之前的阅读量太低了，换个名字看看会不会高点，o(╥﹏╥)o
+概述
+作为连Setter和Getter都要生成的程序猿来说，时不时还要手写重复的代码简直不能忍。而本篇文章，讲的就是如何开发一个简单的自动生成插件，来帮你完成一键生成重复代码。
+最终要实现的效果有：
+智能识别  只有在需要满足条件且需要生成的地方，才会提供生成功能
+自动生成  选择文本，根据关键词，生成特定的代码
+创建插件
+上一篇文章有讲过，首先要创建一个AutoEditorAction，然后在plugin.xml中注册
+class AutoEditorAction: AnAction() {
+    override fun actionPerformed(event: AnActionEvent) {
+
+    }
+}
+
+<action class="com.lzy.plugindemo.AutoEditorAction"
+        id="AutoEditorAction"
+        text="Auto Input"
+        description="Auto input text">
+    //添加在编辑弹框的第一位
+    <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+</action>
+
+定义菜单操作的可见性
+应该有注意过，Android Studio里菜单栏下面的功能，并非一直可以点击，有时候是置灰状态，有时候甚至没有显示出来。这些都是通过AnAction里的update方法来控制的。
+在AutoEditorAction中重写update方法…]]></summary>
+        <author>
+            <name>欧简墨</name>
         </author>
     </entry>
     <entry>
@@ -2846,6 +3120,16 @@ PS5主机内部大概是825GB的存储空间，实际可用约为677.2GB容量�
 这次咱们就用大华C970 1TB SSD固态硬盘（以下简称大华C970 SSD固态硬盘）来测试一下，究竟…]]></summary>
         <author>
             <name>尼古拉斯lalala</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to develop strong problem solving skills as a software developer]]></title>
+        <id>https://dev.to/nathan20/how-to-develop-strong-problem-solving-skills-as-a-software-developer-25nb</id>
+        <link href="https://dev.to/nathan20/how-to-develop-strong-problem-solving-skills-as-a-software-developer-25nb"/>
+        <updated>2022-08-10T09:41:15.000Z</updated>
+        <summary type="html"><![CDATA[#programming #tutorial #performance]]></summary>
+        <author>
+            <name>Nathan</name>
         </author>
     </entry>
     <entry>
@@ -3228,6 +3512,25 @@ Applications are generally written using a programming language like C,…]]></s
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[srty.link — The truly tiny link shortener built for quick verbal sharing]]></title>
+        <id>https://www.producthunt.com/posts/srty-link</id>
+        <link href="https://www.producthunt.com/posts/srty-link"/>
+        <updated>2022-08-09T02:43:52.000Z</updated>
+        <summary type="html"><![CDATA[Bookmarklet to help you shorten links even quicker.
+
+Make sure to drop any suggestions in the comments!
+
+Kieran.
+              ”
+              
+Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[不就new个对象的事，为什么要把简单的问题复杂化？为什么要使用Hilt依赖注入？看完就知道！]]></title>
         <id>https://juejin.cn/post/7129673928460468254</id>
         <link href="https://juejin.cn/post/7129673928460468254"/>
@@ -3316,26 +3619,6 @@ Matrix 是少数派的写作社区，我们主张分享真实的产品体验，
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The Best Theragun (and Other Great Massage Guns)]]></title>
-        <id>5ec54e3c73e169d072ba2512</id>
-        <link href="https://www.wired.com/gallery/best-theragun-percussive-therapy-devices/"/>
-        <updated>2022-08-08T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Therabody’s percussive therapy devices help soothe achy muscles. Here’s our guide to its lineup—and some cheaper alternatives.]]></summary>
-        <author>
-            <name>Medea Giordano</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Panasonic Lumix GH6 Lets You Film on the Fly]]></title>
-        <id>6298feb11d7f3a893ad08fa8</id>
-        <link href="https://www.wired.com/review/panasonic-lumix-gh6/"/>
-        <updated>2022-08-08T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In-body stabilization and thoughtfully designed controls make this workhorse a great choice for in-the-field photographers and filmmakers.]]></summary>
-        <author>
-            <name>Eric Ravenscraft</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Crypto and the US Government Are Headed for a Decisive Showdown]]></title>
         <id>62ec0f86922c62d7df489e9c</id>
         <link href="https://www.wired.com/story/crypto-web3-securities-ripple-sec-lawsuits/"/>
@@ -3353,16 +3636,6 @@ Matrix 是少数派的写作社区，我们主张分享真实的产品体验，
         <summary type="html"><![CDATA[After a local politician and two others were gunned down in the Philippines, posts supporting the suspect continue to gain traction on social media.]]></summary>
         <author>
             <name>Vittoria Elliott</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What to Know About 988, the New Suicide and Crisis Lifeline]]></title>
-        <id>62eac573bb7ad736f1d6a9c9</id>
-        <link href="https://www.wired.com/story/988-suicide-hotline-explained/"/>
-        <updated>2022-08-08T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Americans can call or text this number if they or someone they know needs a counselor to listen or point them to additional resources.]]></summary>
-        <author>
-            <name>Reece Rogers</name>
         </author>
     </entry>
     <entry>
@@ -3485,16 +3758,6 @@ Many people talk a lot about the values of Open Organization Principles, but in 
 Business disruption is happening through new technology or methods, which will slash costs. This is forcing industrial change. Consider the oil, coal, natural gas, nuclear, petroleum, biof…]]></summary>
         <author>
             <name>Ron McFarland</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TigerVNC – 高性能、跨平台开源 VNC 服务器与客户端]]></title>
-        <id>https://www.appinn.com/?p=42976</id>
-        <link href="https://www.appinn.com/tigervnc/"/>
-        <updated>2022-08-08T04:30:32.000Z</updated>
-        <summary type="html"><![CDATA[TigerVNC 是一款老牌高性能、多平台的 VNC 客户端和服务器，支持 Windows、macOS 与 Linux，可以方便的创建 VNC 服务器，或通过 VNC 连接至远程电脑。@Appinn]]></summary>
-        <author>
-            <name>青小蛙</name>
         </author>
     </entry>
     <entry>
@@ -3710,26 +3973,6 @@ Discussion
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The Best Crossplay Games for Consoles and PC]]></title>
-        <id>6173021c0286fd78a4554d86</id>
-        <link href="https://www.wired.com/story/crossplay-games-console-pc-switch-mobile/"/>
-        <updated>2022-08-07T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[These titles let you play with friends on different platforms, whether it be computer, Xbox, PlayStation, Switch, or even mobile.]]></summary>
-        <author>
-            <name>Eric Ravenscraft</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Share Your Wi-Fi Password]]></title>
-        <id>60f5a352d263d56757151cbc</id>
-        <link href="https://www.wired.com/story/how-to-share-wi-fi-password/"/>
-        <updated>2022-08-07T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Help your guests connect to your network without typing a thing.]]></summary>
-        <author>
-            <name>Simon Hill</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[The Hidden Chaos That Lurks in Ecosystems]]></title>
         <id>62e7e1b658719fe5c578ec0c</id>
         <link href="https://www.wired.com/story/the-hidden-chaos-that-lurks-in-ecosystems/"/>
@@ -3805,47 +4048,6 @@ dependencies: |                                                                 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[封装一个有趣的 Loading 组件]]></title>
-        <id>https://juejin.cn/post/7129071400509243423</id>
-        <link href="https://juejin.cn/post/7129071400509243423"/>
-        <updated>2022-08-07T09:58:34.000Z</updated>
-        <summary type="html"><![CDATA[theme: v-green
-highlight: atom-one-dark
-携手创作，共同成长！这是我参与「掘金日新计划 · 8 月更文挑战」的第2天，点击查看活动详情
-前言
-在上一篇普通的加载千篇一律，有趣的 loading 万里挑一
-中，我们介绍了使用Path类的PathMetrics属性来控制绘制点在路径上运动来实现比较有趣的loading效果。有评论说因为是黑色背景，所以看着好看。黑色背景确实显得高端一点，但是并不是其他配色也不行，本篇我们来封装一个可以自定义配置前景色和背景色的Loading组件。
-组件定义
-loading组件共定义4个入口参数：
-前景色：绘制图形的前景色；
-背景色：绘制图形的背景色；
-图形尺寸：绘制图形的尺寸；
-加载文字：可选，如果有文字就显示，没有就不显示。
-得到的Loading组件类如下所示：
-class LoadingAnimations extends StatefulWidget {
-  final Color bgColor;
-  final Color foregroundColor;
-  String? loadingText;
-  final double size;
-  LoadingAnimations(
-      {required this.foregroundColor,
-      required this.bgColor,
-      this.loadingText,
-      this.size = 100.0,
-      Key? key})
-      : super(key: key);
-
-  @override
-  _LoadingAnimationsState createState() => _LoadingAnimationsState();
-}
-
-圆形Loading
-我们先来实现一个…]]></summary>
-        <author>
-            <name>岛上码农</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Showing Flutter custom error messages]]></title>
         <id>https://dev.to/frezyx/showing-flutter-custom-error-messages-109o</id>
         <link href="https://dev.to/frezyx/showing-flutter-custom-error-messages-109o"/>
@@ -3894,46 +4096,6 @@ class LoadingAnimations extends StatefulWidget {
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Android实现倒计时的几种方案汇总]]></title>
-        <id>https://juejin.cn/post/7128947531471388709</id>
-        <link href="https://juejin.cn/post/7128947531471388709"/>
-        <updated>2022-08-07T01:58:00.000Z</updated>
-        <summary type="html"><![CDATA[theme: juejin
-highlight: a11y-dark
-携手创作，共同成长！这是我参与「掘金日新计划 · 8 月更文挑战」的第11天，点击查看活动详情
-前言
-关于倒计时可以说我们App开发中常见的一种场景了，比如Splash倒计时跳转首页，比如发送短信之后倒计时60秒显示等等。
-关于倒计时的实现方式，大家可能有不同的做法，这里做一下总结看看你使用的是哪一种呢？
-一、CountDownTimer的实现
-直接上代码
-      //倒计时的方式一
-        fun countDownTimer() {
-            var num = 60
-
-            timer = object : CountDownTimer((num + 1) * 1000L, 1000L) {
-
-                override fun onTick(millisUntilFinished: Long) {
-
-                    YYLogUtils.w("当时计数：" + num)
-
-                    if (num == 0) {
-                        YYLogUtils.w("重新开始")
-                        num = 60
-                    } else {
-                        num--
-                    }
-
-                }
-
-                override fun onFinish() {
-                    YYLogUtils.w("倒计时结束了..." + num)
-
-              …]]></summary>
-        <author>
-            <name>newki</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Spot 2.0 — The next-gen communication app for teams]]></title>
         <id>https://www.producthunt.com/posts/spot-2-0</id>
         <link href="https://www.producthunt.com/posts/spot-2-0"/>
@@ -3948,39 +4110,6 @@ Discussion
             Link]]></summary>
         <author>
             <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Flutter TextFiled的哪些坑]]></title>
-        <id>https://juejin.cn/post/7128784184092393486</id>
-        <link href="https://juejin.cn/post/7128784184092393486"/>
-        <updated>2022-08-06T15:24:01.000Z</updated>
-        <summary type="html"><![CDATA[在Flutter中输入框是重度交互使用场景，但其中很多坑爹体验问题一直官方都没给出好的解决方案，本文将介绍一些Flutter输入框的坑爹问题；
-1. Android未输入字符时光标高度小于输入字符时高度
-具体表现行为如下：
-
-
-此小细节问题在稀土掘金/B站漫画/青藤之恋等使用Flutter的APP都存在，主要原因使用官方在使用定义iOS/Android两个平台的光标有不同实现机制；核心实现类在Editable.dart中
-  void _computeCaretPrototype() {
-    assert(defaultTargetPlatform != null);
-    switch (defaultTargetPlatform) {
-      case TargetPlatform.iOS:
-      case TargetPlatform.macOS:
-        _caretPrototype = Rect.fromLTWH(0.0, 0.0, cursorWidth, cursorHeight + 2);
-        break;
-      case TargetPlatform.android:
-      case TargetPlatform.fuchsia:
-      case TargetPlatform.linux:
-      case TargetPlatform.windows:
-        _caretPrototype = Rect.fromLTWH(0.0, _kCaretHeightOffset, cursorWidth, cursorHeight - 2.0 * _kCaretHeightOffset);
-        break;
-    }
-  }
-
-iOS平台
-实验测试iOS为输入字符和输入字符高度变…]]></summary>
-        <author>
-            <name>上班多喝水</name>
         </author>
     </entry>
     <entry>
@@ -4004,16 +4133,6 @@ iOS平台
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[An ISP Settled Piracy Lawsuits. Could Users Take the Hit?]]></title>
-        <id>62ed48193787a50a7ae8c8a0</id>
-        <link href="https://www.wired.com/story/charter-record-labels-piracy-lawsuits-settlements/"/>
-        <updated>2022-08-06T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Now that Charter has reached settlements with major record labels, it’s unclear whether the cable provider will pull the plug on users who pirate music.]]></summary>
-        <author>
-            <name>Jon Brodkin, Ars Technica</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Extreme Heat Is Becoming More Dangerous for Farmworkers]]></title>
         <id>62e7e1307a001043e79324b4</id>
         <link href="https://www.wired.com/story/extreme-heat-is-becoming-more-dangerous-for-farmworkers/"/>
@@ -4021,46 +4140,6 @@ iOS平台
         <summary type="html"><![CDATA[Sweltering temperatures and humidity threaten the health of outdoor laborers, and there are few standards to protect them from working when it’s too hot.]]></summary>
         <author>
             <name>Tom Philpott</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ASM 字节码插桩：隐私合规方法检测]]></title>
-        <id>https://juejin.cn/post/7128724162645852168</id>
-        <link href="https://juejin.cn/post/7128724162645852168"/>
-        <updated>2022-08-06T11:31:35.000Z</updated>
-        <summary type="html"><![CDATA[1.前言
-近两年来工信部对于应用的隐私合规安全问题愈加重视，对 Android 平台的管控程度也要比 IOS 平台严格很多，很多不合规的应用也先后被下架要求整改。笔者就曾遇到过加班整改隐私合规的问题，隐私合规问题主要针对两个方面。
-在用户同意隐私协议之前不能收集用户隐私数据，例如 IMEI、AndroidId、MAC 等
-在用户同意隐私协议之后，收集用户数据行为在对应场景不能超频。比如一分钟不能超过 3 次获取 IMEI
-针对上述两个方面，有以下措施来针对
-通过静态扫描，收集项目中（自有代码 + 三方 sdk）使用隐私合规相关 api 的相关代码
-通过 ASM 插桩，在调用隐私合规 api 之前插入代码，记录运行时的方法调用链和当前时间
-hook 隐私合规 api，替换字节码指令将调用链指向工具类，在未同意隐私协议之前，不调用相关的 api
-2.实现
-2.1 注解和工具类
-通过定义注解和工具类，用来定义要处理哪些隐私合规相关的方法，目前笔者已经处理了大部分，请放心食用
-2.1.1 注解
-/**
- * 收集和注解匹配的方法
- * visitMethodInsn(int opcode, String owner, String name,String desc)
- *
- * ======如果 originName 和 originDesc 传""，逻辑会在插件中处理=====
- */
-@Retention(RetentionPolicy.CLASS)
-@Target({ElementType.METHOD})
-public @interface AsmMethodReplace {
-
-    /**
-     * 指令操作码
-     */
-    int targetMethodOpcode();
-
-    /**
-     * 方法所有者类
-     */
-    Stri…]]></summary>
-        <author>
-            <name>season_y</name>
         </author>
     </entry>
     <entry>
@@ -4132,16 +4211,6 @@ grouId的话最好使用: io.github.github_name, 要不然使用其他的还需�
 值得注意的是sonatype要求我们创建一个g…]]></summary>
         <author>
             <name>gohuhx</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Slack Bug Exposed Some Users’ Hashed Passwords for 5 Years]]></title>
-        <id>62ed248b922c62d7df489ea5</id>
-        <link href="https://www.wired.com/story/slack-hashed-passwords-exposed/"/>
-        <updated>2022-08-05T22:09:22.000Z</updated>
-        <summary type="html"><![CDATA[The exposure of cryptographically scrambled passwords isn’t a worst-case scenario—but it isn’t great, either.]]></summary>
-        <author>
-            <name>Lily Hay Newman</name>
         </author>
     </entry>
     <entry>
@@ -4313,16 +4382,6 @@ class Ball {
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[All the Data Amazon's Ring Cameras Collect About You]]></title>
-        <id>62ec31106896acbb4eb33818</id>
-        <link href="https://www.wired.com/story/ring-doorbell-camera-amazon-privacy/"/>
-        <updated>2022-08-05T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The popular security devices are tracking (and sharing) more than you might think.]]></summary>
-        <author>
-            <name>Matt Burgess</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[I stopped using Visual Studio Code]]></title>
         <id>https://dev.to/dailydevtips1/i-stopped-using-visual-studio-code-1b81</id>
         <link href="https://dev.to/dailydevtips1/i-stopped-using-visual-studio-code-1b81"/>
@@ -4457,16 +4516,6 @@ Matrix 是少数派的写作社区，我们主张分享真实的产品体验，�
         <summary type="html"><![CDATA[The zoonotic disease is now spreading from person to person. But if it finds a home in new wildlife species, it could settle in to become a permanent risk.]]></summary>
         <author>
             <name>Maryn McKenna</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Origins of Covid-19 Are More Complicated Than Once Thought]]></title>
-        <id>62eaf047bb7ad736f1d6a9ca</id>
-        <link href="https://www.wired.com/story/tracing-covid-pandemic-origins/"/>
-        <updated>2022-08-04T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Scientists used painstaking research, genomics, and clever statistics to definitively track two distinct strains of the virus back to a wet market in Wuhan.]]></summary>
-        <author>
-            <name>Amit Katwala</name>
         </author>
     </entry>
     <entry>
@@ -5382,46 +5431,6 @@ Matrix 是少数派的写作社区，我们主张分享真实的产品体验，
         <summary type="html"><![CDATA[#python #programming]]></summary>
         <author>
             <name>João Maranhão</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to use Lottie animations & React JS? 🖌️]]></title>
-        <id>https://dev.to/franklin030601/how-to-use-lottie-animations-react-js-cn0</id>
-        <link href="https://dev.to/franklin030601/how-to-use-lottie-animations-react-js-cn0"/>
-        <updated>2022-07-15T13:50:56.000Z</updated>
-        <summary type="html"><![CDATA[#react #javascript #typescript #webdev]]></summary>
-        <author>
-            <name>Franklin Martinez</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[记一次某系统的渗透测试]]></title>
-        <id>https://xz.aliyun.com/t/11526</id>
-        <link href="https://xz.aliyun.com/t/11526"/>
-        <updated>2022-07-15T01:45:41.000Z</updated>
-        <summary type="html"><![CDATA[记一次某系统的渗透测试]]></summary>
-        <author>
-            <name>先知安全技术社区</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CPP 异常处理机制初探]]></title>
-        <id>https://xz.aliyun.com/t/11525</id>
-        <link href="https://xz.aliyun.com/t/11525"/>
-        <updated>2022-07-15T01:44:09.000Z</updated>
-        <summary type="html"><![CDATA[CPP 异常处理机制初探]]></summary>
-        <author>
-            <name>先知安全技术社区</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[某企业邮箱攻击面之密码喷洒]]></title>
-        <id>https://xz.aliyun.com/t/11529</id>
-        <link href="https://xz.aliyun.com/t/11529"/>
-        <updated>2022-07-15T01:43:00.000Z</updated>
-        <summary type="html"><![CDATA[某企业邮箱攻击面之密码喷洒]]></summary>
-        <author>
-            <name>先知安全技术社区</name>
         </author>
     </entry>
 </feed>
