@@ -1,118 +1,890 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-09-03T10:42:44.495Z</id>
+    <id>urn:2022-09-04T10:42:14.102Z</id>
     <title>osmos::feed</title>
-    <updated>2022-09-03T10:42:44.495Z</updated>
+    <updated>2022-09-04T10:42:14.102Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[NASA making second attempt to launch the SLS rocket]]></title>
-        <id>https://arstechnica.com/?p=1877890</id>
-        <link href="https://arstechnica.com/?p=1877890"/>
-        <updated>2022-09-03T10:38:52.000Z</updated>
-        <summary type="html"><![CDATA["There’s no guarantee we’re going to get off on Saturday."]]></summary>
+        <title type="html"><![CDATA[硬核观察 #749 14 岁少年一小时破解澳大利亚情报机构的纪念币密码]]></title>
+        <id>https://linux.cn/article-14999-1.html?utm_source=rss&amp;utm_medium=rss</id>
+        <link href="https://linux.cn/article-14999-1.html?utm_source=rss&amp;utm_medium=rss"/>
+        <updated>2022-09-04T09:40:18.000Z</updated>
+        <summary type="html"><![CDATA[14 岁少年一小时破解澳大利亚情报机构的纪念币密码
+
+澳大利亚信号局（ASD）为庆祝成立 75 周年，周四发布了仅有 5 万枚的纪念币，这个纪念币上有四层难度逐渐加大的密码信息。ASD 提供了一个表单，如果谁能破译这四层密码信息，他们很乐意为他提供一份工作。然而一位 14 岁的澳洲男孩，在短短一个多小时就成为第一个破译所有四层信息的人。不过，ASD 表示，该纪念币上还有隐藏的第五层密码信息，目前还没有人破解出来。
+
+
+消息来源：ABC News
+
+
+
+老王点评：后生可畏，亏得还悄悄隐藏了一个第五层（或许还有第六层？），ASD 才没有完全颜面扫地。
+
+
+
+
+Ubuntu Unity 成为官方风味版
+
+Canonical 在五年前就放弃了其开发的 Unity 桌面环境，转而使用 GNOME 作为默认桌面环境，并维护 KDE 等其它桌面环境作为官方风味版。2017 年 Ubuntu 17.04 的 Unity 7.5 成为最后的绝唱。不过，有喜爱 Unity 桌面的开发者维护了一个 Ubuntu Unity Remix 发行版，此前曾作为 Ubuntu 20.04 LTS 的非官方风味版而发布。并于今年发布了 Unity 7.6。该开发者本周宣布，从 Ubuntu 22.10 开始，Canonical 将正式接纳 Ubuntu Unity 并作为一种官方风味版本。
+
+
+消息来源：9to5linux
+
+
+
+老王点评：虽然开源具有开放性，即便项目原来的主人放弃，社区也有可能会接手而让项目重新复活。但是，这里面最难的不是“你可以”，而是“你做到”，这需要付出很多精力和承诺。比如国内的 CuteFish 夭折之后，虽然也有社区的一些人宣称接手，但是似乎没什么动静。
+
+
+
+
+对 Linux 服务器的攻击比去年增加了 75%
+
+趋势科技称，Linux 服务器正越来越多地受到勒索软件的攻击，在过去的一年里，由于网络犯罪分子希望将他们的攻击扩大到 Windows 操作系统之外，Linux 上检测到的勒索软件增加了 75%。LockBit 是近期最多产和最成功的勒索软件之一，现在它提供了一个基于 Linux 的变体，并已被用于在野外进行攻击。此外，基于 Linux 的加密货币挖掘恶意软件攻击也增加了 145%。
+
+
+消息来源：ZDNet
+
+
+
+老王点评：当人们认为 Linux 系统比 Windows 更安全时，安全团队可能会选择将重点放在防御 Windows 的网络犯罪上，而 Linux 往往承载着包括服务器在内的重要企业 IT 基础设施，一旦出现问题，可能造成的损失更大。]]></summary>
         <author>
-            <name>Eric Berger</name>
+            <name>linux@linux.cn (linux)</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Go - Arrays and Slices]]></title>
-        <id>https://dev.to/vchiranjeeviak/go-arrays-and-slices-52pi</id>
-        <link href="https://dev.to/vchiranjeeviak/go-arrays-and-slices-52pi"/>
-        <updated>2022-09-03T09:47:37.000Z</updated>
-        <summary type="html"><![CDATA[Introduction
+        <title type="html"><![CDATA[No More Confusion About TypeScript’s ‘any’ and ‘unknown’]]></title>
+        <id>https://dev.to/lzogoat87/no-more-confusion-about-typescripts-any-and-unknown-57c8</id>
+        <link href="https://dev.to/lzogoat87/no-more-confusion-about-typescripts-any-and-unknown-57c8"/>
+        <updated>2022-09-04T09:37:36.000Z</updated>
+        <summary type="html"><![CDATA[No More Confusion About TypeScript’s ‘any’ and ‘unknown’
 
 
-Welcome back to the Part 5 of Go lang series. In Part 2: https://dev.to/vchiranjeeviak/go-variables-constants-and-datatypes-502j, we saw what datatypes are and how many types are there in Go. Those are primitive datatypes meaning that they are basic. In this one, let's see about arrays and slices which are non-primitive datatypes in Go.
-A datatype which is a group of variables of any primitive or non-primitive datatypes is called non-primitive datatype. Revisit this line after reading below non-primitive datatypes. You will get a clear picture of this line then.
-There are 4 non-primitive datatypes in Go. They are:
-Arrays.
-Slices.
-Maps.
-Structs.
-Let's see maps and structs in the next article.
-An array is a collection or group of values where each value belongs to the same typ…]]></summary>
+
+  
+  
+  Master the similarities and differences between any & unknown types and avoid learning TypeScript as AnyScript.
+
+
+Welcome to the Mastering TypeScript series. This series will introduce the core knowledge and techniques of TypeScript in the form of animations. Let’s learn together! Previous articles are as follows:
+When you first started TypeScript, did you encounter many crazy problems that you eventually solved with any trick? If you don’t take the time to learn TypeScript’s type system later, you may find that you’ve learned TypeScript as AnyScript.
+In TypeScript, any type is called the top type. The so-called top type can be understood as a generic parent type, that is, a type that can contain all values.
+In TypeScript …]]></summary>
         <author>
-            <name>Chiranjeevi Tirunagari</name>
+            <name>Bianca Leonte</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Create A Slideshow in HTML , CSS and JS]]></title>
-        <id>https://dev.to/herryjobn/create-a-slideshow-in-html-css-and-js-3omj</id>
-        <link href="https://dev.to/herryjobn/create-a-slideshow-in-html-css-and-js-3omj"/>
-        <updated>2022-09-03T09:44:14.000Z</updated>
-        <summary type="html"><![CDATA[As we know a web slider/slideshow is a flow of images or text that consists of displaying one element of the flow in a certain time interval. In real-time conditions, there may be a need to put an image slideshow on web applications, web pages, or anywhere else. Within seconds, a developer considers using an existing jQuery plugin or something else or slider scripts.
-While using such kinds of scripts, sometimes there is a chance of code conflicts between the script libraries and the existing libraries used in the web application or pages, and this takes time to get fixed. If you will use any plugin to create a slideshow then keep in mind it can be slow down your web page speed and many other effects. So, we can’t recommend using any external plugin.
-If the slider need is simple and short, …]]></summary>
+        <title type="html"><![CDATA[How To Create An EC2 Instance On AWS Using Terraform]]></title>
+        <id>https://dev.to/aws-builders/how-to-create-an-ec2-instance-on-aws-using-terraform-4lg</id>
+        <link href="https://dev.to/aws-builders/how-to-create-an-ec2-instance-on-aws-using-terraform-4lg"/>
+        <updated>2022-09-04T08:18:11.000Z</updated>
+        <summary type="html"><![CDATA[In this article, we will see how to create an EC2 Instance using Terraform. 
+Before proceeding, We need to be familiar with the basics of Terraform and AWS EC2 Instance. 
+
+Basic understanding of Terraform.
+Terraform installed on our system.
+AWS Account (Create if you don’t have one).
+access_key & secret_key of an AWS IAM User. 
+Create a dedicated directory where we can create terraform configuration files. 
+Use the following command to create a directory and change our present working directory to it.
+mkdir terraform_ec2instance
+cd terraform_ec2instance/
+
+I have used Visual Studio Code as an editor to write in files, we can use an editor of our choice and copy paste the following configurations to create variables.tf, terraform.tfvars and  main.tf
+Create main.tf which is responsible to cre…]]></summary>
+        <author>
+            <name>MakendranG</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ScaleUp — Templates & resources you need for fundraising in ClickUp]]></title>
+        <id>https://www.producthunt.com/posts/scaleup</id>
+        <link href="https://www.producthunt.com/posts/scaleup"/>
+        <updated>2022-09-04T07:30:45.000Z</updated>
+        <summary type="html"><![CDATA[@AashraySinghal , @vatsal_sanghvi.
+              ”
+              
+Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sharing state between frameworks with Astro]]></title>
+        <id>https://dev.to/dailydevtips1/sharing-state-between-frameworks-with-astro-3c0l</id>
+        <link href="https://dev.to/dailydevtips1/sharing-state-between-frameworks-with-astro-3c0l"/>
+        <updated>2022-09-04T07:18:56.000Z</updated>
+        <summary type="html"><![CDATA[Since Astro is set up as an island architecture and even can run multiple frameworks at the same time, managing the state is a bit difficult.
+We can't solely rely on, for example, context like we do in React or Vue.
+This is where Nano Stores come in super handy.
+This article will look at how we can share a state between a React and Vue component.
+If you'd like to follow this article, take the following GitHub branch as your starting point.
+The first thing we'll have to install is the actual Nano Stores package.
+npm i nanostores
+
+We'll need this base package to set up a store.
+Let's go ahead and create a store for the counter we already have in our React and Vue components.
+I created a folder called stores and added a counter.js file.
+Here we can leverage a Nano Stores atom, which can be us…]]></summary>
+        <author>
+            <name>Chris Bongers</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Top 5 text editors for developers]]></title>
+        <id>https://dev.to/dchhitarka/top-5-text-editors-for-developers-29c0</id>
+        <link href="https://dev.to/dchhitarka/top-5-text-editors-for-developers-29c0"/>
+        <updated>2022-09-04T07:01:22.000Z</updated>
+        <summary type="html"><![CDATA[A text editor might sound like a not so important tool for everyone, but for many it is one of the most important and useful application.
+Text Editor, as it's name implies, is a tool to write and edit any kind of text, be it your code, essay, homework, task list, etc. 
+Developers use text editors to write their code and therefore these are also called code editors by some. Any kind of plain text can be edited in these application.
+Now a days, text editors are getting over powered and more powers can be added by injecting plugins into them.
+So, now comes the question - 
+Which text editor to use? or
+
+ What are the most used text editors?
+When it comes to a popular applications, one can find huge amount of options in the market which can be quite overwhelming for beginners. 
+And for something…]]></summary>
+        <author>
+            <name>Deepak Chhitarka</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dime — Beautifully designed expense tracker and budgeting tool]]></title>
+        <id>https://www.producthunt.com/posts/dime-3</id>
+        <link href="https://www.producthunt.com/posts/dime-3"/>
+        <updated>2022-09-04T06:58:01.000Z</updated>
+        <summary type="html"><![CDATA[@camerafael.
+
+Thank you for reading, and have a great day ahead :)
+              ”
+              
+Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Track Anyone's IP Address using Python]]></title>
+        <id>https://dev.to/prkskrs/track-anyones-ip-address-using-python-hk0</id>
+        <link href="https://dev.to/prkskrs/track-anyones-ip-address-using-python-hk0"/>
+        <updated>2022-09-04T06:53:45.000Z</updated>
+        <summary type="html"><![CDATA[Using this technique, you can make your own IP Tracker.
+At first, download python in your system.
+Step 1 : Add Dependencies
+import os
+import urllib2
+import json
+
+OS Module : It will be used to interact with Operating System.
+
+urllib2 Module : It will be used to handle "urls".
+
+json(JavaScript Object Notation) Module : It will be used to store and exchange data.
+
+
+Step 2 : Take Raw Input From User (Tageted IP)
+ip = input("What is your target IP: ")
+
+Step 3 : Enter URL, whose api we are using
+url = "http://ip-api.com/json/"
+
+Step 4 : Get HttpResponse in a variable
+response=urllib2.urlopen(url+ip)
+
+Step 5 : Get Data from response in a variable
+data=response.read()
+
+Step 6 : Get Data in JSON form in a variable
+values=json.loads(data)
+
+Step 7 : Showcase the Informations
+print("IP: "+values["query"])
+print("City: "+values["city"])
+print("ISP: "+values["isp"])
+print("Country: "+values["country"])
+print("Region: "+values["region"])
+print("Timezone: "+values["timezone"])
+
+Full Code : Link]]></summary>
+        <author>
+            <name>Prakash Singh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Recession Preparedness Calculator — How ready are you for nervous CFOs slashing budgets?]]></title>
+        <id>https://www.producthunt.com/posts/recession-preparedness-calculator</id>
+        <link href="https://www.producthunt.com/posts/recession-preparedness-calculator"/>
+        <updated>2022-09-04T06:40:17.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[6 must-have Chrome Extensions for Web Developers 🚀🌐]]></title>
+        <id>https://dev.to/ruppysuppy/6-must-have-chrome-extensions-for-web-developers-1ma2</id>
+        <link href="https://dev.to/ruppysuppy/6-must-have-chrome-extensions-for-web-developers-1ma2"/>
+        <updated>2022-09-04T06:15:00.000Z</updated>
+        <summary type="html"><![CDATA[Since its release in 2008, the Chrome browser has seen exponential growth and as of October 2021, has a 68% worldwide browser market share. Safe to say that the majority of Web Developers prefer using Chrome.
+Extensions add extra features and functions on top of your browser, enhancing the work and resulting in higher productivity. Let's take a look at some cool Chrome Extensions for Web Developers!
+
+An Open Source design tool, VisBug helps you redesign the UI of any website real-time, giving you the ability to check out what looks good without the need to repeatedly updated the code and refresh the page, thus enabling to make precise changes and save time too!
+Stars ⭐: 4.8
+Downloads 📥: 100k+
+Add VisBug to Chrome
+
+Wappalyzer is an effective tool to help find out all the underlying technol…]]></summary>
+        <author>
+            <name>Tapajyoti Bose</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Deploy Your Node.js Application for Free with Render - Alternative To Heroku]]></title>
+        <id>https://dev.to/myogeshchavan97/how-to-deploy-your-nodejs-application-for-free-with-render-alternative-to-heroku-52o7</id>
+        <link href="https://dev.to/myogeshchavan97/how-to-deploy-your-nodejs-application-for-free-with-render-alternative-to-heroku-52o7"/>
+        <updated>2022-09-04T06:09:03.000Z</updated>
+        <summary type="html"><![CDATA[For years, Heroku has been an excellent platform to host your Full Stack applications.
+But that may change, as Heroku is bringing its generous free tier to an end.
+You may have received email from Heroku informing you that, starting November 28, 2022, you will not be able to host any app for free on the platform, and that you will now need to purchase paid plan.
+
+If you want to host static websites or webapps for free, you might use Netlify as I explained in this article but for backend apps, there are not many free platforms that provide the same feel and ease of deployment as Heroku.
+So in this article, we'll learn how to deploy your Node.js application with Express server on Render. It's a free alternative to Heroku with a similar easy deployment process.
+So let's get started.
+As you mi…]]></summary>
+        <author>
+            <name>Yogesh Chavan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSS Battle: #15 - Overlap]]></title>
+        <id>https://dev.to/j471n/css-battle-15-overlap-293i</id>
+        <link href="https://dev.to/j471n/css-battle-15-overlap-293i"/>
+        <updated>2022-09-04T05:53:42.000Z</updated>
+        <summary type="html"><![CDATA[In this article, I will solve a Overlap CSS Challenge on CSS Battle. Let's look at the problem first.
+We need to create the following container by using CSS Properties only:
+
+So now look at the Solution and how we are going to achieve this. 
+
+
+
+
+
+  
+  
+  HTML
+
+
+
+
+
+<p> 
+<a> 
+
+<p> : Circles
+<a> : overlap of both circles
+Now let's style the containers.
+* {
+  background: #09042a;
+}
+
+body {
+  margin: 75;
+}
+
+p, a {
+  border-radius: 1in;
+  width: 150;
+  height: 150;
+}
+p {
+  background: #7b3f61;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 100px 0 #e78481;
+}
+
+a {
+  position: absolute;
+  left: 100;
+}
+
+Note: In CSS Battle you can use 100 instead of 100px. You don't need to define px in CSS. However, if you are using rem or %, you need to pass them separately. That's why in the above CSS code there are no units mostly. For more info visit here
+Minify the code or CSS by using any CSS Minifier. It helps you to reduce the characters in the code which will increase the score.
+Minified Version:
+<p><a><style>*{background:#09042A}body{margin:75}p,a{border-radius:1in;width:150;height:150}p{background:#7B3F61;position:relative;overflow:hidden;box-shadow:100px 0 #E78481}a{position:absolute;left:100}
+
+There are many ways to solve this. You can share your approach in the comments. If you like this then don't forget to ❤️ it. And I'll see you in the next article. See you soon.]]></summary>
+        <author>
+            <name>Jatin Sharma</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Functions in Kotlin]]></title>
+        <id>https://dev.to/amandeep404/functions-in-kotlin-4h6l</id>
+        <link href="https://dev.to/amandeep404/functions-in-kotlin-4h6l"/>
+        <updated>2022-09-04T05:48:06.000Z</updated>
+        <summary type="html"><![CDATA[Functions are something that we have used already for example the main() function. Functions are used to reuse code very easily. But today we will learn how to create our very own functions.
+A block of code that performs a specific task
+Breaks a large program into smaller modular chunks
+Can take arguments with either named or default values
+Functions are declared using the fun keyword and their general syntax is
+
+
+
+
+fun myFunction(parameter1: Int, parameter2: String){
+
+}
+
+Parameters: Function parameters are defined using Pascal notation i.e., First the name of the parameter (example parameter1) followed by the Datatype of the parameter (example: Int). Parameters are separated using commas, and each parameter must be explicitly typed.
+Default Parameters
+Required Parameters
+Named arguments
+S…]]></summary>
+        <author>
+            <name>Amandeep Singh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Beyond Senior – Just Enough Experimentation]]></title>
+        <id>https://dev.to/baweaver/beyond-senior-just-enough-experimentation-hg7</id>
+        <link href="https://dev.to/baweaver/beyond-senior-just-enough-experimentation-hg7"/>
+        <updated>2022-09-04T05:05:42.000Z</updated>
+        <summary type="html"><![CDATA[After a number of conversations over the past few years with several other engineers who have moved beyond senior levels into staff and principal positions I've come away with a lot of insights, many of which have seen their way to Twitter or other conversations first, but now it's time to start collecting some of those stories into this new series: Beyond Senior.
+What does it mean to go beyond the senior level in an engineering organization?
+That's the question we're going to be looking at throughout this series.
+In my last post we got into progressive influence and how to approach major projects. This was very much meant as an overview post, and as such was very generic in nature.
+This post will look more into code and process changes, and how experimentation can really kick off a great …]]></summary>
+        <author>
+            <name>Brandon Weaver</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[即将发布的 KDE 5.26 版本中的 8 个令人感兴趣的新功能]]></title>
+        <id>https://linux.cn/article-14998-1.html?utm_source=rss&amp;utm_medium=rss</id>
+        <link href="https://linux.cn/article-14998-1.html?utm_source=rss&amp;utm_medium=rss"/>
+        <updated>2022-09-04T03:56:00.000Z</updated>
+        <summary type="html"><![CDATA[KDE Plasma 5.26 是一个令人兴奋的即将发布的更新版本，添加了大量有用的功能。
+
+
+
+
+在过去的五个月里，流行的桌面环境 KDE Plasma 做了一些重大的更新和大量的修复。
+
+上一个版本 Plasma 5.25 已经有了许多新的功能和改进，特别是对用户界面和体验的改进，而下一个版本听起来更令人兴奋。
+
+KDE Plasma 5.26 有什么新功能？
+
+让我们来抢先了解一下 KDE Plasma 5.26 的一些新功能。
+
+
+KDE Plasma 5.26 计划于 2022 年 10 月 6 日发布。
+
+
+1、用户界面的改进
+
+如同上一个版本，Plasma 5.26 也对用户界面的互动方式做了许多改进。你会发现一些细微的变化，以及对在 KDE Plasma 5.26 上互动/搜索东西做了调整，给用户更多信息。
+
+例如，格式Format 和 语言Language 的设置页面现在已经合并了，可以给你一个更干净的外观，并摆脱了一些与之相关的常见错误。
+
+Han Young 为 这两个页面的合并 做了大量工作。
+
+因此，你可以很容易地设置默认格式，以及对 你的地址、姓名风格、电话号码 等进行设置。
+
+
+
+另一个例子包括，如果你在系统设置的 “自动启动Autostart” 窗口的 “登录脚本Login Scripts” 部分添加一个 Shell 脚本，而该脚本没有被标记为可执行，就会显示一个警告。此外，它还包括一个按钮，单击即可设置为可执行。
+
+感谢 Nicolas Fella 的这个 贡献
+
+
+
+以及，任务切换效果 “覆盖Cover” 和“翻转Flip>” 使用了 Plasma 对话框作为背景。
+
+在概览效果中使用的同样的 UI 组件现在也替代应用了，给人一种更一致的外观。这也包括统一的背景和模糊的效果。
+
+感谢 Ismael…]]></summary>
+        <author>
+            <name>linux@linux.cn (linux)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Day 001 of 100Days CSS]]></title>
+        <id>https://dev.to/webcodersevvy/day-001-of-100days-css-g9</id>
+        <link href="https://dev.to/webcodersevvy/day-001-of-100days-css-g9"/>
+        <updated>2022-09-04T03:38:51.000Z</updated>
+        <summary type="html"><![CDATA[Check it out and show some love 😇❤️]]></summary>
+        <author>
+            <name>Sevvy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[420+ Marketing Resources — A collection of marketing resources, all-in-one place]]></title>
+        <id>https://www.producthunt.com/posts/420-marketing-resources</id>
+        <link href="https://www.producthunt.com/posts/420-marketing-resources"/>
+        <updated>2022-09-04T03:35:45.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Holo — TikTok for your eCommerce store]]></title>
+        <id>https://www.producthunt.com/posts/holo-6</id>
+        <link href="https://www.producthunt.com/posts/holo-6"/>
+        <updated>2022-09-04T02:11:35.000Z</updated>
+        <summary type="html"><![CDATA[https://pranav996450.typeform.co...
+              ”
+              
+Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Create A Responsive Grid In CSS]]></title>
+        <id>https://dev.to/herryjobn/create-a-responsive-grid-in-css-fon</id>
+        <link href="https://dev.to/herryjobn/create-a-responsive-grid-in-css-fon"/>
+        <updated>2022-09-04T01:25:59.000Z</updated>
+        <summary type="html"><![CDATA[As you know one size can’t adjust every screen size. Now, the current solution is a responsive grid that will modify based on the size of the screen by bearing a view on a screen. Developers begin to design a website framework for responsive grid requirements. But it might not be difficult as you think to code your own.
+So, let’s start to write a few lines HTML code that will help to create a responsive grid.
+<div class="grids">
+  <div class="grid">1</div>
+  <div class="grid">2</div>
+  <div class="grid">3</div>
+  <div class="grid">4</div>
+  <div class="grid">5</div>
+  <div class="grid">6</div>
+  <div class="grid">7</div>
+  <div class="grid">8</div>
+  <div class="grid">9</div>
+</div>
+
+CSS Code:
+html { 
+font-size: 22px; 
+}
+body {
+ padding: 1rem;
+ }
+
+.grid {
+  background-color: blue;
+  color: white;
+  padding: 1rem;
+  height: 4rem;
+  font-size:50px;
+}
+
+.grids {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+/* Screen larger than 600px? 2 column */
+@media (min-width: 600px) {
+  .grids { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* Screen larger than 900px? 3 columns */
+@media (min-width: 900px) {
+  .grids { grid-template-columns: repeat(3, 1fr); }
+}
+
+
+Well, you have all done now a time to check what your grid looks like save your file with the .html extension open this file to your web browser you will see the result.
+Read More: Create A Responsive Grid In CSS]]></summary>
         <author>
             <name>herryjobn</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Elastic Load Balancers]]></title>
-        <id>https://dev.to/aws-builders/elastic-load-balancers-36jg</id>
-        <link href="https://dev.to/aws-builders/elastic-load-balancers-36jg"/>
-        <updated>2022-09-03T09:29:59.000Z</updated>
-        <summary type="html"><![CDATA[Scalability and High Availability
+        <title type="html"><![CDATA[Alleged Google Pixel 7 Pro appears in unboxing video ahead of launch]]></title>
+        <id>https://www.theverge.com/2022/9/3/23336007/google-pixel-7-pro-unboxing-video-launch-leak-rumors</id>
+        <link href="https://www.theverge.com/2022/9/3/23336007/google-pixel-7-pro-unboxing-video-launch-leak-rumors"/>
+        <updated>2022-09-03T23:03:11.000Z</updated>
+        <summary type="html"><![CDATA[The device shows the faint Google logo on its rear. | Image: Gadgetfull BD
+    
 
-
-
-Scalability means that an a system can handle greater loads by adapting
-We can distinguish two types of scalability strategies:
-
-
-
-Vertical Scalability (scale up/down)
-
-
-Increase the size of the current instance (ex. from a t2.micro instance migrate to a a t2.large one)
-Vertical scalability is common for non distributed systems, such as databases
-RDS, ElastiCache are services that can scale vertically
-Horizontal Scalability (scale out/in)
-
-
-Increase the number of instances on which the application runs
-Horizontal scaling implies having a distributed system
-It's easy to scale horizontally thanks to could offerings such as EC2
-High Availability means running our application in at least 2 data centers (AZs)
-
-
-The goal of high availability is to survive a d…]]></summary>
+  
+What appears to be the upcoming Google Pixel 7 Pro surfaced in a brief unboxing video posted on Facebook by Gadgetfull BD, a technology shop based in Bangladesh. The video shows someone taking the device out of a Google-branded box and showing off its sleek black exterior, which features Google’s “G” logo stamped on the back.
+Google first teased the Pixel 7 and 7 Pro at I/O in May, and will likely launch the device next month alongside the Pixel Watch. The phone in the video posted to Facebook matches up with Google’s official renders, complete with the aluminum camera bar with two cutouts for the sensors. It even features what looks like Google Pixel’s official animation sequence when it’s booted up, followed by a device setup screen.
+Continue reading…]]></summary>
         <author>
-            <name>Van Hoang Kha</name>
+            <name>The Verge -  All Posts</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Running multiple frameworks in Astro]]></title>
-        <id>https://dev.to/dailydevtips1/running-multiple-frameworks-in-astro-5io</id>
-        <link href="https://dev.to/dailydevtips1/running-multiple-frameworks-in-astro-5io"/>
-        <updated>2022-09-03T09:22:04.000Z</updated>
-        <summary type="html"><![CDATA[In the previous article, we looked at adding React to an Astro 1.0 project.
-This is a real superpower as we are free to mix and match frameworks.
-Let's take the previous article as our starting point.
-Get the branch from GitHub
-You can technically choose any framework. I'll be using Vue for this case.
-The first thing we'll have to do is install the new framework.
-npm run astro add vue
-
-Once done, you should see React and Vue setup in your astro.config.mjs file.
-import { defineConfig } from 'astro/config';
-import react from '@astrojs/react';
-import vue from '@astrojs/vue';
-
-export default defineConfig({
-  integrations: [react(), vue()],
-});
-
-Now we can add a new Vue component to our src/components directory.
-Vue.vue (super original).
-<script>
-export default {
-  data() {
-    return {
-      c…]]></summary>
+        <title type="html"><![CDATA[Years after shuttle, NASA rediscovers the perils of liquid hydrogen]]></title>
+        <id>https://arstechnica.com/?p=1878188</id>
+        <link href="https://arstechnica.com/?p=1878188"/>
+        <updated>2022-09-03T22:38:27.000Z</updated>
+        <summary type="html"><![CDATA["Every time we saw a leak, it pretty quickly exceeded our flammability limits."]]></summary>
         <author>
-            <name>Chris Bongers</name>
+            <name>Eric Berger</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[‘Large’ hydrogen leak foils NASA’s schedule for Artemis I mission]]></title>
+        <id>https://www.theverge.com/2022/9/3/23335684/nasa-sls-roll-back-launch-delay-artemis</id>
+        <link href="https://www.theverge.com/2022/9/3/23335684/nasa-sls-roll-back-launch-delay-artemis"/>
+        <updated>2022-09-03T22:13:52.000Z</updated>
+        <summary type="html"><![CDATA[NASA’s SLS rocket rolling out to the launchpad from the Vehicle Assembly Building in March.  | Photo by Loren Grush / The Verge
+    
+
+  
+NASA will not attempt to launch its Space Launch System in the coming days, the agency announced today, skipping potential launch windows on Monday and Tuesday. The announcement comes after two scrubbed launch attempts of the massive rocket, and will likely result in a delay of several weeks. 
+August 29th, 2022 was supposed to be the debut launch of the Space Launch System (SLS). That launch attempt was scrubbed after engineers noticed an issue with the temperature of one of the rocket’s four engines. Today, a second launch attempt was foiled by a persistent hydrogen leak that Artemis mission manager Michael Sarafin described as “large,” in a press conference after the scrub. A small hydrogen leak was also noticed during the attempt on...
+Continue reading…]]></summary>
+        <author>
+            <name>The Verge -  All Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NASA Orders a Second Delay for the Artemis Moon-Bound Rocket]]></title>
+        <id>630cecae79f10149f7bb9e18</id>
+        <link href="https://www.wired.com/story/nasas-giant-moon-bound-rocket-is-grounded-for-repairs/"/>
+        <updated>2022-09-03T21:39:16.000Z</updated>
+        <summary type="html"><![CDATA[The uncrewed mission, the first major launch of the Artemis program, suffered a setback after a liquid hydrogen leak.]]></summary>
+        <author>
+            <name>Ramin Skibba</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hackers caused a massive traffic jam in Moscow using a ride-hailing app]]></title>
+        <id>https://www.theverge.com/2022/9/3/23335694/hackers-traffic-jam-russia-moscow-ride-hailing-app-yandex-taxi</id>
+        <link href="https://www.theverge.com/2022/9/3/23335694/hackers-traffic-jam-russia-moscow-ride-hailing-app-yandex-taxi"/>
+        <updated>2022-09-03T18:18:26.000Z</updated>
+        <summary type="html"><![CDATA[Hackers sent taxis to the same location at the same time. | Photo by KIRILL KUDRYAVTSEV/AFP via Getty Images
+    
+
+  
+Hackers caused a major traffic jam in Moscow after exploiting the Russian ride-hailing app, Yandex Taxi, to summon dozens of taxis to the same location at the same time (via Vice). The attack occurred on September 1st and had traffic heading towards Kutuzovsky Prospect — an already busy boulevard — stuck at a standstill.
+A video showing lines of taxis seemingly trying to get to the same destination was shared widely on Twitter and Reddit on Thursday. While Moscow is known for its heavy traffic — it ranked number two as the world’s most congested city in the world last year —  this incident wasn’t related to the capital city’s typical traffic patterns.
+Someone hacked #YandexTaxi and ordered all available taxis to Kutuzov Prospect in...
+Continue reading…]]></summary>
+        <author>
+            <name>The Verge -  All Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[All the best Labor Day tech deals we can find this weekend]]></title>
+        <id>https://arstechnica.com/?p=1878008</id>
+        <link href="https://arstechnica.com/?p=1878008"/>
+        <updated>2022-09-03T18:01:24.000Z</updated>
+        <summary type="html"><![CDATA[Dealmaster includes MacBook Pros, OLED TVs, AirPods Max, video games freebies, and more.]]></summary>
+        <author>
+            <name>Jeff Dunn</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Twitter’s edit button is a big test for the platform’s future]]></title>
+        <id>https://www.theverge.com/2022/9/3/23335692/twitter-edit-button-platform-bluesky</id>
+        <link href="https://www.theverge.com/2022/9/3/23335692/twitter-edit-button-platform-bluesky"/>
+        <updated>2022-09-03T17:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Illustration by Alex Castro / The Verge
+    
+
+  
+Twitter seems to have handled adding an edit button about as well as possible. The edit button biases toward transparency, adding an edit history for every tweet and a big notice saying a tweet has been edited. Users will only have 30 minutes to edit their tweet, and will only be able to do so “a few times.” Twitter’s surely going to be looking closely at those numbers in its testing to see exactly how editable tweets should really be. It’s only coming to paying subscribers of Twitter Blue, and the test is going to start out small. Twitter is being as careful as can be on this one, and seems to have landed in the right place.
+Whether Twitter should have an edit button is still a fun and controversial debate. Will some users abuse the...
+Continue reading…]]></summary>
+        <author>
+            <name>The Verge -  All Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The 35 Best Labor Day Deals on Tech, Grills, and Home Goods]]></title>
+        <id>63124fdd9942353dc81f1538</id>
+        <link href="https://www.wired.com/story/best-labor-day-sales-2022/"/>
+        <updated>2022-09-03T16:43:00.000Z</updated>
+        <summary type="html"><![CDATA[Make the most of the long weekend with discounted MacBooks, robot vacuums, and weighted blankets.]]></summary>
+        <author>
+            <name>Louryn Strampe</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何在 Kubuntu 22.04 中安装 KDE Plasma 5.25]]></title>
+        <id>https://linux.cn/article-14997-1.html?utm_source=rss&amp;utm_medium=rss</id>
+        <link href="https://linux.cn/article-14997-1.html?utm_source=rss&amp;utm_medium=rss"/>
+        <updated>2022-09-03T15:38:00.000Z</updated>
+        <summary type="html"><![CDATA[KDE 开发人员现在启用了流行的向后移植 PPA，并对 KDE Plasma 5.25 进行了必要的更新，你现在可以将其安装在 Kubuntu 22.04 Jammy Jellyfish 中。下面是方法。
+
+KDE Plasma 5.25 于不久前的 2022 年 6 月 14 日发布，其中包含一些令人振奋的更新。在此版本中，你将获得动态强调色、改进的登录头像、浮动面板以及我们在 功能亮点文章 中介绍的许多功能。
+
+但是，如果你正在运行早在 2022 年 4 月发布的 Kubuntu 22.04 Jammy Jellyfish，那么你使用的是带有 KDE Framework 5.92 的 KDE Plasma 5.24。
+
+你可能正在稳定的 Kubuntu 22.04 版本中等待享受新功能，现在可以通过著名的向后移植 PPA 在 Kubuntu 22.04 中安装它。
+
+如何在 Kubuntu 22.04 中安装 KDE Plasma 5.25
+
+这是使用最新的 KDE Plasma 5.25 升级 Kubuntu 22.04 的方法。
+
+GUI 方式
+
+如果你惯于使用 KDE 的软件应用 “发现Discover”，请打开该应用。然后进入 “设置Settings” > “软件源Sources” 并添加 PPA：ppa:kubuntu-ppa/backports-extra。然后单击“更新Updates”。
+
+终端方法（推荐）
+
+我建议你打开一个终端并进行此升级以更快地执行和安装。
+
+打开 Konsole 并运行以下命令以添加 向后移植 PPA。
+
+sudo add-apt-repository ppa:kubuntu-ppa/backports-extra
+
+
+
+
+现在，通过运行以下命令刷新包列表。然后验证 5.25 包是否可用。
+
+sudo apt update
+
+
+apt list --upgradable | grep 5.25
+
+
+
+
+最后，运行最后一个命令来启动升级。
+
+sudo apt full-upgrade
+
+
+总共下载大约 200 MB 的软件包。根据你的互联网连接速度，整个过程大约需要 10 分钟。
+
+上述命令完成后，重新启动系统。
+
+重启后，你应该会在 Kubuntu 22.04 LTS 中看到新的 KDE Plasma 5.25。
+
+
+
+其他向后移植 PPA
+
+请注意，另外的向后移植 PPA ppa:kubuntu-ppa/backports 目前提供的是 Plasma 5.24。因此，请勿使用与上面不同的 PPA。我不确定这个 PPA 是否会得到更新。
+
+sudo add-apt-repository ppa:kubuntu-ppa/backports // 不要使用这个
+
+
+如何卸载
+
+在任何时候，如果你想回到 KDE Plasma 桌面的原始版本，那么你可以安装 ppa-purge 并删除该 PPA，然后刷新包。
+
+打开终端，依次执行以下命令：
+
+sudo apt install ppa-purge
+sudo ppa-purge ppa:kubuntu-ppa/backports-extra
+sudo apt update
+
+
+完成上述命令后，重启系统。
+
+结束语
+
+这就是全部了。一个漂亮而简单的步骤，将 Jammy Jellyfish 中的 KDE Plasma 升级到 Plasma 5.25。我希望你升级顺利。
+
+如果您遇到任何错误，请在评论栏告诉我。
+
+干杯。
+
+
+via: https://www.debugpoint.com/kde-plasma-5-25-kubuntu-22-04/
+
+作者：Arindam 选题：lkxed 译者：geekpi 校对：wxy
+
+本文由 LCTT 原创编译，Linux中国 荣誉推出]]></summary>
+        <author>
+            <name>linux@linux.cn (linux)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The iPhone 14 Pro could bring back the old battery percentage indicator]]></title>
+        <id>https://www.theverge.com/2022/9/3/23319846/iphone-14-pro-reportedly-bring-back-old-battery-percentage-indicator-rumors-apple</id>
+        <link href="https://www.theverge.com/2022/9/3/23319846/iphone-14-pro-reportedly-bring-back-old-battery-percentage-indicator-rumors-apple"/>
+        <updated>2022-09-03T15:36:45.000Z</updated>
+        <summary type="html"><![CDATA[The battery icon and percentage shown on the iPhone 8. | Photo by James Bareham / The Verge
+    
+
+  
+The iPhone 14 Pro is rumored to revive the classic battery percentage indicator (yes, the one with the percentage and the battery level icon side-by-side), according to an alleged mockup of the device’s interface shared with MacRumors. This means Pro users may not get stuck with the hideous, and sometimes unreadable, indicator that Apple’s testing in the iOS 16 beta, which shows the percentage inside the battery icon.
+But Apple’s current version of the indicator on newer devices takes the form of a battery icon (without a percentage) that shows a visual representation of how much power your phone has left. This was first introduced in the iPhone X due to a lack of space caused by the notch, and forces you to swipe down to the Control...
+Continue reading…]]></summary>
+        <author>
+            <name>The Verge -  All Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NASA delays Artemis I’s launch for a second time]]></title>
+        <id>https://www.theverge.com/2022/9/3/23327972/nasa-artemis-i-sls-second-delay</id>
+        <link href="https://www.theverge.com/2022/9/3/23327972/nasa-artemis-i-sls-second-delay"/>
+        <updated>2022-09-03T15:19:30.000Z</updated>
+        <summary type="html"><![CDATA[Photo by Joel Kowsky/NASA via Getty Images
+    
+
+  
+NASA has once again scrubbed the debut launch of its Space Launch System (or SLS) rocket after engineers failed to fix a persistent hydrogen leak. 
+The hydrogen leak was first noticed this morning, soon after the rocket began being fueled with liquid hydrogen. NASA said the leak “developed in the supply side of the 8-inch quick disconnect while attempting to transfer fuel to the rocket.” The team made three troubleshooting attempts, but a leak was detected after each effort to fix the problem. After the third time, engineers recommended that the launch be a ‘no go.’ Soon after, the mission’s launch director, Charlie Blackwell-Thompson, decided to scrub the launch attempt.
+The SLS is meant to be one of the workhorses of NASA’s Artemis...
+Continue reading…]]></summary>
+        <author>
+            <name>The Verge -  All Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NASA scrubs second attempt to launch Artemis I after hydrogen leak [Updated]]]></title>
+        <id>https://arstechnica.com/?p=1877890</id>
+        <link href="https://arstechnica.com/?p=1877890"/>
+        <updated>2022-09-03T15:15:52.000Z</updated>
+        <summary type="html"><![CDATA[Hydrogen—it leaks.]]></summary>
+        <author>
+            <name>Eric Berger</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Nulocal — Unique global local platform to find nearby services]]></title>
+        <id>https://www.producthunt.com/posts/nulocal</id>
+        <link href="https://www.producthunt.com/posts/nulocal"/>
+        <updated>2022-09-03T13:31:40.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why it Matters that I just saw a Google Nest Hub control an Apple HomeKit smart plug]]></title>
+        <id>https://www.theverge.com/2022/9/3/23334933/matter-eve-smart-home-demonstration-nest-hub-android-smartthings-alexa-echo</id>
+        <link href="https://www.theverge.com/2022/9/3/23334933/matter-eve-smart-home-demonstration-nest-hub-android-smartthings-alexa-echo"/>
+        <updated>2022-09-03T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A Google Nest Hub (2nd-gen) controlling an Eve Energy smart plug.
+    
+
+  
+Matter, the upcoming standard that’s attempting to give the smart home a single unifying language, is almost here — and I was just treated to an early demonstration of the kinds of cross-platform compatibility that it should enable in the future. The demonstration was given by Eve, which produces a range of smart plugs, radiator valves, lighting, and security devices. 
+Historically, Eve has only ever worked with Apple’s HomeKit smart home platform. This is because it didn’t want to use cloud-to-cloud platforms, preferring to keep its devices on locally-controlled platforms for privacy and security. Eve has had an iOS app but no Android app, and it didn’t support Samsung’s SmartThings, Amazon’s Alexa, or Google Home. So it was notable to...
+Continue reading…]]></summary>
+        <author>
+            <name>The Verge -  All Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PlayStation Studios Is Getting Into Mobile Games]]></title>
+        <id>631243528eb3383ad69a2497</id>
+        <link href="https://www.wired.com/story/playstation-studios-mobile-games/"/>
+        <updated>2022-09-03T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Plus: Samsung has a new giant gaming monitor, Philips lights up new smart bulbs, and Twitter draws a Circle.]]></summary>
+        <author>
+            <name>Boone Ashworth</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Best Wi-Fi Routers]]></title>
+        <id>6246df08ceb527a328de3864</id>
+        <link href="https://www.wired.com/gallery/best-wifi-routers/"/>
+        <updated>2022-09-03T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Don’t suffer the buffer. These WIRED-tested systems will deliver reliable internet across your home whatever your needs or budget.]]></summary>
+        <author>
+            <name>Simon Hill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Police Across US Bypass Warrants With Mass Location-Tracking Tool]]></title>
+        <id>6311923d9fbbe8d3536bfa37</id>
+        <link href="https://www.wired.com/story/fog-reveal-police-montenegro-ransomware-ftc-lawsuit/"/>
+        <updated>2022-09-03T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Plus: An unsecured database exposed face recognition data in China, ‘Cuba’ ransomware knocks out Montenegro, and more.]]></summary>
+        <author>
+            <name>Lily Hay Newman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to watch NASA’s Artemis I SLS megarocket launch]]></title>
+        <id>https://www.theverge.com/2022/8/27/23318116/nasa-artemis-i-sls-megarocket-launch-orion-how-to-watch</id>
+        <link href="https://www.theverge.com/2022/8/27/23318116/nasa-artemis-i-sls-megarocket-launch-orion-how-to-watch"/>
+        <updated>2022-09-03T12:38:45.000Z</updated>
+        <summary type="html"><![CDATA[Photo by Joel Kowsky/NASA via Getty Images
+    
+
+  
+NASA’s massive Space Launch System (SLS) is almost ready for liftoff after facing a delay due to an engine leak last week. This highly anticipated rocket launch has been over a decade in the making and marks NASA’s return to crewed missions to the moon. This mission is called Artemis I, and while there won’t be any astronauts on board during this launch, it will serve as a test for the future goal of putting the first woman and the first person of color on the Moon.
+During its first launch, the SLS will catapult NASA’s Orion capsule into space, where it will embark on a voyage around the Moon that could take anywhere from 39 to 42 days. Last month, NASA rolled the 322-foot rocket to launch pad 39B at the Kennedy Space Center in Florida —...
+Continue reading…]]></summary>
+        <author>
+            <name>The Verge -  All Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Liveblog: All the news from Apple’s “Far Out” event]]></title>
+        <id>https://arstechnica.com/?p=1877934</id>
+        <link href="https://arstechnica.com/?p=1877934"/>
+        <updated>2022-09-03T12:00:24.000Z</updated>
+        <summary type="html"><![CDATA[Tune in at 1 pm EST on September 7, 2022, to see what's next from Apple.]]></summary>
+        <author>
+            <name>Samuel Axon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Your TV Sounds Awful. These Soundbars Can Fix That]]></title>
+        <id>5ba9532c0f3ae02cf6c58ef4</id>
+        <link href="https://www.wired.com/gallery/best-soundbars/"/>
+        <updated>2022-09-03T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Every television deserves a row of speakers to call its own. These are our favorites.]]></summary>
+        <author>
+            <name>Parker Hall</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pakistan’s ‘Monster Monsoon’ Shows the Wrath of Climate Change]]></title>
+        <id>630cede079f10149f7bb9e19</id>
+        <link href="https://www.wired.com/story/pakistans-monster-monsoon-shows-the-wrath-of-climate-change/"/>
+        <updated>2022-09-03T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Global warming has intensified rainfall to record levels, leading to deadly flash flooding.]]></summary>
+        <author>
+            <name>Damian Carrington</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How a giant eagle came to dominate ancient New Zealand]]></title>
+        <id>https://arstechnica.com/?p=1877987</id>
+        <link href="https://arstechnica.com/?p=1877987"/>
+        <updated>2022-09-03T11:00:54.000Z</updated>
+        <summary type="html"><![CDATA[Evidence suggests eagle was part of a wave of feathered invaders.]]></summary>
+        <author>
+            <name>Knowable Magazine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Weird and Wonderful Dual-Purpose Devices at IFA 2022]]></title>
+        <id>631258acf64c675d6d1a5123</id>
+        <link href="https://www.wired.com/story/weird-gadgets-ifa-2022/"/>
+        <updated>2022-09-03T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We went to Europe's big tech showcase, where party fridges and supercharged water bottles ruled the floor.]]></summary>
+        <author>
+            <name>Adam Speight</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Virtual Sessions Made Me a Better Therapist]]></title>
+        <id>62fd94be086c20d91ed51ac4</id>
+        <link href="https://www.wired.com/story/virtual-sessions-made-me-a-better-therapist-you-better-patient/"/>
+        <updated>2022-09-03T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Forced to use technology during Covid-19, I discovered surprising new ways to help couples. What I learned can make you a better partner.]]></summary>
+        <author>
+            <name>Sarah Gundle, PsyD</name>
         </author>
     </entry>
     <entry>
@@ -173,31 +945,7 @@ export default {
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Episode 100: myNewsWrap – SAP and Microsoft]]></title>
-        <id>https://dev.to/lechnerc77/episode-100-mynewswrap-sap-and-microsoft-1jk0</id>
-        <link href="https://dev.to/lechnerc77/episode-100-mynewswrap-sap-and-microsoft-1jk0"/>
-        <updated>2022-09-03T07:39:01.000Z</updated>
-        <summary type="html"><![CDATA[🥳 Episode 100: myNewsWrap – SAP and Microsoft
-
-
-Welcome to this week's edition of myNewsWrap, news from the world of SAP, Microsoft and the world in between.
-Let's us start with the SAP side of the house i. e. news around the Business Technology Platform.
-Let's see what happened around Kyma:
-
-And here some links from the broader SAP ecosystem:
-SAP BTP Security: How to handle Authorization and Attributes [2] with XSUAA and IAS
-Switched On Quick Flip 07: Is Vanilla Enterprise Software Realistic?
-Now let's look at the Microsoft universe.
-Here is what happened this week in the serverless space like Azure Functions and Static Web Apps:
-Public preview: Node.js 18 in Azure Functions
-Generally available: Azure Functions extension for Event Grid blob trigger
-Working with Azure Cosmos DB input and …]]></summary>
-        <author>
-            <name>Christian Lechner</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Smartlnks.com — The Future's Bright, The Future's Smartlnks]]></title>
+        <title type="html"><![CDATA[Smartlnks.com — Smartlnks - Follow, Analyze, Track, Share and Monetize.]]></title>
         <id>https://www.producthunt.com/posts/smartlnks-com</id>
         <link href="https://www.producthunt.com/posts/smartlnks-com"/>
         <updated>2022-09-03T07:32:09.000Z</updated>
@@ -269,197 +1017,6 @@ Discussion
             Link]]></summary>
         <author>
             <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Migrating Your PostgreSQL Database From Heroku to CockroachDB]]></title>
-        <id>https://dev.to/harshhhdev/migrating-your-postgresql-database-from-heroku-to-cockroachdb-bj8</id>
-        <link href="https://dev.to/harshhhdev/migrating-your-postgresql-database-from-heroku-to-cockroachdb-bj8"/>
-        <updated>2022-09-03T04:14:10.000Z</updated>
-        <summary type="html"><![CDATA[After almost a decade, Heroku announced that they will eliminate all of their free tier services. They'll also delete inactive accounts and associated storage with those accounts that have been inactive for over a year. In their blog post, they blamed 'abuse' for their demise of free services.
-Quoted from the TechCrunch article, 
-In a blog post, Bob Wise, Heroku general manager and Salesforce EVP, blamed 'abuse' on the demise of the free services, which span the free plans for Heroku Dynos and Heroku Postgres as well as the free plan for Heroku Data for Redis. 'Our product, engineering, and security teams are spending an extraordinary amount of effort to manage fraud and abuse of the Heroku free product plans,' Wise said. 'We will continue to provide low-cost solutions for compute and data…]]></summary>
-        <author>
-            <name>Harsh Singh</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Simple MongoDB Database Setup for Discord.JS (Replit)]]></title>
-        <id>https://dev.to/w6/simple-mongodb-database-for-discordjs-replit-3i2k</id>
-        <link href="https://dev.to/w6/simple-mongodb-database-for-discordjs-replit-3i2k"/>
-        <updated>2022-09-03T04:13:35.000Z</updated>
-        <summary type="html"><![CDATA[Here's an easy implementation of MongoDB in a Discord.JS bot built on Replit! Be sure to follow the steps closely or you might miss something.
-Create a "models" folder in your bot, we'll use this to store all the databases in.
-IMPORTANT: Create a environment variable called mongodb and put your database's connection URI in there. It should look something like this: mongodb+srv://username:password@cluster0.clusters.mongodb.net/?retryWrites=true&w=majority
-Don't use the example I provided, put your own, it won't work. If you don't have a MongoDB, you can create on at MongoDB.
-In your index.js file, include this:
-const mongoose = require('mongoose');
-
-mongoose.connect(process.env.mongodb, { useNewUrlParser: true, useUnifiedTopology: true }).then(console.log('Connected to Mongodb.'));
-
-In the …]]></summary>
-        <author>
-            <name>w6</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hot reloading in Rust!]]></title>
-        <id>https://dev.to/nickytonline/hot-reloading-in-rust-4i1c</id>
-        <link href="https://dev.to/nickytonline/hot-reloading-in-rust-4i1c"/>
-        <updated>2022-09-03T04:13:20.000Z</updated>
-        <summary type="html"><![CDATA[I've been learning rust on and off since last fall. I'm still not proficient in the language as I haven't dedicated as much time to the language as I'd like to. Still, I find pockets of time, like tonight, to dive in a bit.
-A quick Google of "rust hot reloading" introduced me to the rust crate, cargo-watch. I installed it as per their instructions, cargo install cargo-watch.
-From there, I went into a rust project I'm working on and ran the following from the project's root from the command line, cargo watch -x 'run'.
-And that was it! I was able to start up my program, and with every change, it reran automatically!
-[Finished running. Exit status: 101]
-[Running 'cargo run']
-   Compiling rusty v0.1.0 (/Users/nicktaylor/dev/courses/rustforjsdevs/rusty)
-    Finished dev [unoptimized + debuginfo] target(s) in 0.12s
-     Running `target/debug/rusty`
-["tobey maguire", "andrew garfield", "tom holland"]
-[Finished running. Exit status: 0]
-[Running 'cargo run']
-   Compiling rusty v0.1.0 (/Users/nicktaylor/dev/courses/rustforjsdevs/rusty)
-    Finished dev [unoptimized + debuginfo] target(s) in 0.13s
-     Running `target/debug/rusty`
-["tobey maguire", "andrew garfield", "tom holland", ""]
-[Finished running. Exit status: 0]
-[Running 'cargo run']
-   Compiling rusty v0.1.0 (/Users/nicktaylor/dev/courses/rustforjsdevs/rusty)
-    Finished dev [unoptimized + debuginfo] target(s) in 0.12s
-     Running `target/debug/rusty`
-["tobey maguire", "andrew garfield", "tom holland", "pete davidson"]
-[Finished running. Exit status: 0]
-
-🦀
-Photo by Mackenzie Cruz on Unsplash]]></summary>
-        <author>
-            <name>Nick Taylor</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Subset vs Substring]]></title>
-        <id>https://dev.to/zeeshanali0704/subset-vs-substring-42fm</id>
-        <link href="https://dev.to/zeeshanali0704/subset-vs-substring-42fm"/>
-        <updated>2022-09-03T02:17:15.000Z</updated>
-        <summary type="html"><![CDATA[SubString
-
-
--extracts characters, between two indices (positions), from a string, and returns the substring.
-var theString = "abc",
-  allSubstrings = [];
-
-getAllSubstrings(theString);
-
-function getAllSubstrings(str) {
-  for (let i = 0; i < str.length; i++) {
-    for (let j = i + 1; j <= str.length; j++) {
-      allSubstrings.push(str.substring(i, j));
-    }
-  }
-}
-
-console.log(allSubstrings);
-
-[ 'a', 'ab', 'abc', 'b', 'bc', 'c' ] - Please note 'ac' is not a substring.
--A subset MAY NOT maintain relative ordering of elements and can or cannot be a contiguous part of an array. For a set of size n, we can have (2^n) sub-sets in total.
-var subsets = function (str) {
-  let index = 0;
-  let subset = [];
-  let current = "";
-  findSubset(index, str, subset, current);
-  return subset;
-};
-
-const findSubset = (index, str, subset, current) => {
-  if (index === str?.length) {
-    subset.push(current);
-    return;
-  }
-
-  findSubset(index + 1, str, subset, current + str.charAt(index));
-  findSubset(index + 1, str, subset, current);
-};
-
-console.log(subsets("abc"));
-
-
-[ 'a', 'ab', 'abc', 'b', 'bc', 'c' ] - Please note 'ac' & '' is subset]]></summary>
-        <author>
-            <name>ZeeshanAli-0704</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Simple Google Map App - Jetpack Compose]]></title>
-        <id>https://dev.to/vtsen/simple-google-map-app-jetpack-compose-2ebb</id>
-        <link href="https://dev.to/vtsen/simple-google-map-app-jetpack-compose-2ebb"/>
-        <updated>2022-09-03T01:05:39.000Z</updated>
-        <summary type="html"><![CDATA[Step-by-step guides to implement Google Map app using Jetpack Compose components for the Android Maps SDK
-This article was originally published at vtsen.hashnode.dev on Aug 13, 2022.
-This simple Google Map app is based on the simplified version of sample app from this Google Map compose library. In addition, I added the following features into this sample app:  
-Location Permission Request 
-Device Location Setting Request
-
-The first thing you need to do is setting up a Google cloud project to generate an API key which allows you to use the Google Maps SDK API.
-Setup New Project in console.cloud.google.com
-
-In your project dashboard, go to APIs overview
-
-In API & Services page, go to Library
-
-Search for Maps SDK for Android and enable it
-Back to the API & Services page, go to Credentials
-
-S…]]></summary>
-        <author>
-            <name>Vincent Tsen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Segregate Perl Projects with App::plx]]></title>
-        <id>https://dev.to/nicholasbhubbard/segregate-perl-projects-with-appplx-7oj</id>
-        <link href="https://dev.to/nicholasbhubbard/segregate-perl-projects-with-appplx-7oj"/>
-        <updated>2022-09-03T00:09:10.000Z</updated>
-        <summary type="html"><![CDATA[App::plx (Plx) is a tool for configuring per-project Perl development environments.
-Plx is not difficult to use and has very clear documentation. In this post I will give a brief overview of some of the problems that it solves and how to get started using it.
-This is not a complete overview on everything that Plx can do.
-
-Imagine you have a project that depends on a Perl version greater than that of your systems built-in Perl. You will need to install the correct version of Perl and figure out how to get your project to use this Perl instead of the system's Perl.
-Next imagine a scenario where you are working on two different Perl projects that depend on a different version of the same CPAN module. You will need to figure out how to install both versions into different locations, and then y…]]></summary>
-        <author>
-            <name>Nicholas Hubbard</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A melhor maneira que encontrei para aprender Ruby]]></title>
-        <id>https://dev.to/meleu/a-melhor-maneira-que-encontrei-para-aprender-ruby-56d5</id>
-        <link href="https://dev.to/meleu/a-melhor-maneira-que-encontrei-para-aprender-ruby-56d5"/>
-        <updated>2022-09-03T00:02:33.000Z</updated>
-        <summary type="html"><![CDATA[Esse artigo contem uma lista de coisas que estão funcionando muito bem para o meu aprendizado da linguagem Ruby. Estou compartilhando aqui pois acredito que também possa ter alguma valia para pessoas que tenham um perfil parecido.
-Premissas:
-saber ler em inglês.
-já ter alguma noção de programação.
-saber pelo menos os conceitos básicos de programação orientada a objetos.
-Leia Ruby in 100 Minutes para ter uma boa noção inicial da sintaxe.
-
-
-Faça os desafios da trilha Ruby no exercism.org.
-
-
-Brinque com os Ruby Koans para ir fixando os conceitos mais fundamentais da linguagem.
-
-
-
-
-  
-  
-  Por que eu decidi aprender Ruby
-
-
-Depois de alguns anos atuando como DevOps Engineer, resolvi migrar para área de desenvolvimento web (em algum outro artigo eu falo sobre minhas motivações).
-Passei um bom te…]]></summary>
-        <author>
-            <name>meleu</name>
         </author>
     </entry>
     <entry>
@@ -548,22 +1105,6 @@ Continue reading…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Microsoft will keep Call of Duty on PlayStation for ‘several more years’ beyond existing deal]]></title>
-        <id>https://www.theverge.com/2022/9/2/23334619/microsoft-sony-call-of-duty-playstation-letter-commitment-activision-blizzard</id>
-        <link href="https://www.theverge.com/2022/9/2/23334619/microsoft-sony-call-of-duty-playstation-letter-commitment-activision-blizzard"/>
-        <updated>2022-09-02T18:52:23.000Z</updated>
-        <summary type="html"><![CDATA[Illustration by Alex Castro / The Verge
-    
-
-  
-Microsoft is committing to keeping Call of Duty on PlayStation for “several more years” beyond the existing marketing deal Sony has with Activision. Microsoft Gaming CEO and Xbox chief Phil Spencer made the commitment in a written letter to PlayStation head Jim Ryan earlier this year, and it’s the clearest sign yet that Call of Duty won’t suddenly disappear from PlayStation platforms if Microsoft’s $68.7 billion deal is approved by regulators.
-“In January, we provided a signed agreement to Sony to guarantee Call of Duty on PlayStation, with feature and content parity, for at least several more years beyond the current Sony contract, an offer that goes well beyond typical gaming industry agreements,” says Microsoft Gaming CEO Phil Spencer...
-Continue reading…]]></summary>
-        <author>
-            <name>The Verge -  All Posts</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Here come the bendable TVs and monitors that no one asked for]]></title>
         <id>https://arstechnica.com/?p=1877958</id>
         <link href="https://arstechnica.com/?p=1877958"/>
@@ -571,22 +1112,6 @@ Continue reading…]]></summary>
         <summary type="html"><![CDATA[Flat-to-curved screens have an identity crisis.]]></summary>
         <author>
             <name>Scharon Harding</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Samsung says a data breach revealed some customers’ names, birthdays, and more]]></title>
-        <id>https://www.theverge.com/2022/9/2/23334580/samsung-data-breach-us-names-birthdays-contact-info</id>
-        <link href="https://www.theverge.com/2022/9/2/23334580/samsung-data-breach-us-names-birthdays-contact-info"/>
-        <updated>2022-09-02T17:37:51.000Z</updated>
-        <summary type="html"><![CDATA[Illustration by Alex Castro / The Verge
-    
-
-  
-Samsung is warning customers about a cybersecurity incident in July, where “an unauthorized third party acquired information from some of Samsung’s U.S. systems,” including things like names, birthdays, contact info, and product registration information. The company says it discovered the breach on August 4th, and is currently investigating it with “a leading outside cybersecurity firm.”
-According to the company’s FAQ about the incident, it’s sending emails to customers who were specifically affected, and it will continue doing so as its investigation progresses. Samsung says that not everybody will have had the same info leaked. The company didn’t immediately reply to The Verge’s request for comment on which of its systems were...
-Continue reading…]]></summary>
-        <author>
-            <name>The Verge -  All Posts</name>
         </author>
     </entry>
     <entry>
@@ -609,27 +1134,6 @@ Continue reading…]]></summary>
         <summary type="html"><![CDATA[It's not in the US, it's not for games, and devs will only save 4 percent.]]></summary>
         <author>
             <name>Ron Amadeo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Leaked Sonos Sub Mini marketing photos show off its cylindrical shape]]></title>
-        <id>https://www.theverge.com/2022/9/2/23334501/sonos-sub-mini-leak-pictures-design</id>
-        <link href="https://www.theverge.com/2022/9/2/23334501/sonos-sub-mini-leak-pictures-design"/>
-        <updated>2022-09-02T17:19:03.000Z</updated>
-        <summary type="html"><![CDATA[Leaked Sonos Sub Mini image | Image: WinFuture.de
-    
-
-  
-Sonos customers have been waiting for a cheaper subwoofer since the first signs of one popped up late last year, and now WinFuture.de is giving us a few pics for a better look at the device. 
-The Sub Mini’s design was first revealed by The Verge several months ago, and these marketing images closely resemble our original rendering. As seen in the pictures above has a large cutout that appears to more closely resemble the port in Sonos’ larger, $749 Sub, along with an overall height that’s closer to the Sonos One speakers.
-Product render by Grayson Blackmon / The Verge
-  
-
-
-The pictures don’t come with much in the way of details, specifications, or release date; however, as WinFuture points out, these marketing pics...
-Continue reading…]]></summary>
-        <author>
-            <name>The Verge -  All Posts</name>
         </author>
     </entry>
     <entry>
@@ -675,22 +1179,6 @@ Continue reading…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[PSA: Bandcamp Friday is back]]></title>
-        <id>https://www.theverge.com/2022/8/26/23323894/bandcamp-fridays-coming-back-september-2022-music-psa</id>
-        <link href="https://www.theverge.com/2022/8/26/23323894/bandcamp-fridays-coming-back-september-2022-music-psa"/>
-        <updated>2022-09-02T16:31:27.000Z</updated>
-        <summary type="html"><![CDATA[Time to buy some jams. | Photo by Roy Rochlin/Getty Images
-    
-
-  
-Bandcamp is bringing back its Bandcamp Fridays promotion where it waives its cut of any money you spend buying music from artists or their labels on its marketplace. Historically, the company ran the promotion on the first Friday of every month, and that appears to be the case this time around, too. According to its update page, it has Bandcamp Fridays scheduled for September 2nd, October 7th, November 4th, and December 2nd.
-Bandcamp says that when you buy music during a Bandcamp Friday, 93 percent of that money goes to the artist or label on average (with the rest going to payment processing fees). That’s compared to an average of 82 percent the rest of the time. It started the promotion in 2020 in response to the pandemic’s impact on...
-Continue reading…]]></summary>
-        <author>
-            <name>The Verge -  All Posts</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Frank Drake, astronomer famed for contributions to SETI, has died]]></title>
         <id>https://arstechnica.com/?p=1877997</id>
         <link href="https://arstechnica.com/?p=1877997"/>
@@ -708,66 +1196,6 @@ Continue reading…]]></summary>
         <summary type="html"><![CDATA[Dev demeaned a trans streamer in a post joking about a "sex change" for the game.]]></summary>
         <author>
             <name>Kyle Orland</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Verge’s 2022 back-to-school gift guide]]></title>
-        <id>https://www.theverge.com/23199281/back-to-school-student-gift-ideas-college-high-school-dorm-supplies-tech-2022</id>
-        <link href="https://www.theverge.com/23199281/back-to-school-student-gift-ideas-college-high-school-dorm-supplies-tech-2022"/>
-        <updated>2022-09-02T16:14:57.000Z</updated>
-        <summary type="html"><![CDATA[All the best backpacks, laptops, tablets, and wearables for the new school year. | The Verge
-    
-
-
-  		 
-Our favorite laptops, bags, and gadgets for students
-Continue reading…]]></summary>
-        <author>
-            <name>The Verge -  All Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Twitter had a new plan to fight extremism — then Elon arrived]]></title>
-        <id>https://www.theverge.com/23334224/twitter-extremism-features-health-research-team-elon-musk-acquisition</id>
-        <link href="https://www.theverge.com/23334224/twitter-extremism-features-health-research-team-elon-musk-acquisition"/>
-        <updated>2022-09-02T16:05:00.000Z</updated>
-        <summary type="html"><![CDATA[Illustration by Kristen Radtke / The Verge; Getty Images
-    
-
-
-  		 
-The company had an ambitious plan to fight extremism on the platform. So what happened to it?
-Continue reading…]]></summary>
-        <author>
-            <name>The Verge -  All Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[China is all in on foldables — and Honor’s CEO thinks the rest of the world is ready, too]]></title>
-        <id>https://www.theverge.com/2022/9/2/23326730/honor-magic-v2-foldable-international-china-release-app-market</id>
-        <link href="https://www.theverge.com/2022/9/2/23326730/honor-magic-v2-foldable-international-china-release-app-market"/>
-        <updated>2022-09-02T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[George Zhao announcing Honor’s first foldable, the Magic V, in early 2021 | Image: Honor
-    
-
-  
-Honor is planning to release its second foldable next year, and unlike the Honor Magic V, the company hopes to actually release the device outside of China. Honor’s CEO, George Zhao, confirmed the plans in an interview with The Verge ahead of this year’s IFA trade show in Berlin and said the company expects to launch its next foldable device in the first quarter of next year. 
-“We’ve made the decision that next year, in Q1, we’ll bring our latest foldable smartphone to international markets,” including Europe, Zhao said. The CEO didn’t confirm any specifics or details for the new device but indicated that Honor’s major areas of focus for its foldables are making them thinner, lighter, and more affordable. 
-A release in the first quarter...
-Continue reading…]]></summary>
-        <author>
-            <name>The Verge -  All Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Honor 70 review: no deal-breakers, no showstoppers]]></title>
-        <id>https://www.theverge.com/23323325/honor-70-review-120hz-display-snapdragon-778g-plus-triple-camera</id>
-        <link href="https://www.theverge.com/23323325/honor-70-review-120hz-display-snapdragon-778g-plus-triple-camera"/>
-        <updated>2022-09-02T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[There’s nothing to hate but nothing to truly love about Honor’s latest midrange device
-Continue reading…]]></summary>
-        <author>
-            <name>The Verge -  All Posts</name>
         </author>
     </entry>
     <entry>
@@ -1138,6 +1566,18 @@ Discussion
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[HyreSnap — Get the perfect resume for your next job in 10 minutes]]></title>
+        <id>https://www.producthunt.com/posts/hyresnap</id>
+        <link href="https://www.producthunt.com/posts/hyresnap"/>
+        <updated>2022-09-02T08:07:02.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[The daily anchor — Free personal wellbeing action tracker]]></title>
         <id>https://www.producthunt.com/posts/the-daily-anchor</id>
         <link href="https://www.producthunt.com/posts/the-daily-anchor"/>
@@ -1469,16 +1909,6 @@ Discussion
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Lenovo announces consumer AR glasses that can tether to iPhones]]></title>
-        <id>https://arstechnica.com/?p=1877265</id>
-        <link href="https://arstechnica.com/?p=1877265"/>
-        <updated>2022-09-01T21:56:58.000Z</updated>
-        <summary type="html"><![CDATA[Lenovo dangles a platform-agnostic carrot in front of AR hopefuls.]]></summary>
-        <author>
-            <name>Scharon Harding</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[nēdl — AI-powered search for live audio streams]]></title>
         <id>https://www.producthunt.com/posts/nedl-2</id>
         <link href="https://www.producthunt.com/posts/nedl-2"/>
@@ -1488,36 +1918,6 @@ Discussion
             Link]]></summary>
         <author>
             <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[State forces Frontier to stop charging $7 “Internet Infrastructure Surcharge”]]></title>
-        <id>https://arstechnica.com/?p=1877733</id>
-        <link href="https://arstechnica.com/?p=1877733"/>
-        <updated>2022-09-01T20:03:36.000Z</updated>
-        <summary type="html"><![CDATA[Users won't get refunds for hidden fee, but deal in Conn. imposes other conditions.]]></summary>
-        <author>
-            <name>Jon Brodkin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USB-C naming to somehow get worse with USB4 Version 2.0]]></title>
-        <id>https://arstechnica.com/?p=1877686</id>
-        <link href="https://arstechnica.com/?p=1877686"/>
-        <updated>2022-09-01T19:49:08.000Z</updated>
-        <summary type="html"><![CDATA[USB-C is getting yet another specification.]]></summary>
-        <author>
-            <name>Scharon Harding</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pixel art comes to life: Fan upgrades classic MS-DOS games with AI]]></title>
-        <id>https://arstechnica.com/?p=1877676</id>
-        <link href="https://arstechnica.com/?p=1877676"/>
-        <updated>2022-09-01T19:40:05.000Z</updated>
-        <summary type="html"><![CDATA[A technique called "img2img" can upgrade pixel artwork into high definition.]]></summary>
-        <author>
-            <name>Benj Edwards</name>
         </author>
     </entry>
     <entry>
@@ -1897,42 +2297,6 @@ via: https://jvns.ca/blog/2022/08/30/a-way-to-categorize-debugging-skills/
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Uncino — Fast, tiny and solid hooks system for Javascript and NodeJS]]></title>
-        <id>https://www.producthunt.com/posts/uncino</id>
-        <link href="https://www.producthunt.com/posts/uncino"/>
-        <updated>2022-09-01T13:17:20.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Unweave — ML, without the FML]]></title>
-        <id>https://www.producthunt.com/posts/unweave</id>
-        <link href="https://www.producthunt.com/posts/unweave"/>
-        <updated>2022-09-01T13:06:08.000Z</updated>
-        <summary type="html"><![CDATA[@mark_e_winter and @matthewmihok we’re building the Heroku for Machine Learning.
-
-Unweave gives you instant serverless infrastructure to train your machine learning models. It gets you up and running with fully reproducible training environments with near zero config.
-
-The inspiration for Unweave, and the tagline, came from the countless hours spent spinning up EC2 instances, managing S3 buckets, tweaking config files and writing heaps of boilerplate code just to get some extra processing power and storage capacity.
-It led us to ask ourselves: what if you could keep that gleamingly smooth Macbook Pro user experience but bundle it with infinite storage and computing capacity?
-
-That’s what we’ve set out to build with Unweave.
-
-Unweave works in one simple way: if you run `unweave python train.py` instead of `python train.py`, it automatically builds and runs your environment in the cloud, within seconds, while versioning everything you run end-to-end.
-              ”
-              
-Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Circuit — Time to go]]></title>
         <id>https://www.producthunt.com/posts/circuit-2</id>
         <link href="https://www.producthunt.com/posts/circuit-2"/>
@@ -2032,6 +2396,16 @@ Discussion
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Awesome GitHub Repositories for Web Developer - Part 2]]></title>
+        <id>https://dev.to/surajondev/awesome-github-repositories-for-web-developer-part-2-1h8b</id>
+        <link href="https://dev.to/surajondev/awesome-github-repositories-for-web-developer-part-2-1h8b"/>
+        <updated>2022-09-01T11:36:22.000Z</updated>
+        <summary type="html"><![CDATA[#github #webdev #javascript #beginners]]></summary>
+        <author>
+            <name>Suraj Vishwakarma</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Trans Researchers Want Google Scholar to Stop Deadnaming Them]]></title>
         <id>630506f9cea7c0581e825d21</id>
         <link href="https://www.wired.com/story/trans-researchers-want-google-scholar-to-stop-deadnaming-them/"/>
@@ -2072,18 +2446,6 @@ Discussion
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Gloo — Power tools for Elementor]]></title>
-        <id>https://www.producthunt.com/posts/gloo</id>
-        <link href="https://www.producthunt.com/posts/gloo"/>
-        <updated>2022-09-01T10:14:55.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Careless Errors in Hundreds of Apps Could Expose Troves of Data]]></title>
         <id>630f99abba2a66af641b1313</id>
         <link href="https://www.wired.com/story/mobile-apps-cloud-credentials-exposed/"/>
@@ -2106,68 +2468,6 @@ Discussion
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[5 款适用于 Linux 的笔记应用]]></title>
-        <id>https://linux.cn/article-14990-1.html?utm_source=rss&amp;utm_medium=rss</id>
-        <link href="https://linux.cn/article-14990-1.html?utm_source=rss&amp;utm_medium=rss"/>
-        <updated>2022-09-01T09:35:00.000Z</updated>
-        <summary type="html"><![CDATA[使用这些开源工具来记笔记。
-
-
-笔记是任何作者生活的一部分。我的大部分文章都是从笔记应用开始的，这对我来说通常是 Joplin。有大量适用于 Linux 的笔记应用，你可能使用的不是我最喜欢的应用。最近的一篇博客文章让我想起了其中的六个，所以我整理了一份我最喜欢的列表。
-
-Joplin
-
-
-
-Joplin 适用于 Linux、Windows、macOS、Android 和 iOS。我喜欢 Joplin，因为它会自动保存你添加的任何内容。笔记可以上传到 NextCloud、OwnCloud、Joplin Cloud，甚至是 OneDrive、Dropbox 或任何 WebDav 应用等闭源服务。Joplin 还支持加密。
-
-以各种格式导出笔记也很容易。它带有八个不同的主题，可让你定制其外观。
-
-Joplin 采用 MIT 许可证。最初于 2017 年发布，Joplin 正在与大量贡献者社区一起持续开发。
-
-Xournal
-
-
-
-Xournal 适用于 Linux、Windows、macOS 和 Android。它的目的是让你创建包含几乎任何你可以想象的媒体类型的笔记。它支持压敏手写笔和绘图板，因此你可以创建 涂鸦笔记。你可以在里面打字、绘制简单的矢量、导入图形、录制音频等等。你还可以使用 Xournal 来注释 PDF，这就是我使用它的方式。它以 GPLv2 许可证发布，你可以以多种格式导出笔记。
-
-Trillium
-
-
-
-Trillium 是一个层级笔记应用，专注于知识构建库。它具有丰富的所见即所得编辑功能，支持表格、图像和 Markdown。它支持使用语法高亮编辑源代码中的注释。它是在 AGPL 许可证下发布的。
-
-Trilium 可用作 Linux 和 Windows 的桌面应用，以及你可以在自己的 Linux 服务器上托管的 Web 应用。
-
-Gnote
-
-
-
-Gnote 是一个为 Linux 编写的开源笔记应用。它是由 Hubert Figuière 从一个名为 Tomboy 的项目中克隆出来的。与 Tomboy 一样，Gnote 使用类似 Wiki 的链接系统来允许你将笔记链接在一起。
-
-GNote 的源代码可在 GitLab 上找到。该软件是 GPLv3 许可。
-
-CherryTree
-
-
-
-CherryTree 支持层级笔记。在 CherryTree 中，所有东西都是一个节点。节点可以是纯文本、富文本、各种编程语言的语法高亮。每个节点可以有子节点，每个子节点有不同的格式。
-
-CherryTree 具有富文本和语法高亮的特点，并可以将数据存储在一个 XML 或 SQLite 文件中。CherryTree 可以从各种格式导入，包括 Markdown、HTML、纯文本、Gnote、Tomboy 和其他格式。它可以将文件导出为 PDF、HTML、纯文本和它自己的 CherryTree 格式。
-
-CherryTree 使用 GPLv3 许可，可以安装在 Linux、Windows 和 macOS 上。
-
-
-via: https://opensource.com/article/22/8/note-taking-apps-linux
-
-作者：Don Watkins 选题：lkxed 译者：geekpi 校对：wxy
-
-本文由 LCTT 原创编译，Linux中国 荣誉推出]]></summary>
-        <author>
-            <name>linux@linux.cn (linux)</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[待办软件 vs 日历软件，新手朋友应该如何选择？]]></title>
         <id>https://sspai.com/post/75482</id>
         <link href="https://sspai.com/post/75482"/>
@@ -2187,18 +2487,6 @@ via: https://opensource.com/article/22/8/note-taking-apps-linux
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Restfox — Browser based HTTP client inspired by Insomnia and Postman]]></title>
-        <id>https://www.producthunt.com/posts/restfox</id>
-        <link href="https://www.producthunt.com/posts/restfox"/>
-        <updated>2022-09-01T09:09:54.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[一些BAT的XSS实例（一）基础篇]]></title>
         <id>https://xz.aliyun.com/t/11677</id>
         <link href="https://xz.aliyun.com/t/11677"/>
@@ -2206,53 +2494,6 @@ via: https://opensource.com/article/22/8/note-taking-apps-linux
         <summary type="html"><![CDATA[一些BAT的XSS实例（一）基础篇]]></summary>
         <author>
             <name>先知安全技术社区</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[硬核观察 #746 Apache OpenOffice 下载量超过 3.33 亿次，主要是 Windows 用户]]></title>
-        <id>https://linux.cn/article-14989-1.html?utm_source=rss&amp;utm_medium=rss</id>
-        <link href="https://linux.cn/article-14989-1.html?utm_source=rss&amp;utm_medium=rss"/>
-        <updated>2022-09-01T08:55:19.000Z</updated>
-        <summary type="html"><![CDATA[Apache OpenOffice 下载量超过 3.33 亿次，主要是 Windows 用户
-
-虽然 Apache OpenOffice 开源办公套件的发展几乎停滞不前，而 LibreOffice 一直在提供更现代的特性和功能，有趣的是，人们仍然在继续下载和使用 OpenOffice。Apache 软件基金会在周二宣布，自从他们在 2011 年接管这个开源办公套件以来，现在已经有超过 3.33 亿次下载。有些讽刺的是，根据公开的数字显示，Windows 用户的下载量为 2.97 亿，macOS 用户的下载量为 3100 万，而 Linux 用户的下载量仅为 470 万。另外，在 2020 年他们庆祝下载了 3 亿次。也就是说前 10 年平均每年有 3000 万次，而最近两年平均 1600 万次。
-
-
-消息来源：Phoronix
-
-
-
-老王点评：Linux 用户数很少的一个原因是，几乎所有桌面 Linux 都预装的是 LibreOffice 而不是 OpenOfficce。这算不算唯一的 Windows 用户远超 Linux 用户的大型开源软件？另外，作为一个参考，2018 年，LibreOffice 说他们有 2 亿活跃用户，下载量理论上更多。
-
-
-
-
-QEMU 7.1 发布，支持 LoongArch 64 位架构
-
-QEMU 7.1 在开源 Linux 虚拟化堆栈中发挥着重要作用。在最新的版本中，提供了对 LoongArch 64 位架构的初步支持，目标是为了匹配 Loongson 3A5000 SoC 和 Loongson 7A1000 主机桥。此版本还增加了对 RISC-V 1.12 特权规格的支持。支持 Linux 上的 QEMU 的零拷贝发送，以减少虚拟机迁移时对源主机的 CPU 占用。
-
-
-消息来源：Phoronix
-
-
-
-老王点评：QEMU 对龙芯的支持意义重大，虽然我对龙芯对 RISC-V 的批评不以为然，但是看到龙芯的发展还是应该点个赞。
-
-
-
-
-恶意应用伪装成谷歌翻译桌面应用来挖矿
-
-尽管谷歌翻译从未推出过桌面版，但是用户搜索就可能会在结果页面看到一些免费软件网站提供下载。IT 安全组织 CPR 发布了一份报告，称其发现了隐藏在看起来合法的应用程序背后的加密挖掘恶意软件活动。这些欺诈程序包括桌面版的谷歌翻译、Yandex 翻译、微软翻译、YouTube Music 等等。
-
-
-消息来源：Checkpoint
-
-
-
-老王点评：虽然我们肯定不会从第三方下载来源不明的这种所谓官方应用，但是真有大量用户去下载。]]></summary>
-        <author>
-            <name>linux@linux.cn (linux)</name>
         </author>
     </entry>
     <entry>
@@ -2281,30 +2522,6 @@ SoundDock II 的声音也是 Bose 典型的调音风格，声音浑厚注重氛�
 AirPort Express是苹果已经停产的路由器，它长得就像是一个MacBook电源，除了基础的网…]]></summary>
         <author>
             <name>Matrix机器人</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Weperson — HR SaaS and analytics for startups]]></title>
-        <id>https://www.producthunt.com/posts/weperson</id>
-        <link href="https://www.producthunt.com/posts/weperson"/>
-        <updated>2022-09-01T07:38:20.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PlayBackk — A platform to your voice]]></title>
-        <id>https://www.producthunt.com/posts/playbackk</id>
-        <link href="https://www.producthunt.com/posts/playbackk"/>
-        <updated>2022-09-01T07:19:23.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -2380,73 +2597,13 @@ BPF is a system to help in network traffic analysis. The later eBPF system exten
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Debian 终于开始讨论非自由固件镜像了]]></title>
-        <id>https://linux.cn/article-14988-1.html?utm_source=rss&amp;utm_medium=rss</id>
-        <link href="https://linux.cn/article-14988-1.html?utm_source=rss&amp;utm_medium=rss"/>
-        <updated>2022-09-01T04:21:00.000Z</updated>
-        <summary type="html"><![CDATA[Debian 终于开始考虑将非自由固件纳入一般决议中了。那么，将会如何呢？
-
-
-
-
-由于其稳定性和新功能之间的平衡的做法，Debian 是最受欢迎的 Linux 发行版之一。
-
-但是，它并没有配备任何非自由固件。
-
-对于想在新硬件上使用 Debian 的用户来说，这已经成为一个问题。
-
-大多数最新的设备和配置都需要非自由固件来使其工作，这包括 Wi-Fi、图形显示等等。
-
-为了解决这个问题，前 Debian 项目负责人、开发者 Steve McIntyre 已经对此积极讨论了一段时间。最近在 DebConf 22 会议上，正如 Geeker's Digest 所发现的那样，Steve 谈到了修复固件的混乱局面，更好地向用户和开发者表明了这一点。
-
-现在社区中讨论的进展是，看起来 Debian 已经启动了一项一般决议，让其利益相关者投票决定如何处理非自由固件的问题。
-
-Debian 的一般决议提案
-
-这个一般决议案有四个提案（LCTT 译注：原文和官方提案说明不够清晰，我根据理解重新梳理了）：
-
-
-提案 A：改变原有的官方镜像集（安装镜像和实况镜像），Debian 将在官方镜像中包含非自由固件包。包含的固件将在检测到需求时默认启用。然而，它也将包括让用户在启动时禁用的方法。（截止本文发表时的提案支持人数：17）
-
-提案 B：不改变原有的镜像集，保留原来的不包含非自由固件的镜像，另外单独提供包含非自由固件的官方镜像。新的镜像下载链接将更醒目以方便新用户找到它们，而原来的镜像的视觉优先级将变低。（截止本文发表时的提案支持人数：10）
-
-提案 C：和提案 B 类似，在用户下载不包含自由固件的镜像时，提醒他们还有包含非自由固件的镜像可供下载。（截止本文发表时的提案支持人数：6）
-
-提案 D：继续遵守《Debian 社会契约Debian Social Contract》第 1 节和第 5 节的精神，继续保持现状，不在 Debian 中包含任何非自由软件，但支持它们的使用，并欢迎其他人分发这样的作品。（截止本文发表时的提案支持人数：6）
-
-
-这些是一些有趣的建议。我认为提案 A 对所有人都很方便，同时给高级用户禁用非自由固件的机会。
-
-你可以在 官方网页 中了解更多关于一般决议的信息。
-
-你怎么看？
-
-将非自由固件纳入官方发行版中
-
-至于目前的情况，你可以找到带有非自由固件的“非官方”的 Debian 镜像。
-
-然而，并不是每个用户都知道它，即使它在 Debian 的下载页面上被宣传，“非官方”的说法也不会让用户比推荐的镜像更喜欢。
-
-此外，当用户可以选择任何基于 Ubuntu 的发行版或 Ubuntu 作为替代品时，期望他们安装非自由固件是违反直觉的。
-
-不仅仅限于这些问题，Steve 在他的 博客 中还提到了其他一些问题，包括：
-
-
-维护独立的非自由镜像是很耗时的。
-
-由于缺乏非自由固件，许多用户不喜欢官方镜像。
-
-
-那么，你认为 Debian 的一般决议的投票结果是什么？一个单独的介质镜像？还是把它包括在官方镜像中？
-
-
-via: https://news.itsfoss.com/debian-non-free/
-
-作者：Ankush Das 选题：lkxed 译者：wxy 校对：wxy
-
-本文由 LCTT 原创编译，Linux中国 荣誉推出]]></summary>
+        <title type="html"><![CDATA[How to Learn Web3 (September 2022)]]></title>
+        <id>https://dev.to/francescoxx/how-to-learn-web3-september-2022-3h9h</id>
+        <link href="https://dev.to/francescoxx/how-to-learn-web3-september-2022-3h9h"/>
+        <updated>2022-09-01T06:03:23.000Z</updated>
+        <summary type="html"><![CDATA[#web3 #blockchain #beginners #programming]]></summary>
         <author>
-            <name>linux@linux.cn (linux)</name>
+            <name>Francesco Ciulla</name>
         </author>
     </entry>
     <entry>
@@ -2556,18 +2713,6 @@ Discussion
         <summary type="html"><![CDATA[#heroku #webdev #programming]]></summary>
         <author>
             <name>Meshv Patel</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BlockBee — Cryptocurrency solutions to grow your business]]></title>
-        <id>https://www.producthunt.com/posts/blockbee</id>
-        <link href="https://www.producthunt.com/posts/blockbee"/>
-        <updated>2022-08-31T13:06:16.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -2708,21 +2853,6 @@ These were just a few of the questions I had when I started leading the Mautic c
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Releese — Manage your entire music business in one place]]></title>
-        <id>https://www.producthunt.com/posts/releese</id>
-        <link href="https://www.producthunt.com/posts/releese"/>
-        <updated>2022-08-30T18:22:46.000Z</updated>
-        <summary type="html"><![CDATA[https://releese.io/demo
-              ”
-              
-Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Our Favorite Android Phones Are on Sale Right Now]]></title>
         <id>630d385e9fbbe8d3536bf9b0</id>
         <link href="https://www.wired.com/story/amazon-android-day-2022/"/>
@@ -2730,18 +2860,6 @@ Discussion
         <summary type="html"><![CDATA[Step aside, Obi-Wan. These are the (an)droids we’re looking for—and they’re discounted until midnight.]]></summary>
         <author>
             <name>Haley Sprankle</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[University Hub — Manage your university life in one place and get ahead]]></title>
-        <id>https://www.producthunt.com/posts/university-hub-3</id>
-        <link href="https://www.producthunt.com/posts/university-hub-3"/>
-        <updated>2022-08-30T17:25:17.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -3026,26 +3144,6 @@ In any screen sharing scenario, there are two computers and possibly two users. 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The Gear and Tips You Need to Make Studio-Grade Videos at Home]]></title>
-        <id>5e946dfaff08eb0008ee3162</id>
-        <link href="https://www.wired.com/story/gear-and-tips-to-make-professional-videos/"/>
-        <updated>2022-08-29T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We tested microphones, tripods, lights, teleprompters, and other tools for more than two years. These are our favorites.]]></summary>
-        <author>
-            <name>Julian Chokkattu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[This Cold-Storage Crypto Wallet Is a Smart Investment]]></title>
-        <id>62f2a37b4d6c332046cb7321</id>
-        <link href="https://www.wired.com/review/ledger-nano-x-crypto-wallet/"/>
-        <updated>2022-08-29T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[If you don't use a safe, offline storage device, you don't really own your cryptocurrency. The Ledger Nano X keeps it secure from prying eyes.]]></summary>
-        <author>
-            <name>Scott Gilbertson</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Tech Resources That Help Kids Navigate Puberty]]></title>
         <id>62ed777e23d2b53441872e00</id>
         <link href="https://www.wired.com/story/tech-resources-kids-puberty/"/>
@@ -3063,16 +3161,6 @@ In any screen sharing scenario, there are two computers and possibly two users. 
         <summary type="html"><![CDATA[GM president Mark Reuss talks with WIRED about how to sell EVs, his optimism for robot cars, and why the company shifted more of its supply chain back to the US.]]></summary>
         <author>
             <name>Aarian Marshall</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A New Approach to Car Batteries Is About to Transform EVs]]></title>
-        <id>63096a6779f10149f7bb9e13</id>
-        <link href="https://www.wired.com/story/cell-to-chassis-batteries-electric-vehicles/"/>
-        <updated>2022-08-29T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Auto companies are designing ways to build a car’s fuel cells into its frame, making electric rides cheaper, roomier, and able to hit ranges of 620 miles.]]></summary>
-        <author>
-            <name>Mark Andrews</name>
         </author>
     </entry>
     <entry>
@@ -3258,6 +3346,21 @@ Matrix 是少数派的写作社区，我们主张分享真实的产品体验，
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Edge Flags by DevCycle — Edge powered feature flags instantly delivered globally]]></title>
+        <id>https://www.producthunt.com/posts/edge-flags-by-devcycle</id>
+        <link href="https://www.producthunt.com/posts/edge-flags-by-devcycle"/>
+        <updated>2022-08-29T02:05:00.000Z</updated>
+        <summary type="html"><![CDATA[https://docs.devcycle.com/docs/h...
+              ”
+              
+Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[从信息获取到内容产出，这是一位新闻传媒学生的「数字文具盒」]]></title>
         <id>https://sspai.com/post/75398</id>
         <link href="https://sspai.com/post/75398"/>
@@ -3276,33 +3379,15 @@ Matrix 是少数派的写作社区，我们主张分享真实的产品体验，
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[An Ideal REST API - Best Practices]]></title>
-        <id>https://dev.to/imaroof07/an-ideal-rest-api-best-practices-4k89</id>
-        <link href="https://dev.to/imaroof07/an-ideal-rest-api-best-practices-4k89"/>
-        <updated>2022-08-28T18:05:00.000Z</updated>
-        <summary type="html"><![CDATA[#api #programming #webdev #productivity]]></summary>
+        <title type="html"><![CDATA[Product Manager MBA — The only course you need to get started in Product]]></title>
+        <id>https://www.producthunt.com/posts/product-manager-mba</id>
+        <link href="https://www.producthunt.com/posts/product-manager-mba"/>
+        <updated>2022-08-28T14:35:00.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
         <author>
-            <name>Maroof Lodi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Use the Emergency SOS Feature on Your Smartphone]]></title>
-        <id>62f2d5b523d2b53441872ed4</id>
-        <link href="https://www.wired.com/story/how-to-use-emergency-sos-smartphone/"/>
-        <updated>2022-08-28T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Let’s hope you never need it—but it's important to know how it works.]]></summary>
-        <author>
-            <name>David Nield</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[This Gorgeous Wireless Speaker System Offers Hassle-Free Hi-Fi]]></title>
-        <id>62fe8de47072d2c1f58788ca</id>
-        <link href="https://www.wired.com/review/kef-lsx-ii/"/>
-        <updated>2022-08-28T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[KEF’s new LSX II’s have all the sound you’d expect from luxury bookshelf speakers, and they’re heinously easy to use.]]></summary>
-        <author>
-            <name>Eric Ravenscraft</name>
+            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -3333,6 +3418,16 @@ Matrix 是少数派的写作社区，我们主张分享真实的产品体验，
         <summary type="html"><![CDATA[Progressbar95 是一款独特的怀旧超休闲游戏， 旨在唤起人们对旧 Windows 和 Macintosh 操作系统的怀念。其中模拟了开始菜单，任务栏，Clippy，磁盘清理甚至蓝屏等经典元素]]></summary>
         <author>
             <name>青小蛙</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[7 neat tricks for JS that you probably did not know]]></title>
+        <id>https://dev.to/ruppysuppy/7-neat-tricks-for-js-that-you-probably-did-not-know-358d</id>
+        <link href="https://dev.to/ruppysuppy/7-neat-tricks-for-js-that-you-probably-did-not-know-358d"/>
+        <updated>2022-08-28T05:02:31.000Z</updated>
+        <summary type="html"><![CDATA[#javascript #webdev #programming #productivity]]></summary>
+        <author>
+            <name>Tapajyoti Bose</name>
         </author>
     </entry>
     <entry>
@@ -3690,16 +3785,6 @@ HTML，全称「HyperText Markup Language」，又称为「超文本标记语言
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Polio Is Back in the US and UK. Here’s How That Happened]]></title>
-        <id>6303bae27072d2c1f587890d</id>
-        <link href="https://www.wired.com/story/polio-is-back-in-the-us-and-uk-heres-how-that-happened/"/>
-        <updated>2022-08-24T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[For every person paralyzed, hundreds or thousands could be infected. It’s a setback for the long-overdue plan to eradicate the virus from the world.]]></summary>
-        <author>
-            <name>Maryn McKenna</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[The Privacy Flaw Threatening US Democracy]]></title>
         <id>63039900b365e23d4dea57cf</id>
         <link href="https://www.wired.com/story/privacy-mass-surveillance-us-authoritarian/"/>
@@ -3862,26 +3947,6 @@ LearnData 的笔记/文章编辑均使用 Markdown，输出不再受到应用的
         <summary type="html"><![CDATA[The AI-powered online doctor app is ditching its controversial NHS contracts as it focuses on the US market.]]></summary>
         <author>
             <name>Nicole Kobie</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Egg and Sperm Donors Could Be Required to Share Medical Records]]></title>
-        <id>630428d51814a994d3a6340f</id>
-        <link href="https://www.wired.com/story/sharing-egg-sperm-donor-medical-history/"/>
-        <updated>2022-08-23T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In much of the US, donors aren’t obliged to disclose potentially inheritable health conditions. A proposed law could change that.]]></summary>
-        <author>
-            <name>Grace Browne</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[At Some Colleges, the Fall of Roe Will Weaken Student Health Care]]></title>
-        <id>62fbf50723d2b53441872fb3</id>
-        <link href="https://www.wired.com/story/at-some-colleges-the-fall-of-roe-will-weaken-student-health-care/"/>
-        <updated>2022-08-23T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[As students return to school, many will find restricted campus access to abortion services and information—and perhaps reproductive care in general.]]></summary>
-        <author>
-            <name>Max G. Levy</name>
         </author>
     </entry>
     <entry>
@@ -4184,16 +4249,6 @@ LearnData 的笔记/文章编辑均使用 Markdown，输出不再受到应用的
         <summary type="html"><![CDATA[#node #performance #javascript #programming]]></summary>
         <author>
             <name>Rose Chege</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Family That Mined the Pentagon's Data for Profit]]></title>
-        <id>62f1451023d2b53441872e55</id>
-        <link href="https://www.wired.com/story/pentagon-data-profit-freedom-information-of-information-act/"/>
-        <updated>2022-08-18T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Freedom of Information Act helps Americans learn what the government is up to. The Poseys exploited it—and became unlikely defenders of transparency.]]></summary>
-        <author>
-            <name>Mark Harris</name>
         </author>
     </entry>
     <entry>
@@ -4688,46 +4743,6 @@ LearnData 的笔记/文章编辑均使用 Markdown，输出不再受到应用的
         <summary type="html"><![CDATA[#css #javascript #beginners #tutorial]]></summary>
         <author>
             <name>Sadee</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ManageEngine ADSelfService Plus 历史漏洞CVE-2021-40539分析]]></title>
-        <id>https://xz.aliyun.com/t/11589</id>
-        <link href="https://xz.aliyun.com/t/11589"/>
-        <updated>2022-08-05T15:51:00.000Z</updated>
-        <summary type="html"><![CDATA[ManageEngine ADSelfService Plus 历史漏洞CVE-2021-40539分析]]></summary>
-        <author>
-            <name>先知安全技术社区</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[20 Awesome Websites You Didn't Know About]]></title>
-        <id>https://dev.to/hr21don/20-awesome-website-you-didnt-know-about-97d</id>
-        <link href="https://dev.to/hr21don/20-awesome-website-you-didnt-know-about-97d"/>
-        <updated>2022-08-05T14:03:00.000Z</updated>
-        <summary type="html"><![CDATA[#productivity #programming #webdev #beginners]]></summary>
-        <author>
-            <name>Helitha Rupasinghe</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I stopped using Visual Studio Code]]></title>
-        <id>https://dev.to/dailydevtips1/i-stopped-using-visual-studio-code-1b81</id>
-        <link href="https://dev.to/dailydevtips1/i-stopped-using-visual-studio-code-1b81"/>
-        <updated>2022-08-05T07:53:55.000Z</updated>
-        <summary type="html"><![CDATA[#programming #webdev]]></summary>
-        <author>
-            <name>Chris Bongers</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Delete unused node_modules in a second and enjoy some free space! ♻️]]></title>
-        <id>https://dev.to/this-is-learning/delete-unused-nodemodules-in-a-second-and-enjoy-some-free-space-f3p</id>
-        <link href="https://dev.to/this-is-learning/delete-unused-nodemodules-in-a-second-and-enjoy-some-free-space-f3p"/>
-        <updated>2022-08-05T07:07:00.000Z</updated>
-        <summary type="html"><![CDATA[#npm #javascript #tutorial #webdev]]></summary>
-        <author>
-            <name>Leonardo Montini, This is Learning</name>
         </author>
     </entry>
 </feed>
