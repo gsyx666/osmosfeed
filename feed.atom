@@ -1,192 +1,965 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-09-18T10:44:39.469Z</id>
+    <id>urn:2022-09-19T10:50:26.338Z</id>
     <title>osmos::feed</title>
-    <updated>2022-09-18T10:44:39.469Z</updated>
+    <updated>2022-09-19T10:50:26.338Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[GTA 6 gameplay leaks online in 90 videos]]></title>
-        <id>https://www.theverge.com/2022/9/18/23359156/gta-6-leak-gameplay-footage-90-videos</id>
-        <link href="https://www.theverge.com/2022/9/18/23359156/gta-6-leak-gameplay-footage-90-videos"/>
-        <updated>2022-09-18T10:36:36.000Z</updated>
-        <summary type="html"><![CDATA[GTA V was released almost nine years ago. | Image: Rockstar
+        <title type="html"><![CDATA[Stripe payment gateway]]></title>
+        <id>https://dev.to/elohe_charisma/stripe-payment-gateway-3lfn</id>
+        <link href="https://dev.to/elohe_charisma/stripe-payment-gateway-3lfn"/>
+        <updated>2022-09-19T09:53:21.000Z</updated>
+        <summary type="html"><![CDATA[Client code and server code on the same URL
+Is a common payment gateway and as a dev, you probably are required to integrate this for click commerce purposes.
+You need a checkout button to make a request with.
+Create a server → to process the payment requests . This needs to be processed on a server away from the client side to ensure they do not manipulate the payment details.
+Create an express server
+Set up an express server. By making a directory mkdir server
+
+
+
+
+
+Set up a new project in this directory by initializing npm init -y
+
+
+Install express , the stripe library & dotenv library that shall be essential in loading our environment variables
+
+
+Add a dev dependency nodemon for autoreloads / restarts whenever changes are made to your server.(dynamism)
+
+
+
+Server.js boilerplate logic
+Loa…]]></summary>
+        <author>
+            <name>Charisma Elohe</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FeetCode and 8 more useless tools - joke]]></title>
+        <id>https://dev.to/nombrekeff/9-tools-to-make-you-less-efficient-joke-32an</id>
+        <link href="https://dev.to/nombrekeff/9-tools-to-make-you-less-efficient-joke-32an"/>
+        <updated>2022-09-19T09:51:02.000Z</updated>
+        <summary type="html"><![CDATA[Hey there,
+Yup, this is yet another issue tracking system for you. With the RTS2000 by @UselessTech you will need to write issues 4 times, manually link GitHub issues, send notifications by hand and code the dashboard yourself. Folks at @UselessTech are all about making it harder, less efficient and overall a pain in the ass to use their products! With this you will reduce your efficiency by 45%, what are you waiting for?
+I'm excited to share the new VCS for over-productive developers. The new NPNM is a new VCS that makes your life harder, and removes all the not needed features like commits and PRs, replacing them with FTP. This is done because NPNM believes that commits and PRs are distracting and are not a waste of time. By using NPNM you will have no main without pain, as you will need…]]></summary>
+        <author>
+            <name>Keff</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[#TestCulture 🦅 Episode 18 - Leverage multi-device testing]]></title>
+        <id>https://dev.to/mathilde_llg/testculture-episode-18-leverage-multi-device-testing-3ik7</id>
+        <link href="https://dev.to/mathilde_llg/testculture-episode-18-leverage-multi-device-testing-3ik7"/>
+        <updated>2022-09-19T09:37:13.000Z</updated>
+        <summary type="html"><![CDATA[𝐖𝐡𝐚𝐭 𝐢𝐬 𝐦𝐮𝐥𝐭𝐢-𝐝𝐞𝐯𝐢𝐜𝐞 𝐭𝐞𝐬𝐭𝐢𝐧𝐠? Multi-device or cross-device testing is a type of testing that verifies if an application works across different browsers, screen sizes, resolutions and devices as expected. It is 𝚝𝚑𝚎 𝚙𝚛𝚘𝚌𝚎𝚜𝚜 𝚘𝚏 𝚟𝚎𝚛𝚒𝚏𝚢𝚒𝚗𝚐 your application’s compatibility with different browsers and devices and making sure that it works consistently and as intended without any dependencies, or compromise in quality. The goal is also to perform really complex 𝗲𝗻𝗱-𝘁𝗼-𝗲𝗻𝗱 𝗽𝗿𝗼𝗰𝗲𝘀𝘀𝗲𝘀 on multiple devices, independently of which action is realized.
+𝐖𝐡𝐲 𝐢𝐬 𝐦𝐮𝐥𝐭𝐢-𝐝𝐞𝐯𝐢𝐜𝐞 𝐭𝐞𝐬𝐭𝐢𝐧𝐠 𝐜𝐡𝐚𝐥𝐥𝐞𝐧𝐠𝐢𝐧𝐠?
+➡️ 𝗟𝗮𝗰𝗸 𝗼𝗳 𝗿𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀. Multi device testing implies more devices and testers to properly test all devices. Bugs and risks tend to be 𝕙𝕚𝕘𝕙𝕖𝕣 on multiple devices testing. Moreover, setting up cross-platform tests with traditional tools is 𝕔𝕠𝕞𝕡𝕝𝕖𝕩.
+➡️ 𝗖𝗼𝘀𝘁 𝗺𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁. Multi-device testing involves the use of multiple tools to test complex user paths. Sometimes, one tool can be used per technology and device which exponentially increases the cost to test (maintenance, training, creation and analysis).
+➡️ 𝗣𝗼𝗼𝗿 𝘃𝗮𝗹𝗶𝗱𝗮𝘁𝗶𝗼𝗻. Manual validation is often made by developers or project managers. Validation activities then take too much time compared to development activities.
+📚 𝕊𝕠𝕦𝕣𝕔𝕖𝕤:
+🦅 https://agilitest.com/challenges/multi-device-testing
+🦅 https://agilitest.com/blog/automate-scenario-test-multi-channel
+Thread on Twitter.]]></summary>
+        <author>
+            <name>Mathilde Lelong</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Clean Code Chapter 1]]></title>
+        <id>https://dev.to/teamradhq/clean-code-chapter-1-mjc</id>
+        <link href="https://dev.to/teamradhq/clean-code-chapter-1-mjc"/>
+        <updated>2022-09-19T09:21:30.000Z</updated>
+        <summary type="html"><![CDATA[I'm currently reading Clean Code by Robert C Martin. Here are some of my takeaways, chapter by chapter.
+Essentially, no matter how sophisticated software applications become, there is a layer of abstraction that cannot be achieved without human intervention. 
+The folks who think that code will one day disappear are like mathematicians who hope one day to discover a mathematics that does not have to be formal. They are hoping that one day we will discover a way to create machines that can do what we want rather than what we say. These machines will have to be able to understand us so well that they can translate vaguely specified needs into perfectly executing programs that precisely meet those needs.
+Page 2
+Bad code has the potential to bring a project down.
+We wade through bad code: it im…]]></summary>
+        <author>
+            <name>teamradhq</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AWS open source news and updates, #127]]></title>
+        <id>https://dev.to/094459/aws-open-source-news-and-updates-127-56n9</id>
+        <link href="https://dev.to/094459/aws-open-source-news-and-updates-127-56n9"/>
+        <updated>2022-09-19T09:10:46.000Z</updated>
+        <summary type="html"><![CDATA[September 16th, 2022 - Instalment #127
+
+
+Welcome
+Welcome to the AWS open source newsletter, edition #127. I hope some of you were able to catch Derek and myself sharing a peek at this edition, and enjoyed as our special guest, AWS Hero Ian Mckay walked us through some of his open source projects. It was very cool indeed, and if you have not yet watched, Ian shares an early glimpse of a new project - so make sure you check that out..
+As always, this week we feature more great new open source projects from AWS and around the AWS community. "cfn-trace" is a cli tool that provides x-ray like traces for your Cloudformation stacks, "tree-view-cfn" extends the recently launched tree view for CDK resources to Cloudformation stacks, "aws-lambda-live-tuner" takes AWS Lambda Power tuning and makes it…]]></summary>
+        <author>
+            <name>Ricardo Sueiras</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to disable printing on a website]]></title>
+        <id>https://dev.to/fanmixco/how-to-disable-printing-in-a-website-591n</id>
+        <link href="https://dev.to/fanmixco/how-to-disable-printing-in-a-website-591n"/>
+        <updated>2022-09-19T09:05:32.000Z</updated>
+        <summary type="html"><![CDATA[Sometimes, we have some projects where the content is sensitive or should be protected for privacy reasons or copyrights. A quick solution involves:
+To prevent the key combination Ctrl + P (for printing) via JS.
+To prevent selecting text and copying text via JS.
+To hide the whole page on printing via CSS.
+
+
+
+
+<script>
+    //Prevents Ctrl + P
+    //From https://stackoverflow.com/a/47848090/1928691
+    window.addEventListener('keydown', function(event) {
+        if (event.keyCode === 80 && (event.ctrlKey || event.metaKey) && !event.altKey && (!event.shiftKey || window.chrome || window.opera)) {
+            event.preventDefault();
+            if (event.stopImmediatePropagation) {
+                event.stopImmediatePropagation();
+            } else {
+                event.stopPropagation();
+            }
+            return;
+            }
+    }, true);
+
+    //Disables text selection and copying
+    //From https://gist.github.com/pbaruns/a24ad79b027956ed5d77fd3e6c201467
+    if (typeof document.onselectstart!="undefined" ) { 
+        document.onselectstart=new Function ("return false" );
+    } 
+    else { 
+        document.onmousedown=new Function ("return false" ); 
+        document.onmouseup=new Function ("return true" );
+    }
+</script>
+
+<style>
+    /*From https://stackoverflow.com/a/3359980/1928691*/
+    @media print {
+        html, body {
+            display: none;  /* hide whole page */
+        }
+    }
+</style>
+
+For sure, there will be more advanced solutions that will involve detecting if the browser is in Reader Mode or trying to encrypt the readable text. However, this is just a quick solution that can empower you in your journey.
+
+
+
+LinkedIn
+YouTube
+Instagram
+Cyber Prophets
+Sharing Your Stories]]></summary>
+        <author>
+            <name>Federico Navarrete</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[硬核观察 #764 “销售软盘的最后一人”]]></title>
+        <id>https://linux.cn/article-15047-1.html?utm_source=rss&amp;utm_medium=rss</id>
+        <link href="https://linux.cn/article-15047-1.html?utm_source=rss&amp;utm_medium=rss"/>
+        <updated>2022-09-19T08:52:56.000Z</updated>
+        <summary type="html"><![CDATA[“销售软盘的最后一人”
+
+专注于销售和回收软盘的 Floppydisk.com 创始人 Tom Persky 自称是“该行业最后一人”。他早期的生意是软盘复制，在上世纪曾经兴盛一时，利润丰厚。但随着软盘的使用下降，他开始销售空白软盘，他如今是全球软盘的供应商。他说之所以还在销售软盘是他“忘记退出这个行业了”。他买下了数百万张空白软盘，然后靠着销售库存和回收软盘为生。他目前的库存大约还有 50 万张，包括 3.5 英寸、5.25 英寸 和 8 英寸等不同尺寸的软件。
+
+
+消息来源：aiga
+
+
+
+老王点评：其实才二十年，软盘已经销声匿迹了（除了日本之外）。我觉得，现在或许是收藏一些这个“3D 打印的保存图标”的时候了。
+
+
+
+
+Chrome 的增强拼写检查会将你的表单数据传递到谷歌
+
+一家 JavaScript 安全公司称，当用户手动激活 Chrome 的增强拼写检查功能和 Edge 的微软编辑器的拼写和语法检查器时，实际上是将你的表单数据发送到谷歌或微软。而你在表单中输入的数据可能包括个人身份信息、住址、电子邮件、信用卡号码等等机密信息。如果启用“显示密码”，甚至会将你的密码发送出去。这两种浏览器都有自己的默认启用的基本拼写检查器，它们不会构成安全风险，因为它们的行为与增强功能不同。
+
+
+消息来源：Bleeping Computer
+
+
+
+老王点评：很显然，“增强”的拼写检查需要服务器端的处理，自然会将你的输入传输到服务器上。类似的，现在云输入法，也会将你的输入事无巨细地传输到别人的服务器上。
+
+
+
+
+Arm 高管称 RISC-V 在数据中心领域算不上竞争对手
+
+在近日召开的新闻发布会上，Arm 高管承认，RISC-V 确实带来了一些竞争压力。但他说，“虽然 RISC-V 自 2010 年以来就有了，但最近才进入商业产品。”Arm 公司的另外一位高管称，“我们真的不认为 RISC-V 现在或在不久的将来是我们在数据中心领域的重要竞争对手。”他认为 RISC-V 更适合于小众或专业应用。
+
+
+消息来源：The Register
+
+
+
+老王点评：就像当年的 Linux 一样，谁能想到它能干倒 Unix 和 Windows 服务器呢？我看好 RISC-V 未来的发展，这或许要不了几年。]]></summary>
+        <author>
+            <name>linux@linux.cn (linux)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ArchiveWeb.page – 将浏览过的网页完整「录」下来，做网页的 “PDF” 格式。]]></title>
+        <id>https://www.appinn.com/?p=43382</id>
+        <link href="https://www.appinn.com/archiveweb-page/"/>
+        <updated>2022-09-19T08:30:41.000Z</updated>
+        <summary type="html"><![CDATA[ArchiveWeb.page 是一款可以将浏览过的网页完整的录下来的 Chrome 扩展，可保存下高保真度的网页存档，包括外部资源，使用起来就像联网使用一样。@Appinn 青小蛙专门对比测试了一下]]></summary>
+        <author>
+            <name>青小蛙</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google’s Nest Wifi Pro pricing leaks early]]></title>
+        <id>https://www.theverge.com/2022/9/19/23360590/google-nest-wifi-pro-pricing-specs-availabilty</id>
+        <link href="https://www.theverge.com/2022/9/19/23360590/google-nest-wifi-pro-pricing-specs-availabilty"/>
+        <updated>2022-09-19T07:46:08.000Z</updated>
+        <summary type="html"><![CDATA[The 2019 version of the Google Nest Wifi which will likely stick around. | Photo by Vjeran Pavic / The Verge
     
 
   
-Footage of Grand Theft Auto VI, Rockstar’s next entry in its open-world franchise, appears to have leaked online. PC Gamer reports that a user on the GTA Forums has posted a 3GB file full of 90 videos of GTA VI footage. It’s not exactly clear how the footage was obtained, but the “teapotuberhacker” poster claims to be behind the unrelated Uber hack late last week, and says they may “leak more data soon” including GTA V and GTA VI source code, assets, and testing builds.
-The massive leak lines up with some earlier reporting on GTA VI, showing a female playable character in some clips. Bloomberg reported earlier this year that GTA VI would include two female protagonists influenced by Bonnie and Clyde. 
-The leaked videos are currently...
+Google’s big hardware event isn’t until next month but the leaks have already begun, this time showing pricing for a new “Google Nest Wifi Pro 6E Router” courtesy of B&H Photo (via 9to5Google). The online store lists a variety of colors and combo packs starting at $199.99, each labeled as “new item — coming soon.” In other words, coming as early as October 6th when this pro version of the Nest Wifi is expected to be announced at the Made By Google event. 
+Unfortunately, the listings don’t include any photos or specs, but we’re not totally in the dark here. We previously saw details for what we expect to be called the “Nest Wifi Pro” in an FCC listing that mentioned Bluetooth Low Energy and Thread mesh networking radios (for Matter), in...
 Continue reading…]]></summary>
         <author>
             <name>The Verge -  All Posts</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How to easily make Wordpress & WooCommerce work with ngrok]]></title>
-        <id>https://dev.to/getmellowhq/how-to-easily-make-wordpress-woocommerce-work-with-ngrok-3fn2</id>
-        <link href="https://dev.to/getmellowhq/how-to-easily-make-wordpress-woocommerce-work-with-ngrok-3fn2"/>
-        <updated>2022-09-18T09:26:27.000Z</updated>
-        <summary type="html"><![CDATA[Ngrok is a super useful CLI tool which enables you to expose your localhost HTTP servers to an internet-facing HTTPS endpoint, for free!
-https://ngrok.com/.
-I've been struggling to find a good, short tutorial on how to make it work properly with my local WooCommerce store, so hopefully you will find this helpful:
-First off, make sure that your Wordpress website issues relative URLs by installing this plugin: Relative URL.
-Add the following lines at the end of your wp-config.php file:
-define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST']);
-define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST']);
+        <title type="html"><![CDATA[Making a fast website is SUPER EASY 😏]]></title>
+        <id>https://dev.to/enterspeed/making-a-fast-website-is-super-easy-9lb</id>
+        <link href="https://dev.to/enterspeed/making-a-fast-website-is-super-easy-9lb"/>
+        <updated>2022-09-19T07:26:18.000Z</updated>
+        <summary type="html"><![CDATA[That's right, I said it. Making a fast website is super easy, barely an inconvenience.
+I've built a website that gets a perfect score in Google Lighthouse and that can be deployed right to the edge.
+It's built completely in a high-performant, battle-tested language that will last for ages.
+Want to see for yourself how fast it really is? You can check it out right here: https://enterspeed-hw.netlify.app/
+Did you see how fast it was?
+Okay, I’ll admit, this was a cheap shot. Some of you might sit with a bitter feeling in your mouth, feeling cheated about this almost clickbaity article. But hang on, there’s a point to the madness.
 
-Add --host-header=rewrite to your ngrok command.
-ngrok http --host-header=rewrite http://localhost:8080
-
-Done 🎉
-P.S: If you're a WooCommerce store owner and would like to easily sync it with your Google Sheets, check-out our quick guide on how to do it.
-Originally posted here.]]></summary>
+The point is anyone can make a fast website. Making a website that looks good and has the functionality you want while being high-performant is where the challenge …]]></summary>
         <author>
-            <name>Mellow</name>
+            <name>Kasper Andreassen</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Update Cheat Sheet for Developers]]></title>
-        <id>https://dev.to/smartscanner/update-cheat-sheet-for-developers-4gmc</id>
-        <link href="https://dev.to/smartscanner/update-cheat-sheet-for-developers-4gmc"/>
-        <updated>2022-09-18T09:24:25.000Z</updated>
-        <summary type="html"><![CDATA[This is a cheat sheet for updating critical web software.
-Using an outdated application is a high-risk vulnerability that has an easy fix. This guide provides easy-to-follow instructions for different applications to fix security vulnerabilities.
-⚠️ The goal of this guide is to eliminate vulnerabilities by updating applications. Sometimes updates can break things or lead to unexpected behaviors. It is up to you to perform enough checking and testing before using commands in this cheat sheet in the production environment.
-Run below command in terminal (ssh)
-sudo yum update
+        <title type="html"><![CDATA[Entity Relationship Diagrams]]></title>
+        <id>https://dev.to/themfon/entity-relationship-diagrams-3963</id>
+        <link href="https://dev.to/themfon/entity-relationship-diagrams-3963"/>
+        <updated>2022-09-19T07:23:18.000Z</updated>
+        <summary type="html"><![CDATA[I remember the first time I purchased items from an e-commerce website - A 32GB flash drive, a boombox and a tripod - I did it with my phone. Pop-ups, redirects, eternally loading pages, having to type my card details and all those triggering experiences. However, nothing trumps the anxiety of waiting for the items to be delivered immediately after payment. I know you can relate. 😂
 
-Run below command in terminal (ssh)
-sudo apt update && sudo apt upgrade
-
-Run below command in terminal (ssh)
-sudo zypper up
-
-Run the below command in your NodeJs project directory.
-npm audit fix
-
-Note that some vulnerabi…]]></summary>
+I didn't quite understand the process, but the website was functional. I got my items delivered as scheduled. They looked nothing like what I paid for on the website. Yes, you are right! The no return, no refund policy. I couldn't return the items or get a refund. Moreso, replacing them would have been such a drag. I just had to keep them. 🤷🏽‍♂️
+I'm a junior backend engineer now, and I appreciate the thought…]]></summary>
         <author>
-            <name>SmartScanner</name>
+            <name>Mfon.</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Javascript - Inheritance ⬆]]></title>
-        <id>https://dev.to/urstrulyvishwak/javascript-inheritance-26c3</id>
-        <link href="https://dev.to/urstrulyvishwak/javascript-inheritance-26c3"/>
-        <updated>2022-09-18T09:20:06.000Z</updated>
-        <summary type="html"><![CDATA[Inheritance
-
-
-📕 - Mechanism which acquires properties and methods from the parent.
-Let's achieve:
-class Parent {
-    parentProperty;
-
-    constructor(parentProperty) {
-        this.parentProperty = parentProperty;
-    }
-
-    parentMethod() {
-        return 'I am parent class method';
-    }
-}
-
-class Child extends Parent {
-    constructor() {
-        super('parent property'); // setting parent property from child.
-    }
-    childMethod() {
-        console.log(this.parentMethod()); // accessing parent methods.
-        console.log(this.parentProperty); // accessing parent property.
-    }
-}
-
-const child = new Child();
-child.childMethod();
-
-> I am parent class method
-> parent property
-
-
-Here, super() refers to parent class constructor and extends is the key word used to inherit.
-👨‍👧 child cla…]]></summary>
+        <title type="html"><![CDATA[Palette — Use Airtable as your Postgres UI]]></title>
+        <id>https://www.producthunt.com/posts/palette-e716491d-8889-4cac-8e31-26fd56f74c29</id>
+        <link href="https://www.producthunt.com/posts/palette-e716491d-8889-4cac-8e31-26fd56f74c29"/>
+        <updated>2022-09-19T07:02:45.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
         <author>
-            <name>Mahesh</name>
+            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Kubeconfig nedir?]]></title>
-        <id>https://dev.to/aciklab/kubeconfig-nedir-4be4</id>
-        <link href="https://dev.to/aciklab/kubeconfig-nedir-4be4"/>
-        <updated>2022-09-18T09:12:40.000Z</updated>
-        <summary type="html"><![CDATA[Kubeconfig, "kubectl" gibi uygulamalar ile kubernetes kümelerine uzaktan erişebilirliği sağlayan yapılandırma dosyasıdır. Dosya formatı ".yaml" olarak belirlenmiştir. 
-Kubeconfig içerisinde 3 ana başlık vardır. Bunlar;
-Clusters (kümeler)
-Users (kullanıcılar)
-Contexts (bağlamlar)
-Bu içerikler kubectl veya Kubernetes Lens gibi uygulamaları kullanabilmek için yani Kubernetes Kümenize uzaktan bağlantı yapabilmek için gerekli yapılardır. 
-Elimizdeki kubeconfig dosyası ile hangi kümelere erişebileceğimiz belirlenmektedir. Tek bir kümeye erişilebileceği gibi birden fazla küme de belirtilebilmektedir.
-Aşağıda örnek bir k8s kümesinin kubeconfig üzerinde tanımı bulunmaktadır. Küme'nin adı, sunucu adresi ve sertifika otoritesi sertifika verisi bulunmaktadır.
-clusters:
-- name: "yerelkume"
-  cluster:
- …]]></summary>
+        <title type="html"><![CDATA[Typed — Connect the docs to streamline collaboration]]></title>
+        <id>https://www.producthunt.com/posts/typed-4</id>
+        <link href="https://www.producthunt.com/posts/typed-4"/>
+        <updated>2022-09-19T07:01:54.000Z</updated>
+        <summary type="html"><![CDATA[https://app.loopedin.io/typed#/r...
+
+👉Typed Tutorial:
+https://typed.do/blog/product/th...
+
+👉Typed Use Case:
+https://typed.do/blog/category/u...
+
+If you have any questions, feel free to talk to us at support@typed.do. Thank you all so much, and we cannot be more excited for this amazing deal for the Product Hunt community!
+
+Happy Typing ⏎
+
+Brian, cofounder of Typed
+              ”
+              
+Discussion
+            |
+            Link]]></summary>
         <author>
-            <name>Ali Orhun Akkirman</name>
+            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How to include external resources into your executables in C++]]></title>
-        <id>https://dev.to/atimin/how-to-include-external-resources-into-your-executables-in-c-3cpm</id>
-        <link href="https://dev.to/atimin/how-to-include-external-resources-into-your-executables-in-c-3cpm"/>
-        <updated>2022-09-18T09:03:34.000Z</updated>
-        <summary type="html"><![CDATA[Very often we need to include into our programs some resources like textures, sounds, static data etc. Usually, we distribute them with the programs as files. However, if you want to distribute the application as a single executable, it may become a bit tricky. 
-The most elegant way to do it, was described here. It works perfectly but only on Linux with GCC.
-If you want a portable approach for including your resources,
-cmake and generate a header file with the resources as strings.
-Let's create a template with name resource.h.in:
-#ifndef RESOURCE_H
-#define RESOURCE_H
-
-#include <string_view>
-namespace app {
-
-static std::string_view kResource = "@RESOURCE_DATA@";
-
-}
-#endif  // RESOURCE_H
-
-In your CMakeLists.txt you should read the resource from its file and use configure_file to generate a h…]]></summary>
+        <title type="html"><![CDATA[Hexospark — Email automation + CRM designed to spark conversations]]></title>
+        <id>https://www.producthunt.com/posts/hexospark</id>
+        <link href="https://www.producthunt.com/posts/hexospark"/>
+        <updated>2022-09-19T07:01:27.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
         <author>
-            <name>Alexey Timin</name>
+            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Yesterday I received my 100th rejection letter. What am I doing wrong?]]></title>
-        <id>https://dev.to/sadeedpv/yesterday-i-received-my-100th-rejection-letter-what-am-i-doing-wrong-3phb</id>
-        <link href="https://dev.to/sadeedpv/yesterday-i-received-my-100th-rejection-letter-what-am-i-doing-wrong-3phb"/>
-        <updated>2022-09-18T08:59:02.000Z</updated>
-        <summary type="html"><![CDATA[Yesterday, I got my 100th rejection letter 🎉!! I have applied to several companies including startups. I did get some interviews but got rejected by all. What am I doing wrong except from the fact that I haven't learnt how to center a div and traverse a binary tree?]]></summary>
+        <title type="html"><![CDATA[I got my first pull request merged!]]></title>
+        <id>70197 at https://opensource.com</id>
+        <link href="https://opensource.com/article/22/9/first-pull-request-merged"/>
+        <updated>2022-09-19T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I got my first pull request merged!
+Oluwaseun
+Mon, 09/19/2022 - 03:00
+
+            
+
+Words cannot express my joy when I got the notification about the merge below, and I owe it to my current engineering school, AltSchool Africa.
+  
+
+
+      
+   
+Image by: 
+(Awosise Oluwaseun, CC BY-SA 4.0)
+Before this, I had been introduced to open source many times, told about its importance in the tech space, and even attended open source conferences (e.g., OSCAFest). I had all the instant excitement to start, but imposter syndrome set in on opening GitHub to create something.
+Fast forward to Monday, the 8th of August, 2022, when I watched Bolaji's video on contributing to open source. I felt pumped again, but I wanted to apply what I learned, so I noted some steps.
+The steps:
+I made up my mind I was goin…]]></summary>
         <author>
-            <name>Sadeedpv</name>
+            <name>Oluwaseun</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[🐋 AWS CDK 101 - 🦋 SAM local to test and debug lambda function]]></title>
-        <id>https://dev.to/aws-builders/aws-cdk-101-sam-local-to-test-and-debug-lambda-function-1afj</id>
-        <link href="https://dev.to/aws-builders/aws-cdk-101-sam-local-to-test-and-debug-lambda-function-1afj"/>
-        <updated>2022-09-18T08:57:24.000Z</updated>
-        <summary type="html"><![CDATA[🔰  Beginners new to AWS CDK, please do look at my previous articles one by one in this series.
-If in case missed my previous article, do find it with the below links.
-🔁 🔗 Dev Post aws-cdk-101-send-message-across-accounts-using-sns-topic-and-sqs
-🔁 🔗 dev to aws-cdk-101-send-message-across-accounts-using-sns-topic-and-sqs-h2i
-Also, we have started to develop an open source project which we would be using to play around with refracting the architecture as well as learn CDK stuff at the same time we will provide something useful for our community. Find more about this discussed in the article below.
+        <title type="html"><![CDATA[PyLint: The good, the bad, and the ugly]]></title>
+        <id>70185 at https://opensource.com</id>
+        <link href="https://opensource.com/article/22/9/pylint-good-bad-ugly"/>
+        <updated>2022-09-19T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[PyLint: The good, the bad, and the ugly
+Moshe Zadka
+Mon, 09/19/2022 - 03:00
 
-🔁 Original project post at 🔗 Dev Post aws-cdk-101-projects-cdk-stackresourcedrift-events-forwarded-to-cool-slack-posts-event-forwarder
-🔁 Reposted project post at 🔗 dev to aws-cdk-101-proje…]]></summary>
+            
+Hot take: PyLint is actually good!
+"PyLint can save your life" is an exaggeration, but not as much as you might think! PyLint can keep you from really really hard to find and complicated bugs. At worst, it can save you the time of a test run. At best, it can help you avoid complicated production mistakes.
+The good
+I'm embarrassed to say how common this can be. Naming tests is perpetually weird: Nothing cares about the name, and there's often not a natural name to be found. For instance, look at this code:
+def test_add_small():
+# Math, am I right?
+assert 1 + 1 == 3
+def test_add_large():
+assert 5 + 6 == 11
+def test_add_small():
+assert 1 + 10 == 11
+
+The test works:
+collected 2 items                      …]]></summary>
         <author>
-            <name>Aravind V</name>
+            <name>Moshe Zadka</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[THE MOST DEMANDING JOB OF IT COMPANIES,FOR WHICH THEY MOSTLY HIRES –“THE JOB OF SOFTWARE ENGINEERS”]]></title>
+        <id>https://dev.to/techlearnindia/the-most-demanding-job-of-it-companiesfor-which-they-mostly-hires-the-job-of-software-engineers-4na0</id>
+        <link href="https://dev.to/techlearnindia/the-most-demanding-job-of-it-companiesfor-which-they-mostly-hires-the-job-of-software-engineers-4na0"/>
+        <updated>2022-09-19T06:51:11.000Z</updated>
+        <summary type="html"><![CDATA[app.techlearnindia.com
+    
+
+
+WHAT IS SOFTWARE ENGINEERING?
+
+SKILLS NEEDED FOR GETTING A ROLE FOR SOFTWARE ENGINEER’S:-
+1.Programming Language Skills
+
+2.Data Structure and Algorithm Skills
+3.Testing and Debugging Skills
+4.Container Skills
+Containers turn the software that engineers create into virtual packages that can interact with a variety of operating systems. Expertise in either Docker or Kubernetes is becoming increasingly valuable in the realm of software engineering.]]></summary>
+        <author>
+            <name>Techlearnindia</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[11 个有趣的 Firefox 浏览器扩展，改善你的浏览体验]]></title>
+        <id>https://linux.cn/article-15046-1.html?utm_source=rss&amp;utm_medium=rss</id>
+        <link href="https://linux.cn/article-15046-1.html?utm_source=rss&amp;utm_medium=rss"/>
+        <updated>2022-09-19T06:20:00.000Z</updated>
+        <summary type="html"><![CDATA[我想我们都同意，Firefox 是 Linux 的最佳浏览器 之一。
+
+而且锦上添花的是，你可以用一些扩展来提高你的浏览体验! 也许甚至可以将 Facebook 隔离在容器中？😉
+
+在我推荐一些优秀的 Firefox 浏览器扩展之前，让我给你一些提示。
+
+安装 Firefox 扩展前须知
+
+我们都知道的一件事是 盲目地安装浏览器扩展可能是极其有害的。那么如何确定浏览器扩展是否可以安全使用？
+
+由于本文是关于 Firefox 扩展的，我们将重点放在 Firefox 的市场（获取扩展的官方渠道）。
+
+虽然没有什么是 100% 安全的，但有几件事可以检查：
+
+
+
+
+扩展的徽章：寻找“推荐”或“By Firefox”徽章；忽略包含警告徽章/图标的扩展。
+
+菜单和评论：虽然仅此一项并不能提供太多保证，但这是你可以在其他方面考虑的一件事。此外，关注评论的数量可以帮助你了解它在用户中是否足够受欢迎。
+
+扩展的权限：某些扩展需要诸如“访问浏览器标签页”、“导航时访问浏览器动作”等权限。记下这一点并确定你对哪些权限的舒适程度。
+
+最后更新日期：有时，即使是优秀的、知名的扩展也不会更新。这没关系，但对于像密码管理器、广告拦截器这样的扩展来说，这很重要。应始终谨慎使用超过 2 个月没更新的扩展。
+
+扩展发布者：始终确保扩展的发布者是你信任的人，或者已经发布了你信任的扩展。
+
+
+话虽如此，让我们来看看一些可以改善你的网络浏览体验的扩展。
+
+另请阅读：
+
+
+9 个开源扩展可改善你的 Mozilla Firefox 体验
+
+
+1、Facebook Container
+
+
+
+主要亮点：
+
+
+由 Mozilla Firefox 团队制作
+
+平均评分为 4.5 星（3,500 多条评论）
+
+定期更新
+
+
+每个人都讨厌 Facebook，但很少有人愿意…]]></summary>
+        <author>
+            <name>linux@linux.cn (linux)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vanity Post — Create stylish images/videos of your past or upcoming posts]]></title>
+        <id>https://www.producthunt.com/posts/vanity-post</id>
+        <link href="https://www.producthunt.com/posts/vanity-post"/>
+        <updated>2022-09-19T05:19:22.000Z</updated>
+        <summary type="html"><![CDATA[https://vanitypo.st or try converting one of your existing tweet to an image or video using our Tweet URL:  https://vanitypo.st/tweet/156853...
+              ”
+              
+Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CloudAvocado — Cost optimization insights for Amazon Cloud]]></title>
+        <id>https://www.producthunt.com/posts/cloudavocado</id>
+        <link href="https://www.producthunt.com/posts/cloudavocado"/>
+        <updated>2022-09-19T05:15:59.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Need your feedback about: Which marketing channel did you focus on building Website traffic?]]></title>
+        <id>https://dev.to/lephuhai/need-your-feedback-about-which-marketing-channel-did-you-focus-on-building-website-traffic-2cl9</id>
+        <link href="https://dev.to/lephuhai/need-your-feedback-about-which-marketing-channel-did-you-focus-on-building-website-traffic-2cl9"/>
+        <updated>2022-09-19T05:06:51.000Z</updated>
+        <summary type="html"><![CDATA[Last week we release a new version of ManualsRepo.com. Our product is launched about 1 year ago, but it's not growing. What is a marketing channel we can focus on? (Medium, Social Media or SEO, ProductHunt...)
+What ManualsRepo does:
+Collect a ton of manuals (user guide, documents, installation guide) and organize them.
+Extract data from PDF files and make it easy for users to find information.
+Help users download document manuals fastest and more accurately.
+I'll appreciate your feedback, thank you so much.
+Website: https://manualsrepo.com
+https://manualsrepo.com/command]]></summary>
+        <author>
+            <name>Hai Le Phu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Surge 发布开源网络延迟测速工具：SGNetworkTest]]></title>
+        <id>https://www.appinn.com/?p=43376</id>
+        <link href="https://www.appinn.com/sgnetworktest/"/>
+        <updated>2022-09-19T04:24:30.000Z</updated>
+        <summary type="html"><![CDATA[SGNetworkTest 是一款由 Surge 发布的开源网络延迟测速工具，主要用来「评估 Surge 是否按预期正常工作，也可使用该工具与协议的官方客户端进行对比，确认 Surge 对代理协议的实]]></summary>
+        <author>
+            <name>青小蛙</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[¿Qué es JavaScript?]]></title>
+        <id>https://dev.to/jonatanare/aprende-js-con-calma-dh9</id>
+        <link href="https://dev.to/jonatanare/aprende-js-con-calma-dh9"/>
+        <updated>2022-09-19T03:43:30.000Z</updated>
+        <summary type="html"><![CDATA[## ¿Qué hace JavaScript?
+Si estás pensando aprender JavaScript, vas a ver rápidamente que hay muchos frameworks de JavaScript populares (es decir, código público que puede ayudarte a tener éxito). ¡Los frameworks pueden ser algo muy guay una vez que empiezas a aprender! Pero al inicio, pueden resultar abrumadores.]]></summary>
+        <author>
+            <name>jonatanare</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[房屋适老化改造，为了那场终将到来的落幕]]></title>
+        <id>https://sspai.com/post/75786</id>
+        <link href="https://sspai.com/post/75786"/>
+        <updated>2022-09-19T02:44:24.000Z</updated>
+        <summary type="html"><![CDATA[起初，我从未感受到我妈对于衰老的恐惧。直到大概五六年前我家重新装修房子的时候，我妈坚持要在他们卧室的厕所里装一个马桶，后来问了原因才知道，她大概是觉得以后自己老了，万一腿脚不方便了，用马桶会轻松很多。从那一刻起，我才猛然发觉这种隐秘的恐惧。
+第七次全国人口普查的的数据显示，目前中国60岁及以上的人口数量已超2.6亿，这个人数占总人数的18.7%。这就意味着，有相当一部分老人正在经历着这种关于衰老的隐秘恐惧，还会有越来越多的人陷入这种关于衰老的恐惧。
+为了回应这些恐惧，很多人可能最先想到的是“适老化改造”。当然，适老化改造是一个相当大的问题域，本文目前所要探讨的仅仅是房屋的适老化改造，特别是对现有的城镇房屋进行一些“修补性”的适老化改造。
+为什么要进行房屋适老化改造？
+我们需要先回答一个问题：为什么我们要率先对“房屋”这样一个区域进行适老化改造呢？这个问题的答案有很多。
+首先是出于目前国内养老格局的考虑。国内养老事业呈现出一种所谓的“9073”的格局。也就是说，90%左右的老年人居家养老，大约7%的老年人需要依托社区进行养老，最后3%左右的老年人将入住养老院。这意味着大多数老人会在自己的家中度过大部分的晚年时光。这几乎是最适合老人，同时也是最经济的养老方式。
+其次是出于老人活动范围的考虑。随着年龄的增长，老人的社会活动范围会逐渐缩小，老人对于居住空间的依赖程度也会越来越高。这意味着，居住环境成为老人晚年生活最重要的空间载体，居住条件的好坏将会直接影响老人的生活质量。[1]
+再次是出于老年人人体工学的考虑。据老年人人体工学的研究，在衰老过程中人体的尺寸也会发生变化。医学研究资料显示：人在28-30岁时身高最高，35-40岁之后逐渐出现衰减，70岁时身高会比年轻时减少2.5%-3%。[2]这就意味着，随着居住者年龄的增长，房屋也应该发生一些改变。
+所以，出于上述的种种原因，除了大…]]></summary>
+        <author>
+            <name>商隐商隐商商隐</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Questions about SvelteKit?]]></title>
+        <id>https://dev.to/nickytonline/questions-about-sveltekit-1ii2</id>
+        <link href="https://dev.to/nickytonline/questions-about-sveltekit-1ii2"/>
+        <updated>2022-09-19T02:24:29.000Z</updated>
+        <summary type="html"><![CDATA[I'll be streaming this Wednesday, September 21st, at 5pm UTC with @jamesqquick!
+@nickytonline
+      
+@jamesqquick! We'll be building out cool stuff with SvelteKit.
+Come by and hang out this Wednesday, September 21st at 5 pm UTC!
+twitch.tv/nickytonline/s… #svelte #sveltekit 
+    
+We'll be discussing all things SvelteKit and building out something fun. Come join the stream and ask us some questions or just hangout!
+What questions do you have about SvelteKit or what features are you most excited about? Drop them in the comments and/or ask them on the stream.
+Give a follow so you don't miss the stream or just add this to your calendar https://livecoding.ca/schedule?segmentID=1d4ac232-0503-4c0b-8db6-745582ad63b0!]]></summary>
+        <author>
+            <name>Nick Taylor</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SwagExchange — Trade your startup swag with others and save the planet]]></title>
+        <id>https://www.producthunt.com/posts/swagexchange</id>
+        <link href="https://www.producthunt.com/posts/swagexchange"/>
+        <updated>2022-09-19T01:56:27.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Font Engine — Recommends fonts based on your preferences]]></title>
+        <id>https://www.producthunt.com/posts/font-engine</id>
+        <link href="https://www.producthunt.com/posts/font-engine"/>
+        <updated>2022-09-19T01:00:04.000Z</updated>
+        <summary type="html"><![CDATA[https://instagram.com/tasarlalabs
+Buymeacoffe: https://www.buymeacoffee.com/tas...
+Gradient Palette: https://tasarla.co/gp
+
+See you at the next Tasarla app's launch 👋🏼🚀
+              ”
+              
+Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tom Brady just chucked another Microsoft Surface tablet]]></title>
+        <id>https://www.theverge.com/2022/9/18/23359755/tom-brady-microsoft-surface-tablet-tampa-bay-buccaneers-saints-football-nfl</id>
+        <link href="https://www.theverge.com/2022/9/18/23359755/tom-brady-microsoft-surface-tablet-tampa-bay-buccaneers-saints-football-nfl"/>
+        <updated>2022-09-18T22:06:39.000Z</updated>
+        <summary type="html"><![CDATA[Touchdown!
+    
+
+  
+Tom Brady might as well have been practicing his touchdown spike when he whipped a Microsoft Surface tablet into the ground during the Tampa Bay Buccaneers game against the Saints on Sunday night. The quarterback was visibly frustrated following an incomplete pass, tossed his helmet onto the field, and stormed back to the sidelines where he chucked the tablet.
+The Buccs were losing when Brady threw the tablet, but they ended up coming back and defeating the Saints 20-10. This isn’t Brady’s first documented case of tablet abuse — he threw the thing so hard against the bench after losing a Saints game last year that it actually bounced.
+Microsoft Surface chief Panos Panay responded to the incident on his Instagram story this time around,...
+Continue reading…]]></summary>
+        <author>
+            <name>The Verge -  All Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Busy - AI Calendar Assistant — Smart and simple scheduling on iOS]]></title>
+        <id>https://www.producthunt.com/posts/busy-ai-calendar-assistant</id>
+        <link href="https://www.producthunt.com/posts/busy-ai-calendar-assistant"/>
+        <updated>2022-09-18T21:04:06.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DirecTV fumbles NFL Sunday Ticket... again]]></title>
+        <id>https://www.theverge.com/2022/9/18/23359677/nfl-sunday-ticket-is-down-outage-directv-streaming</id>
+        <link href="https://www.theverge.com/2022/9/18/23359677/nfl-sunday-ticket-is-down-outage-directv-streaming"/>
+        <updated>2022-09-18T20:26:57.000Z</updated>
+        <summary type="html"><![CDATA[Illustration by Alex Castro / The Verge
+    
+
+  
+DirecTV’s NFL Sunday Ticket stream has gone down for the second week in a row. Football fans across Twitter complained that they were unable to log in or received an error message when trying to load the stream.
+Former Deadspin reporter Timothy Burke said on Twitter the service started having issues at about 2PM ET, and all streams when dark after that. DirecTV acknowledged the issue in a tweet, and later shared an update at around 4PM ET saying that the games went back online, but that it would “continue to monitor” the streams. 
+It looks like subscribers continued to have problems after this. Many users said the Sunday Ticket app blacked out certain games even though they weren’t available locally.
+"Today’s NFL Sunday Ticket games...
+Continue reading…]]></summary>
+        <author>
+            <name>The Verge -  All Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[iPhone 14 Pro users report camera shakiness and grinding noise when using third-party apps]]></title>
+        <id>https://www.theverge.com/2022/9/18/23359564/iphone-14-cameras-shaking-grinding-sounds-third-party-photo-apps-apple</id>
+        <link href="https://www.theverge.com/2022/9/18/23359564/iphone-14-cameras-shaking-grinding-sounds-third-party-photo-apps-apple"/>
+        <updated>2022-09-18T18:44:14.000Z</updated>
+        <summary type="html"><![CDATA[The iPhone 14 Pro camera. | Photo by Amelia Holowaty Krales / The Verge
+    
+
+  
+Users who just purchased a new iPhone 14 Pro or Pro Max might experience a strange issue: uncontrollable lens movement (via 9to5Mac). As demonstrated in videos and complaints posted across the web, some users noticed that their camera shakes and even makes an awful grinding noise when opening the camera on a third-party app, like Instagram, Snapchat, or TikTok.
+Apple YouTuber Luke Miani posted a video to Twitter showing how his iPhone 14 Pro Max camera vibrates when using Snapchat, making the photo completely blurry. You can also clearly hear a buzzing or rattling sound coming from the lens that really doesn’t sound good.
+So uh, we’re having some issues with the 14 Pro Max camera pic.twitter.com/7HH1wLFjdF
+— Luke Miani (@LukeMiani) S...
+
+
+  
+Continue reading…]]></summary>
+        <author>
+            <name>The Verge -  All Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Dynamic Island might come to all iPhone 15 models]]></title>
+        <id>https://www.theverge.com/2022/9/18/23359479/apple-dynamic-island-base-iphone-15-ross-young-rumors</id>
+        <link href="https://www.theverge.com/2022/9/18/23359479/apple-dynamic-island-base-iphone-15-ross-young-rumors"/>
+        <updated>2022-09-18T17:25:35.000Z</updated>
+        <summary type="html"><![CDATA[The Dynamic Island on the iPhone 14 Pro. | Photo by Amelia Holowaty Krales / The Verge
+    
+
+  
+The iPhone 14 has only been out for a few days, but that isn’t stopping the rumor mill from churning out predictions about Apple’s next iPhone. Supply chain analyst Ross Young says on Twitter that he expects Apple to include the Dynamic Island — the notch successor that currently only comes on the iPhone 14 Pro and Pro Max — on all iPhone 15 models, not just the Pro variations (via MacRumors).
+If true, this would make the Dynamic Island the standard across all new iPhones, allowing it to fully replace the notch that Apple first introduced with the iPhone X in 2017 (at least until Apple comes up with another design). Young also indicates that the base iPhone 15 still won’t come with an 120Hz LTPO display that enables the iPhone 14 Pro’s...
+Continue reading…]]></summary>
+        <author>
+            <name>The Verge -  All Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Billion Dollar Business Ideas — Discover billion dollar business ideas for your next project]]></title>
+        <id>https://www.producthunt.com/posts/billion-dollar-business-ideas</id>
+        <link href="https://www.producthunt.com/posts/billion-dollar-business-ideas"/>
+        <updated>2022-09-18T16:59:15.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[规划 OTA 更新需要了解的 3 件事]]></title>
+        <id>https://linux.cn/article-15045-1.html?utm_source=rss&amp;utm_medium=rss</id>
+        <link href="https://linux.cn/article-15045-1.html?utm_source=rss&amp;utm_medium=rss"/>
+        <updated>2022-09-18T15:28:13.000Z</updated>
+        <summary type="html"><![CDATA[在开始编写应用之前，为手机、物联网设备和边缘计算定义无线更新计划。
+
+
+过去对系统的更新相对简单。当开发人员需要修改他们已经分发给公众的东西时，会发布一个更新程序供人们运行。用户将运行更新程序，允许用新文件替换旧文件并添加新文件。然而，即使有了这些“相对简单”的更新，也有一个问题。当用户安装好的系统处于意外状态时会发生什么？升级中断时会发生什么？当各种设备都在线时，这些问题同样重要，有时需要重要的安全更新。今天的许多更新都是通过无线、空中下载技术over-the-air（OTA）的方式提供的，连接不良、信号突然丢失或断电的可能性可能会对应该是次要更新的内容造成灾难性的影响。这些是你在计划提供 OTA 更新时需要考虑的三大策略。
+
+1、验证
+
+TCP 协议内置了很多验证功能，因此当你 向设备发送数据包 时，通常可以确信每个数据包都已完好无损地收到。但是，TCP 无法报告它不知道的错误，因此由你来验证以下内容：
+
+
+你是否已发送更新所需的所有文件？设备无法接收没有发送的内容。
+
+收到的文件和你发送的文件一样吗？至少，检查 SHA 和以验证文件完整性。
+
+如果可能，请使用 数字签名 确保文件来自受信任的来源。
+
+在允许更新开始之前，你必须验证设备能够应用更新。在提交更新之前检查权限和电池状态，并确保你的更新过程覆盖任何意外的用户事件，例如计划的重新启动或休眠。
+
+最后，你必须验证声称已成功完成的更新是否已实际完成。在将更新正式标记为系统已完成之前，请检查目标设备上的文件位置和完整性。
+
+
+2、回退和故障状态
+
+更新的最坏情况是设备处于损坏状态，以至于它甚至不能继续被中止的更新。在这种情况下，更新程序文件存在于目标设备上，但该过程已被中断。这可能会使设备处于未知状态，其中一些文件已被更新版本替换，而其他文件尚未被替换。在最坏的情况下，已更新的文件与尚未更新的文件不兼容，因此设备无法按预期运行。
+
+有一些策略可以解决这个问题。初始更新步骤可能是安装专用于完成更新的特殊引导镜像或环境，并在系统上设置“标志”以确认更新正在进行中。这样可以确保即使设备在更新过程中突然断电，更新过程也会在下次启动时重新启动。仅在验证更新后才删除表示更新成功的标志。
+
+根据目标设备的安全策略和你要更新的内容，特殊的引导镜像可能不可行或不需要。不过，原理还是一样的。当启动后，更新必须建立一个环境，在这个环境中，待处理的更新是解决问题之前的唯一途径
+
+但是，在更新被授予启动权限之前，用户（如果有的话）应该能够延迟或忽略更新。
+
+3、附加更新
+
+在许多边缘和物联网设备中，目标设备的底层是不可变的。更新只会添加到系统的已知状态。 Fedora Silverblue 之类的项目正在证明这种模式可以在许多领域发挥作用，因此这种奢侈的做法可能会变得司空见惯。不过，在那之前，成功应用更新的一部分是了解你将要影响的环境。
+
+不过，你不需要不可变的核心来应用附加更新。你可以构建一个使用相同概念的系统，将更新作为添加库或包的一种方式，而无需修改旧版本。作为此类更新的最后一步，具有更新路径的可执行文件是你所做的唯一实际修订。
+
+OTA 更新
+
+世界越来越无线化。对于手机、物联网设备和 边缘计算，OTA 更新通常是唯一的选择。实施 OTA 更新策略需要仔细规划并仔细考虑不可能的情况。你最了解你的目标设备，因此请在开始编码之前规划好你的更新架构。
+
+
+via: https://opensource.com/article/22/9/plan-ota-updates-edge
+
+作者：Alan Smithee 选题：lkxed 译者：geekpi 校对：wxy
+
+本文由 LCTT 原创编译，Linux中国 荣誉推出]]></summary>
+        <author>
+            <name>linux@linux.cn (linux)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[来自欧洲的一个开源 3D 打印 VR 头盔项目]]></title>
+        <id>https://linux.cn/article-15044-1.html?utm_source=rss&amp;utm_medium=rss</id>
+        <link href="https://linux.cn/article-15044-1.html?utm_source=rss&amp;utm_medium=rss"/>
+        <updated>2022-09-18T15:03:00.000Z</updated>
+        <summary type="html"><![CDATA[三家欧洲企业创建了一个 6 GHz WiFi 6E 无线开源虚拟现实头盔。
+
+
+捷克 3D 打印专家 Prusa Research 公司正在与模拟器开发商 Vrgineers 和英国的 Somnium Space 合作开发 Somnium VR ONE 头盔。这款产品可以连接或者独立使用，旨在尽可能地开放，来改变虚拟现实市场中受限的供应。
+
+由于 Android 11 操作系统是一个开源的操作系统，其源代码是公开的，因此它将在不受限制的商业许可下出售。其中央处理单元是高通骁龙 XR2 CPU，支持 microSD 存储卡，并拥有 8GB 的LPDDR5 内存和 512GB UFS 闪存。
+
+它采用新的 6 GHz 的 WiFi 6E 高带宽无线协议，而不是目前拥挤的 5GHz 和 2.4GHz WiFi频率，以实现更高的带宽和低延迟连接。它包括两个 3.2 英寸 2880RGB * 2880 快速液晶屏幕，具有 120 度水平视野和 100 度垂直视野。
+
+它具有两个用于外部小工具的 USB-C 10 Gbit/s 链路，和一个 USB-C USB2.0 电池组（USB3.2 Gen2）。Somnium Space 与布拉格的 VRgineers 合作，在线销售电子产品和独有的镜头，使用户能够 3D 打印自己的头盔，此外，也会提供完整的头盔。
+
+该企业于 2012 年在布拉格成立，已经拥有 700 多名员工。开源的 Prusa i3 design 是世界上使用最广泛的 3D 打印机，每月从布拉格直接向 160 多个国家运送超过 10000 台 Original Prusa 打印机。
+
+合成训练环境Synthetic Training Environments（STE）是由捷克共和国的模拟器开发商 VRgineers 向企业和政府客户提供的。它创造了被称为 XTAL 的专业 8K 头盔，该头盔被 NASA、空客防务与航天公司和 BAE Systems 公司使用，目前在布拉格、布尔诺和拉斯维加斯拥有一支由 50 名专家组成的国际团队。
+
+总部位于伦敦的 Somnium Space 是一个建立在区块链上的开放、社交和永久虚拟现实平台。由于其独特的 NFT 的去中心化经济，用户可以拥有、交易和交换数字商品而无需获得授权。它已经与高通公司和 Ultraleap 公司在 Lynx R-1 上进行了合作，这是一个独立的增强现实（AR）头盔设计。
+
+
+via: https://www.opensourceforu.com/2022/09/a-project-for-an-open-source-3d-printed-vr-headgear-from-europe/
+
+作者：Laveesh Kocher 选题：lkxed 译者：zjoftceo 校对：wxy
+
+本文由 LCTT 原创编译，Linux中国 荣誉推出]]></summary>
+        <author>
+            <name>linux@linux.cn (linux)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[小爱触屏音箱实现 Stream Deck 贫替]]></title>
+        <id>https://sspai.com/post/75789</id>
+        <link href="https://sspai.com/post/75789"/>
+        <updated>2022-09-18T13:42:39.000Z</updated>
+        <summary type="html"><![CDATA[前几天看到时间线上 latter21 有晒 Elgato 的 Stream Deck，感觉很炫酷自定义程度也很高就想买一个。我一查价格居然要一千多一个，太贵了买不起。然后我又看到「爱运动的数码君」有将小爱触屏音箱安装 Macro Deck 的视频，这就是我想要的：一百多能实现 Stream Deck「贫替」。我折腾完用了几天感觉还不错，今天就写个教程和使用体验给大家分享下。
+准备工作
+
+小爱触屏音箱。
+Windows 电脑
+Micro USB 数据线
+下载需要的文件（包含了驱动、刷机包、搞机工具箱、和安卓端的 App）
+
+安装改版固件
+小爱触屏音箱的官方系统是不能安装第三方 app 的，而是需要刷入改版固件才行。安装改版固件不影响小爱同学的正常功能， 也不影响保修。
+安装驱动
+安装驱动
+将文章开头的工具包下载解压，打开 FlashTool - Driver 文件夹里的 Mediatek-Drivers-Install.bat（需要管理员权限），跟随提示完成驱动安装。
+进行刷机
+设置刷机
+打开 FlashTool 文件夹里的 _SPFT.exe 刷机工具，如果弹出报错提示，直接确认忽略即可。
+
+下载 DA 框选择：FlashTool 下 Hikaru_resign-Xiaomi 文件夹里的 DA_Mi_Hikaru-resign.bin
+配置文件选择 Image 文件夹里的 MT8167_Android_scatter.txt
+验证文件选择 FlashTool 下 Hikaru_resign-Xiaomi 文件夹里的 auth_sv5.auth
+
+然后我们将下方的选框从下载改到固件升级。
+刷机过程
+点击下载按钮后，通过数据线连接小爱触屏音箱就会开始刷机。刷机的过程可能需要几分钟到十几分钟，在此期间小爱同学触屏音箱会始终处于黑屏状态，只要能在设备管理器中找到其 com 端口即连…]]></summary>
+        <author>
+            <name>酱紫表</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[instaprice — The pricing calculator for freelance projects]]></title>
+        <id>https://www.producthunt.com/posts/instaprice</id>
+        <link href="https://www.producthunt.com/posts/instaprice"/>
+        <updated>2022-09-18T13:13:06.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Best MagSafe Accessories for Your New iPhone]]></title>
+        <id>6184e74b41d2d21ecfcb0cff</id>
+        <link href="https://www.wired.com/gallery/best-magsafe-accessories/"/>
+        <updated>2022-09-18T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Load up your iPhone 14, iPhone 13, or iPhone 12 with a magnetic bike mount, tripod, wallet, or power bank.]]></summary>
+        <author>
+            <name>Julian Chokkattu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Best Sex Toys for Every Body]]></title>
+        <id>5ec58eed5bea2fa8333c4edd</id>
+        <link href="https://www.wired.com/gallery/best-sex-toys-and-tech/"/>
+        <updated>2022-09-18T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[These are our favorite gender-inclusive vibrators, wand massagers, and sleeves to give you and your partner(s) a helping hand.]]></summary>
+        <author>
+            <name>Jaina Grey, Louryn Strampe</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Epigenetic ‘Clocks’ Predict Animals’ True Biological Age]]></title>
+        <id>631f681e036b54662b510484</id>
+        <link href="https://www.wired.com/story/epigenetic-clocks-predict-animals-true-biological-age/"/>
+        <updated>2022-09-18T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A statistical analysis of chemical tags on DNA may help unify disparate theories of aging.]]></summary>
+        <author>
+            <name>Ingrid Wickelgren</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Use DuckDuckGo’s Privacy-First Email Service]]></title>
+        <id>6309107c567860ab6c66c64f</id>
+        <link href="https://www.wired.com/story/how-to-use-duckduckgo-privacy-first-email/"/>
+        <updated>2022-09-18T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Tired of advertisers spying on your private communications? This beta promises to kick tracking technology to the curb.]]></summary>
+        <author>
+            <name>David Nield</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[硬核观察 #763 AI 机器人遇到“提示注入”攻击]]></title>
+        <id>https://linux.cn/article-15043-1.html?utm_source=rss&amp;utm_medium=rss</id>
+        <link href="https://linux.cn/article-15043-1.html?utm_source=rss&amp;utm_medium=rss"/>
+        <updated>2022-09-18T11:57:00.000Z</updated>
+        <summary type="html"><![CDATA[AI 机器人遇到“提示注入”攻击
+
+研究人员发现了一种被称为“提示注入”的技术，可以将 AI 机器人重定向到重复令人尴尬和可笑的短语。一些推特用户在这个发现之后，劫持了一个在 GPT-3 语言模型上运行的自动推特机器人，从而导致该 AI 机器人被迫关闭。注入式攻击的概念并不新鲜，如 SQL 注入、XSS，但防御“提示注入”的困难来自于 AI 没有正式的语法，因而不像其他注入攻击那样纠正语法就能防御大部分攻击。
+
+
+消息来源：ARS Technica
+
+
+
+老王点评：我想，AI 或许很快就会“进化”出防御的能力。
+
+
+
+
+Ubuntu 支持更多来自中国的 RISC-V 板卡
+
+除了支持赛昉的昉·星光和全志的哪吒 RISC-V 板卡外，Canonical 工程师也在努力为下个月的 Ubuntu 22.10 添加更多的 RISC-V 板卡支持。他们正在为一款起价为 16.90 美元的 RISC-V 板卡 Sipeed Lichee RV 提供支持。它是一块带有 M.2 接口的计算模块板，可以连接到载体板。它使用全志 D1 SoC，采用单核玄铁 C906 64 位 RISC-V 处理器，运行频率仅为 1.0GHz。这是一块非常便宜但很慢的板卡，适用于物联网领域。
+
+
+消息来源：Phoronix
+
+
+
+老王点评：看起来 Canonical 越来越重视 RISC-V 了，而且，中国的 RISC-V 厂商进展也不错。
+
+
+
+
+Craigslist 的界面和 25 年前一样
+
+分类广告网站 Craigslist 自 1995 年上线以来，其页面外观一直没有变化。其创始人称，对使用这个网站的用户来说，它简单又方便，这就足够了。他说作为一名工程师，简单就是美，实用就是美。Craigslist 总共只有 10 名员工，从事开发、客服和会记工作，没有任何人从事销售工作。
+
+
+消息来源：PCMag
+
+
+
+老王点评：你认同他的说法吗？我觉得还是懒 —— 不过话说也有一些人批评 Linux 中国好多年没改版的网站很丑。至于我们这么多年没改版的原因就不说了，我只能说新版就来了，就来了，只要小白不烂尾……]]></summary>
+        <author>
+            <name>linux@linux.cn (linux)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Video Compress Ultra Editor — Make your videos smaller with zero loss of quality]]></title>
+        <id>https://www.producthunt.com/posts/video-compress-ultra-editor</id>
+        <link href="https://www.producthunt.com/posts/video-compress-ultra-editor"/>
+        <updated>2022-09-18T11:56:52.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Scholars — Read research papers together - comment, draw & annotate]]></title>
+        <id>https://www.producthunt.com/posts/scholars</id>
+        <link href="https://www.producthunt.com/posts/scholars"/>
+        <updated>2022-09-18T11:27:33.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Asus’ First Foldable PC Is Here. But It’s Half-Baked]]></title>
+        <id>6322e8e420bc56769c4130ef</id>
+        <link href="https://www.wired.com/review/asus-zenbook-17-fold-oled/"/>
+        <updated>2022-09-18T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The brand’s attempt at a foldable PC is a showcase for the new form factor, but even Asus admits it’s “not a mass-market product.” We agree.]]></summary>
+        <author>
+            <name>Adam Speight</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Create an Augmented Reality Filter for TikTok]]></title>
+        <id>6320b293c4d3ebc9237bc5c1</id>
+        <link href="https://www.wired.com/story/how-to-use-create-ar-filters-tiktok-effect-house/"/>
+        <updated>2022-09-18T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[From Paris to Dubai, I spoke with designers around the world about the process of creating AR effects for social media.]]></summary>
+        <author>
+            <name>Reece Rogers</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Android’s New Notification Feature Is a Decade Overdue]]></title>
+        <id>62fe4edddfd380f2b1c3cb55</id>
+        <link href="https://www.wired.com/story/android-13-notifications-permission/"/>
+        <updated>2022-09-18T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In Android 13, apps have to ask permission before they send any kind of alerts. Finally.]]></summary>
+        <author>
+            <name>Eric Ravenscraft</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Queen’s Funeral Sets Off the Biggest UK Police Operation Ever]]></title>
+        <id>63250dc8f2203b5586fabfbb</id>
+        <link href="https://www.wired.com/story/queen-elizabeth-ii-funeral-details-security/"/>
+        <updated>2022-09-18T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Snipers on buildings. Drone no-fly zones. Temporary CCTV. The security plan is even more complex than it was for the London 2012 Olympics.]]></summary>
+        <author>
+            <name>Matt Burgess</name>
         </author>
     </entry>
     <entry>
@@ -364,38 +1137,6 @@ via: https://news.itsfoss.com/fedora-apple-torvalds/
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[9 Figma Alternatives For A Blazingly Fast Increase In Your Productivity.]]></title>
-        <id>https://dev.to/wiseai/9-figma-alternatives-for-a-blazingly-fast-increase-in-your-productivity-3g40</id>
-        <link href="https://dev.to/wiseai/9-figma-alternatives-for-a-blazingly-fast-increase-in-your-productivity-3g40"/>
-        <updated>2022-09-18T07:35:48.000Z</updated>
-        <summary type="html"><![CDATA[Many powerful design tools are available on the market, and Figma is undoubtedly one of them. However, with the news that Adobe has acquired Figma, you may be looking for an alternative tool to use.
-There are several factors to consider when choosing a design tool, and it's essential to choose one that will meet your needs and preferences. Some things to keep in mind include the cost of the tool, the learning curve, the features offered, and whether or not it integrates well with other software you're using.
-So here are nine design tools that are worth checking out.
-
-
-
-
-Penpot.
-Inkscape.
-Akira.
-Wireflow.
-Sketch.
-InVision.
-Canva.
-Affinity Designer.
-CorelDRAW.
-Conclusion.
-Penpot. 
-
-
-
-penpot ⭐ 13k+ 🍴 600+
-Penpot is the first Open Source design and prototyping platform for cross-domain teams.…]]></summary>
-        <author>
-            <name>Mahmoud Harmouch</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Creator Catalyst — A powerhouse with 300+content creation resources]]></title>
         <id>https://www.producthunt.com/posts/creator-catalyst</id>
         <link href="https://www.producthunt.com/posts/creator-catalyst"/>
@@ -405,41 +1146,6 @@ Penpot is the first Open Source design and prototyping platform for cross-domain
             Link]]></summary>
         <author>
             <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Working with sigmoid in Solidity]]></title>
-        <id>https://dev.to/sihantawsik/working-with-sigmoid-in-solidity-3g38</id>
-        <link href="https://dev.to/sihantawsik/working-with-sigmoid-in-solidity-3g38"/>
-        <updated>2022-09-18T07:05:38.000Z</updated>
-        <summary type="html"><![CDATA[Introduction
-
-
-While working on a project in solidity, I needed to make a calculation with sigmoid. Now, anyone who has already worked with sigmoid will know that it involves the irrational number e. In this article, I will describe what problems I faced and how I tried to approach the problem from a mathematical and programming concept.
-Solidity does not have native support for fractional operations, rather it uses scaled version of numbers (i.e: uint256 and int256) to make operations for fractional calculation. for example, if you are to do an operation like this:
-let x = 1/3;
-
-In pure solidity the result needs to be scaled to adjust precision similar to this:
-uint256 x = (10**18)/3;
-
-On top of that the natural exponential function makes it harder to calculate in pure solidity.
-f(x)=11+e…]]></summary>
-        <author>
-            <name>Sihan Tawsik</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[9 Best UI Component Libraries/Frameworks in 2022 for Frontend Developers🔥]]></title>
-        <id>https://dev.to/aviyel/top-9-best-ui-component-librariesframeworks-in-2022-for-frontend-developers-b48</id>
-        <link href="https://dev.to/aviyel/top-9-best-ui-component-librariesframeworks-in-2022-for-frontend-developers-b48"/>
-        <updated>2022-09-18T07:02:36.000Z</updated>
-        <summary type="html"><![CDATA[Introduction
-
-
-If you're involved in web development, chances are that you've heard of UI component libraries and CSS frameworks. A UI Component Library is a collection of pre-made styles (like fonts, components, or colors) that can be quickly used to build websites. These UI components enable developers to create code that solves common problems—for example, creating buttons and components that work on all devices or adding menus and pre-built elements that are already designed for you so that you don't have to build them from scratch. In this article, we’ll explore the main benefits of using a UI component library or CSS framework when building your next project—and then we'll go over some excellent choices for free ones available on the market right now!
-There are many UI component libr…]]></summary>
-        <author>
-            <name>Pramit Marattha</name>
         </author>
     </entry>
     <entry>
@@ -465,79 +1171,14 @@ There are many UI component libr…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Setting up the medusa server]]></title>
-        <id>https://dev.to/dailydevtips1/setting-up-the-medusa-server-4c8j</id>
-        <link href="https://dev.to/dailydevtips1/setting-up-the-medusa-server-4c8j"/>
-        <updated>2022-09-18T06:58:19.000Z</updated>
-        <summary type="html"><![CDATA[Regarding medusa, the project is made up of different building blocks.
-For instance, you can run a server and separate admin panels or storefronts.
-Let's dive into that part, and I'll show you how we can set up the server and interact with it directly.
-The first step is to install the medusa-cli. This will help us set up the project quickly.
-Run the following command in your terminal.
-npm install @medusajs/medusa-cli -g
-
-With this installed, we can create the server project. You can even go ahead and seed the database with dummy data.
-medusa new medusa-server --seed
-
-The project will be created in the medusa-server folder, and you can change this name in the command above to whatever you use.
-It will take a while to install everything and seed the database. Once it's done, you can navigate to the folder.
-cd medusa-server
-
-And from there, we can start the server with the following command.
-medusa develop
-
-This should spool up the product, and you should eventually see it stating the server is available on port 9000.
-The default medusa server will work based on an SQLite database, and we can super easily connect to the actual file with any database client.
-In this example, I'm using TablePlus to connect to the SQLite file at the root of the project.
-
-Once you're connected, you should see the seeded data available.
-
-Another thing we can try out now is to test the actual API endpoints.
-For instance, we can try and retrieve a list of all products.
-localhost:9000/store/products.
-For example, when querying it with Insomnia, we can see all our products neatly listed.
-
-Thank you for reading my blog. Feel free to subscribe to my email newsletter and connect on Facebook or Twitter]]></summary>
-        <author>
-            <name>Chris Bongers</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FullText index in MySQL]]></title>
-        <id>https://dev.to/amitiwary999/fulltext-index-in-mysql-m1f</id>
-        <link href="https://dev.to/amitiwary999/fulltext-index-in-mysql-m1f"/>
-        <updated>2022-09-18T06:56:05.000Z</updated>
-        <summary type="html"><![CDATA[MySQL is one of the most used relational database management systems. We all know that it is fast and easy to use. In MySQL, storage engines are the components that handle the SQL operations. InnoDB is that widely used storage engine in MySQL. One of the reasons that make SQL operations fast is the index. If you create the index correctly, your query can be very fast. We can create an index on int, char type(one word) columns, but we can also create a FULLTEXT index on the text-based columns where we save multi-word strings. In this blog, I will explain how the FULLTEXT index works.
-
-Index deletion
-DELETED[1] table whenever a record is deleted from an indexed table, and the indexed record remains in the full-text index. Before returning query results, information in the FTS_DELETED table is used to filter out deleted DOC_ID. The benefit of this design is that deletions are fast and inexpensive. The drawback is that the size of the index is not immediately reduced after deleting records. To remove full-text index entries for deleted records, run OPTIMIZE_TABLE on the indexed table with innodb_optimize_fulltext_only=ONto rebuild the full-text index.
-[1]: FTS_00000000000008c3_DELETED in above image contain the document IDs (DOC_ID) for documents that are deleted but whose data is not yet removed from the full-text index. FTS_00000000000008c3_DELETED_CACHE is in-memory version of FTS_00000000000008c3_DELETED. We first save it in cache and once cache is full, flush it to FTS_*_DELETED table.]]></summary>
-        <author>
-            <name>Amit Tiwary</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Fortnite’s new season adds Spider-Gwen and goopy chrome]]></title>
-        <id>https://www.theverge.com/2022/9/18/23357870/fortnite-chapter-3-season-4-paradise-battle-pass</id>
-        <link href="https://www.theverge.com/2022/9/18/23357870/fortnite-chapter-3-season-4-paradise-battle-pass"/>
-        <updated>2022-09-18T06:11:41.000Z</updated>
-        <summary type="html"><![CDATA[Spider-Gwen in Fortnite. | Image: Epic Games
-    
-
-  
-A new season of Fortnite is upon us, and it’s dripping with chrome. Today sees the launch of Chapter 3: Season 4 for the battle royale game, dubbed “Paradise,” and the big change this time around is a mysterious new substance. It’s called chrome, and it appears to be able to change just about everything it touches: you can splash it on walls to go right through them or splash it on yourself for temporary fire immunity and faster sprinting.
-Other additions this season including new locations, like a floating condo, and other points of interest that have, naturally, been infested with chrome. Sniper rifles have received a big buff, increasing both damage and headshot multipliers. There’s also a new kind of vault, which can be opened by...
-Continue reading…]]></summary>
-        <author>
-            <name>The Verge -  All Posts</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[RightAvenues — Realtime NYC sounds]]></title>
         <id>https://www.producthunt.com/posts/rightavenues</id>
         <link href="https://www.producthunt.com/posts/rightavenues"/>
         <updated>2022-09-18T04:57:52.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
+        <summary type="html"><![CDATA[www.rightavenues.net and share your feedback with us :))
+              ”
+              
+Discussion
             |
             Link]]></summary>
         <author>
@@ -572,6 +1213,70 @@ Discussion
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[如何免费用微信小程序中文 AI 绘画？]]></title>
+        <id>https://sspai.com/post/75783</id>
+        <link href="https://sspai.com/post/75783"/>
+        <updated>2022-09-18T03:44:08.000Z</updated>
+        <summary type="html"><![CDATA[前些日子，我给你介绍了本地使用 Stable Diffusion 人工智能绘画工具的方法（如何在你的 M1/M2 Mac 本地运行 Stable Diffusion？）。不少小伙伴们反馈说玩儿得很开心。
+
+不过也有不开心的，因为手头儿没有 M1/M2 的 Mac 电脑。
+
+是不是因为设备限制，就只能眼巴巴看着别人体验新科技成果呢？
+当然不是。人工智能技术的普及化，已经是科技发展的潮流趋势了。我今天给你介绍一个不需要安装任何应用的体验方式。而且，更好的消息是，你都不用把自己的想法翻译成英文了，直接输入中文就行。
+这是个微信小程序，叫做「盗梦师」。开发者是西湖大学蓝振忠老师团队。
+我这里给你做个演示。
+今早我看到有人分享了一段视频，是喷气式背包的实验场景。很有意思。
+
+于是我就在朋友圈发了一番感慨：
+
+有了这玩意儿，上班堵车不是事儿了。
+
+感慨之后，觉得光用文字表达不够形象，刚好就可以用「盗梦师」画出来。
+于是我打开小程序，输入了这样一段话：
+
+一个背着喷气式背包的中年人在交通拥堵的马路上轻松自在飞行
+
+这里注意你可以选择绘画的类型。我选择的是「赛博朋克」，我觉得和主题很搭。
+
+然后是选择画家风格。我对赛博朋克艺术家不了解，于是设置成为「不限定」。
+
+下面还有一个选项，是画面的长宽比例。我觉得对于展示的画作来说， 16:9 感觉上比较好。
+好了，做了这些设定后，就可以直接画了。
+
+这里需要等上几秒钟即可，比本地 M1 Mac 运行起 Stable Diffusion 来快多了。画做好了，你感觉怎么样呢？
+
+有了这样的形象画面，朋友圈里的评论一下子就丰富了起来，例如：
+
+假发套得粘的紧一点
+
+以及：
+
+当姑娘们画好了妆，做好了头发，美美的在街上走着，然后突然被人用喷气背包的风吹乱的时候，你猜她们会不会捡石头把它打下来
+
+我觉得，这些担心，都不无道理，值得背包开发商们认真记录和讨论。
+如果你感兴趣的话，直接打开微信，搜索这个小程序试试看吧。上文图中也包含了二维码可以直达。目前阶段，每天有 5 次免费创作机会。然后每分享给一位好友，双方可以获得 20 次创作额度。
+当然，我也尝试了一些其他的图画，例如中国风的「雪中山寺古钟」。
+
+雪、山都齐全了，只是寺庙在哪里？找了半天没看到，哈哈。如果你玩儿过 Stable Diffusion ，应该知道很多时候你需要多画几张，从中选择更合适的图画。所以我准备等明天有了新的额度，再用同样的文本，多画几张对比看看。
+欢迎把你的尝试结果和经验心得分享到留言区，咱们一起交流讨论。
+祝人工智能绘画愉快！
+如果你觉得本文有用，请充电。
+如果本文可能对你的朋友有帮助，请转发给他们。
+欢迎关注我的专栏「科研利器」，以便及时收到后续的更新内容。
+  
+ 
+延伸阅读
+
+【知识星球精选】刻意练习区的辅助线
+“没有灵魂” 的 AI 文本生成，有啥用？
+可视化卡片笔记写作？我试了最近才开放的 Heptabase
+大块的写作时间？这个时代，它是奢侈品
+互联网上的时光机器]]></summary>
+        <author>
+            <name>玉树芝兰</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Animal Alliance Pledge — Education and structure for plant-based lifestyles]]></title>
         <id>https://www.producthunt.com/posts/animal-alliance-pledge</id>
         <link href="https://www.producthunt.com/posts/animal-alliance-pledge"/>
@@ -588,6 +1293,30 @@ Discussion
             Link]]></summary>
         <author>
             <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[听播客也要收集精彩片段，哪个播客应用更适合？]]></title>
+        <id>https://sspai.com/post/75736</id>
+        <link href="https://sspai.com/post/75736"/>
+        <updated>2022-09-18T02:50:45.000Z</updated>
+        <summary type="html"><![CDATA[播客的形式和内容日益丰富，其中不乏一些可以与文章、视频媲美的信息价值和密度。我们会通过剪藏、截图来收集文字和图像，然而对于声音为媒介的播客，是否你也产生了“要是能把这段单独截出来就好了”的想法？
+作为半个播客爱好者，我目前一直在使用 Spotify，无论是设备进度同步，还是UI交互，播客的基础功能都算基本满足，唯一遗憾是当听到精彩的片段时，没有裁剪和收藏片段的功能。
+因此开始在市面上寻找这样的应用，我的需求算比较清晰，首先必须要有片段截取功能；其次需要能创建公开链接，无论用于分享朋友还是收集； 最后软件的播客功能需要能过得去，如果能跨平台也是加分项；
+在市面上找了一轮，大体能满足要求的找到了三款，下面就通过比较 Snipd、Airr 和 QlipCast 三个播客应用，给有类似需求的读者做参考。
+💡 喜马拉雅也包含片段截取的“卡擦”功能，但由于广告泛滥和部分内容限制，我个人不纳入考虑，不介意的朋友可以尝试喜马拉雅，从功能齐全、多端同步、网络稳定上都是较优选择，注意敏感内容即可。
+   
+具体比较
+1、整体设计风格
+Snipd 整体风格和 Spotify 相近，大线条的图标以及深蓝渐变和绿色的色彩；
+Airr 界面简洁干净，主要以黑白交错为主，首层只有两个模块：第一个主要是看自己和他人分享的一些片段，第二块包含关注或订阅的播客、听过的节目和创建过的片段。
+QilpCast 作为最近更新已经是两年前的软件，UI 虽无法媲美前两者，也还算得差强人意。
+左：Snipd；中：Airr；右：QlipCast
+2、片段创建和分享功能
+这部分的功能可以说是我的需求核心，功能对比也聚焦在主要的操作流上，即：裁剪与创建片段→ 管理与编辑片段 → 分享/导出
+💡 截取的片段名称在各软件叫法各异，Snip（Snipd），Quote（Airr）和 Qlip（QlipCast），为阅读理解便利，以…]]></summary>
+        <author>
+            <name>kinh_l</name>
         </author>
     </entry>
     <entry>
@@ -627,22 +1356,6 @@ Discussion
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Elden Ring is getting its own board game]]></title>
-        <id>https://www.theverge.com/2022/9/17/23358231/elden-ring-board-game-kickstarter-steamforged-games-tabletop</id>
-        <link href="https://www.theverge.com/2022/9/17/23358231/elden-ring-board-game-kickstarter-steamforged-games-tabletop"/>
-        <updated>2022-09-17T21:25:10.000Z</updated>
-        <summary type="html"><![CDATA[Image: Steamforged
-    
-
-  
-Elden Ring’s expansive world of the Lands Between will soon be small enough to set atop your table. Steamforged Games, the company behind the board game adaptions of Dark Souls, Horizon Zero Dawn, and Resident Evil, announced that it’s working on an Elden Ring board game through Kickstarter.
-The game will allow one to four players to “embark on a huge and varied adventure, visiting iconic locations and crossing paths with familiar enemies and characters,” while offering dice-free combat between both bosses and minor foes. Mat Hart, the co-founder and chief creative officer at Steamforged explains that “fans should expect a dark, richly-realised tabletop world of mystery and peril, with satisfying combat and rewarding exploration.”...
-Continue reading…]]></summary>
-        <author>
-            <name>The Verge -  All Posts</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[GrammarBrain — The world's best online resource for learning English]]></title>
         <id>https://www.producthunt.com/posts/grammarbrain</id>
         <link href="https://www.producthunt.com/posts/grammarbrain"/>
@@ -652,6 +1365,35 @@ Continue reading…]]></summary>
             Link]]></summary>
         <author>
             <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Obsidian 综述 - 新 UI 新征程（v0.16 发布之际）]]></title>
+        <id>https://sspai.com/post/75781</id>
+        <link href="https://sspai.com/post/75781"/>
+        <updated>2022-09-17T17:39:57.000Z</updated>
+        <summary type="html"><![CDATA[打算开一个新的系列「Obsidian 综述」，不同于「玩转 Obsidian」系列，「综述」更关注 Obsidian 的功能和插件的使用，而「玩转」系列更成体系，它们的区别：
+
+综述系列重点在「介绍」，针对 Obsidian 近期的新功能、新插件、新主题进行体验。并在使用过一段时间之后，进行简单的介绍和归纳。
+玩转系列重点在「方法论」，是在吃透了「综述」内容之后，结合自己的体验进行总结和提炼。
+
+v0.16 重磅更新
+最近 Obsidian 重磅发布了 v0.16 ，当然目前还属于「内部预览」版，只有付费支持的用户才能体验，不过大家也不用着急，通常「公开版」也不会等太久。
+最大的升级是「重新设计了 Obsidian 的界面」带来了「标签组」等重磅功能，官方内部对这次新 UI 称为 Dragonglass（龙晶），从体验上看完全颠覆了从前我对 Obsidian 界面和易用性上的感知，贴几张个人使用的图大家感受一下：
+
+这次 UI 升级是重头戏，本篇不会事无巨细的介绍所有升级点，我会挑选几条个人最满意的地方跟大家展开介绍，如果您想了解本次所有升级功能可以参考官方文档：
+
+中文介绍
+英文介绍
+
+工作区支持「标签组」
+本次升级引入了「标签组」概念，「标签组」简单理解，就像我们在「浏览器」上使用「标签组」一样，在 Obsidian 中通过多个「标签组」每个组多个「标签页」，可以较大限度的实现「平铺散列」的阅读方式，如图：
+ 
+
+「标签组」的优势在于一方面我们可以通过快速切换「标签组」内的不同「标签页」，提高「信息摄入速度」；另一方面「标签组」也极大拓展了我们打开「笔记」的数量。这两点优势在「整理知识」和「创意输出」的时候非常有用。
+在升级前我们只能采用「下图」中的方式打开多篇「笔记」，这种方式最大的问题是「最多同时可以看到 2篇笔记全貌」，如果想要看到更多需要将笔记拖拽到「中间区域」…]]></summary>
+        <author>
+            <name>闲者时间_王掌柜</name>
         </author>
     </entry>
     <entry>
@@ -665,52 +1407,52 @@ Continue reading…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[In defense of the RGB mouse pad]]></title>
-        <id>https://www.theverge.com/2022/9/17/23356685/razer-firefly-gaming-mousepad-rgb-colors-office-setup-work</id>
-        <link href="https://www.theverge.com/2022/9/17/23356685/razer-firefly-gaming-mousepad-rgb-colors-office-setup-work"/>
-        <updated>2022-09-17T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Yes, we are going to talk about this thing today. | Image: Razer
-    
-
-  
-Recently, The Verge’s reviews team has been making an effort to get rid of some of the ancient products we have lying around our office. We have donated or thrown away some truly prehistoric gadgets. But there was one device that, the second I laid eyes on it, I knew I needed to rescue. It was the Razer Firefly, a seven-year-old mouse pad with a glowing RGB lightstrip around the edge. It was a beautifully silly and extra device, and I knew it was made for me. 
-I have now been using the Razer Firefly at my desk in The Verge’s Manhattan office for several weeks. It offers 16.8 million customizable color options. It sits at my side all day, flashing purple, pink, red, yellow, blue, and everything in between. “But what does it do?” various...
-Continue reading…]]></summary>
+        <title type="html"><![CDATA[iDied – After death notes — Like online will, but for notes]]></title>
+        <id>https://www.producthunt.com/posts/idied-after-death-notes</id>
+        <link href="https://www.producthunt.com/posts/idied-after-death-notes"/>
+        <updated>2022-09-17T17:04:57.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
         <author>
-            <name>The Verge -  All Posts</name>
+            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Constantine sequel brings back Keanu Reeves for more occult detective work]]></title>
-        <id>https://www.theverge.com/2022/9/17/23357796/constantine-sequel-keanu-reeves-warner-bros-dc-comics</id>
-        <link href="https://www.theverge.com/2022/9/17/23357796/constantine-sequel-keanu-reeves-warner-bros-dc-comics"/>
-        <updated>2022-09-17T15:22:01.000Z</updated>
-        <summary type="html"><![CDATA[Keanu Reeves in the 2005 film Constantine. | Screenshot: Warner Bros.
-    
+        <title type="html"><![CDATA[试探索iOS微信文件存储机制]]></title>
+        <id>https://sspai.com/post/75769</id>
+        <link href="https://sspai.com/post/75769"/>
+        <updated>2022-09-17T15:03:28.000Z</updated>
+        <summary type="html"><![CDATA[小众消息的冯大辉前两天推送了一篇很有意思的文章，大概是探讨一个B站视频对微信存储机制可能存在的误解。文中提出了一个实验方法，看到做了试验可能会有奖品，我眼睛一下放光，不如就趁此机会做几个试验，好好探讨一下微信在iOS上的文件存储机制，包括：
 
-  
-John Constantine’s demonic detective work isn’t over just yet. Keanu Reeves is set to return as the titular demonologist and exorcist in a sequel to the 2005 film Constantine, according to reports from Deadline and Variety.
-Both outlets confirmed that Warner Bros. is working on a follow-up film, which also brings back writer Akiva Goldsman and director Francis Lawrence, who initially made his debut with Constantine, but has since gone on to helm movies like The Hunger Games and I Am Legend. Goldsman’s Weed Road Pictures will produce the film alongside J.J. Abrams and Hannah Minghella. 
-Other versions of the DC comic book character Constantine have since appeared in NBC’s adaption that ran from 2014 to 2015, and, more recently, in...
-Continue reading…]]></summary>
+转发文件是否会占用额外的存储空间？
+从同一人处多次接收同一份文件是否会占用额外的空间？
+从不同人处多次接收同一份文件是否会占用额外的空间？
+微信和WeChat在以上这些问题上是否存在差异？
+同一台手机上的不同微信账号接收的同一文件是否占用额外存储空间？
+
+试验的环境是iOS 14.8.1、iPhone 11、微信8.0.28。首先我们删除手机上的微信重新安装。登录一个WeChat小号（小号A）。此时微信占用的空间是少的可怜的752.2MB，其中数据占244.5MB。我提前准备好了一个Ubuntu的iso镜像（880MB）。将它发送给这个小号。下载后重启手机，可以看到，微信占用的空间变成了1.77GB，其中数据占1.26GB。多出来大约1GB的空间，可能是除了文件以外的缓存、其他需要的程序和资源文件。
+接收文件前后的微信
+接下来我们正式开始实验。我们讲接收到的文件转发给三个不同的小号。重启手机，可以看到，如冯大辉所料，微信所占用的存储空间并没有增加。依然是1.77GB（数据1.26GB)。微信显然做了最基本的文件存储去重。
+所占空间没有变化
+接下来，我从另一个微信号将刚刚发送的文件再次转发给小号三遍。当我点进新发送的文件时，看到需要接受文件，我有一种不详的预感。难道微信真会重新接收一遍文件？所幸，当我点击接收文件后，文件在一瞬间就接收完成了。显然，微信也伴有服务器端的去重，在服务器上的同一份文件，在本地并不会接收多次。重启手机也可以看到，微信占用的空间并无增加。
+看似要重新接收，实际所占空间没有明显变化
+按照这个逻辑，即使是不同的人转发给我的同一份文件，应该也不会需要重复下载，或是占用额外的空间。我试着用另外两个小号（小号B、小号C）将同一份文件转发给小号A。虽然也显示需要接收文件，但同刚才一样，一瞬间就完成了接收。再次重启手机，微信所占用的空间依旧没有变化。
+不过，刚才验证的情况中，虽然是多个账号转发给一个小号，但是微信很容易在服务器端追溯到，这些文件的源头是同一个。那假如各个账号是各自上传的同一份文件，微信在服务器端是否也有去重能力呢？为此，我在另一台小米手机上登录小号B与小号C，各自发送同一份文件给小号Ａ。发送文件的时间较长。这似乎足以让人判断出，微信大概没有类似百度网盘的文件去重判断。
+然而出人意料的是，小号A还是一瞬间就完成了文件的接收。重启手机后也可以看到，微信所占用的空间并没有明显增加（总计1.83GB，数据1.32GB）。这说明至少在服务器端，微信确实能够判断出一份文件是否曾经上传过。而缺少类似网盘的秒传功能，可能是微信本身没有相关功能，也可能是Android端微信需要优化。
+实际所占空间依然只有一份文件大小
+出于好奇，我又尝试从小号B发送一份内容相同，只有文件名不同的文件，看看微信的查重是否基于文件名，或是基于文件本身。经过等待漫长的发送，如我所料，接收只在一瞬间就完成了。由此可知，微信的文件去重基于内容，并不依赖名字。
+不同文件名也不会多占用空间
+上面测试的都是同一账号下的情况。那么，同一台手机上的不同账号间又是怎样呢？我尝试在刚刚登录小号A的手机上切换了一个微信账号B。可以看到，这次转发收到的相同文件，需要重新接收下载。重启手机也能看到微信的占用空间变为3.8G（数据3.29G）。不过在这一微信账号下，同一文件仍然只需要下载保存一份，再次收到就能秒存。同时利用这个微信账号简单试了一下，我发现以上WeChat的文件存储机制对微信也同样成立。
+实打实地需要下载，所占空间也倍增了
+到这里，我们可以基本得出结论，iOS的微信文件存储去重做得还是比较令人满意的。同一账号下的同一个文件，只要内容相同，就只会在本地留存一份。未来微信团队可以努力的方向是不同账号间的文件存储去重。
+另外值得一提的是，微信大概是真的有在代码层面实现去重，而非依赖APFS的CoW特性。因为即使只占一份空间，iPhone在统计容量时也会重复计算一个文件的多次拷贝。通过多次复制粘贴同一份文件，你能很容易地复现苹果的这个Bug：
+苹果什么时候出4T iPhone？
+在我原本的设想中，我写出这篇文章后，与其拿到那500元钱，我更想获得一个与Fenng交流的机会，说服他微信是一个糟糕的产品。但转念一下，即使我做到了，也并不能改变得了微信这个产品本身，以及我们必须使用它的环境。更何况再一看那篇文章，是要证明微信没有去重才能拿到那笔钱。是我审题不细了😀
+
+如果你觉得我的这篇文章不错，也欢迎你阅读我之前有关微信的两篇文章：虎头蛇尾的《微信戒断实验》与尝试减少微信占用空间的《微微微信怎么办》。]]></summary>
         <author>
-            <name>The Verge -  All Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Knives Out, Weird Al, and more: eight great movies from TIFF 2022]]></title>
-        <id>https://www.theverge.com/2022/9/17/23354933/tiff-2022-movie-reviews-glass-onion-weird-broker</id>
-        <link href="https://www.theverge.com/2022/9/17/23354933/tiff-2022-movie-reviews-glass-onion-weird-broker"/>
-        <updated>2022-09-17T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Lee Jung-jae and Jung Woo-sung in Hunt. | Image: TIFF
-    
-
-
-  		 
-A huge range of movies were in Toronto this year
-Continue reading…]]></summary>
-        <author>
-            <name>The Verge -  All Posts</name>
+            <name>雪伊莲梦璃</name>
         </author>
     </entry>
     <entry>
@@ -779,6 +1521,23 @@ Continue reading…]]></summary>
         <link href="https://www.producthunt.com/posts/blinqo"/>
         <updated>2022-09-17T11:37:48.000Z</updated>
         <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Biocatlog — With one link, connect your audience to all your content]]></title>
+        <id>https://www.producthunt.com/posts/biocatlog</id>
+        <link href="https://www.producthunt.com/posts/biocatlog"/>
+        <updated>2022-09-17T11:27:29.000Z</updated>
+        <summary type="html"><![CDATA[@joshua_equere :https://www.catlog.bio/josh. Our demo storefront: https://catlog.bio/s/demo and a product page: https://catlog.bio/p/red-merch-0...
+
+Currently, we're on Private Beta, you can join our early access program via http://biocatlog.com/early-access
+              ”
+              
+Discussion
             |
             Link]]></summary>
         <author>
@@ -927,6 +1686,18 @@ LastPass 表示在驱逐前已被入侵内部系统 4 天
 老王点评：虽然入口被突破，但是内部损失有限，这说明良好的内部 IT 环境还是相当重要的。]]></summary>
         <author>
             <name>linux@linux.cn (linux)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Moby — Mobile application website template for Framer sites]]></title>
+        <id>https://www.producthunt.com/posts/moby</id>
+        <link href="https://www.producthunt.com/posts/moby"/>
+        <updated>2022-09-17T08:11:50.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -1500,67 +2271,56 @@ Macromedia Fireworks 1.0
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[硬核观察 #761 Linus Torvalds 称他不是工作狂，格雷才是]]></title>
-        <id>https://linux.cn/article-15038-1.html?utm_source=rss&amp;utm_medium=rss</id>
-        <link href="https://linux.cn/article-15038-1.html?utm_source=rss&amp;utm_medium=rss"/>
-        <updated>2022-09-16T08:10:57.000Z</updated>
-        <summary type="html"><![CDATA[Linus Torvalds 称他不是工作狂，格雷才是
+        <title type="html"><![CDATA[App+1 | Android 上更加好看的 Spotify ：Jetispot]]></title>
+        <id>https://sspai.com/post/75751</id>
+        <link href="https://sspai.com/post/75751"/>
+        <updated>2022-09-16T07:28:05.000Z</updated>
+        <summary type="html"><![CDATA[Spotify 可以说是少数派中无所不知的一款音乐软件，简洁克制的界面设计和无干扰的听歌体验吸引了不少听众。但是一直以来，Spotify 在 Android 上算不上有特别好的体验。尤其是一直没有修复的手势条沉浸问题，一条黑色的底边让人感到非常膈应。Spotify 似乎也没有做Light Mode 的打算，如果能有个亮色主题也会非常好看。
+来源：@酱紫表
+⚠️使用该 App 需要有 Spotify Premium
+Introducing to New redesign Spotify: Jetispot
 
-在 LPC 2022 上，Linux 创始人 Linus Torvalds 谈到了工作。他说他不是工作狂，在参加这次会议前花了六天时间在玩潜水。他说，他可以一年又一年在内核上工作是因为他可以短时间离开放松下，最筋疲力尽的时候通常是合并开始时，而 Linux 内核社区真正的工作狂是稳定版内核维护者 GKH（格雷），每周都不停的工作。他也介绍了外出旅行时的装备，他使用一台 M2 MacBook Air 笔电，运行 Fedora Workstation 36。Fedora 还没有支持 ARM-64 M2 处理器的版本，他自己动手让 Fedora 36 能运行在 M2 上，这个版本不完美，不支持 3D 图形，Chrome 也不支持。
+打开应用的第一个界面，我就已经被吸引到了。这些控件按钮都有十足的“原生”的味道
+Welcome to Jetispot!
+开始体验一下全新风格的 Spotify
+登录后，可以看到主界面和Spotify的基本排布类似。Navigation Bar 上分为主页、搜索和资料库，右上角的三个小图标排布也相同。不过可以看到，作者还添加了两个分类标签：Music 和 Podcasts & Shows。我认为这是一个很实用的功能，毕竟谁也不想在公共场合打开后看到播客里显示一些很奇怪的东西 可惜这个App本身还未完成，这部分还不能正常使用。
 
+随意探索一下
+可以看到在搜索页面依然是大差不差。最明显的就是 Browse all 所有的卡片都用上了圆角。不过也能看到搜索栏功能还尚未实现。
 
-消息来源：ZDNet
+现在，我们来选择一个专辑看看
+可以看到在专辑页面中，背景色不再是原来的偏向于黑暗的页面。背景的渐变颜色是根据专辑封面来选取的，与 Spotify 相比感觉没有那么的压抑，整体显得很轻快明亮。
 
+选择一首歌来听听
+感觉加载速度和 Spotify 比起来没有很大的延迟，就是一个用起来不会因为加载不动而感到不舒适。不过这个音乐界面相对来说有一些简陋，上半部分很空旷。同时进度条也没有用上长得像蛇一样的波浪条👀
 
+还可以做的更好
 
-老王点评：一个可以坚持 30 年的不是工作狂的工作狂。
+整体而言，我对 Android 上能有一个外观不错的 Spotify 第三方还是很满意了。
+毕竟 Spotify 连个手势条沉浸都不管
+Jetispot 可以说是很好看，但绝对算不上稳定优秀。
+在我使用的过程中经常会偶尔遇到闪退和 Bug。而且这个软件很多功能尚未完成：搜索栏尚未支持，消息通知点无法使用，主页的筛选也无法使用，点赞的功能尚未实现，通知栏中的小图标也尚未适配。
+小图标的位置只有空虚⚪
+该 App 目前仍然在继续开发中。作者在 Telegram Channel 中还发布了正在制作歌词部分的预览。
+以下是作者在 Github 上的规划
 
+What's working:
 
+sign in (login/pass only, no FB/Meta/whatsoever support, no Smart Lock either)
+"browse", "home", album, premium plan, artist and genre screens (some of the blocks might be unsupported)
+library: "liked songs" w/ tag&sort support, rootlist (liked playlists) + pins + artist/album support w/ nice animations, delta updates + pub/sub processing support
+basic playback w/ Spotify Connect support (connect support is very WIP)
+fairly optimized R8 rules, providing approx. 5-6 megabytes release APK size (with the playback and protobuf parts!)
 
+What's in progress:
 
-以太坊合并完成，为全球电力节省了 0.2%
+"Now Playing" improvements
+better service (notification improvements)
 
-2022 年 9 月 15 日，以太坊准备了 8 年之久的从 PoW 切换到 PoS 顺利完成。此次合并只是对以太坊进行一系列升级的第一步，而接下来还将实施另外四个开发阶段。最终目的是让以太坊的扩展性更好、速度更快、使用成本更低。据报告，此前以太坊网络每年消耗约 2300 万兆瓦时的能源，合并后，可将以太坊的二氧化碳排放总量减少 99.992%。Vitalik 称，这降低了全球电力消耗 0.2%。不过，显然相当多的以太坊矿工转移到了继续采用 PoW 的 ETC 网络上了。
-
-
-消息来源：CCRI
-
-
-
-老王点评：合并是成功了，未来是不是成功不好说。
-
-
-
-
-Cloudflare 放弃 Nginx 代理服务器
-
-长期以来，Cloudflare 都依赖于 Nginx 作为其 HTTP 代理堆栈的一部分。但现在，其已替换为由 Rust 编写的自研 Pingora 软件。该公司宣称，Pingora 每日可处理超过一万亿次请求。在提供更高性能的同时，CPU 和内存资源的开销还仅为旧方案的三分之一。不过，Pingora 尚未开源 —— 尽管 Cloudflare 表示其正在制定计划。
-
-
-消息来源：Phoronix
-
-
-
-老王点评：当年掀翻了 Apache 的 Nginx ，终有一天也会被其它的 Web 服务器掀翻。]]></summary>
+希望可以能够长久的发展下去，RIP for Xpo Music🙏
+你可以在 Github 或 Telegram Channel 免费下载使用 Jetispot。]]></summary>
         <author>
-            <name>linux@linux.cn (linux)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1v1 for Slack — 1-on-1 meetings, schedule, prep & document, all inside Slack]]></title>
-        <id>https://www.producthunt.com/posts/1v1-for-slack</id>
-        <link href="https://www.producthunt.com/posts/1v1-for-slack"/>
-        <updated>2022-09-16T07:01:06.000Z</updated>
-        <summary type="html"><![CDATA[https://www.springworks.in/engag...
-
-And do show some ❤️ to the makers by supporting the launch on Product Hunt 🙏🏽
-              ”
-              
-Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
+            <name>Krrrrrik</name>
         </author>
     </entry>
     <entry>
@@ -1578,95 +2338,6 @@ W: https://updates.example.com/desktop/apt/dists/xenial/InRelease: Key is stored
 True, it's just a warning, but still there's that scary word, deprecation, which usually means it's going away soon. So I thought I should take a look. Based on what I found, I thought my experience would be wor…]]></summary>
         <author>
             <name>Chris Hermansen</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[屏蔽非自由软件的大型 JavaScript 脚本的浏览器扩展]]></title>
-        <id>https://linux.cn/article-15037-1.html?utm_source=rss&amp;utm_medium=rss</id>
-        <link href="https://linux.cn/article-15037-1.html?utm_source=rss&amp;utm_medium=rss"/>
-        <updated>2022-09-16T06:56:16.000Z</updated>
-        <summary type="html"><![CDATA[一个名为 GNU LibreJS 的 Firefox 浏览器扩展程序旨在自动阻止非自由软件的大型 JavaScript 脚本。与 NoScript 相比，GNU LibreJS 的操作也类似。主要的区别特征之一是 NoScript 在默认情况下会阻止大多数 JavaScript 脚本，而 GNU LibreJS 针对的非自由软件的大型 JavaScript 脚本。
-
-GNU LibreJS 源于 Richard Stallman 的一篇名为《JavaScript 陷阱》的文章。Stallman 认为，运行在浏览器上的非自由软件，主要是用 JavaScript 编写的，也有用其他语言编写的。这些应用程序有许多是专有软件或者不开源的，更有甚者其中不乏一些有害的或有问题的程序。Stallman 声称 Google 文档使用的 JavaScript 程序的大小为半兆字节。它是压缩过的，想要理解和分析这样的程序就很具有挑战性。Stallman 将监控用户的 JavaScript 代码称为恶意软件。
-
-Stallman 建议不要运行那些复杂的或非常消耗处理能力的 JavaScript。从外部页面加载的脚本、修改 DOM 的脚本以及对 eval 的调用，都是符合上面描述的 JavaScript 代码的例子。GNU 网站发布了一个（符合上述描述的）列表。当 GNU LibreJS 安装在 Firefox 和其他兼容的浏览器中时，它会为用户做出这些区分。它会启用那些小型的 JavaScript，并阻止它认为非自由软件的大型 JavaScript 代码。
-
-该扩展添加了一个工具栏图标，指示页面上存在多少被阻止的 JavaScript 引用。除了更改整个网站或特定脚本或代码段状态的控件外，单击会显示接受和阻止的 JavaScript。可以将整个网站以及特定脚本或代码片段列入白名单或黑名单。扩展程序会记住之前的设置。提供了显示 JavaScript 代码的选项，以及撤销所有自定义设置或单个自定义设置的选项。
-
-
-via: https://www.opensourceforu.com/2022/09/gnu-librejs-for-firefox-stops-non-free-non-trivial-javascript/
-
-作者：Laveesh Kocher 选题：lkxed 译者：littlebirdnest 校对：wxy
-
-本文由 LCTT 原创编译，Linux中国 荣誉推出]]></summary>
-        <author>
-            <name>linux@linux.cn (linux)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FlexPDF — Free PDF to HTML Converter for Publishers]]></title>
-        <id>https://www.producthunt.com/posts/flexpdf</id>
-        <link href="https://www.producthunt.com/posts/flexpdf"/>
-        <updated>2022-09-16T06:42:52.000Z</updated>
-        <summary type="html"><![CDATA[Greetings Hunters!
-
-We are proud to finally be able to share FlexPDF with you 🎉 🥳! We developed this tool to help publishers convert PDF files to responsive HTML with just a few clicks.
-
-FlexPDF's main target audience will be PDF publishers (magazines, catalogs, brochures, books, guides, etc.) that need a solution to move away from static PDF files to responsive HTML as more than 60% of readers today consume content from their mobile devices.
-
-The Challenge:
-Existing free tools will convert PDF to HTML, but the results are usually pretty bad for a couple of very important reasons:
-
-1. the HTML code generated is cluttered and not optimized for search engines
-2. there is typically no good ways to navigate content in chapters or articles
-3. content is still absolute and not responsive, which means it breaks on mobile devices
-4. it's hard to edit or include interactive things like audio, video and animations
-5. the results are typically littered with formatting errors, missing words and broken layouts
-
-FlexPDF is Different!
-Our focus is on generating responsive HTML results that look and read great on any device, size and orientation that delivers an excellent mobile experience.
-
-1. the HTML code generated is clean and has the correct syntax 
-2. content is separated into chapters/articles and navigation is built into the output including an automatically generated table of contents.
-3. content is responsive which means it looks and reads great on any device, size and orientation
-4. the output can currently be shared in three main ways. You can download the HTML, use an embed code or share a link. All 100% branded to clients.
-5. results are almost 100% error-free 
-
-FlexPDF is Version 1.0
-We are launching here on ProductHunt in hopes of getting some feedback to improve the tool even more. We hope you will find a few minutes to try it out and let us know what you think in the comments.
-
-Thanks for all your support. This is a fantastic community!
-              ”
-              
-Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Middle Point — Find a middle point among multiple places]]></title>
-        <id>https://www.producthunt.com/posts/middle-point</id>
-        <link href="https://www.producthunt.com/posts/middle-point"/>
-        <updated>2022-09-16T06:34:35.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Binance Research — Institutional-grade analysis and in-depth insights]]></title>
-        <id>https://www.producthunt.com/posts/binance-research</id>
-        <link href="https://www.producthunt.com/posts/binance-research"/>
-        <updated>2022-09-16T06:33:15.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -1743,86 +2414,6 @@ Discussion
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Lapce：一个开发中的快速、轻量级的开源代码编辑器]]></title>
-        <id>https://linux.cn/article-15036-1.html?utm_source=rss&amp;utm_medium=rss</id>
-        <link href="https://linux.cn/article-15036-1.html?utm_source=rss&amp;utm_medium=rss"/>
-        <updated>2022-09-16T00:56:13.000Z</updated>
-        <summary type="html"><![CDATA[Lapce 是一个用 Rust 构建的开源代码编辑器。它正处于早期开发阶段，但看起来很有前途！
-
-
-
-
-有很多开源的代码编辑器可用于 Linux。
-
-你对换一种选择有什么看法：一个专注于性能的基于 Rust 的开源代码编辑器？
-
-它应该是激动人心的，对吗？
-
-Lapce 就是这样一个正在开发的项目，它的目标是开发出一个功能丰富、速度快的代码编辑器，作为微软的 Visual Studio Code 的替代品。
-
-开发者还提到，它的灵感来自于 Xi-editor（它已不再处于活跃开发状态）。
-
-Lapce 处于 pre-alpha 阶段
-
-
-
-虽然 Lapce 还不是一个完整的产品，但它有很多东西可以提供。
-
-因此，随着稳定版本的接近，我们得到的东西应该是有趣的。
-
-值得强调的功能包括：
-
-
-命令面板（快速操作）。
-
-自定义用户界面字体、标题高度、字体阴影、滚动宽度等。
-
-内置终端。
-
-类似 Vim 的模态编辑。
-
-连接到远程计算机。
-
-代码语法高亮，代码不全，以及类似功能。
-
-插件系统。
-
-深色/浅色模式。
-
-
-虽然它专注于性能，但在用户体验方面看起来不错（尽管它不完整）。
-
-
-
-如果用户能够获得一个代码编辑器所期望的所有基本功能，以及一个性能更好的应用，Lapce 很快就会成为一个受欢迎的选择。
-
-下载 Lapce
-
-Lapce 在 Linux、macOS 和 Windows 中有 pre-alpha 版本。
-
-对于 Linux，你只需要下载并解压 tar.gz 包，然后使用 GUI 或终端运行 Lapce 可执行文件。
-
-目前，它正在积极开发中。你可以为你的平台下载软件包并进行测试，但你应该预期会出现 bug 和新的版本。探索它的 GitHub 页面 以获得更多信息。
-
-
-Lapce
-
-
-我在 Pop!_OS 22.04 LTS 上试用了它，发现用户界面冻结了几次。然而，它所提供的功能似乎令人印象深刻。
-
-💬 你对 Lapce 作为一个用 Rust 构建的开源代码编辑器有什么看法？你认为你会考虑它而不是你目前的最爱吗？请在下面的评论中分享你的想法。
-
-
-via: https://news.itsfoss.com/lapce-code-editor/
-
-作者：Ankush Das 选题：lkxed 译者：geekpi 校对：wxy
-
-本文由 LCTT 原创编译，Linux中国 荣誉推出]]></summary>
-        <author>
-            <name>linux@linux.cn (linux)</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Comparing Arrays in JavaScript – How to Compare 2 Arrays in JS]]></title>
         <id>https://www.freecodecamp.org/news/how-to-compare-arrays-in-javascript/</id>
         <link href="https://www.freecodecamp.org/news/how-to-compare-arrays-in-javascript/"/>
@@ -1830,30 +2421,6 @@ via: https://news.itsfoss.com/lapce-code-editor/
         <summary type="html"><![CDATA[When handling logic with JavaScript, you might need to compare two arrays to see if they are equal or not. Really, this shouldn't be difficult, as you'd think we could easily use either the loose equality (double equals - ==) or the strict equality (triple equals -  ===). But]]></summary>
         <author>
             <name>Joel Olawanle</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The New Opal — Real focus in real-time, with iOS 16 Screen Time API]]></title>
-        <id>https://www.producthunt.com/posts/the-new-opal</id>
-        <link href="https://www.producthunt.com/posts/the-new-opal"/>
-        <updated>2022-09-15T22:35:31.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Project Portal & Client Dashboard — Manage client projects in easily customizable portals]]></title>
-        <id>https://www.producthunt.com/posts/project-portal-client-dashboard</id>
-        <link href="https://www.producthunt.com/posts/project-portal-client-dashboard"/>
-        <updated>2022-09-15T21:02:32.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -1877,30 +2444,6 @@ via: https://news.itsfoss.com/lapce-code-editor/
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Cal.com v2.0 — Enterprise-grade scheduling, now free for individuals]]></title>
-        <id>https://www.producthunt.com/posts/cal-com-v2-0</id>
-        <link href="https://www.producthunt.com/posts/cal-com-v2-0"/>
-        <updated>2022-09-15T20:32:45.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ShedLight — The influencer review platform.]]></title>
-        <id>https://www.producthunt.com/posts/shedlight</id>
-        <link href="https://www.producthunt.com/posts/shedlight"/>
-        <updated>2022-09-15T20:23:55.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[What is Data Science? What a Data Scientist Actually Does]]></title>
         <id>https://www.freecodecamp.org/news/what-is-data-science-what-a-data-scientist-actually-does/</id>
         <link href="https://www.freecodecamp.org/news/what-is-data-science-what-a-data-scientist-actually-does/"/>
@@ -1908,18 +2451,6 @@ via: https://news.itsfoss.com/lapce-code-editor/
         <summary type="html"><![CDATA[Data Science is one of the most in-demand and desirable careers of the 21st century. Even though the term was introduced in the early 1960s, its meaning has changed considerably over time. And despite its rise in popularity in recent years, many people outside the field still find the term]]></summary>
         <author>
             <name>Dionysia Lemonaki</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Zoom In — Discover people nearby on Google Maps]]></title>
-        <id>https://www.producthunt.com/posts/zoom-in-2</id>
-        <link href="https://www.producthunt.com/posts/zoom-in-2"/>
-        <updated>2022-09-15T19:13:57.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -1948,39 +2479,6 @@ via: https://news.itsfoss.com/lapce-code-editor/
         <link href="https://www.producthunt.com/posts/askedith"/>
         <updated>2022-09-15T18:22:27.000Z</updated>
         <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Validator AI — Get AI business validation for any idea]]></title>
-        <id>https://www.producthunt.com/posts/validator-ai</id>
-        <link href="https://www.producthunt.com/posts/validator-ai"/>
-        <updated>2022-09-15T18:21:13.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DashDeals: AMEX Rewards For Investors — Earn rewards based on your investments]]></title>
-        <id>https://www.producthunt.com/posts/dashdeals-amex-rewards-for-investors</id>
-        <link href="https://www.producthunt.com/posts/dashdeals-amex-rewards-for-investors"/>
-        <updated>2022-09-15T16:24:51.000Z</updated>
-        <summary type="html"><![CDATA[https://twitter.com/assetdash/st...
-
-Akin to the "AMEX Rewards" for investors, DashDeals allows investors on our app to receive access to deals and perks based on their investments. We launched with NFTs, but plan to expand to other asset classes in the near future. 
-
-Today, investors in 15+ select NFT collections can receive a range of benefits through DashDeals including discounted Airbnb Gift Cards to reduced Discord Nitro subscriptions. 
-
-DashDeals adds superpowers to asset ownership. Simply by owning your NFT - you are now unlocking new deals and opportunities with DashDeals. Please give it a spin and let me know what you think! We look forward to building a new future of asset-based rewards for investors.
-              ”
-              
-Discussion
             |
             Link]]></summary>
         <author>
@@ -2048,114 +2546,6 @@ Discussion
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[如何在浏览器中启用深色模式]]></title>
-        <id>https://linux.cn/article-15035-1.html?utm_source=rss&amp;utm_medium=rss</id>
-        <link href="https://linux.cn/article-15035-1.html?utm_source=rss&amp;utm_medium=rss"/>
-        <updated>2022-09-15T15:21:00.000Z</updated>
-        <summary type="html"><![CDATA[本指南旨在帮助你了解如何在流行的浏览器，如 Firefox、谷歌 Chrome、Chromium 和微软 Edge 中启用深色模式。
-
-
-
-
-我们都喜欢深色模式。许多人喜欢它，而不是标准的浅色模式。虽然许多桌面应用提供了原生的深色模式，但一些应用通过桌面环境的基础模式适应深色模式。
-
-你不能否认，我们都在浏览器上花了好多时间。我们很少使用桌面应用（除非你是在工作，如视频编辑等）。因此，当你在浏览器上花很多时间阅读和学习时，你应该也可以选择深色模式。但是，对于各个浏览器，稍微有点不同。
-
-本指南为你提供简单的步骤，你可以按照这些步骤在 Mozilla Firefox、Chromium、Chrome 和 Edge 浏览器中启用深色模式。
-
-在浏览器中启用深色模式
-
-在 Firefox 中启用深色模式
-
-打开 Firefox ，点击右上角的设置菜单。
-
-点击 “设置Settings > 扩展和主题Extension and Themes”。
-
-选择“深色主题Dark Theme”并点击“启用enable”。然后你应该看到深色模式被应用到 Firefox。
-
-
-
-
-
-要恢复它，按照同样的步骤，选择浅色主题。
-
-Chromium 和 Chrome 的深色模式
-
-Chromium 或 Chrome 默认不预装任何深色主题。因此，你需要去 Chrome 商店，下载任何你想要的深色主题。在本指南中，我将推荐 “Morpheon Dark” 主题，它有超过一百万用户在使用它。
-
-从 Chromium 浏览器中打开 Morpheon Dark 主题页面（从以下链接）。
-
-
-Chrome 网络商店中的 Morpheon Dark 主题
-
-
-点击“添加到 ChromeAdd To Chrome” 按钮。它应该会在 Chrome 中启用。
-
-你可能想探索 Chrome 网络商店中的其他黑白或深色主题。请访问此页面，查看所有的深色主题集合 。
-
-然而，你应该记住一件事：这个主题不会改变设置或上下文菜单。这很明显。因为它只是改变了浏览器窗口，而那些菜单是操作系统本身的一部分（有时）。
-
-
-
-对 Google Chrome 也要按照同样的步骤进行。
-
-Edge 浏览器的深色模式
-
-然而，微软 Edge 浏览器 默认带有更好的深色主题。它允许你从设置中使用 GTK+、浅色和深色模式。
-
-打开 Edge 浏览器
-
-点击右上角的三个小圆点。
-
-进入“外观Appearance”，选择“深色Dark”。这就完成了。
-
-这个 Edge 的深色主题实现得更好，因为它改变了上下文菜单和地址栏。
-
-
-
-结束语
-
-如果你是一个高级用户，你可能不需要这个指南。你可以搞清楚。
-
-但我们为所有的读者涵盖了所有从基础到高级的教程。许多新的 Linux 用户可能也不知道如何在浏览器中启用深色模式。
-
-因此，话虽如此，我希望这能帮助你和其他人。如果你遇到任何麻烦，请在下面的评论栏里告诉我。
-
-
-via: https://www.debugpoint.com/dark-mode-browser/
-
-作者：Arindam 选题：lkxed 译者：geekpi 校对：wxy
-
-本文由 LCTT 原创编译，Linux中国 荣誉推出]]></summary>
-        <author>
-            <name>linux@linux.cn (linux)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TikTok Now — A daily photo and video experience]]></title>
-        <id>https://www.producthunt.com/posts/tiktok-now</id>
-        <link href="https://www.producthunt.com/posts/tiktok-now"/>
-        <updated>2022-09-15T14:32:03.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Habit Box — Track and visualize your habits with Notion]]></title>
-        <id>https://www.producthunt.com/posts/habit-box</id>
-        <link href="https://www.producthunt.com/posts/habit-box"/>
-        <updated>2022-09-15T13:16:41.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Bose’s QuietComfort Earbuds II Boast the Best Noise-Canceling]]></title>
         <id>632075bd40fe1e8870aa3a7c</id>
         <link href="https://www.wired.com/review/bose-quietcomfort-earbuds-ii-review/"/>
@@ -2216,18 +2606,6 @@ via: https://www.debugpoint.com/dark-mode-browser/
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Moonlighter — 2x Productivity, 2x Income]]></title>
-        <id>https://www.producthunt.com/posts/moonlighter-2</id>
-        <link href="https://www.producthunt.com/posts/moonlighter-2"/>
-        <updated>2022-09-15T10:21:47.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[打工人如何让自己从「商品」变成「艺术品」？]]></title>
         <id>https://sspai.com/post/75685</id>
         <link href="https://sspai.com/post/75685"/>
@@ -2256,18 +2634,6 @@ via: https://www.debugpoint.com/dark-mode-browser/
 她是大家眼里的好…]]></summary>
         <author>
             <name>猴猴说话</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cameralyze — Build your computer vision application with no-code]]></title>
-        <id>https://www.producthunt.com/posts/cameralyze</id>
-        <link href="https://www.producthunt.com/posts/cameralyze"/>
-        <updated>2022-09-15T08:45:54.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -2421,6 +2787,18 @@ Discussion
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Wordplay — Generate 2,000+ words of high-quality content in one click]]></title>
+        <id>https://www.producthunt.com/posts/wordplay-2</id>
+        <link href="https://www.producthunt.com/posts/wordplay-2"/>
+        <updated>2022-09-14T18:01:37.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[9 Great Headphone Deals to Find Your Autumn Groove]]></title>
         <id>6320a8a762435d269fdbdb37</id>
         <link href="https://www.wired.com/story/headphone-deals-september-2022/"/>
@@ -2478,26 +2856,6 @@ Discussion
         <summary type="html"><![CDATA[对于开发者来讲，每天都要和各种编程 IDE 和开发工具打交道。想必一定听说过 JetBrains 公司，或旗下的产品：IntelliJ IDEA、PyCharm、WebStorm 等。 不久前，Jet]]></summary>
         <author>
             <name>青小蛙</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Best Substack Alternatives]]></title>
-        <id>63091bb4333af8e1504c497e</id>
-        <link href="https://www.wired.com/story/best-substack-alternatives/"/>
-        <updated>2022-09-14T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[These four alternatives to the newsletter platform offer just as many—if not more—features, and can be easier on your wallet.]]></summary>
-        <author>
-            <name>Justin Pot</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PlayStation VR2: A First Look at the Next-Gen Headset]]></title>
-        <id>6320b0fcf1e5c40d2b1bc642</id>
-        <link href="https://www.wired.com/story/sony-psvr2-first-look/"/>
-        <updated>2022-09-14T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Sony’s first virtual reality device in six years arrives in 2023. Here’s a preview of the PSVR2, and the games that will run on it.]]></summary>
-        <author>
-            <name>Boone Ashworth</name>
         </author>
     </entry>
     <entry>
@@ -2571,6 +2929,54 @@ Discussion
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Bootstrapping.Tech — Enhancing your startup's Notion experience]]></title>
+        <id>https://www.producthunt.com/posts/bootstrapping-tech</id>
+        <link href="https://www.producthunt.com/posts/bootstrapping-tech"/>
+        <updated>2022-09-14T07:53:39.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[groundcover — Monitor K8s applications effortlessly, at scale]]></title>
+        <id>https://www.producthunt.com/posts/groundcover</id>
+        <link href="https://www.producthunt.com/posts/groundcover"/>
+        <updated>2022-09-14T07:19:39.000Z</updated>
+        <summary type="html"><![CDATA[@yechezkel_rabinovich and the rest of our awesome team, we have created an APM that redefines cloud-native observability with the use of eBPF.
+
+No engineer would question the importance of solid application monitoring in production. These tools help us sleep better at night, and solve that crazy sh*itstorm when it hits. And it always does.
+
+Application monitoring solutions have taught us that we can have all the data we need to feel covered, all the time. Thing is, these solutions are so hard to integrate and they store so much data that they just can’t scale.
+
+groundcover is here to disrupt the APM market and change the way these solutions work and operate.
+
+Observability should be a tool to help companies scale and thrive. We make it effortless and scalable for developers, so they can focus on what really matters - building world-changing products.
+
+With groundcover you can instantly get:
+❇️ Logs from all across your cluster.
+❇️ Metrics with mind-blowing granularity such as API latency, error rate, and throughput.
+❇️ Traces from protocols like HTTP, gRPC, Redis, Kafka, MySQL, PostgreSQL, and more.
+❇️ A map of all service dependencies.
+❇️ K8s infrastructure monitoring and tracking of K8s events.
+
+Oh and we’re Prometheus-compatible, so if you’re working in Grafana we’re just a datasource away.
+
+groundcover takes 1 minute to install on even the most heavy-duty K8s clusters.
+
+Try out our free-tier at www.groundcover.com; One day you’ll look back, and say that you were there when APM changed, for good.
+              ”
+              
+Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[3 steps to protect your home network]]></title>
         <id>70184 at https://opensource.com</id>
         <link href="https://opensource.com/article/22/9/protect-home-network"/>
@@ -2599,23 +3005,6 @@ When using a complex Kubernetes operator, you often have to orchestrate Jobs to 
 In the past, I've tackled this problem by including my scripts in an application image. This approach works well enough, but it does have a drawback. Anytime changes are required, I'm forced to rebuild the application image to include the revisions. This is a lot of time wasted, especially when my application image takes a significant amount of time to build. This also mean…]]></summary>
         <author>
             <name>Bobby Gryzynger</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[3 Minute Journal — A faster, better journaling experience using your voice]]></title>
-        <id>https://www.producthunt.com/posts/3-minute-journal</id>
-        <link href="https://www.producthunt.com/posts/3-minute-journal"/>
-        <updated>2022-09-14T02:40:31.000Z</updated>
-        <summary type="html"><![CDATA[https://apps.apple.com/us/app/3-...
-
-Dohyun
-              ”
-              
-Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -2663,58 +3052,6 @@ Discussion
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[OuiShopp — Shop online with friends in real time]]></title>
-        <id>https://www.producthunt.com/posts/ouishopp</id>
-        <link href="https://www.producthunt.com/posts/ouishopp"/>
-        <updated>2022-09-13T23:39:29.000Z</updated>
-        <summary type="html"><![CDATA[Now you can use OuiShopp to:
-
-✨ Create private, customized shopping sprees.
-✨ Shop LIVE with friends on any online store.
-✨ Give and get advice on specific items.
-✨ Suggest items to your friends that you think they should get.
-✨ Put on your own little fashion show by showing off your purchases on our social feed.
-
-Soon you'll be able to:
-
-🥳 Shop LIVE with your favorite influencers.
-🥳 Shop LIVE with a personal stylist that a store selects for you.
-🥳 Shop on multiple stores and only checkout once.
-
-Oh AND, it’s free for users!
-
-Influencers & Ecommerce Stores will soon be able to integrate with the press of a button and:
-
-🛍️ Host LIVE shopping events with their customers.
-🛍️ Get in front of those who are most likely to start a spree at their store.
-🛍️ Avoid ditched carts and watch shoppers make much faster shopping decisions, aka, major sales boost!
-
-
-We're so excited to watch you bring shopping sprees back, only this time, online.
-
-We welcome feedback, questions or simply saying hello!
-              ”
-              
-Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Awesome Web3 — Curated, top-notch, free Web3 resources]]></title>
-        <id>https://www.producthunt.com/posts/awesome-web3</id>
-        <link href="https://www.producthunt.com/posts/awesome-web3"/>
-        <updated>2022-09-13T19:10:27.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[我相信这是它一开始就想到达的地方——文石 Tab8 上手体验]]></title>
         <id>https://sspai.com/post/75710</id>
         <link href="https://sspai.com/post/75710"/>
@@ -2736,16 +3073,6 @@ Matrix 是少数派的写作社区，我们主张分享真实的产品体验，
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The Best Music Streaming Apps to Get Your Groove On]]></title>
-        <id>601c24f4e2b4b36f6a1e3b1a</id>
-        <link href="https://www.wired.com/gallery/best-music-streaming-apps/"/>
-        <updated>2022-09-13T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[March to the beat of your own drum machine with the best service for new music discovery, sharing with friends, and more.]]></summary>
-        <author>
-            <name>Matt Jancer</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[The Vast Wasteland of Internet Television]]></title>
         <id>630fb1b9dbc9ebd1c95a7469</id>
         <link href="https://www.wired.com/story/i-want-the-internet-tv-we-were-all-promised/"/>
@@ -2753,16 +3080,6 @@ Matrix 是少数派的写作社区，我们主张分享真实的产品体验，
         <summary type="html"><![CDATA[When TV came online in the aughts, it was exciting. Then Facebook took over.]]></summary>
         <author>
             <name>Virginia Heffernan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The New Range Rover Hybrid Gives Off-Roading an Electric Kick]]></title>
-        <id>631b2b75036b54662b510415</id>
-        <link href="https://www.wired.com/review/range-rover-sport-hybrid-2022/"/>
-        <updated>2022-09-13T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Land Rover has finally brought out some proper luxury SUV hybrids, and it looks like it was just about worth the wait.]]></summary>
-        <author>
-            <name>Jeremy White</name>
         </author>
     </entry>
     <entry>
@@ -2823,16 +3140,6 @@ Matrix 是少数派的写作社区，我们主张分享真实的产品体验，
         <summary type="html"><![CDATA[Exposing wrongdoing is risky on the best of days. Whistleblower Aid cofounder John Tye explains the extensive steps needed to keep people safe.]]></summary>
         <author>
             <name>Matt Burgess</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[When the Big One Hits Portland, Cargo Bikers Will Save You]]></title>
-        <id>631b9e5a40fe1e8870aa3a2f</id>
-        <link href="https://www.wired.com/story/when-the-big-one-hits-portland-cargo-bikers-will-save-you/"/>
-        <updated>2022-09-13T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Pacific Northwest is due for a massive quake. I trained to help rescue efforts in the aftermath—by racing around the city on an electric kid hauler.]]></summary>
-        <author>
-            <name>Adrienne So</name>
         </author>
     </entry>
     <entry>
@@ -2965,29 +3272,6 @@ It takes more than a blockchain node to build enterprise-grade applications at s
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Remixing Linux for blind and visually impaired users]]></title>
-        <id>70189 at https://opensource.com</id>
-        <link href="https://opensource.com/article/22/9/linux-visually-impaired-users"/>
-        <updated>2022-09-13T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Remixing Linux for blind and visually impaired users
-Vojtech Polasek
-Tue, 09/13/2022 - 03:00
-
-            
-When I was around 5 years old, my father brought home our first computer. From that moment on, I knew I wanted to pursue a career in computers. I haven't stopped hanging around them since. During high school, when considering which specific area I wanted to focus on, I started experimenting with hacking, and that was the moment I decided to pursue a career as a security engineer.
-I'm now a software engineer on the security compliance team. I've been at Red Hat for over two years, and I work remotely in the Czech Republic. I've used Linux for about 12 years, mainly Arch Linux and Fedora, but I've also administered Debian, Gentoo, and Ubuntu in the past.
-  
-
-
-      
-   
-Image by: 
-(Vojt…]]></summary>
-        <author>
-            <name>Vojtech Polasek</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[PasteNow 2.4 发布：快速将最近一个项目粘贴为纯文本]]></title>
         <id>https://sspai.com/post/75655</id>
         <link href="https://sspai.com/post/75655"/>
@@ -3025,18 +3309,6 @@ macOS 版本及 iOS 版本的其他更新
 附：App Store 链接]]></summary>
         <author>
             <name>图拉鼎</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bank.io — Coded fintech mobile app UI kit for iOS 16]]></title>
-        <id>https://www.producthunt.com/posts/bank-io</id>
-        <link href="https://www.producthunt.com/posts/bank-io"/>
-        <updated>2022-09-13T05:15:56.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -3207,24 +3479,6 @@ Stable Diffusion 的人工智能绘画能力，我在之前已经不止一次给
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How I recovered my Linux system using a Live USB device]]></title>
-        <id>70193 at https://opensource.com</id>
-        <link href="https://opensource.com/article/22/9/recover-linux-system-live-usb"/>
-        <updated>2022-09-12T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[How I recovered my Linux system using a Live USB device
-David Both
-Mon, 09/12/2022 - 03:00
-
-            
-I have a dozen or so physical computers in my home lab and even more VMs. I use most of these systems for testing and experimentation. I frequently write about using automation to make sysadmin tasks easier. I have also written in multiple places that I learn more from my own mistakes than I do in almost any other way.
-I have learned a lot during the last couple of weeks.
-I created a major problem for myself. Having been a sysadmin for years and written hundreds of articles and five books about Linux, I really should have known better. Then again, we all make mistakes, which is an important lesson: You're never too experienced to make a mistake.
-I'm not going to discuss the details of m…]]></summary>
-        <author>
-            <name>David Both</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[GamerPower (Mobile) — Get free games and in-game loot]]></title>
         <id>https://www.producthunt.com/posts/gamerpower-mobile</id>
         <link href="https://www.producthunt.com/posts/gamerpower-mobile"/>
@@ -3267,26 +3521,6 @@ I'm not going to discuss the details of m…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[[油猴脚本]让链接变得更好系列]]></title>
-        <id>https://www.appinn.com/?p=43283</id>
-        <link href="https://www.appinn.com/making-links-better/"/>
-        <updated>2022-09-11T08:26:40.000Z</updated>
-        <summary type="html"><![CDATA[最近写了几枚小脚本，是那种很没有存在感的小脚本，然后恰好遇到了一些令人感慨的事情，所以出来聊聊天。@Appinn 事情的起因在这里：https://meta.appinn.net/t/topic/36]]></summary>
-        <author>
-            <name>稻米鼠</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[更易检索的「中高风险地区查询」工具，支持 API]]></title>
-        <id>https://www.appinn.com/?p=43280</id>
-        <link href="https://www.appinn.com/arearisklist/"/>
-        <updated>2022-09-11T07:51:33.000Z</updated>
-        <summary type="html"><![CDATA[来自发现频道，@gezhong.vip 同学发布了一款名为中高风险疫情地区-API接口的在线服务，提供了更容易检索、更直观的各地疫情风险等级查询功能。@Appinn 开发者提到： 由于官方的查询界面太]]></summary>
-        <author>
-            <name>青小蛙</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Mastering these 7 Basics CSS Skills will make you a Frontend Wizard 🧙✨]]></title>
         <id>https://dev.to/ruppysuppy/mastering-these-7-basics-css-skills-will-make-you-a-frontend-wizard-2khn</id>
         <link href="https://dev.to/ruppysuppy/mastering-these-7-basics-css-skills-will-make-you-a-frontend-wizard-2khn"/>
@@ -3294,6 +3528,16 @@ I'm not going to discuss the details of m…]]></summary>
         <summary type="html"><![CDATA[#webdev #programming #css #beginners]]></summary>
         <author>
             <name>Tapajyoti Bose</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building Full Stack Permanent Applications with Arweave, Smartweave, and Next.js]]></title>
+        <id>https://dev.to/dabit3/building-full-stack-applications-with-arweave-and-nextjs-28hg</id>
+        <link href="https://dev.to/dabit3/building-full-stack-applications-with-arweave-and-nextjs-28hg"/>
+        <updated>2022-09-10T19:12:27.000Z</updated>
+        <summary type="html"><![CDATA[#webdev #javascript #nextjs #web3]]></summary>
+        <author>
+            <name>Nader Dabit</name>
         </author>
     </entry>
     <entry>
@@ -3314,50 +3558,6 @@ I'm not going to discuss the details of m…]]></summary>
         <summary type="html"><![CDATA[Advocates want the government to allow more climate-related immigration and to consider those migrants “protected persons.”]]></summary>
         <author>
             <name>Hanna Hett</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[谈不上多有用，但就是喜欢：从实用主义走向恋物情结]]></title>
-        <id>https://sspai.com/post/75666</id>
-        <link href="https://sspai.com/post/75666"/>
-        <updated>2022-09-10T09:11:02.000Z</updated>
-        <summary type="html"><![CDATA[Matrix 首页推荐
-Matrix 是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选 Matrix 最优质的文章，展示来自用户的最真实的体验和观点。
-文章代表作者个人观点，少数派仅对标题和排版略作修改。
-
-在最初打造 work-life balance 的居家空间时，物件的采购上确实更接近科技爱好者的「实用主义」，比如 BenQ 和 Wit 的灯具，极米的投影，甚至是全屋各个插座配置的多口氮化镓充电头等等，从实际体验到购买参考上的价值角度，每一件都很适合作为社区里「新玩意」栏目中的内容进行分享。
-
-但「器材」带来的兴奋很快就会过去，分享欲被时间消解，最近的购买也渐渐转向了那些「谈不上多有用，但就是喜欢」的东西，索性就用一个合集，整理一下最近带回家的「朋友们」。
-「红磨坊的舞会」油画&Pantasy 拼奇积木神奈川冲浪里
-前段时间的高温天气着实难熬，因为旅行家里空了几天，返沪时才发现在客厅的长杆蜡烛都被融弯，于是下定决心要换上一些「蓝色系」的点缀，试图在视觉上让自己有清凉的感觉。
-
-抱着这样的想法最近频繁逛了市集、旧货仓库和线下家居店，终于找到一副以深蓝色为基色的油画 ——「红磨坊的舞会」（Auguste Renoir Bal du moulin de la Galette）。原作来自法国印象派画家雷诺阿，这一副卡通版本的画家卖家自己也不太清楚，似乎是在某次展览中撤下的作品，尺寸为 150cm x 90cm。第一眼见到就无比喜欢，清爽浪漫的童话感觉很适合用来调和目前客厅的沉闷，秒付款带回家后立刻替换了原先的主装饰画，现在从房间出来一眼就能看到这一簇蓝色，令人身心愉悦。
-
-照片里的另一抹蓝色是之前一同西北旅行的队友寄来的礼物，我们曾相约在未来走遍国内还未涉足的地方，但不久后他就入职了 Pantasy 拼奇积木，这两年屡次邀约都因为工作忙…]]></summary>
-        <author>
-            <name>陳川端</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[大厂出品不等于又大又慢，这 6 个小应用值得一试]]></title>
-        <id>https://sspai.com/post/75275</id>
-        <link href="https://sspai.com/post/75275"/>
-        <updated>2022-09-10T03:00:00.000Z</updated>
-        <summary type="html"><![CDATA[「大厂」应用在你的想象中是什么样子？动辄 10G 的占用空间，还是让老旧设备突发高热的迟缓动效？
-我们总是看到这样的例子——当一家软件公司开始做大做强，用户量飞速上涨之后，他们的产品往往就走向一条不可挽回的庞杂之路。开发团队试图用更多的新功能和更大的饼圈住更多用户，越来越臃肿的界面和逐渐扩充的体积也让用着老设备的用户更加痛苦。
-不过大厂也并非所有产品都如此不堪，总有一些优质应用，因为顶着「大厂」的帽子让用户望而却步。这篇文章就简单介绍几个由头部开发商开发的小应用，希望这些好产品能得到它们应有的认识。
-微软数学：你手机里的数学老师
-平台：iOS / Android / 网页
-
-微软数学是一款用来求解数学方程式的 App——但它不止于此。通过拍照、手写或者是键盘输入待求解的方程式，它不仅可以帮你求出结果，还可以查看详细求解过程，必要时还会附加图片，再也不怕答案里的「略」。
-书签、历史记录功能都很完善，App 还提供了测验功能，可以根据运算过的方程式生成类似的题目，帮助你巩固知识点。详细的功能我们在之前的 App+1 文章中有过介绍，如果你常常被数学困扰，微软数学可以让你的学习之路更加轻松。此外，Edge 浏览器已经内置了微软数学，你可以在打开含有数学公式的页面时尝试这一功能。
-Layout：快捷图像拼贴工具
-平台：iOS / Android
-
-Layout 是一款用来拼接图片的 App，开发者是当时推出了多款独立图像编辑应用的 Instagram。Layout 功能简单，操作也很直观，选择图片与给定的拼接模板即可。不过在 Facebook（Meta）再次改变策略后，这些独立应用又都纷纷整合回了 Instagram。2020 年 Instagram 上推出的 Layout 功能就是这款 App 的延伸。
-Layout 上次更新停留在 2018 年末，但其体积小巧，功能粗暴，成图迅…]]></summary>
-        <author>
-            <name>北鸮</name>
         </author>
     </entry>
     <entry>
@@ -3431,114 +3631,6 @@ Layout 上次更新停留在 2018 年末，但其体积小巧，功能粗暴，�
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[California’s Heat Wave Is a Big Moment for Batteries]]></title>
-        <id>6318e95fd884b4dcc9416475</id>
-        <link href="https://www.wired.com/story/californias-heat-wave-is-a-big-moment-for-batteries/"/>
-        <updated>2022-09-09T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Scorching temperatures in the Golden State are a test case for a more flexible energy grid.]]></summary>
-        <author>
-            <name>Gregory Barber</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[创新的源头，苹果的DNA（对话葛越、谢恩伟）]]></title>
-        <id>https://sspai.com/post/75632</id>
-        <link href="https://sspai.com/post/75632"/>
-        <updated>2022-09-09T09:34:15.000Z</updated>
-        <summary type="html"><![CDATA[视频文字稿部分
-引子
-2016年秋季发布会
-开头的这段演讲来自于 2019 年的苹果秋季发布会，Tim 在台上说，在苹果创办的这 40 年里，教育深深的植入进了苹果的 DNA。其实回想一下历年来苹果对外的发言，对 DNA 的表述一直是非常谨慎和克制的，尽管苹果做了许多成功的产品，但你很少会听到什么东西构成了苹果的 DNA，在我的印象中只有两个，乔布斯当年说苹果要始终走在科技和人文的交叉口，这算是一个，而 Tim 口中的教育，则是另一个。而今天这期苹果护城河的视频，我们就来聊聊教育。
-坦率来说这个话题其实很早就进入了我们的选题库当中，甚至早于创建这个频道，很早之前我跟零号喝酒的时候就聊起过，你作为一个从业者，是没有办法去忽视苹果在这方面的成就的，但同时我们也知道，这注定不是一个迎合流量的选题，客观上来说，教育这个产品的目标用户不是我，可能也不是看视频的你，做这个选题是很有风险的一件事，有可能费了很大的劲，最后数据非常差。但我后来想清楚了，既然说教育是苹果的 DNA，那我们不妨就看看苹果在教育领域都做了什么，从这些动作和体验的细节上，我们也许就能知道，苹果为何而苹果，他到底哪里不一样。这期视频没有竞品分析，可能在一些细分领域苹果还有一些对手，但把苹果所有的投入放在一起时，尤其在国内的大环境下，苹果其实是没有竞品的，这是苹果真正的护城河。那让我们正式开始。
-人人能创造
-
-我们从苹果官网开始，把官网拉到最下面看索引的部分，可以很清晰的看到五列，代表苹果在国内的所有业务，其中第四列全部都是 to B 的商业业务，这里你就能看到 Apple 与教育的入口。打开之后你就能看到教育业务线有三个分支——基础教育、高等教育和高校学生。
-
-我先来给大家简单说几句后面两个，这两个大家应该是非常熟悉的。高校学生这个，就是大家最熟悉的教育优惠，页面当中会比较详细的介绍利用苹果产品和配套的 app 都可…]]></summary>
-        <author>
-            <name>两颗皮蛋</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[我的剑桥商务英语通关文具盒]]></title>
-        <id>https://sspai.com/post/75574</id>
-        <link href="https://sspai.com/post/75574"/>
-        <updated>2022-09-09T08:38:36.000Z</updated>
-        <summary type="html"><![CDATA[「本文参与数字文具盒征文活动」
-
-自我介绍和学习内容
-第一次在少数派发文，简单介绍下自己。我从事轨道客车研发工作，就职于吉林长春国企大厂。懂得同学应该知道坐标了，不懂但感兴趣的同学欢迎私聊骚扰^_^。虽已毕业多年，因为从事研发工作的原因，还是要学习输入许多新技能和知识。借着少数派“我的数字文具盒”征文活动，作为非“学术”仅“研究”人员的我，也来蹭蹭热度。
-本文要和大家分享我在备考剑桥商务英语（下文用“BEC”缩写代替）高级学习备考过程中使用到的几个数字文具。考BEC高级的初衷简单到有些俗气：通过考试，公司每月发1000软妹币的外语补助，每两年需要重考一次。（让大家见笑了）
-出于一切为了钱财的本我思想，我开启了BEC的备考通关之路。本文仅和大家分享备考过程中使用的工具（硬件和软件），不涉及到备考应试的相关技巧。我也会整理关于BEC学习及应试方法的文章发在少数派上，感兴趣的同学可以关注一波。
-
-帮我通关BEC的数字文具们
-10.5寸ipad pro配合一代apple pencil是我数字文具的基础载体。2018年入手的这一套组合，现在用起来体验依然良好。
-数字文具一：GoodNotes
-我使用Goodnotes做BEC网课的课堂笔记。电子笔记对于字迹不好且排版混乱人士（是我自己没错了）极其友善。
-作为一个写字丑星人，我无论怎么注意排版和字迹，笔记的可读性都差到不行。上学时的课堂笔记混乱到没有人性，每次拿自己笔记复习时，我的内心都无比emo。“记的这些破玩意，鬼才愿意看。哪里来的自信用这么好看的本子呢？还不如随便用张纸，写完就扔来得痛快！”这样的想法从小到大，有过不止一次。
-时代在发展，社会在进步！使用电子笔记可以随时调整笔记排版，虽然依然无法拯救我丑恶的字迹，但笔记整体的可读性大大提高。对于解释性的图片、题目、清单等内容，直接截图到笔记中再调整好大小。笔记质量“真的比之前有了一…]]></summary>
-        <author>
-            <name>牛肉炒饭</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[iPhone 14 Pro 对我们设计「高端产品」的启示]]></title>
-        <id>https://sspai.com/post/75630</id>
-        <link href="https://sspai.com/post/75630"/>
-        <updated>2022-09-09T07:46:07.000Z</updated>
-        <summary type="html"><![CDATA[Matrix 首页推荐
-Matrix 是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选 Matrix 最优质的文章，展示来自用户的最真实的体验和观点。
-文章代表作者个人观点，少数派仅对标题和排版略作修改。
-
-本文写于 iPhone 14 Pro 发布当日，会在后续考虑对一些过时的内容进行更新，如有谬误欢迎指正。
-在 2022 年，智能手机显然不再是一个噱头十足的产品类别了。但在 Apple 的下一个重大产品类别「Reality」AR 眼镜出现前（或者说成熟前），iPhone 仍然是 Apple 需要全力以赴迭代以吸引消费者更新的产品。而 iPhone 14 Pro 的有趣之处在于：纵然它的硬件特性和我在发布会前预知的几乎完全吻合，我却从发布会前的「不太考虑购入」变成了「计划购入」。
-
-iPhone 14 Pro 之所以能制造这样的反差，说明其主要吸引力不止硬件特性，而是在各种无法被硬件特性所囊括的设计与解决方案里。
-事实上，硬件特性和其吸引力的相关程度低，是大部分高端产品的共性。而落实到 iPhone 14 Pro 这个产品上，影响其吸引力最重要的便是交互设计与软硬件协同、为专业用户设计解决方案的能力，以及能让它在部分方面「不思进取」的资本。
-通过今天这篇文章，我想分享一下在 iPhone 14 Pro 发布之后的一些杂思，围绕「iPhone 14 Pro 对我们设计『高端产品』的启示」展开。
-注：这些杂思中可能有一部分我在曾经讲过类似的观点。然而，想到互联网的随机性让我们每次的表达能触及和启发不同的人，便觉得适当重提一些观点也无大碍（甚至不介意日后继续这样做），看过我此前作品的读者还请多多包涵。
-交互设计与软硬件协同
-iPhone 14 Pro 上最吸引眼球的便是 Dynamic Island（灵动岛）这个设计。Apple 的这一巧…]]></summary>
-        <author>
-            <name>LiFE</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[你知道哪些日本知名文具品牌：为什么大家都爱日本文具？]]></title>
-        <id>https://sspai.com/post/75643</id>
-        <link href="https://sspai.com/post/75643"/>
-        <updated>2022-09-08T23:44:49.000Z</updated>
-        <summary type="html"><![CDATA[前言
-日本作为工业强国之一，其文具产业量成熟而发达，诸多文具品牌都有百年以上的品牌历史，从早期的仿制和借鉴，到如今堪称原创程度极高、做工精巧细致、设计富有灵感和生活趣味，外观符合现代审美，因而被大家所深深喜欢。
-本篇将从品牌+代表现产产品介绍两方面，来和大家详细讲讲日系文具的趣味与实用属性。
-国誉
-
-国誉是一家综合的办公类设备供应商，创立于1905年，有极其丰富的文具产品生产线和办公家具产品供应。创始人黑田善太郎先生以封面纸起家，逐步发展成大型纸质品品牌，进而扩展到其它类别文具和家具行业。近年来也收购了多家国内企业，在我国建厂生产文具产品。
-购买国誉，还是要以他们的纸品、本册最为代表！
-国誉活页本
-
-国誉的活页本堪称是头号招牌，也是率先把活页本灵活收纳+书写的概念引入国内的学生群体，活页结构耐用，多种封面可选，后期还有不硌手的活页结构推出，非常成熟的代表作。
-
-除了结构上的优势，国誉Campus的内页纸质也是非常优秀的存在，设计有不同划线、结构的内页，并且日本进口原纸可能完美双面书写hold住钢笔。
-国誉Campus笔记本
-
-不习惯使用活页本的话，可以选择Campus系列下的笔记本，同样使用进口原纸，书写感受和活页本等同，完全hold住各种墨水~
-需要注意不要买成国誉子品牌Gambol系列，那个完全国产，虽然价格低，但不如Campus。
-国誉自我手账
-
-除了日用向的本子，国誉的自我手账是简易入手账坑的不错产品，有简约耐看的外皮和丰富的内页，可以很好得记录生活~
-每年一本，价格不贵~
-国誉对开笔袋
-
-极简设计的国誉笔袋也是品牌的热门款，拉链质感非常出色，设计简约耐看，适合中学生和办公一族！除了基础款，国誉还有些立式变形笔袋，基本都可以做到好用且耐用，值得推荐！
-国誉空气弹力剪刀
-
-国誉的这款剪刀也是站内神器之一，刃口锋利而耐用，所谓空气弹力是在握持位置增加了两个内握柄，使用感…]]></summary>
-        <author>
-            <name>老木曾雪菜</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Juul Will Pay $438.5M for Its Role in Underage Vaping]]></title>
         <id>63193523c9bb1af7ef2496bc</id>
         <link href="https://www.wired.com/story/juul-teen-vaping-438-million-dollar-settlement/"/>
@@ -3599,6 +3691,18 @@ iPhone 14 Pro 上最吸引眼球的便是 Dynamic Island（灵动岛）这个设
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[WODEX- Workout Explorer — Free guides of +1500 fitness exercises]]></title>
+        <id>https://www.producthunt.com/posts/wodex-workout-explorer</id>
+        <link href="https://www.producthunt.com/posts/wodex-workout-explorer"/>
+        <updated>2022-09-08T11:46:04.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[50+ Awesome tools for Web Developers]]></title>
         <id>https://dev.to/surajondev/50-awesome-tools-for-web-developers-5gan</id>
         <link href="https://dev.to/surajondev/50-awesome-tools-for-web-developers-5gan"/>
@@ -3636,32 +3740,6 @@ iPhone 14 Pro 上最吸引眼球的便是 Dynamic Island（灵动岛）这个设
         <summary type="html"><![CDATA[#react #beginners #javascript #webdev]]></summary>
         <author>
             <name>Valeria</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[毕业留港找工作，这些建议请笑纳]]></title>
-        <id>https://sspai.com/post/75323</id>
-        <link href="https://sspai.com/post/75323"/>
-        <updated>2022-09-08T02:11:14.000Z</updated>
-        <summary type="html"><![CDATA[Matrix 首页推荐
-Matrix 是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选 Matrix 最优质的文章，展示来自用户的最真实的体验和观点。
-文章代表作者个人观点，少数派仅对标题和排版略作修改。
-本文封面来自：Unsplash.com
-
-七月中旬，我坐在拥挤的旅游大巴上，驶出深圳湾口岸前往隔离酒店。不知道是不是因为空调开得不够大以至于空气有点闷热，我的心情也有些沉闷，全然没有回家的兴奋。其实真要想，原因也很明了，因为自己在香港找工作的尝试失败了。
-这篇文章可能会和其他的经验总结有些不一样，因为我是站在一个失败者的角度来回顾和思考这一路上得到的经验教训。为了让自己的尝试有所价值，思考再三，我决定写下这篇文章，希望能帮助有留港工作意愿的朋友。
-本文的感受和经验根据我自己和身边朋友同学的亲身经历总结而成。因为经历和社交圈子有限，本文呈现的内容难免不能覆盖现实生活中的全部情况，请各位姑且听之，多有担待。如果有愿意分享自己经历或者想法的朋友，也欢迎留下自己的声音，共同探讨。
-受访者对于 2021 年香港就业前景看法趋负面（来源）
-专业选择
-我认为找工作是否成功包括两个衡量标准：
-
-能不能找到自己想要的工作；
-找到的工作在待遇、行业前景、个人发展空间等方面符不符合预期。
-
-我相信主观能动性的力量，但是一个人的成功，除了个人的奋斗，还需要考虑其他的客观因素。我认为找工作并不是从投递简历时才开始，甚至不是准备简历的时候开始的。很大程度上，一个人从事的职业在选择所学专业以及选择学习内容的时候就开始逐渐被决定了，甚至无论最后从事的工作和学习的内容有没有直接的联系。
-如果所学专业能更好地匹配当地市场环境和当时大背景的需求，那么找工作确实会显得事半功倍。香港作为一个外向型经济为主导的转口贸易港，如果想要留港工作，那么那些和「钱」字沾边的专业：金融、…]]></summary>
-        <author>
-            <name>Hermanchannn</name>
         </author>
     </entry>
     <entry>
@@ -4125,6 +4203,16 @@ Matrix 是少数派的写作社区，我们主张分享真实的产品体验，�
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Best Way to Become Flutter Developer – A Complete Roadmap]]></title>
+        <id>https://dev.to/marwamejri/best-way-to-become-flutter-developer-a-complete-roadmap-5h56</id>
+        <link href="https://dev.to/marwamejri/best-way-to-become-flutter-developer-a-complete-roadmap-5h56"/>
+        <updated>2022-08-30T13:12:53.000Z</updated>
+        <summary type="html"><![CDATA[#beginners #flutter #roadmap #programming]]></summary>
+        <author>
+            <name>marwaMejri</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Who Pays for an Act of Cyberwar?]]></title>
         <id>62fb9c2216995ea7b1a92dd3</id>
         <link href="https://www.wired.com/story/russia-ukraine-cyberwar-cyberinsurance/"/>
@@ -4132,16 +4220,6 @@ Matrix 是少数派的写作社区，我们主张分享真实的产品体验，�
         <summary type="html"><![CDATA[Cyberinsurance doesn't cover acts of war. But even as cyberattacks mount, the definition of "warlike" actions remains blurry.]]></summary>
         <author>
             <name>Josephine Wolff</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Inside the Shadow Evacuation of Kabul]]></title>
-        <id>6308b75a5d32e4cad34d6ea6</id>
-        <link href="https://www.wired.com/story/inside-shadow-evacuation-kabul-afghanistan/"/>
-        <updated>2022-08-30T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In the last two weeks of the war, an ad hoc team armed with group chats, QR codes, and satellite maps launched a mad dash to save imperiled Afghan allies.]]></summary>
-        <author>
-            <name>Michael Venutolo-Mantovani</name>
         </author>
     </entry>
     <entry>
@@ -4212,16 +4290,6 @@ Matrix 是少数派的写作社区，我们主张分享真实的产品体验，�
         <summary type="html"><![CDATA[利用 PHP-FPM 做内存马的方法]]></summary>
         <author>
             <name>先知安全技术社区</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Telegram-Powered News Outlet Waging Guerrilla War on Russia]]></title>
-        <id>62fd0e3f23d2b53441872fb6</id>
-        <link href="https://www.wired.com/story/february-morning-russia-ukraine-war/"/>
-        <updated>2022-08-29T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Anti-Putin media network February Morning has become a central player in the underground fight against the Kremlin.]]></summary>
-        <author>
-            <name>Guillaume Ptak</name>
         </author>
     </entry>
     <entry>
@@ -4362,6 +4430,16 @@ Matrix 是少数派的写作社区，我们主张分享真实的产品体验，�
         <summary type="html"><![CDATA[Science agencies around the world halted partnerships with Russia after it invaded Ukraine. But such actions are shortsighted and do more harm than good.]]></summary>
         <author>
             <name>Yangyang Cheng</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Text Animation in CSS]]></title>
+        <id>https://dev.to/shubhamtiwari909/text-animation-in-css-16j9</id>
+        <link href="https://dev.to/shubhamtiwari909/text-animation-in-css-16j9"/>
+        <updated>2022-08-24T11:53:00.000Z</updated>
+        <summary type="html"><![CDATA[#html #css #webdev #tutorial]]></summary>
+        <author>
+            <name>Mysterio</name>
         </author>
     </entry>
     <entry>
@@ -4552,16 +4630,6 @@ Matrix 是少数派的写作社区，我们主张分享真实的产品体验，�
         <summary type="html"><![CDATA[#beginners #portfolio #design #webdev]]></summary>
         <author>
             <name>Ioana Tiplea</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Arquitetura simples]]></title>
-        <id>https://dev.to/hugaomarques/a-arquitetura-simples-lb</id>
-        <link href="https://dev.to/hugaomarques/a-arquitetura-simples-lb"/>
-        <updated>2022-08-20T18:59:15.000Z</updated>
-        <summary type="html"><![CDATA[#arquiteturalimpa #sistemasdistribuidos #aws #systemdesign]]></summary>
-        <author>
-            <name>Hugo Marques</name>
         </author>
     </entry>
 </feed>
