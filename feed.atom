@@ -1,10 +1,878 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-10-23T10:48:44.916Z</id>
+    <id>urn:2022-10-24T10:58:15.348Z</id>
     <title>osmos::feed</title>
-    <updated>2022-10-23T10:48:44.916Z</updated>
+    <updated>2022-10-24T10:58:15.348Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
+    <entry>
+        <title type="html"><![CDATA[My Rust development workflow (after 3+ years)]]></title>
+        <id>https://dev.to/sylvainkerkour/my-rust-development-workflow-after-3-years-217m</id>
+        <link href="https://dev.to/sylvainkerkour/my-rust-development-workflow-after-3-years-217m"/>
+        <updated>2022-10-24T10:15:34.000Z</updated>
+        <summary type="html"><![CDATA[Rust takes a loooot of time to compile, even with incremental compilation. It's not rare that a small change leads to 2 or 3 minutes of compilation to test the change, which frustrates a lot of new rustaceans. It's a deliberate choice made by the language designers to favor runtime speed over compilation speed (it's why we love Rust: raw speed), and there is no magic incantation or cheat code to reduce this compilation time.
+It took me some time to find a good workflow, which does not break my flow state (when I'm in the zone), so I thought it was worth sharing if it can save you time, dear reader.
+But first, I have a question: What makes you happier, swimming against the current or embracing the flow and getting things done?
+If you come from programming languages such as TypeScript or Go,…]]></summary>
+        <author>
+            <name>Sylvain Kerkour</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Javascript: Minification vs Obfuscation]]></title>
+        <id>https://dev.to/urstrulyvishwak/javascript-minification-vs-obfuscation-2h02</id>
+        <link href="https://dev.to/urstrulyvishwak/javascript-minification-vs-obfuscation-2h02"/>
+        <updated>2022-10-24T09:46:37.000Z</updated>
+        <summary type="html"><![CDATA[Minification:
+Comments and extra spaces are removed
+Provides short names for variables and functions
+Removes unwanted variables
+Uses:
+Reduce file size intern reduces load times
+Improves site speed and accessibility
+Can be accessed with low bandwidth network
+
+
+
+
+
+// Sample javascript file
+function print() {
+console.log('Hello World!');
+}
+print();
+
+
+It's minified version is:
+function print(){console.log("Hello World!")}print();
+
+Obfuscation:
+Business logic is not exposed
+Obfuscated isn't readable hence copying and reusing is not possible.
+It prevents vulnerable attackes
+For the above same code snippet's obfuscated version is:
+(function(_0x42a639,_0x56f39){var _0x3177f0=_0x3dc6,_0x3ad656=_0x42a639();while(!![]){try{var _0x39f7cb=-parseInt(_0x3177f0(0x175))/0x1+parseInt(_0x3177f0(0x179))/0x2*(parseInt(_0x3177f0(0x174))/0x3)+-parseInt(_0x3177f0(0x17b))/0x4+parseInt(_0x3177f0(0x176))/0x5+-parseInt(_0x3177f0(0x177))/0x6+-parseInt(_0x3177f0(0x17c))/0x7+parseInt(_0x3177f0(0x173))/0x8;if(_0x39f7cb===_0x56f39)break;else _0x3ad656['push'](_0x3ad656['shift']());}catch(_0x246c48){_0x3ad656['push'](_0x3ad656['shift']());}}}(_0x43bd,0x1c675));function _0x43bd(){var _0x35b3fa=['123SaKLEH','12398znBZem','102425JTqbPj','190338WWUPVw','Hellow\x20World!','1292MJSgQk','log','527404lCUqJG','63973dQqvvq','2035848dPkEIA'];_0x43bd=function(){return _0x35b3fa;};return _0x43bd();}function _0x3dc6(_0xf65f24,_0x5eeff0){var _0x43bdd9=_0x43bd();return _0x3dc6=function(_0x3dc6f1,_0x485198){_0x3dc6f1=_0x3dc6f1-0x173;var _0x3d72ac=_0x43bdd9[_0x3dc6f1];return _0x3d72ac;},_0x3dc6(_0xf65f24,_0x5eeff0);}function print(){var _0xd7f32d=_0x3dc6;console[_0xd7f32d(0x17a)](_0xd7f32d(0x178));}print();]]></summary>
+        <author>
+            <name>Kurapati Mahesh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Centralized Management by using AWS System Manager]]></title>
+        <id>https://dev.to/aws-builders/centralized-management-by-using-aws-system-manager-3g5j</id>
+        <link href="https://dev.to/aws-builders/centralized-management-by-using-aws-system-manager-3g5j"/>
+        <updated>2022-10-24T09:04:13.000Z</updated>
+        <summary type="html"><![CDATA[Introduction
+
+
+
+You can manage your applications and infrastructure in the cloud with the help of the Systems Manager. Systems Manager simplifies application and resource management, shortens the time to detect and resolve operational problems, and helps you manage your resources securely at scale.
+
+Image Source
+The Systems Manager will verify that your user, group, or role has permission to perform the action you specified. 
+If the target of your action is a managed node, the Systems Manager Agent will perform the action. 
+The systems Manager, SSM Agent, and other services performed an action on behalf of the Systems Manager report status. If configured, the Systems Manager can send status details to other services.
+If enabled, Systems Manager operations management capabilities such as Ex…]]></summary>
+        <author>
+            <name>MakendranG</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Getting Started With Kubernetes: Introduction and Architecture]]></title>
+        <id>https://dev.to/rsarthak/getting-started-with-kubernetes-introduction-and-architecture-5fnl</id>
+        <link href="https://dev.to/rsarthak/getting-started-with-kubernetes-introduction-and-architecture-5fnl"/>
+        <updated>2022-10-24T08:57:39.000Z</updated>
+        <summary type="html"><![CDATA[Kubernetes also known as K8S is a portable, extensible, open source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation. Kubernetes provides you with a framework to run distributed systems resiliently. It takes care of scaling and failover for your application, provides deployment patterns, and more.
+One of the primary reasons why K8s became so popular is the ever-growing demand for businesses to support their micro service-driven architectural needs.
+Microservice architecture helps companies in :
+Independently develop and deploy their complex applications by breaking them into small scalable modules.
+
+
+Help them work in multiple small teams supporting individual application modules, to be developed and deployed with th…]]></summary>
+        <author>
+            <name>Sarthak Rajput</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lost co-creator Damon Lindelof is latest filmmaker said to be developing new Star Wars film]]></title>
+        <id>https://www.theverge.com/2022/10/24/23420191/star-wars-film-development-lost-damon-lindelof-sharmeen-obaid-chinoy</id>
+        <link href="https://www.theverge.com/2022/10/24/23420191/star-wars-film-development-lost-damon-lindelof-sharmeen-obaid-chinoy"/>
+        <updated>2022-10-24T08:43:03.000Z</updated>
+        <summary type="html"><![CDATA[Lindelof at the 2020 Writers Guild Awards. | Photo by Charley Gallay/Getty Images for WGAW
+    
+
+  
+You can add another name to your list of filmmakers attempting to develop the next Star Wars film: Damon Lindelof. Deadline reports that Lindelof, who rose to prominence as the co-creator of Lost and more recently won multiple Emmys for his work on HBO’s TV adaptation of Watchmen, is developing and co-writing the film, although it’s unclear who his writing partner could be. Sharmeen Obaid-Chinoy, who worked on several episodes of Ms. Marvel, is reportedly in talks to direct. 
+The Star Wars franchise has been absent from the big screen since 2019’s Rise of Skywalker, with various in-development efforts coming to nothing (so far). Last Jedi director Rian Johnson has been working since 2017 to create a new trilogy of new Star Wars movies...
+Continue reading…]]></summary>
+        <author>
+            <name>The Verge -  All Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Exclusive: Ikea’s new Dirigera hub and Home smart app deliver big improvements]]></title>
+        <id>https://www.theverge.com/23420136/ikeas-dirigera-smart-home-review-price-specs</id>
+        <link href="https://www.theverge.com/23420136/ikeas-dirigera-smart-home-review-price-specs"/>
+        <updated>2022-10-24T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Easier to use and stable. But let’s check in again after a few months.
+Continue reading…]]></summary>
+        <author>
+            <name>The Verge -  All Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Improving Performance of Nuxt apps with Partytown]]></title>
+        <id>https://dev.to/jacobandrewsky/improving-performance-of-nuxt-apps-with-partytown-80p</id>
+        <link href="https://dev.to/jacobandrewsky/improving-performance-of-nuxt-apps-with-partytown-80p"/>
+        <updated>2022-10-24T07:57:57.000Z</updated>
+        <summary type="html"><![CDATA[Partytown is a JavaScript library that helps relocate resource intensive scripts (often third-party scripts) into a web worker and off the main thread. This speeds up our site by freeing up the main thread to run our code.
+Web Workers are a simple means for web content to run scripts in background threads. The worker thread can perform tasks without interfering with the user interface. In addition, they can perform I/O using XMLHttpRequest (although the responseXML and channel attributes are always null) or fetch (with no such restrictions). Once created, a worker can send messages to the JavaScript code that created it by posting messages to an event handler specified by that code (and vice versa).
+
+If you would like to learn more about Web Workers, check out here
+The main thread is where…]]></summary>
+        <author>
+            <name>Jakub Andrzejewski</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Letterloop 2.0 — Private group newsletters for friends, families & teams]]></title>
+        <id>https://www.producthunt.com/posts/letterloop-2-0</id>
+        <link href="https://www.producthunt.com/posts/letterloop-2-0"/>
+        <updated>2022-10-24T07:29:00.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AWS open source news and updates, #132]]></title>
+        <id>https://dev.to/aws/aws-open-source-news-and-updates-132-556j</id>
+        <link href="https://dev.to/aws/aws-open-source-news-and-updates-132-556j"/>
+        <updated>2022-10-24T07:26:52.000Z</updated>
+        <summary type="html"><![CDATA[October 21st, 2022 - Instalment #132
+
+
+Welcome
+Welcome to the AWS open source newsletter, edition #132. This newsletter was covered in last Friday's Build on Open Source, so if you missed it, don't worry as you can view episode five of Build on Open Source. In this episode special guest Abhishek Gupta walked us through how to use cdk8s using Golang, building a Wordpress site in minutes.
+New projects this week include "duvet" a tool to help honour RFC in code, "aws-lambda-explorer" a gui tool to explore your AWS Lambda functions, "k3s-aws-terraform-cluster" deploy k3s on AWS via Terraform, "snow-transfer-tool" a tool to help you transfer data via Snowball devices, "amazon-emr-vscode-toolkit" a new VSCode plugin for Amazon EMR users, "aws-cdk-for-discourse" a quick way to deploy the open sou…]]></summary>
+        <author>
+            <name>Ricardo Sueiras</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[硬核观察 #799 一个单行补丁提升 Linux 隧道千倍性能]]></title>
+        <id>https://linux.cn/article-15172-1.html?utm_source=rss&amp;utm_medium=rss</id>
+        <link href="https://linux.cn/article-15172-1.html?utm_source=rss&amp;utm_medium=rss"/>
+        <updated>2022-10-24T07:25:13.000Z</updated>
+        <summary type="html"><![CDATA[一个单行补丁提升 Linux 隧道千倍性能
+
+Linux 的通用 TUN 驱动为用户空间的程序提供数据包接收和传输，该驱动长期以来一直在 Linux 内核中使用，可用于 VPN、Open vSwitch 等用途。将近二十年前，Linux TUN 驱动设置了一个 10Mbps 链接的标称速度，这在当时足够了。但是现在，Linux 网络堆栈和硬件都有了很大的进步。开发者提出了一个补丁，将该设定值提升一千倍到 10Gbps，并建议干脆取消该限制，而让应用程序/用户自己决定一个正确的值。
+
+
+消息来源：Phoronix
+
+
+
+老王点评：这就和千年虫一样，当时对日后发展考虑不足。
+
+
+
+
+GitHub 准备推出细粒度的个人访问令牌
+
+GitHub 在 2020 年提供了 OAuth 认证，再之后，GitHub.com 所有认证的 Git 操作都需要基于令牌的认证，而不再接受账户密码。但 GitHub 的个人访问令牌只能被赋予有限的权限，也不是按仓库分配的，而且只有几个宽泛的类别。新的正在测试中的令牌是细粒度的，每个仓库有 25 种权限，其中大部分权限可以设置为只读、读写或不访问，另外有 14 种权限与账户管理有关。
+
+
+消息来源：Devclass
+
+
+
+老王点评：确实这是必要的，只是我原本以为这种细粒度的设置应该更早来到。
+
+
+
+
+Gartner 发布十大战略技术趋势
+
+著名的技术研究和咨询公司 Gartner 发布了 2023 年的十大战略技术趋势：数字免疫系统、应用可观察性、AI 信任/风险和安全管理、行业云平台、平台工程、无线价值实现、超级应用、自适应 AI、元宇宙、可持续技术。
+
+
+消息来源：福布斯
+
+
+
+老王点评：看了一下，感觉不明觉厉。]]></summary>
+        <author>
+            <name>linux@linux.cn (linux)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Happy Things — Practice happiness daily]]></title>
+        <id>https://www.producthunt.com/posts/happy-things-2</id>
+        <link href="https://www.producthunt.com/posts/happy-things-2"/>
+        <updated>2022-10-24T07:19:04.000Z</updated>
+        <summary type="html"><![CDATA[https://apple.co/3MYYYkY
+              ”
+              
+Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to create diagrams of your Architecture]]></title>
+        <id>https://dev.to/aws-builders/how-to-create-diagrams-of-your-architecture-1na6</id>
+        <link href="https://dev.to/aws-builders/how-to-create-diagrams-of-your-architecture-1na6"/>
+        <updated>2022-10-24T07:15:00.000Z</updated>
+        <summary type="html"><![CDATA[Documenting and keeping track of the changes in the architecture of an application is very important but at the same time very often underestimated.
+Yes, you might start with some sketches, maybe even draw and present those diagram to your team, but often, as soon as you start writing code/templates of it in your IaC of preference ( be it CloudFormation, Serverless, CDK or Terraform) most of the times we tend to ignore the visual part of it.
+Be it a RFC (Request For Comments) for peer Engineers or Architects, or ADR (Architecture Decision Record to explain the architectural choices months after down the production line, having nice, readable, and uptodate diagrams makes things so easy.
+I normally used Draw.io within. company Google Drive for sketching Architecture Diagrams and sharing with…]]></summary>
+        <author>
+            <name>Davide de Paolis</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[INTRODUCTION TO WEB3.0]]></title>
+        <id>https://dev.to/wisdomudo/introduction-to-web30-56do</id>
+        <link href="https://dev.to/wisdomudo/introduction-to-web30-56do"/>
+        <updated>2022-10-24T07:13:01.000Z</updated>
+        <summary type="html"><![CDATA[Table of Content
+In the past, while using the semantic web technology that Sir Tim Berners-Lee created in 1989, the content was published but users were not given the option to leave comments or make any other kind of input. And at this point, everyone was forced to use Web 1.0, an iteration that only permitted users to read the material.
+Thus, Tim O'Reilly helped spread the word about the emergence of Web 2.0 in 2004. The ideology and goals of this movement were centered on social networking, mobile, and cloud initiatives, which facilitated user interaction and gave content creators the freedom to write and publish content with ease.
+Wikipedia states that "Web3 was first founded by Ethereum Co-founder Gavin Wood and the idea gained interest in 2021 from cryptocurrency enthusiasts, large t…]]></summary>
+        <author>
+            <name>WISDOMUDO</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ContactBird — Find leads and gain customers on autopilot through Twitter]]></title>
+        <id>https://www.producthunt.com/posts/contactbird</id>
+        <link href="https://www.producthunt.com/posts/contactbird"/>
+        <updated>2022-10-24T07:06:20.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to display commits created on a specific day with the git log command]]></title>
+        <id>70271 at https://opensource.com</id>
+        <link href="https://opensource.com/article/22/10/git-log-command"/>
+        <updated>2022-10-24T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[How to display commits created on a specific day with the git log command
+Agil Antony
+Mon, 10/24/2022 - 03:00
+
+            
+The git log command offers many opportunities to learn more about the commits made by contributors. One way you might consume such information is by date. To view commits in a Git repository created on a specific date or range of dates, use the git log command with the options --since or --until, or both.
+
+More on Git
+What is Git?
+Git cheat sheet
+Markdown cheat sheet
+New Git articles
+First, checkout the branch you want to inspect (for example, main):
+$ git checkout main
+Next, display the commits for the current date (today):
+$ git log --oneline --since="yesterday"
+Display commits for the current date by a specific author only (for example, Agil):
+$ git log --oneline --since="yesterday" --author="Agil"
+You can also display results for a range of dates. Display commits between any two dates (for example, 22 April 2022 and 24 April 2022):
+$ git log --oneline --since="2022-04-22" --until="2022-04-24"
+In this example, the output displays all the commits between 22 April 2022 and 24 April 2022, which excludes the commits done on 22 April 2022. If you want to include the commits done on 22 April 2022, replace 2022-04-22 with 2022-04-21.
+Run the following command to display commits between any two dates by a specific author only (for example, Agil):
+$ git log --oneline --since="2022-04-22" \
+--until="2022-04-24" --author="Agil"
+
+Reporting
+Git has many advantages, and one of them is the way it enables you to gather data about your project. The git log command is an important reporting tool and yet another reason to use Git!
+The git log command is an important reporting tool and yet another reason to use Git.
+
+  
+      
+            
+  
+
+
+      
+   
+Image by: 
+by Dafne Cholet. CC BY-SA 2.0.
+ 
+
+
+  
+
+      
+      
+Git
+What to read next
+
+        This work is licensed under a Creative Commons Attribution-Share Alike 4.0 International License.
+Register or Login to post a comment.]]></summary>
+        <author>
+            <name>Agil Antony</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A PWA is the web browser]]></title>
+        <id>70263 at https://opensource.com</id>
+        <link href="https://opensource.com/article/22/10/pwa-web-browser"/>
+        <updated>2022-10-24T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A PWA is the web browser
+Alex Borsody
+Mon, 10/24/2022 - 03:00
+
+            
+A progressive web app (PWA) is a web application that uses modern web technologies to deliver a user experience equal to any mobile app. An active open source community, in conjunction with tech leaders like Google and Microsoft, pushes the PWA agenda forward in an effort to "bridge the app gap."
+Basically, a PWA runs your app in a web browser. Because there's essentially a two-party system of the Play and App stores, the focus is on two browsers: Google Chrome and Apple Safari (built on top of the open source Chromium and WebKit, respectively).
+I won't be covering creating desktop apps. For more information on that topic, look into Electron.
+PWAs are built the same way as any website or web app. They use the lates…]]></summary>
+        <author>
+            <name>Alex Borsody</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fazier Sideprojects — Share & discover side projects. Submit your side project]]></title>
+        <id>https://www.producthunt.com/posts/fazier-sideprojects</id>
+        <link href="https://www.producthunt.com/posts/fazier-sideprojects"/>
+        <updated>2022-10-24T06:54:02.000Z</updated>
+        <summary type="html"><![CDATA[Fazier Sideprojects is a community for discovering and sharing your side-projects.
+
+You can filter side-projects based on revenue, location, category and pricing etc. I am bullish on country filter mainly. It will definitely help people connect with each other.
+
+I’ll be here all day. Happy to answer your questions.
+
+Say Hi on Twitter
+
+P.S. Are you planning to launch on Product Hunt soon? Then checkout Product Hunt Launch Checklist  — 12 planning checklists, tips, guides, resources, tools to prepare for the Product Hunt launch.
+              ”
+              
+Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Optimizing the PageSpeed results - part 17]]></title>
+        <id>https://dev.to/dailydevtips1/optimizing-the-pagespeed-results-part-17-4hcb</id>
+        <link href="https://dev.to/dailydevtips1/optimizing-the-pagespeed-results-part-17-4hcb"/>
+        <updated>2022-10-24T06:41:26.000Z</updated>
+        <summary type="html"><![CDATA[You probably thought that was right. The portfolio is done and dusted.
+So in today's article, we will conduct a PageSpeed exam and address any issues we find.
+You can use this fantastic website powered by Google to perform a basic report for your website.
+Visit the PageSpeed Insights website
+Fill out the URL to your website and click the "Analyze" button.
+For my portfolio, I got the following results on mobile.
+
+I'll be honest with you. We did well out of the box.
+Both have the same remarks. Our images can be optimized!
+So let's tackle that issue and see what effect it has.
+You might have noticed I used the project's default HTML <img /> tags.
+There is an alternative we can (and should) use in Next.js, which is their wrapper called <Image />.
+Let's open the project and open up the introHea…]]></summary>
+        <author>
+            <name>Chris Bongers</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Build a Fantastic Web3 Games Shop with React, Solidity, and CometChat]]></title>
+        <id>https://dev.to/daltonic/how-to-build-a-fantastic-web3-games-shop-with-react-solidity-and-cometchat-50mj</id>
+        <link href="https://dev.to/daltonic/how-to-build-a-fantastic-web3-games-shop-with-react-solidity-and-cometchat-50mj"/>
+        <updated>2022-10-24T06:36:19.000Z</updated>
+        <summary type="html"><![CDATA[Introduction
+
+
+What you will be building, see the demo on the Goerli test network and git repo here.
+
+Web3 development is officially the new way to build web applications, and if you are not there yet, you need to catch up. The way to master building web3 apps is by understanding smart contracts, a frontend framework such as React, and how to link the smart contract with the front end.
+In this tutorial, you will learn how to build a decentralized web3 eShop for selling game items using the native ethereum currency.
+This app comprises the smart contract layer, a front end where all the interactions with the smart contract take place, and an anonymous chat feature using the CometChat SDK.
+Subscribe to my YouTube channel to learn how to build a Web3 app from scratch. I also offer private and …]]></summary>
+        <author>
+            <name>Gospel Darlington</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Anti Block Me — Stop losing ad revenue]]></title>
+        <id>https://www.producthunt.com/posts/anti-block-me</id>
+        <link href="https://www.producthunt.com/posts/anti-block-me"/>
+        <updated>2022-10-24T06:33:13.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[在忙碌的生活中坚持阅读：我的得到阅读器三年使用体验]]></title>
+        <id>https://sspai.com/post/76372</id>
+        <link href="https://sspai.com/post/76372"/>
+        <updated>2022-10-24T06:30:42.000Z</updated>
+        <summary type="html"><![CDATA[Matrix 首页推荐
+Matrix 是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选 Matrix 最优质的文章，展示来自用户的最真实的体验和观点。
+文章代表作者个人观点，少数派仅对标题和排版略作修改。
+
+为何是阅读器
+大学毕业后，我告别了拥有海量藏书的图书馆，开始了漫长的阅读工具体验之旅。
+起初，惯性思维让我从当当、京东等大平台买书来读。我喜欢撕掉新书塑封时的期待心情，也慢慢攒起来了自己的第一批库存。新书的开销几乎成为刚毕业的我除吃饭和租房外的第三大支出项。
+后来，多抓鱼开始了他们的创业，我也成为了他们的最早一批用户。我在他们的小程序上养成了买二手书的习惯，也尝试着卖掉了一些看完的书。我喜欢这种循环与分享的理念，有时收到他人批注过的书页，时有共鸣，像是在和一名未曾谋面的老友会心一笑。
+然而北漂不易，在这样试运行了快三年后，寸土寸金的租房空间已经难以下脚。再加上数次搬家几乎成了北漂的必修课，因此「纸质书」在我这里已经逐渐和「奢侈品」画了等号。我开始把目光转向电子书。
+彼时「蜗牛阅读」早于「微信阅读」兴起，我用手机读完每天免费的一小时，眼睛已经感觉酸涩。后来我尝试了 iPad 版本，视觉的疲劳感依然没有好转。于是像每一个热爱阅读或者感觉自己热爱阅读的人一样，我下单了人生的第一台 Kindle，开始了我的阅读器泡面之旅。
+Kindle 的小屏幕让我非常不适应。由于阅读惯性使然，为了尽可能获得和纸质书的一页近似的信息量，我需要把字体调整到很小，然而字体变小又让阅读本身变得吃力。加上 Kindle Unlimited 并不优质的资源和第三方网站的不稳定，我发现 Kindle 在我这里并没有代替纸质书的地位，反而是新鲜感过后，逐渐落入吃灰的境地。
+再后来，得到 app 开始推出了电子书的业务，上线初期是 148元/年。我这个得到重度用户试用了…]]></summary>
+        <author>
+            <name>Journey</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[javascript: Object to CSV]]></title>
+        <id>https://dev.to/urstrulyvishwak/javascript-object-to-csv-2l4h</id>
+        <link href="https://dev.to/urstrulyvishwak/javascript-object-to-csv-2l4h"/>
+        <updated>2022-10-24T06:26:38.000Z</updated>
+        <summary type="html"><![CDATA[This is a very much needed requirement in all most all web applications as and when backend doesn't support download for given results. 
+We generally populate results in table -> To populate we need to iterate over array contains data objects.
+Like,
+const data = [
+{ name: 'Tom', id: '1234'},
+{ name: 'James', id: '3456'},
+{ name: 'Jerry', id: '7890'},
+{ name: 'Peter', id: '4321'}
+];
+
+And, the above forms table as:
+
+Just want same results to be downloaded as CSV.
+  const headers = Object.keys(data[0]).join();
+    const content = data.map(value => Object.values(value).join());
+    const csv = [headers].concat(content).join("\n");
+    const element = document.createElement('a');
+    element.href = 'data:text/csv;charset=utf-8,' + encodeURI(csv);
+    element.target = '_blank';
+    element.download = 'export.csv';
+    element.click();
+
+Done. Your CSV gets download as show in below:
+
+Always welcome any improvements.
+Thanks.
+Follow: https://twitter.com/urstrulyvishwak]]></summary>
+        <author>
+            <name>Kurapati Mahesh</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Inversion of Control: Dependency Injection in Typescript]]></title>
+        <id>https://dev.to/this-is-angular/inversion-of-control-dependency-injection-in-typescript-1dj9</id>
+        <link href="https://dev.to/this-is-angular/inversion-of-control-dependency-injection-in-typescript-1dj9"/>
+        <updated>2022-10-24T06:06:03.000Z</updated>
+        <summary type="html"><![CDATA[I've been working with Angular for a while now (over 2 years), and since I moved to another workplace, I've switched (mostly) to Stencil.
+Stencil is a very nice compiler for Typescript that generates web components. If I were to place it, it would be a mixture between Angular and React. It uses decorators like Angular does (for the compiler to collect metadata and generate the output code based on that), and jsx/tsx with lifecycles just like React. It is a very powerfool tool to generate design systems.
+In this design system that I've been working on, there was the problem of how to store the global state. I wanted to have a simple version of DI (since I really liked it in Angular). The big advantage of using a DI system is that you can easily mock the services in tests, instead of needing…]]></summary>
+        <author>
+            <name>Cristian-Florin Calina</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[终于把右键新建菜单搞整齐了，强迫症患者福音：Windows 10 右键新建菜单重命名]]></title>
+        <id>https://www.appinn.com/?p=43712</id>
+        <link href="https://www.appinn.com/context-menu-change-name-win10/"/>
+        <updated>2022-10-24T05:45:58.000Z</updated>
+        <summary type="html"><![CDATA[来自 @LambertCrofts 同学的帖子：终于把右键新建菜单搞整齐了。 对于强迫症患者来说，看到上图左侧的样式，真不能忍，为什么 PPT 全称那么长？就不能短一些么？ 可以的。但需要…]]></summary>
+        <author>
+            <name>青小蛙</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[InstaText for Chrome — Improve your text with the most productive writing assistant]]></title>
+        <id>https://www.producthunt.com/posts/instatext-for-chrome</id>
+        <link href="https://www.producthunt.com/posts/instatext-for-chrome"/>
+        <updated>2022-10-24T05:21:35.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Syncify — Reduce time spent in meetings]]></title>
+        <id>https://www.producthunt.com/posts/syncify-1</id>
+        <link href="https://www.producthunt.com/posts/syncify-1"/>
+        <updated>2022-10-24T05:01:15.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TikTok Quick Start Training — Learn the core pillars of TikTok in 7 training modules]]></title>
+        <id>https://www.producthunt.com/posts/tiktok-quick-start-training</id>
+        <link href="https://www.producthunt.com/posts/tiktok-quick-start-training"/>
+        <updated>2022-10-24T03:53:33.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PikPak — Fast and safely collect files with up to 10TB private cloud]]></title>
+        <id>https://www.producthunt.com/posts/pikpak-2</id>
+        <link href="https://www.producthunt.com/posts/pikpak-2"/>
+        <updated>2022-10-24T03:37:15.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[iPad与外接键盘，这样设置可以更好用]]></title>
+        <id>https://sspai.com/post/76300</id>
+        <link href="https://sspai.com/post/76300"/>
+        <updated>2022-10-24T02:48:11.000Z</updated>
+        <summary type="html"><![CDATA[引言
+iPad中关于键盘的设置与鼠标一样 —— 非常混乱。例如，iPad键盘的设置也是出现在「通用 | 键盘」、「辅助功能 | 键盘」以及「辅助功能 | 触控 — 辅助触控」中。
+其中，「辅助功能 | 触控 — 辅助触控」其实就是上一篇文章中的「鼠标键」，具体可以参考《鼠标搭配 iPadOS，如何设置才能更好用？》
+「通用 | 键盘 — 实体键盘」
+键位调节
+在实体键盘中，你可以根据iPad已有的输入法进行键位调节。例如我们常用的是QWERTY键盘，而你可以在这里改成AZERTY等。
+
+ 
+下面的几项设置中，大家基本都能理解，而且也无关痛痒。笔者认为比较重要的是下面两个：
+按下🌐显示表情符号
+首先，这个🌐符号在妙控键盘里就是左下角的fn。
+显示表情符号这个按钮，比较适合常用emoji😄的场景。例如‼️，一般写小🍠的朋友都需要用较多的emoji来分1️⃣2️⃣3️⃣等小标题，那么打开这个功能就会非常方便啦✨。
+实际上，就算打开了这个功能，也不会影响我们切换输入法，因为使用control+空格也能轻松切换输入法，与我们使用Mac的习惯一样。
+
+使用大写锁定键切换语言
+第二个功能也是Mac中特有的功能。从Windows换到Mac的用户很不爽的一点是：想按Caplock键来输入大写字母，结果只能切换输入法，非得长按才行。
+实际上这个功能是可以开关的，iPad上也一样。打开后，我们可以自由地在当前输入法和英文输入法之间切换（如果当前是简体中文输入法，那么就是中——英；如果是俄语输入法，那么便是俄——英），如果在键盘语言中把英文输入法删除的话，这个功能即使打开也不能使用了。关闭后，我们按下Caplock键就能切换为全大写输入。macOS中也一样，删除自带的中文输入法（英文输入法不能删除），就不能实现这个功能。
+
+「辅助功能 | 键盘」
+
+辅助功能中的键盘设置分为两个部分，一个是…]]></summary>
+        <author>
+            <name>hkoch24</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ubuntu 22.10 的新变化]]></title>
+        <id>https://linux.cn/article-15171-1.html?utm_source=rss&amp;utm_medium=rss</id>
+        <link href="https://linux.cn/article-15171-1.html?utm_source=rss&amp;utm_medium=rss"/>
+        <updated>2022-10-24T02:15:00.000Z</updated>
+        <summary type="html"><![CDATA[Ubuntu 22.10 是一个令人印象深刻的版本，它拥有新的快速切换功能、应用程序散布，以及更多。
+
+
+
+
+Ubuntu 22.10 “充满活力的捻角羚Kinetic Kudu”来了。它带来了许多重大的改进，特别是 Linux 内核 5.19 和 GNOME 43 的体验。
+
+当然，这是一个经过定制的 GNOME 体验，现有的 Ubuntu 用户会很熟悉。
+
+那么，Ubuntu 22.10 都有哪些新变化呢？让我们一起来看看。
+
+Ubuntu 22.10 的新变化
+
+
+
+除了 GNOME 43 之外，Ubuntu 22.10 还包括：
+
+
+一个改进的 设置Settings 应用程序。
+
+经典的 Unity 应用程序散布模式Spread Mode的复活。
+
+一些著名的应用程序被移植到 GTK4 和 Libadwaita。
+
+全系统支持 WebP。
+
+PipeWire 采样管默认的音频服务器。
+
+Linux 内核 5.19。
+
+
+
+💡 Ubuntu 22.10 将被支持九个月，直到 2023 年 7 月。如果你想要稳定而不是功能，你应该更愿意使用 LTS 版本。
+
+
+🎨 视觉改进
+
+当第一次测试一个新版本时，视觉上的变化总是最先被注意到的。在 Ubuntu 22.10 中尤其如此，这要归功于 GNOME 43 所带来的重大改进。
+
+
+
+首先，我们有全新的快速设置菜单，它取代了旧的、相当笨拙的系统菜单。与安卓、iOS 和 Windows 11 中的菜单类似，这个新增的菜单允许你打开和关闭 Wi-Fi 和蓝牙，所有这些都无需进入设置Settings应用程序。
+
+当然，在这个版本中我们还得到了全新的壁纸。
+
+
+
+对于这个变化，我除了喜欢并希望从社区中看到更多这样的设计之外，没有什么别的可说的。
+
+此外，更多的应用程序被移植到…]]></summary>
+        <author>
+            <name>linux@linux.cn (linux)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Shorter Shower — Take a shorter shower to save time and water]]></title>
+        <id>https://www.producthunt.com/posts/shorter-shower</id>
+        <link href="https://www.producthunt.com/posts/shorter-shower"/>
+        <updated>2022-10-24T01:37:03.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[开源 DevOps 工具的平台化未来]]></title>
+        <id>https://linux.cn/article-15170-1.html?utm_source=rss&amp;utm_medium=rss</id>
+        <link href="https://linux.cn/article-15170-1.html?utm_source=rss&amp;utm_medium=rss"/>
+        <updated>2022-10-24T01:27:50.000Z</updated>
+        <summary type="html"><![CDATA[当商业 DevOps 工具市场着眼于平台时，是时候让开源 DevOps 工具重新定义它们的未来了。
+
+
+DevOps 的开源根基是无法动摇的，即便有预言称全球的 DevOps 市场将在 2026 年之前达到 178 亿美元。不断变化的工作环境、安全和合规性问题，以及风险投资公司等等因素正在将市场推向 DevOps 平台，开发团队可以在云中获得完整的端到端 DevOps 工具链。
+
+开源 DevOps 工具现状
+
+我们要搞清楚一件事：开源工具不可能从 DevOps 世界中消失。现在，在开源和供应商提供的 DevOps 工具之间存在着一种平衡，开发人员会在两者间选择适合他们的工具。事实上，很多情况下，一个开发团队起初会为他们的 DevOps 流水线选择一个开源工具，后来又升级到商业版本。
+
+三种开源 DevOps 工具实例
+
+下面我们介绍一些开源 DevOps 工具的例子，每种工具都已经有了围绕其建立的商业化生态。
+
+Git
+
+源代码管理工具 Git 作为源代码库，可能是 DevOps 工具链的主要基础之一。
+
+Git 的两个最佳商业案例是 GitLab 和 GitHub。GitLab 接受开发者对其贡献开源项目。GitHub 也在着手努力成为一个 DevOps 平台，推出了人工智能版的结对编程 GitHub Copilot，在推出后受到了一些开源团体的褒贬不一的评价。
+
+Jenkins
+
+作为一个开源的自动化服务，Jenkins 因其易于安装、配置和可扩展性而受到推崇。
+
+CloudBees 提供了 JenkinsX，JenkinsX 是一套开源的解决方案，可以为 Kubernetes 上的云原生应用提供自动化持续集成和持续交付（CI/CD）以及自动化测试工具。他们还为JenkinsX 提供商业支持，包括：
+
+
+访问 CloudBees 的专业技术…]]></summary>
+        <author>
+            <name>linux@linux.cn (linux)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Image Converter — Convert, crop or resize an image directly from its URL]]></title>
+        <id>https://www.producthunt.com/posts/image-converter-3</id>
+        <link href="https://www.producthunt.com/posts/image-converter-3"/>
+        <updated>2022-10-23T21:42:13.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Indian news outlet The Wire retracts its story on Meta]]></title>
+        <id>https://www.theverge.com/2022/10/23/23419366/the-wire-meta-indian-news-outlet-retracts-story</id>
+        <link href="https://www.theverge.com/2022/10/23/23419366/the-wire-meta-indian-news-outlet-retracts-story"/>
+        <updated>2022-10-23T20:27:04.000Z</updated>
+        <summary type="html"><![CDATA[Nick Barclay / The Verge
+    
+
+  
+The Wire, an independent news outlet based in India, retracted its story that accused Meta of granting an Indian politician special permissions to remove posts on its platforms. In an update posted on Sunday, The Wire says it has decided to retract its report after “certain discrepancies” emerged in the evidence it used to back up its claims.
+“Our investigation, which is ongoing, does not as yet allow us to take a conclusive view about the authenticity and bona fides of the sources with whom a member of our reporting team says he has been in touch over an extended period of time,” the outlet explains. “We are still reviewing the entire matter, including the possibility that it was deliberately sought to misinform or deceive The Wire.”
+So...
+Continue reading…]]></summary>
+        <author>
+            <name>The Verge -  All Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hubs Directory — A searchable community built directory of 3D web content]]></title>
+        <id>https://www.producthunt.com/posts/hubs-directory</id>
+        <link href="https://www.producthunt.com/posts/hubs-directory"/>
+        <updated>2022-10-23T19:36:18.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Metricly Cloud — Instantly reduce your AWS Bill with metricly.cloud]]></title>
+        <id>https://www.producthunt.com/posts/metricly-cloud</id>
+        <link href="https://www.producthunt.com/posts/metricly-cloud"/>
+        <updated>2022-10-23T18:56:32.000Z</updated>
+        <summary type="html"><![CDATA[https://lnkd.in/dputuKJ6
+              ”
+              
+Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Shopileads — Find the most e-commerce qualified leads with AI]]></title>
+        <id>https://www.producthunt.com/posts/shopileads</id>
+        <link href="https://www.producthunt.com/posts/shopileads"/>
+        <updated>2022-10-23T15:57:07.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MovieToEmoji — Convert your favourite movie or TV show name into emojis]]></title>
+        <id>https://www.producthunt.com/posts/movietoemoji</id>
+        <link href="https://www.producthunt.com/posts/movietoemoji"/>
+        <updated>2022-10-23T14:59:55.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vimon — Collect effortless media testimonials from your audience]]></title>
+        <id>https://www.producthunt.com/posts/vimon</id>
+        <link href="https://www.producthunt.com/posts/vimon"/>
+        <updated>2022-10-23T12:01:14.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sticky Timers — Multiple countdowns on your lock screen and dynamic island]]></title>
+        <id>https://www.producthunt.com/posts/sticky-timers</id>
+        <link href="https://www.producthunt.com/posts/sticky-timers"/>
+        <updated>2022-10-23T12:00:50.000Z</updated>
+        <summary type="html"><![CDATA[jordi@goodsnooze.com!
+              ”
+              
+Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[4 Best Budget Gaming Laptops (2022): 16-Inch Screens, RTX 3060, and More]]></title>
+        <id>62ea961dd0ad4d5c1833c0b2</id>
+        <link href="https://www.wired.com/gallery/best-budget-gaming-laptops/"/>
+        <updated>2022-10-23T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Gaming PC? That’s so 2020. Save some cash on a good, travel-friendly rig with these WIRED-tested picks.]]></summary>
+        <author>
+            <name>Adam Speight</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[11 Best Chef’s Knives for Your Kitchen (2022): Affordable, Japanese, Carbon Steel]]></title>
+        <id>5ecd3923469722286c4434eb</id>
+        <link href="https://www.wired.com/gallery/best-chef-knives/"/>
+        <updated>2022-10-23T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[It’s the indispensable multi-tool of the kitchen. We sliced and diced our way through meats and veggies to find today’s best blades.]]></summary>
+        <author>
+            <name>Scott Gilbertson</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The New Math of Wrinkling Patterns]]></title>
+        <id>634d91d07fa81ffa8c2b011a</id>
+        <link href="https://www.wired.com/story/the-new-math-of-wrinkling-patterns/"/>
+        <updated>2022-10-23T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A comprehensive mathematical framework treats these crinkles as elegant solutions to geometric problems.]]></summary>
+        <author>
+            <name>Stephen Ornes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Better Hacker News — How hacker news should be]]></title>
+        <id>https://www.producthunt.com/posts/better-hacker-news</id>
+        <link href="https://www.producthunt.com/posts/better-hacker-news"/>
+        <updated>2022-10-23T11:57:24.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wireframe Builder — No-code wireframe/HTML builder to create & download code]]></title>
+        <id>https://www.producthunt.com/posts/wireframe-builder</id>
+        <link href="https://www.producthunt.com/posts/wireframe-builder"/>
+        <updated>2022-10-23T11:52:18.000Z</updated>
+        <summary type="html"><![CDATA[https://wireframebuilder.netlify...
+
+Your feedback is highly appreciated.
+              ”
+              
+Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Quiet Insurrection the January 6 Committee Missed]]></title>
+        <id>63502848470620c1e69a254e</id>
+        <link href="https://www.wired.com/story/january-6-trump-digital-insurrection-politics/"/>
+        <updated>2022-10-23T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A former congressman who helped the House select committee investigate the Capitol attack says the US is losing sight of the big picture.]]></summary>
+        <author>
+            <name>Matt Laslo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Extract the Text From Any Image]]></title>
+        <id>6326021af2203b5586fabfbf</id>
+        <link href="https://www.wired.com/story/how-to-extract-text-from-any-image/"/>
+        <updated>2022-10-23T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Whether it’s for accessibility or research purposes, you have lots of tools to work with here.]]></summary>
+        <author>
+            <name>David Nield</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Quiet Insurrection the January 6 Committee Missed]]></title>
+        <id>63502848470620c1e69a254e</id>
+        <link href="https://www.wired.com/story/january-6-trump-digital-insurrection-politics/"/>
+        <updated>2022-10-23T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A former congressman who helped the House select committee investigate the Capitol attack says the US is losing sight of the big picture.]]></summary>
+        <author>
+            <name>Matt Laslo</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[硬核观察 #798 谷歌和苹果的短信标准对抗再次升级]]></title>
         <id>https://linux.cn/article-15169-1.html?utm_source=rss&amp;utm_medium=rss</id>
@@ -53,94 +921,51 @@ iPhone 的短信应用 iMessage 不支持现代的 RCS 标准，因此，从 iPh
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[What is JavaScript JSON📖]]></title>
-        <id>https://dev.to/roshan_100kar/what-is-javascript-json-25bp</id>
-        <link href="https://dev.to/roshan_100kar/what-is-javascript-json-25bp"/>
-        <updated>2022-10-23T08:27:09.000Z</updated>
-        <summary type="html"><![CDATA[✔ JSON stands Form JavaScript Object Notation(JSON), JSON is Text Based Data Format, that is used to store and transfer data,
-Syntax of JSON
-{
- "MoviesStar":[
-  {"firstName":"John","lastName": "cena"},
-  {"firstName":"linda","lastName": "Friday"},
-  {"firstName":"Teresa","lastName": "Plamer"},
-]
-}
+        <title type="html"><![CDATA[The Weekly Planner | Notion Template — Plan your week productively]]></title>
+        <id>https://www.producthunt.com/posts/the-weekly-planner-notion-template</id>
+        <link href="https://www.producthunt.com/posts/the-weekly-planner-notion-template"/>
+        <updated>2022-10-23T09:32:10.000Z</updated>
+        <summary type="html"><![CDATA[@Notion Template which easily lets you plan your week ahead in order to get the most out of it. You can easily add new week by a button. write your week down to be as productive as you can!
 
-🔴This above JSON Syntax defines movie star name object: an array of 3 moviestar record 
-⭐In JSON data stored in KEY/VALUE Pair separate by comma, 
-✨JSON DATA
-JSON data is written as name/value pairs, just like JavaScript object Properties, A name and value pair consists of field name(in double qoutes), followed by a colon, followed by value,
-JSON Objects
-The JSON object is written inside curly braces{}, JSON objects can contain multiple key/value pairs,
-for e.g :-
-{
-   "firstName":"Tony",
-   "lastName": "stark"
-}
+Features include:
+1. Week Focus
+2. TO-DO List
+3. Goal tracking with priority option
+4. Work tracking with priority option
+5. Weeks Review.
 
-JOSN Arrays:
-JSON array is written inside square Brackets[]. 
-//JSON array
-["audi", "BMW", "jaguar"]
+Its free so why not try out! get it now.
 
+Follow me on twitter for more awesome free templates to be as productive as possible.
 
-//JSON Array containing  objects
-[
-  {"name": "Tony", "age": 48},
-  {"name": "Peter", "age": 20}
-]
+If you have any suggestions do comment below!!
 
-🚫Note:
-⭐Accessing JSON data
-//JSON object
-const data = {
-"name": "john",
-"age":  22,
-"hobby": {
-"reading": true,
-"gamming" false,
-"sport": "football"
-},
-"class":["JavaScript", "HTML", "CSS"]
-
-//accessing  JSON object
-console.log(data.name); //john
-console.log(data.hobby); //{"reading": true,"gamming" false,"sport": "football"}
-
-console.log(data.hobby.sport); //football
-console.log(data.class[1]); //HTML
-}]]></summary>
+Thank you!
+              ”
+              
+Discussion
+            |
+            Link]]></summary>
         <author>
-            <name>Roshan Shambharkar</name>
+            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How to develop a Simple Dapp using React and Wagmi]]></title>
-        <id>https://dev.to/cypriantinasheaarons/how-to-develop-a-simple-dapp-using-react-and-wagmi-1f8l</id>
-        <link href="https://dev.to/cypriantinasheaarons/how-to-develop-a-simple-dapp-using-react-and-wagmi-1f8l"/>
-        <updated>2022-10-23T07:43:29.000Z</updated>
-        <summary type="html"><![CDATA[Introduction 🥳
+        <title type="html"><![CDATA[Astraload Cyberpunk Quest — Test your hacker skills while enjoying storyline and visuals]]></title>
+        <id>https://www.producthunt.com/posts/astraload-cyberpunk-quest</id>
+        <link href="https://www.producthunt.com/posts/astraload-cyberpunk-quest"/>
+        <updated>2022-10-23T09:00:44.000Z</updated>
+        <summary type="html"><![CDATA[https://twitter.com/astraload/st...
 
-
-This article will be focused on helping a developer interested in a career in web3.0. My Goal in this article is to help give a quick guide on some of the key steps involved when you are working on a decentralized web application. I will try not to be too clinical about the how-to, however, I will make sure I talk about the different parts of the project development.
-We will be working on a Dapp developed using Nextjs, Tailiwindcss,  WAGMI Ethereum react hooks and solidity for smart contract development.  Using Pexel 's free photos as our nfts, creating our metadata, and uploading both on Pinata.  We will deploy our smart contract on Ethereum Goeril Testnet and view our minted NFTs on the Opeasea testnet.
-You have basic knowledge of most parts that make up a Web3.0 projec…]]></summary>
+Cheers,
+Evgeny
+              ”
+              
+Discussion
+            |
+            Link]]></summary>
         <author>
-            <name>CyprianTinasheAarons</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Building a Scalable Search Architecture]]></title>
-        <id>https://dev.to/memphis_dev/building-a-scalable-search-architecture-3jj0</id>
-        <link href="https://dev.to/memphis_dev/building-a-scalable-search-architecture-3jj0"/>
-        <updated>2022-10-23T07:39:43.000Z</updated>
-        <summary type="html"><![CDATA[Creating a scalable search architecture is a popular and important task for many systems. There are different solutions for this task. Choosing the right one depends on the requirements of your project.
-Sometimes, as a project grows and its requirements change, you may run into new problems that you cannot solve with the search architecture you are using. For example, when increasing the amount of data, including synonyms in the search, adding multilingual search, etc. In this case, you need to think about creating a new, more efficient, scalable search architecture.
-The search architecture must support the rapid read and write scaling required for most use cases.
-In this article, we will talk about the main challenge that an effective search architecture must solve. We will also learn the…]]></summary>
-        <author>
-            <name>avital trifsik</name>
+            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -215,19 +1040,6 @@ via: https://www.debugpoint.com/gnome-files-root-access/
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[It’s OK to write garbage code once in a while.]]></title>
-        <id>https://dev.to/elliot_brenyasarfo_18749/its-ok-to-write-garbage-code-once-in-a-while-3bjp</id>
-        <link href="https://dev.to/elliot_brenyasarfo_18749/its-ok-to-write-garbage-code-once-in-a-while-3bjp"/>
-        <updated>2022-10-23T07:04:21.000Z</updated>
-        <summary type="html"><![CDATA[In addition to the fact that I write garbage code, this is one of the most important skills I'm still acquiring.
-If you're a developer and have the same attitude as I do, you view your coding endeavors as pieces of art. With every new package, library, or application you create, you invest a lot of thought and effort into writing good code. It's something you give a great deal of thought to, something you respect and take into account.
-I've always seen things from that perspective, and I'm working to change that thinking.
-It appears a little absurd that someone would want to cease creating Great CodeTM with such care and effort. Shouldn't we follow the advice, hints, and "best practices" that the greatest developers of all time have proffered? Well, maybe in a few ways. The same perspectiv…]]></summary>
-        <author>
-            <name>Elliot Brenya sarfo</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[No-Code Bank — 500+ no-code resources with inspirations listed on ClickUp]]></title>
         <id>https://www.producthunt.com/posts/no-code-bank</id>
         <link href="https://www.producthunt.com/posts/no-code-bank"/>
@@ -240,15 +1052,43 @@ It appears a little absurd that someone would want to cease creating Great CodeT
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Keyword Revealer — The only SEO tool you will ever need]]></title>
-        <id>https://www.producthunt.com/posts/keyword-revealer</id>
-        <link href="https://www.producthunt.com/posts/keyword-revealer"/>
-        <updated>2022-10-23T05:36:20.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
+        <title type="html"><![CDATA[App+1 | 忍不了了，做了个插件让 OneNote 支持 Markdown]]></title>
+        <id>https://sspai.com/post/76228</id>
+        <link href="https://sspai.com/post/76228"/>
+        <updated>2022-10-23T06:57:52.000Z</updated>
+        <summary type="html"><![CDATA[Matrix 首页推荐
+Matrix 是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选 Matrix 最优质的文章，展示来自用户的最真实的体验和观点。
+文章代表作者个人观点，少数派仅对标题和排版略作修改。
+
+一年多前，由于工作原因，主力开发机换成了 Windows，还入了 Office 365 全家桶。于是在时隔多年后，再次用起了 OneNote。不得不说，都 2022 年了，OneNote 的码字体验还停留在十多年前，一堆大大小小的遗留问题。但我实在懒得折腾什么 Notion、Obsidian（没有复杂的知识管理需求），只想找个本地/靠谱/大厂出品/开箱即用的笔记软件，简单记录下工作相关内容。 毕竟人一旦习惯了 markdown 的符号 # 和 -，就真的回不去了。于是研究了下 OneNote 的 api，决定自己动手，丰衣足食。OneMark 由此诞生。
+实时渲染
+废话不多说，直接上动图。
+
+简单来说，OneMark 实现了基于行的实时渲染，每次按回车时会触发渲染当前行。当然，这个实时 跟新世代编辑器字符级别的没法比，但已经足够好用了。
+不仅如此，终于在 OneNote 上实现了可用级别的代码高亮，输入``` 创建代码块后，每敲一行自动着色。用过 OneNote 的都懂，之前插入代码需要诸多操作，繁琐到想摔键盘。
+
+以及 LaTex 转换到 OneNote 原生的数学公式（不是图片）。
+
+除此之外，还支持TOC / todo / 水平线 / 脚注 等常见的语法，直接拿已有的 markdown 内容粘贴到 OneNote 中， 然后按 F5 渲染，大概率是可以完美还原的。
+
+ 
+没有美美的样式主题，怎么能算一个合格的笔记软件呢？众所周知，OneNote 本身的样式功能十分鸡肋，用户很难自定义主题，只能默默忍受一成不变的素面朝天。于是我花了好大力气，实现了解析 css 样式的功能，从此 OneNote 的笔记颜值终于能打了。
+
+双向编辑
+你可能会问：这种转换是单向的吗？我如果有一天想导出 markdown 纯文本怎么办？在我看来，原始 markdown 丢失是绝对不能接受的，所以我花了很大力气来解决这个问题：笔记中每个段落的 markdown 原文都以某种格式隐藏存储在自身之中，可以随时读取，不依赖外部文件，任意编辑也不会破坏。而且这种格式是公开透明的，只需要用 OneNote api 拿到 XML 格式的笔记内容，所有秘密一览无余。
+更重要的是，渲染后的内容可以原地随意增删修改，不必再重新切换回 markdown 形态编辑；而且在导出 markdown 时，内容也会相应更新——是的，实现了双向更新。当然，如果由于某些原因，你想切换回 markdown 形态编辑，也是支持的。按 ctrl + , ，即可在编辑和预览之间切换。
+
+结语
+OneMark 目前只支持 OneNote Windows 桌面版，不支持 UWP 版本以及 Mac 版本（好消息是微软正着手将 UWP 版本的功能迁移到桌面版，以后会只保留桌面版，最近的更新频率也让广大 OneNote 使用者倍感惊喜）。官网 https://onemark.neuxlab.cn/， 欢迎大家试用反馈。
+后记：我为什么选择 OneNote
+有人会问：不是有很多专业的 markdown 笔记软件吗，为什么还要用 OneNote？
+我个人的感悟是：我首先需要的是一个自由轻松的笔记软件，其次是 markdown。我是一个懒人，无论是日常生活，还是工作学习，都没有那么 organized，十分不擅长把东西整理并保持得井井有条。我的笔记中，有一些认真记录和思考产出的内容，但更多时候，是很随意、很碎片、很当下的信息记录。我试过，当面对一个专业的 markdown 笔记软件时，我会变得十分紧张不自在，不知道该把这些零碎、混乱的信息放到哪里。一旦产生了这种情绪，想要记录的念头也随即不了了之。
+而 OneNote 简单直接的界面、清晰的笔记结构、自由的无限画布，让我使用起来没有任何心理压力。唯一的缺点就是当需要认真输出内容时，没有 markdown 这件趁手的兵器，确实有点力不从心。补齐了这点之后，对于我个人而言就别无他求了。
+其实十多年前，OneNote 刚推出的时候也曾惊艳四座， 那时的设计理念和体验还是很超前的，有了现在流行的 block level 编辑器的雏形，无论是列表、段落、表格，书写和调整起来都非常得心应手。也多亏了这些设计，结合 markdown 之后居然毫不违和，整体体验下来有点现代编辑器的味道了。个中玄妙，就待各位亲自上手把玩了。
+> 下载 少数派 2.0 客户端、关注 少数派公众号，解锁全新阅读体验 📰 
+> 实用、好用的 正版软件，少数派为你呈现 🚀]]></summary>
         <author>
-            <name>Product Hunt — The best new products, every day</name>
+            <name>siyu</name>
         </author>
     </entry>
     <entry>
@@ -262,34 +1102,22 @@ It appears a little absurd that someone would want to cease creating Great CodeT
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[OnlyCollabs — Leverage exclusive content to blow up on TikTok]]></title>
-        <id>https://www.producthunt.com/posts/onlycollabs</id>
-        <link href="https://www.producthunt.com/posts/onlycollabs"/>
-        <updated>2022-10-23T03:06:12.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
+        <title type="html"><![CDATA[第一次 CrossFit 训练之前，你需要知道的几件小事]]></title>
+        <id>https://sspai.com/post/76376</id>
+        <link href="https://sspai.com/post/76376"/>
+        <updated>2022-10-23T04:35:39.000Z</updated>
+        <summary type="html"><![CDATA[你好，我是马上要上第 700 节 CrossFit 团课的克莱尔。（但今天是我的休息日。所以我来写稿了。
+如果你想减脂增肌，或者厌倦了在普通健身房对着满屋子器械不知从何下手，CrossFit 训练也许是一个最简单粗暴的健身方案。
+
+融合有氧器械、哑铃壶铃、药球、奥林匹克举重与单杠和吊环体操动作， CrossFit 以社区感、团课、每天不重样的训练内容闻名。对，我们每天练的项目都不一样，它要求你什么都懂（一点），对心肺、力量、柔韧性等各方面都有要求。
+换句话说， CrossFit 花样丰富，有趣，强度大，但作为一个相对小众的运动，准入门槛也不低。如果你在一二线城市，找到好馆子的可能性会比较大。如果你经常出差—— CrossFit 就像健身界的星巴克，无论到哪个城市，都能找到以相似模式运行的 Box ，能结识不同的朋友。
+全球 CF 馆分布
+今年是我练 CF 的第三年。根据三年的观察，许多来 CF 新客体验的人常被这项运动的强度或者“对新人不友好”震慑，觉得这是一馆子又壮又爱拼命的疯子。但其实 CF 并没有想象中这么吓人。在进行你的第一次 CF 训练之前，提前知道这些事情可以降低你在馆里低血糖、呕吐或者被吓得从此听到 CF 就绕道走的概率。
+离你最近的 CrossFit 训练馆在哪里？
+首先，如何找到离你最近的 CF 训练馆？如果你在国内一线城市，在点评 app 里输入 CrossFit 就是最快的方法，如果搜索结果中出现【综合训练】字样，它很有可能也是一个 CF 馆。只是未经 CF 官方认证。这不代表它是山寨——近几年有越来越多场馆认为自己不需要每年缴会费做这个认证，但大家训练的系统是一样的。
+如果你在国外，除了谷歌，另一个方法是点进 crossfit.com 网页，在右上角 Find a gym 这里找到经过官方认证的场馆（对国内场馆同样适用，但也许网速会众所周知地慢一点）…]]></summary>
         <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA["Googling it" is okay! - Hear Me Out 😅]]></title>
-        <id>https://dev.to/elliot_brenyasarfo_18749/googling-it-is-okay-hear-me-out-5fj3</id>
-        <link href="https://dev.to/elliot_brenyasarfo_18749/googling-it-is-okay-hear-me-out-5fj3"/>
-        <updated>2022-10-23T02:13:38.000Z</updated>
-        <summary type="html"><![CDATA[Yes, I am aware that some individuals find it offensive that their years of meticulous memorization and/or magnificent piles of programming books are beginning to fade in favor of a resource that anybody can use in a matter of seconds, but you shouldn't hold it against those who utilize it. 
-I hear people searching online for solutions to issues far too frequently, and it makes no sense at all. 
-First and foremost, it must be acknowledged that everyone requires sources for their references. You will need to conduct some research because you don't know everything. Given that, is the source of the information really important? Does it matter if you learned it from a talking frog that you imagined or whether you researched it in a book, on Google, or both? No.
-A correct response is a correct response. What matters is that you comprehend the subject matter, and utilize it to achieve a good programming solution, and the client/your company is satisfied with the outcomes. 
-Let me create a scenario here, a friend of mine came to me one day saying "I feel stupid having to Google my program together, should I be trying to build my knowledge up and test myself? Should I just rely on Google?".
-This was my reply, Yes, this is completely normal. Coding is a highly detailed, highly knowledge-based skill. There are plenty of languages, and each language has its own set of libraries (which have thousands of APIs). On top of this, more complex software is usually most efficiently built using existing tools (e.g. using an ML library with built-in tools rather than building from scratch), which adds yet another layer of things to learn.
-All of that's to say, yes, googling all the time is normal. I've been a dev for 2 years now and I still google all of the time/use our company's internal knowledge source.
-So googling during coding is actually a skill you should learn also in your development phase 😂😂.
-I hope this post inspire someone 
-Want to thank me ☺️, buy me a coffee ☕️ here]]></summary>
-        <author>
-            <name>Elliot Brenya sarfo</name>
+            <name>克莱尔爱吃甜食</name>
         </author>
     </entry>
     <entry>
@@ -319,93 +1147,15 @@ via: https://www.opensourceforu.com/2022/10/github-copilot-appears-to-be-in-vio
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[SQL 101]]></title>
-        <id>https://dev.to/nelsonchege13/sql-101-447b</id>
-        <link href="https://dev.to/nelsonchege13/sql-101-447b"/>
-        <updated>2022-10-23T01:40:56.000Z</updated>
-        <summary type="html"><![CDATA[hi ,welcome to my first technical blog in hopefully a series of more to come. I will be discussing about different topics around technology.
-lets talk about SQL.
-what is SQL?
-The four most popular SQL commands forms the acronym
-create
-read
-update
-delete
-A database is a collection of organized tables that act similar to excel spread sheet. yeah database are excel spread sheet on some serious steroids.
-These database are managed by Database management system that ensure everything is working properly with the database. Some of the available database management system (DBMS) include: 
-PostgreSQL
-Microsoft sqlserver
-MySQL
-oracle.
-there are two types of database: relational database and 
-non-relational database
-relational database consist of tables that have relationship between them. Example is when one table has a data that reference data from another table
-before forgetting schemas ,a schema is the representation of any kind of structure we are defining around the data that will be inserted into a table
-when creating relationship between table you must consider normalization, what is that you ask? this is the structuring of data in the lowest normal that ensure that data is not duplicated across different tables and also more redundancy of data]]></summary>
+        <title type="html"><![CDATA[LiveKit Cloud — Build massive-scale, real-time video and audio experiences]]></title>
+        <id>https://www.producthunt.com/posts/livekit-cloud</id>
+        <link href="https://www.producthunt.com/posts/livekit-cloud"/>
+        <updated>2022-10-22T23:56:48.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
         <author>
-            <name>Nelson_chege_</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Setting up ESLint & Prettier With Webpack in VSCode 🧑‍💻]]></title>
-        <id>https://dev.to/rinconcamilo/setting-up-eslint-prettier-with-webpack-in-vscode-29fg</id>
-        <link href="https://dev.to/rinconcamilo/setting-up-eslint-prettier-with-webpack-in-vscode-29fg"/>
-        <updated>2022-10-23T01:39:02.000Z</updated>
-        <summary type="html"><![CDATA[In our third part of the series, we will be setting up the configuration for ESLint and Prettier within VSCode.
-We will be setting up our ESLint and Prettier without going through either Webpack nor Babel. If you would still like to set up the project like it is in GitHub then follow the quick set-up guide. Visit the previous articles for a more in-depth explanation of what is happening behind the scenes here.
-Versions Being Used:
-React 18
-Babel 7
-Webpack 5
-TypeScript 4
-ESlint 8
-Prettier 2
-
-
-
-
-
-  
-  
-  Quick Set-Up
-
-
-In order to quickly initialize the project, run the following commands:
-a. Create package.json file
-npm init -y
-
-b. Install React, Babel, Webpack, TypeScript, and other needed packages
-npm install --save-dev --save-exact react react-dom @babel/core @babel/preset-env @babel/pre…]]></summary>
-        <author>
-            <name>Camilo Rincon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Differences between .NET Collection Interfaces]]></title>
-        <id>https://dev.to/integerman/differences-between-net-collection-interfaces-g3i</id>
-        <link href="https://dev.to/integerman/differences-between-net-collection-interfaces-g3i"/>
-        <updated>2022-10-23T01:38:56.000Z</updated>
-        <summary type="html"><![CDATA[If you’re anything like most new .NET developers you’ve probably seen IEnumerable<T>, IList<T>, and maybe even ICollection<T> around. If you’re anything like most people, you’ve probably found these interfaces confusing and been unsure which one to use when.
-These interfaces are everywhere. For example, if you were to look at the List<T> class’s implementation in modern .NET you’d see it implements the following interfaces (among others):
-IList<T>
-ICollection<T>
-IReadOnlyList<T>
-IReadOnlyCollection<T>
-IEnumerable<T>
-Each one of these interfaces has a point, and each one is slightly different. However, many of these interfaces can be intimidating the first time you encounter them.
-In this article we’ll explore these common .NET interfaces, what they provide, and when you might choose to use…]]></summary>
-        <author>
-            <name>Matt Eland</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Update : Status Page for Pastes.io]]></title>
-        <id>https://dev.to/pastesio/update-status-page-for-pastesio-52ho</id>
-        <link href="https://dev.to/pastesio/update-status-page-for-pastesio-52ho"/>
-        <updated>2022-10-23T01:37:42.000Z</updated>
-        <summary type="html"><![CDATA[You can find our status page on status.pastes.io]]></summary>
-        <author>
-            <name>Pastes.io - #1 Paste Tool</name>
+            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -424,123 +1174,6 @@ Discussion
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Code Smell 172 - Default Argument Values Not Last]]></title>
-        <id>https://dev.to/mcsee/code-smell-172-default-argument-values-not-last-1al7</id>
-        <link href="https://dev.to/mcsee/code-smell-172-default-argument-values-not-last-1al7"/>
-        <updated>2022-10-22T23:38:33.000Z</updated>
-        <summary type="html"><![CDATA[Function signature should be error prune
-TL;DR: Don't use Optional Arguments before mandatory ones. In fact: Don't use Optional Arguments at all
-Fail Fast principle violation
-
-
-Readability
-
-
-
-
-  
-  
-  Solutions
-
-
-
-
-Move your optional arguments last.
-
-
-Avoid Optional Arguments.
-
-
-
-
-  
-  
-  Context
-
-
-Optional Arguments are a code smell.
-Defining optional arguments before mandatory ones is an error.
-<?
-
-function buildCar($color = "red", $model){...}  
-// First argument with optional argument
-
-buildCar("Volvo")}}  
-// Runtime error: Missing argument 2 in call to buildCar()
-
-<?
-
-function buildCar($model, $color = "Red", ){...}
-
-buildCar("Volvo")}} 
-// Works as expected
-
-def functionWithLastOptional(a, b, c='foo'):
-    print(a)
-    print(b)
-    print(c)
-functionWithLastOptional(1, 2)
-
-def functionWithMiddleOptional(a, b='foo', c):
-    print(a)
-    print(b)
-    print(c)
-functionWithMiddleOptional(1, 2)
-
-# SyntaxError: non-default argument follows default argument
-
-[X] Automatic 
-Many Linters can enforce this rule since we can derive it from function signature.
-Also, many compilers directly forbid it.
-Readability
-Try to be strict when defining functions to avoid coupling.
-Code Smell 19 — Optional Arguments
-Maxi Contieri ・ Nov 7 '20 ・ 2 min read
-#codenewbie
-        #oop
-        #tutorial
-      
-Fail Fast
-Maxi Contieri ・ Dec 6 '20 ・ 6 min read
-#codenewbie
-        #programming
-        #webdev
-        #oop
-      
-Rule on Sonar Source
-Code Smells are just my opinion.
-Photo by Manuel Torres Garcia on Unsplash
-Programs are meant to be read by humans and only incidentally for computers to execute.
-Donald Knuth
-Software Engineering Great Quotes
-Maxi Contieri ・ Dec 28 '20 ・ 13 min read
-#codenewbie
-        #programming
-        #quotes
-        #software
-      
-This article is part of the CodeSmell Series.
-How to Find the Stinky parts of your Code
-Maxi Contieri ・ May 21 '21 ・ 7 min read
-#codenewbie
-        #tutorial
-        #codequality
-        #beginners]]></summary>
-        <author>
-            <name>Maxi Contieri</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[post 1, 10/22/22]]></title>
-        <id>https://dev.to/mitchelldeamon/post-1-102122-3n0i</id>
-        <link href="https://dev.to/mitchelldeamon/post-1-102122-3n0i"/>
-        <updated>2022-10-22T23:09:57.000Z</updated>
-        <summary type="html"><![CDATA[Today I learned that there are a ton of resources online for coding. There are those who share this information via Twitter and others who share via blogs on their own websites. Very nervous to start this path but hopefully it will be worth it. I will be using this to document my progress during a Boot Camp I will be taking so if you happen to actually come by this it might be an interesting read at some point. I quite literally know nothing as of this moment.]]></summary>
-        <author>
-            <name>Mitchell Deamon</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Arsturn — The search engine for developers]]></title>
         <id>https://www.producthunt.com/posts/arsturn</id>
         <link href="https://www.producthunt.com/posts/arsturn"/>
@@ -553,51 +1186,15 @@ Maxi Contieri ・ May 21 '21 ・ 7 min read
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Portswigger’s lab write up: Clickjacking with form input data prefilled from a URL parameter]]></title>
-        <id>https://dev.to/christianpaez/portswiggers-lab-write-up-clickjacking-with-form-input-data-prefilled-from-a-url-parameter-1b41</id>
-        <link href="https://dev.to/christianpaez/portswiggers-lab-write-up-clickjacking-with-form-input-data-prefilled-from-a-url-parameter-1b41"/>
-        <updated>2022-10-22T21:13:39.000Z</updated>
-        <summary type="html"><![CDATA[In this apprentice level lab, we will exploit the change email flow from a website vulnerable to clickjacking due to form filling via url parameters.
-Upon logging in with the given credentials, we notice that after going to the acount page, all that is needed to change a user's email is click on the Update Email button and that the email input can be prefilled by adding it via url parameters. Let's use the writing material's clickjacking template to craft our exploit:
-<head>
-    <style>
-        iframe {
-             position:relative;
-             width:700px;
-             height:600px;
-             opacity:0.1;
-             z-index:2;
-            }
-        div {
-             position:absolute;
-             z-index:1;
-            }
-    </style>
-</head>
-<body>
-    <div>
-        CLICK HERE
- …]]></summary>
+        <title type="html"><![CDATA[Halloween Quiz Night — The spooky-inspired metaverse platform for a Halloween party]]></title>
+        <id>https://www.producthunt.com/posts/halloween-quiz-night</id>
+        <link href="https://www.producthunt.com/posts/halloween-quiz-night"/>
+        <updated>2022-10-22T23:02:57.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
         <author>
-            <name>Christian Paez</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WhatsApp is getting Facebook’s Bitmoji-style avatars]]></title>
-        <id>https://www.theverge.com/2022/10/22/23418100/whatsapp-getting-facebook-bitmoji-style-avatars</id>
-        <link href="https://www.theverge.com/2022/10/22/23418100/whatsapp-getting-facebook-bitmoji-style-avatars"/>
-        <updated>2022-10-22T20:49:42.000Z</updated>
-        <summary type="html"><![CDATA[The Verge
-    
-
-  
-After Facebook’s Bitmoji-style avatars invaded Instagram and Messenger, now they’re coming to Whatsapp, too. According to a report from WABetaInfo, WhatsApp is rolling out support for customizable avatars in the latest 2.22.23.9 beta on Android, but only for some users.
-Those with access to the feature will see a new “Avatar” category in their settings menu that they can use to customize the digital version of themselves. Just like on Meta’s other apps, WhatsApp will then generate a sticker pack with the avatar in various poses, which users can use to express themselves when messaging family and friends. 
-WhatsApp is releasing the ability to set up an avatar to some lucky beta testers on WhatsApp beta for Android!
-An avatar is the best...
-Continue reading…]]></summary>
-        <author>
-            <name>The Verge -  All Posts</name>
+            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -634,39 +1231,6 @@ Continue reading…]]></summary>
             Link]]></summary>
         <author>
             <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Leak suggests Ecobee’s entering the video doorbell space]]></title>
-        <id>https://www.theverge.com/2022/10/22/23417877/ecobee-video-doorbell-leak-smart-home</id>
-        <link href="https://www.theverge.com/2022/10/22/23417877/ecobee-video-doorbell-leak-smart-home"/>
-        <updated>2022-10-22T18:06:33.000Z</updated>
-        <summary type="html"><![CDATA[Ecobee’s next product could be a video doorbell. | Image: ZatzNotFunny
-    
-
-  
-Ecobee, a company best known for its line of smart thermostats, may be working on a video doorbell. A leaked image from ZatzNotFunny shows what looks like an Ecobee-branded video doorbell with rounded corners and a button outlined in blue.
-As noted by ZatzNotFunny, the doorbell features a green light status light, as well as two small holes, one of which could be a microphone, placed directly beneath the camera. Its overall design seems to glean elements from existing doorbells on the market, such as the bright blue light used by the Amazon-owned Ring and Blink, and the rounded edges featured on Arlo and Nest devices. 
-But aside from this one picture, we don’t know much else about the device, including whether it will be wired or...
-Continue reading…]]></summary>
-        <author>
-            <name>The Verge -  All Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Early access for Kerbal Space Program 2 lifts off on February 24th]]></title>
-        <id>https://www.theverge.com/2022/10/22/23417796/kerbal-space-program-2-early-access-release-date-intercept-games</id>
-        <link href="https://www.theverge.com/2022/10/22/23417796/kerbal-space-program-2-early-access-release-date-intercept-games"/>
-        <updated>2022-10-22T17:50:59.000Z</updated>
-        <summary type="html"><![CDATA[The Kerbals prepare for liftoff 
-    
-
-  
-After several delays, Kerbal Space Program 2 is finally entering early access on February 24th, 2023. Developer Intercept Games initially announced that it was working on KSP2 back in 2019, but only revealed the early access release date for the Kerbal Space Program sequel last week, outlining its expectations in a roadmap leading up to the eventual 1.0 release. KSP2 is currently available to wishlist on Steam and will also be available on the Epic Games Store for $49.99.
-The original Kerbal Space Program is a brutal, rewarding, and occasionally hilarious simulation of the complexities of space flight that allows you to construct your own rockets, shuttles, rovers, and other interstellar vehicles. All manned by the ambitious Kerbals,...
-Continue reading…]]></summary>
-        <author>
-            <name>The Verge -  All Posts</name>
         </author>
     </entry>
     <entry>
@@ -708,33 +1272,6 @@ Discussion
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Republicans sue Google over ‘discriminatory’ spam filtering practices]]></title>
-        <id>https://www.theverge.com/2022/10/22/23417664/google-lawsuit-republicans-rnc-discriminatory-spam-filtering-policies-politics</id>
-        <link href="https://www.theverge.com/2022/10/22/23417664/google-lawsuit-republicans-rnc-discriminatory-spam-filtering-policies-politics"/>
-        <updated>2022-10-22T14:46:53.000Z</updated>
-        <summary type="html"><![CDATA[Illustration by Alex Castro / The Verge
-    
-
-  
-The Republican National Committee (RNC) is suing Google for allegedly sending “millions” of campaign emails to users’ spam folders (via Axios). According to the lawsuit filed in California’s Eastern District Court on Friday, the RNC accuses Google of “throttling its email messages because of the RNC’s political affiliation and views.”
-For months, the RNC has been complaining about Google’s alleged spam filtering bias, claiming it disproportionately puts Republican-backed political emails in spam folders when compared to messages sent by Democrats. The RNC’s frustration was only exacerbated by a North Carolina State University study that suggested Google was sending RNC emails to spam folders more frequently, leading a group of...
-Continue reading…]]></summary>
-        <author>
-            <name>The Verge -  All Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LG Gram 17 review: big-screen energy]]></title>
-        <id>https://www.theverge.com/23413159/lg-gram-17-2022-review-price-specs-features</id>
-        <link href="https://www.theverge.com/23413159/lg-gram-17-2022-review-price-specs-features"/>
-        <updated>2022-10-22T14:00:00.000Z</updated>
-        <summary type="html"><![CDATA[There is nothing else like this on the market
-Continue reading…]]></summary>
-        <author>
-            <name>The Verge -  All Posts</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[7 Best Bike Locks (2022): U-Locks, Chain Locks, and Tips]]></title>
         <id>5f775dca65691defc2ab7d97</id>
         <link href="https://www.wired.com/gallery/best-bike-locks/"/>
@@ -742,22 +1279,6 @@ Continue reading…]]></summary>
         <summary type="html"><![CDATA[Make life hard for bike thieves and shackle your precious with these U-locks and bike chains, plus tips on how best to secure it.]]></summary>
         <author>
             <name>Matt Jancer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple’s second-gen Magic Trackpad is on sale at Woot for its lowest price ever]]></title>
-        <id>https://www.theverge.com/2022/10/22/23416218/apple-magic-trackpad-2-anker-charger-tile-pro-bluetooth-tracker-xbox-elite-controller-core-deal-sale</id>
-        <link href="https://www.theverge.com/2022/10/22/23416218/apple-magic-trackpad-2-anker-charger-tile-pro-bluetooth-tracker-xbox-elite-controller-core-deal-sale"/>
-        <updated>2022-10-22T13:47:58.000Z</updated>
-        <summary type="html"><![CDATA[Apple’s second-gen trackpad is compatible with Windows or Apple devices via Bluetooth | Image: The Verge
-    
-
-  
-Happy Saturday, everybody! Everyone on the Verge Deals team is enjoying their weekend and we hope you are, too. If you were looking to engage in a little retail therapy or do a little window shopping, we’ve collected a handful of deals we think you’ll want to check out.   
-Normally $129.99, you can currently pick up Apple’s second-gen Magic Trackpad at Woot right now with a 90-day warranty for just $84.99, which matches the peripheral’s lowest price to date. The clever trackpad makes for an excellent addition to any desktop or laptop setup thanks to its comfortable glass surface, which provides you with more real estate than the trackpad found on MacBooks and brings multi-touch gesture controls and Apple’s Force Touch technology to your...
-Continue reading…]]></summary>
-        <author>
-            <name>The Verge -  All Posts</name>
         </author>
     </entry>
     <entry>
@@ -837,18 +1358,6 @@ Continue reading…]]></summary>
         <id>https://www.producthunt.com/posts/intelfin-global-platform</id>
         <link href="https://www.producthunt.com/posts/intelfin-global-platform"/>
         <updated>2022-10-22T11:36:43.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Truth or Dare — The best game for parties and couples]]></title>
-        <id>https://www.producthunt.com/posts/truth-or-dare-4</id>
-        <link href="https://www.producthunt.com/posts/truth-or-dare-4"/>
-        <updated>2022-10-22T11:23:28.000Z</updated>
         <summary type="html"><![CDATA[Discussion
             |
             Link]]></summary>
@@ -1005,18 +1514,6 @@ YouTube：Linux中国 https://youtube.com/channel/UCG68cfgp6T6PE5IwvEw41Nw]]></
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Pro Car Parking 3D — Car parking 3D simulator game]]></title>
-        <id>https://www.producthunt.com/posts/pro-car-parking-3d</id>
-        <link href="https://www.producthunt.com/posts/pro-car-parking-3d"/>
-        <updated>2022-10-22T09:06:13.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Use open source commands in Powershell]]></title>
         <id>70241 at https://opensource.com</id>
         <link href="https://opensource.com/article/22/10/set-path-powershell"/>
@@ -1040,22 +1537,10 @@ The …]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Micro SaaS Kit — 100+ micro SaaS ideas, resources & case studies on ClickUp]]></title>
-        <id>https://www.producthunt.com/posts/micro-saas-kit</id>
-        <link href="https://www.producthunt.com/posts/micro-saas-kit"/>
-        <updated>2022-10-22T06:51:08.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Truts Academy — One stop solution for all the developer resources in web3]]></title>
-        <id>https://www.producthunt.com/posts/truts-academy</id>
-        <link href="https://www.producthunt.com/posts/truts-academy"/>
-        <updated>2022-10-22T05:38:12.000Z</updated>
+        <title type="html"><![CDATA[Deeplink Buddy — Your personal deeplink manager]]></title>
+        <id>https://www.producthunt.com/posts/deeplink-buddy</id>
+        <link href="https://www.producthunt.com/posts/deeplink-buddy"/>
+        <updated>2022-10-22T06:37:22.000Z</updated>
         <summary type="html"><![CDATA[Discussion
             |
             Link]]></summary>
@@ -1238,6 +1723,30 @@ Up until now, we've been doing comprehensive financial advising for fr…]]></su
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[事后诸葛：灵动岛为什么不好]]></title>
+        <id>https://sspai.com/post/76350</id>
+        <link href="https://sspai.com/post/76350"/>
+        <updated>2022-10-21T23:15:53.000Z</updated>
+        <summary type="html"><![CDATA[写在前面
+这个标题其实已经被我修改了一下，因为一边上学一边写稿偶尔真的拖延爆炸。在这之前，其实标题是：“灵动岛到底好不好”。如今我也算是吃了豹子胆，敢直接标题下结论。虽然已经离发布会过了很多天，当时的情绪也已经逐渐稀释，还是想尽可能理性的去一点点解释，为什么不好。
+我并不想在文章的一开头就给自己贴上标签，一方面是不喜欢这样的做法，另一方面也是此时的我并没有什么拿得出手的名堂。很多观点都是超级主观的，但也很高兴你能来看看！谢谢你，我的朋友！希望你看的开心！
+
+“好不好”的尺度
+对于灵动岛，我感觉我们都有着一样的一条曲折心路：发布会前被剧透难看的感叹号挖孔，发布会时被灵动岛的亮相视频惊艳到再次对苹果重拾希望，但第二天起床琢磨过劲——这也是我们出现分歧的地方：我们都想知道这究竟是另一个 Touch Bar，还是一个能定义 iPhone 接下来几年发展的新设计。
+要想搞清楚这个问题，我想讲个有些偏题的故事。
+来到伦敦后，一个人住一个只有17平米的房子，空虚寂寞冷的时候也会想用音乐填满自己的房间。于是就在亚马逊上看了看各种音箱。我目前使用的电脑是14寸的 MacBook Pro，但长期会连着一个明基的显示器来用，所以我对这个音箱购买就列下了几条条件：
+
+音质不能比 mac 本身差
+必须有 aux，这样我能连接显示器用，受不了蓝牙的音画不同步
+能放在显示器的正下方，所以不能太大
+好看，别太贵…
+
+在网上看了一圈，我特别喜欢 Marshall 的 EMBERTON II，当时加上一点学生优惠不到100英镑就能拿下。我觉得它小巧精致，光是凭借这好看的皮囊我就快按耐不住自己的购买欲了。可是它却有一个地方不能满足我的需求，它没有 aux，纯蓝牙。当时我的内心就出现了两股力量：一股力量准备 pua 自己，让自己接受蓝牙的延迟；另一股力量开始嘲讽 Marshall 这个品牌的一些关于“音质”和“品…]]></summary>
+        <author>
+            <name>生锈的不锈钢</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[How to Upload Files to Azure using NestJS and typeORM with MySQL]]></title>
         <id>https://www.freecodecamp.org/news/upload-files-to-azure-using-nestjs-and-typeorm-with-mysql/</id>
         <link href="https://www.freecodecamp.org/news/upload-files-to-azure-using-nestjs-and-typeorm-with-mysql/"/>
@@ -1258,18 +1767,6 @@ Up until now, we've been doing comprehensive financial advising for fr…]]></su
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Silly Times — A simple drawing app using AI]]></title>
-        <id>https://www.producthunt.com/posts/silly-times-2</id>
-        <link href="https://www.producthunt.com/posts/silly-times-2"/>
-        <updated>2022-10-21T22:52:19.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[VMware bug with 9.8 severity rating exploited to install witch’s brew of malware]]></title>
         <id>https://arstechnica.com/?p=1892156</id>
         <link href="https://arstechnica.com/?p=1892156"/>
@@ -1277,18 +1774,6 @@ Up until now, we've been doing comprehensive financial advising for fr…]]></su
         <summary type="html"><![CDATA[If you haven't patched CVE-2022-22954 yet, now would be an excellent time to do so.]]></summary>
         <author>
             <name>Dan Goodin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OKZest — Generate personalised images in real-time]]></title>
-        <id>https://www.producthunt.com/posts/okzest</id>
-        <link href="https://www.producthunt.com/posts/okzest"/>
-        <updated>2022-10-21T21:45:33.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -1302,18 +1787,6 @@ Up until now, we've been doing comprehensive financial advising for fr…]]></su
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Subjects — Timetable, homework & grades]]></title>
-        <id>https://www.producthunt.com/posts/subjects</id>
-        <link href="https://www.producthunt.com/posts/subjects"/>
-        <updated>2022-10-21T20:40:01.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Myth, busted: Formation of Namibia’s fairy circles isn’t due to termites]]></title>
         <id>https://arstechnica.com/?p=1891663</id>
         <link href="https://arstechnica.com/?p=1891663"/>
@@ -1321,18 +1794,6 @@ Up until now, we've been doing comprehensive financial advising for fr…]]></su
         <summary type="html"><![CDATA[Plants are "ecosystem engineers" that survive by forming optimal geometric patterns.]]></summary>
         <author>
             <name>Jennifer Ouellette</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[UranX — Cryptocurrrency payment checkout]]></title>
-        <id>https://www.producthunt.com/posts/uranx</id>
-        <link href="https://www.producthunt.com/posts/uranx"/>
-        <updated>2022-10-21T20:13:15.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -1373,18 +1834,6 @@ Up until now, we've been doing comprehensive financial advising for fr…]]></su
         <summary type="html"><![CDATA[Object Relational Mapping (ORM) is a technique used in creating a "bridge" between object-oriented programs and, in most cases, relational databases [/news/what-is-a-relational-database-rdbms-definition/]. Put another way, you can see the ORM as the layer that connects object oriented programming [/news/four-pillars-of-object-oriented-programming/] (OOP) to relational databases.  When interacting with a database using]]></summary>
         <author>
             <name>Ihechikara Vincent Abba</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenDataDiscovery — First open-source data discovery and observability platform]]></title>
-        <id>https://www.producthunt.com/posts/opendatadiscovery</id>
-        <link href="https://www.producthunt.com/posts/opendatadiscovery"/>
-        <updated>2022-10-21T17:42:48.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -1438,45 +1887,6 @@ Up until now, we've been doing comprehensive financial advising for fr…]]></su
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Good Espresso — Learn to make good espresso. Log shots, track every variable]]></title>
-        <id>https://www.producthunt.com/posts/good-espresso</id>
-        <link href="https://www.producthunt.com/posts/good-espresso"/>
-        <updated>2022-10-21T17:09:38.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[glook — Searching web made easy for developers]]></title>
-        <id>https://www.producthunt.com/posts/glook</id>
-        <link href="https://www.producthunt.com/posts/glook"/>
-        <updated>2022-10-21T17:08:57.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Splitmat — URL shortener to split your traffic between multiple pages]]></title>
-        <id>https://www.producthunt.com/posts/splitmat-2</id>
-        <link href="https://www.producthunt.com/posts/splitmat-2"/>
-        <updated>2022-10-21T16:56:47.000Z</updated>
-        <summary type="html"><![CDATA[https://splitmat.com
-              ”
-              
-Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Capcom’s Resident Evil 4 Remake modernizes some now-dated gameplay tropes]]></title>
         <id>https://arstechnica.com/?p=1891965</id>
         <link href="https://arstechnica.com/?p=1891965"/>
@@ -1506,18 +1916,6 @@ Discussion
         <summary type="html"><![CDATA[Customers complained of lower volumes after an update to Arc's sound profile.]]></summary>
         <author>
             <name>Scharon Harding</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bull or Bear NFT Game — Test your jaypeg knowledge, which one has a higher floor?]]></title>
-        <id>https://www.producthunt.com/posts/bull-or-bear-nft-game</id>
-        <link href="https://www.producthunt.com/posts/bull-or-bear-nft-game"/>
-        <updated>2022-10-21T16:21:10.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -1561,30 +1959,6 @@ Discussion
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Stedi Guides — Shareable implementation guides for modern EDI integrations]]></title>
-        <id>https://www.producthunt.com/posts/stedi-guides</id>
-        <link href="https://www.producthunt.com/posts/stedi-guides"/>
-        <updated>2022-10-21T13:56:29.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Demand Cloud — The simple enterprise solution for cloud cost optimization]]></title>
-        <id>https://www.producthunt.com/posts/demand-cloud</id>
-        <link href="https://www.producthunt.com/posts/demand-cloud"/>
-        <updated>2022-10-21T13:41:37.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How Vice Society got away with a global ransomware spree]]></title>
         <id>https://arstechnica.com/?p=1891891</id>
         <link href="https://arstechnica.com/?p=1891891"/>
@@ -1592,6 +1966,18 @@ Discussion
         <summary type="html"><![CDATA[Vice Society has a superpower that’s allowed it to quietly thrive: Mediocrity.]]></summary>
         <author>
             <name>WIRED</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AdTrax by Foreplay — Free Music Library of 5,15, & 30 second sound tracks]]></title>
+        <id>https://www.producthunt.com/posts/adtrax-by-foreplay</id>
+        <link href="https://www.producthunt.com/posts/adtrax-by-foreplay"/>
+        <updated>2022-10-21T13:04:48.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -1625,10 +2011,10 @@ Discussion
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Watch Mirror for Figma — Preview your Figma designs on Apple Watch]]></title>
-        <id>https://www.producthunt.com/posts/watch-mirror-for-figma</id>
-        <link href="https://www.producthunt.com/posts/watch-mirror-for-figma"/>
-        <updated>2022-10-21T12:55:12.000Z</updated>
+        <title type="html"><![CDATA[Business Thriller — Create Hollywood-style fiction podcasts for B2B marketing]]></title>
+        <id>https://www.producthunt.com/posts/business-thriller</id>
+        <link href="https://www.producthunt.com/posts/business-thriller"/>
+        <updated>2022-10-21T12:41:30.000Z</updated>
         <summary type="html"><![CDATA[Discussion
             |
             Link]]></summary>
@@ -1687,105 +2073,20 @@ Discussion
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Lightswitch API — Simple, low-code CRUD API]]></title>
-        <id>https://www.producthunt.com/posts/lightswitch-api</id>
-        <link href="https://www.producthunt.com/posts/lightswitch-api"/>
-        <updated>2022-10-21T10:17:58.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
+        <title type="html"><![CDATA[Lazy Loading in images with React JS 😴]]></title>
+        <id>https://dev.to/franklin030601/lazy-loading-in-images-with-react-js-4enm</id>
+        <link href="https://dev.to/franklin030601/lazy-loading-in-images-with-react-js-4enm"/>
+        <updated>2022-10-21T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[#react #javascript #performance #tutorial]]></summary>
         <author>
-            <name>Product Hunt — The best new products, every day</name>
+            <name>Franklin Martinez</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[硬核观察 #796 Ubuntu Linux 22.10 &amp; OpenBSD 7.2 发布]]></title>
-        <id>https://linux.cn/article-15162-1.html?utm_source=rss&amp;utm_medium=rss</id>
-        <link href="https://linux.cn/article-15162-1.html?utm_source=rss&amp;utm_medium=rss"/>
-        <updated>2022-10-21T09:26:00.000Z</updated>
-        <summary type="html"><![CDATA[Ubuntu Linux 22.10 & OpenBSD 7.2 发布
-
-今天想必是个好日子，Ubuntu Linux 22.10 & OpenBSD 7.2 都选在今天发布。我们先来看看 Ubuntu 22.10，这个版本不是 LTS 版本，其代号为 “Kinetic Kudu”，意思是 “充满活力的捻角羚”。不过，22.10 除了升级到 GNOME 43 之外，并没有什么特别值得关注的新特性。而对于 OpenBSD 7.2，最值得关注的是支持了 Ampere Altra 处理器，这个处理器在 Linux 上取得巨大成功后，BSD 也在加紧提供对它的支持。
-
-
-消息来源：Phoronix 1 & 2
-
-
-
-老王点评：没什么好说的，喜欢试用新版的尝个鲜吧。
-
-
-
-
-LoongArch 成为第四个进入 UEFI 上游的 ISA
-
-2022 年 9 月初，UEFI 官方在新发布的 UEFI v2.10 规范中，全面支持了龙芯处理器的 LoongArch64 架构，以及部分 LoongArch32 架构。近期，龙芯团队又完成了 LoongArch 基础代码与UEFI 上游 TianoCore EDK2 的合并，从而进入其主分支，成为继 x86、Arm、RISC-V 之后，第四个官方支持的芯片指令系统架构。合并后，开发者可以直接从上游获取 LoongArch 架构的基础代码，有助于 LoongArch 虚拟机开源。
-
-
-消息来源：龙芯中科
-
-
-
-老王点评：龙芯在上游的工作逐渐取得了不错的进展，虽然我更支持 RISC-V，但是也为龙芯点赞。
-
-
-
-
-RIAA 将 AI 混音器列为新出现的版权威胁
-
-美国唱片业协会（RIAA）在其最新的市场概述报告中，将几个 “基于 AI” 的混音器和提取器被添加为一个新出现的威胁。RIAA 称，“有一些在线服务，据称使用人工智能，从录音中提取，或者说，复制人声、乐器或乐器的某些部分，和/或生成、后期处理或重新混合录音，使其与选定的知名录音艺术家的参考曲目非常相似或几乎一样好。” RIAA 将这种破坏原始的受版权保护的曲目创造衍生作品的做法视作侵权。它提及的 Songmastr 可以根据知名音乐艺术家的风格 “后期处理” 任何歌曲，该网站的底层技术基于开源的 Matchering 2.0。
-
-
-消息来源：TorrentFreak
-
-
-
-老王点评：AI 会逐渐侵蚀各种原有的版权边界，我觉得版权相关法规需要正视 AI 的出现带来的变化，而一昧的封堵是没意义的。]]></summary>
-        <author>
-            <name>linux@linux.cn (linux)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Arlo Safe — Personal safety for life on the go]]></title>
-        <id>https://www.producthunt.com/posts/arlo-safe</id>
-        <link href="https://www.producthunt.com/posts/arlo-safe"/>
-        <updated>2022-10-21T09:09:01.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stugo — Book studios on the go]]></title>
-        <id>https://www.producthunt.com/posts/stugo-4</id>
-        <link href="https://www.producthunt.com/posts/stugo-4"/>
-        <updated>2022-10-21T08:44:27.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ML Manager 4.0 — A customizable APKs extractor and app manager for Android]]></title>
-        <id>https://www.producthunt.com/posts/ml-manager-4-0</id>
-        <link href="https://www.producthunt.com/posts/ml-manager-4-0"/>
-        <updated>2022-10-21T08:41:22.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Artemis — The modern infrastructure for data science teams]]></title>
-        <id>https://www.producthunt.com/posts/artemis-2</id>
-        <link href="https://www.producthunt.com/posts/artemis-2"/>
-        <updated>2022-10-21T08:36:34.000Z</updated>
+        <title type="html"><![CDATA[Random Icebreakers for Figma — Find the perfect icebreaker for your next meeting or event]]></title>
+        <id>https://www.producthunt.com/posts/random-icebreakers-for-figma</id>
+        <link href="https://www.producthunt.com/posts/random-icebreakers-for-figma"/>
+        <updated>2022-10-21T08:39:19.000Z</updated>
         <summary type="html"><![CDATA[Discussion
             |
             Link]]></summary>
@@ -1804,15 +2105,41 @@ RIAA 将 AI 混音器列为新出现的版权威胁
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Killer Portfolio — Portfolio website inspiration]]></title>
-        <id>https://www.producthunt.com/posts/killer-portfolio</id>
-        <link href="https://www.producthunt.com/posts/killer-portfolio"/>
-        <updated>2022-10-21T07:16:03.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
+        <title type="html"><![CDATA[未来的写作长啥样？LEX 用 GPT-3 AI 给你点儿颜色看看]]></title>
+        <id>https://sspai.com/post/76362</id>
+        <link href="https://sspai.com/post/76362"/>
+        <updated>2022-10-21T08:22:53.000Z</updated>
+        <summary type="html"><![CDATA[我是在 Jarod 的知识星球里看到他推荐 LEX 这款在线编辑器。他问有没有人要邀请链接。我于是立即要来了一个。
+实话实说，最近「玩具」有点儿多。
+笔记软件，有 Tana ；浏览器，有 Arc；Readwise 新出的一站式阅读器 Reader ，也很不错。
+原本，对这个新的在线编辑器，我是打算先留着，有空再仔细尝试。
+但是，一进入 LEX 的界面，读了官方的介绍，我立刻就不淡定了。
+
+其实，哪里只是我一个人不淡定啊？
+Building the Second Brain 作者 Tiago Forte 说，自己已经看到要失业的迹象了。
+因为，一篇文章里，他自己只写了 5 个词儿。剩下全是 AI 顺着往下编。
+
+至于 Ali Abdaal 更是过分，他干脆搞了个「恶作剧」当成测试。好在事后，他向大家公开坦诚自己的行为。
+
+这个几乎完全用 LEX 写就的帖子，数据表现是这样的：
+
+当然，Ali 是名人，浏览量是有名人效应的。只不过，人工智能的作品几乎骗过了所有人的眼睛，还收获了这么多的点赞和转发，这就厉害了。
+咱们别把眼睛只盯在这些大咖身上了。下面说说我自己的实际测试结果吧。红框里面的文字，是我写的：
+
+然后后面的段落，全都是 Lex 自动补全的。
+更厉害的是，根据这些内容，Lex 自动生成了若干标题，我只是从中选了一个而已。
+
+原本 GPT-2 时代，人工智能自动补全已经大显神通了。GPT-3 的应用，就意味着写出来的东西更真假难辨了。
+
+（图片来源：t.ly/DMxe）
+原本你要用 GPT-3 ，还有一些障碍。例如说你需要获得 API 的使用权限，而且还得对每一次的调用付费。
+
+而 LEX，至少在目前，是免费的。况且，它还是个在线编辑器。你啥都不用安装，直接打开，然后就能调用 GPT-3 帮你写东西了。
+
+我当时就在想，这以后英语写作课的作业可怎么判呢？
+好在老外开发这东西…]]></summary>
         <author>
-            <name>Product Hunt — The best new products, every day</name>
+            <name>玉树芝兰</name>
         </author>
     </entry>
     <entry>
@@ -1948,174 +2275,15 @@ OneWidget怎么做灵动岛功能？
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[开源笔记软件 Joplin 背后的故事]]></title>
-        <id>https://linux.cn/article-15161-1.html?utm_source=rss&amp;utm_medium=rss</id>
-        <link href="https://linux.cn/article-15161-1.html?utm_source=rss&amp;utm_medium=rss"/>
-        <updated>2022-10-21T03:29:38.000Z</updated>
-        <summary type="html"><![CDATA[Laurent Cozic 与我坐下来，讨论了 Joplin 是如何开始的，以及这个开源笔记软件的下一步计划。
-
-
-在这次采访中，我见到了笔记软件 Joplin 的创建者 Laurent Cozic。Joplin 是 20i 奖励的赢家，所以我想了解是什么让它如此成功，以及他如何实现的。
-
-你能概述一下什么是 Joplin 吗？
-
-Joplin 是一个开源的笔记软件。它可以让你捕获你的想法并从任何设备安全地访问它们。
-
-显然，还有很多其他的笔记应用，那么除了免费使用之外，它还有什么不同呢？
-
-对我们的许多用户来说，它是开源的这一事实是一个非常重要的方面，因为这意味着没有供应商对数据的封锁，而且数据可以很容易地被导出并以各种方式访问。
-
-我们还关注用户的安全和数据隐私，特别是端到端加密同步功能，以及通过对应用的任何连接保持透明。我们还与安全研究人员合作，以保证软件更加安全。
-
-最后，Joplin 可以通过几种不同的方式进行定制 —— 通过插件（可以添加新的功能）和主题来定制应用程序的外观。我们还公开了一个数据 API，它允许第三方应用程序访问 Joplin 的数据。
-
-
-相关阅读：5 款 Linux 上的笔记应用
-
-
-这是一个竞争非常激烈的市场，那么是什么激发了你创建它的想法？
-
-这是有原因的的。我从 2016 年开始研究它，因为我不喜欢现有的商业记事应用程序：笔记、附件或标签不能轻易被其他工具导出或操作。
-
-这主要是由于供应商的封锁，另外还有供应商缺乏动力，因为他们没有动力帮助用户将他们的数据转移到其他应用程序。还有一个问题是，这些公司通常会以纯文本形式保存笔记，而这有可能造成数据隐私和安全方面的问题。
-
-因此，我决定开始创建一个简单且具有同步功能的移动和终端应用程序，使我的笔记能够轻松地在我的设备上访问。之后又创建了桌面应用程序，项目从此开始…]]></summary>
-        <author>
-            <name>linux@linux.cn (linux)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ZoZo App — Keyboard shortcuts for the content you share the most]]></title>
-        <id>https://www.producthunt.com/posts/zozo-app-3</id>
-        <link href="https://www.producthunt.com/posts/zozo-app-3"/>
-        <updated>2022-10-21T03:21:14.000Z</updated>
+        <title type="html"><![CDATA[Tome 1.0 + iOS app — The new storytelling format for work and important ideas]]></title>
+        <id>https://www.producthunt.com/posts/tome-1-0-ios-app</id>
+        <link href="https://www.producthunt.com/posts/tome-1-0-ios-app"/>
+        <updated>2022-10-20T23:35:33.000Z</updated>
         <summary type="html"><![CDATA[Discussion
             |
             Link]]></summary>
         <author>
             <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[如何在 Arch Linux 中启用 Snap 支持]]></title>
-        <id>https://linux.cn/article-15160-1.html?utm_source=rss&amp;utm_medium=rss</id>
-        <link href="https://linux.cn/article-15160-1.html?utm_source=rss&amp;utm_medium=rss"/>
-        <updated>2022-10-21T02:01:29.000Z</updated>
-        <summary type="html"><![CDATA[Snap 是由 Ubuntu 的母公司 Canonical 设计的通用包格式。有些人不喜欢 Snap，但它有一些优势。
-
-通常，某些应用仅以 Snap 格式提供。这为你提供了在 Arch Linux 中启用 Snap 的充分理由。
-
-我知道 AUR 拥有大量应用，但 Snap 应用通常直接来自开发人员。
-
-如果你希望能够在 Arch Linux 中安装 Snap 应用，你需要先启用 Snap 支持。
-
-有两种方法可以做到：
-
-
-使用 AUR 助手启用 Snap 支持（更简单）
-
-通过从 AUR 获取包，手动启用 Snap 支持
-
-
-让我们看看怎么做。
-
-方法 1、使用 AUR 助手启用 Snap
-
-Snap 支持在 Arch 用户仓库中以 snapd 包的形式提供。你可以使用 AUR 助手轻松安装它。
-
-有 许多 AUR 助手，但 yay 是我更喜欢的，因为它的语法类似于 pacman 命令。
-
-如果你还没有安装 AUR，请使用以下命令安装 Yay（需要事先安装 git）：
-
-git clone https://aur.archlinux.org/yay
-
-cd yay
-
-makepkg -si
-
-
-
-
-现在 yay 已安装，你可以通过以下方式安装 snapd：
-
-yay -Sy snapd
-
-
-
-
-每当你 更新 Arch Linux 系统时，yay 都会启用 snapd 的自动更新。
-
-验证 Snap 支持是否有效
-
-要测试 Snap 支持是否正常工作，请安装并运行 hello-world Snap 包。
-
-sudo snap install hello-world
-
-hello-world
-（或者）
-sudo snap run hello-world
-
-
-
-
-如果它运行良好，那么你可以轻松安装其他 Snap 包。
-
-方法 2、从 AUR 手动构建 snapd 包
-
-如果你不想使用 AUR 助手，你仍然可以从 AUR 获取 snapd。让我展示详细的过程。
-
-你需要先安装一些构建工具。
-
-sudo pacman -Sy git go go-tools python-docutils
-
-
-
-
-完成依赖项安装后，现在可以克隆 snapd 的 AUR 目录，如下所示：
-
-git clone https://aur.archlinux.org/snapd
-
-cd snapd
-
-
-
-
-然后构建 snapd 包：
-
-makepkg -si
-
-
-当它要求安装其他依赖包时输入 yes。
-
-
-
-你已安装 snapd 守护程序。但是，需要启用它以在启动时自动启动。
-
-sudo systemctl enable snapd --now
-
-sudo systemctl enable snapd.apparmor --now #start snap applications
-
-sudo ln -s /var/lib/snapd/snap /snap #optional: classic snap support
-
-
-
-
-手动构建包的主要缺点是每次新更新启动时你都必须手动构建。使用 AUR 助手为我们解决了这个问题。
-
-总结
-
-我更喜欢 Arch Linux 中的 pacman 和 AUR。很少能看到不在 AUR 中但以其他格式提供的应用。尽管如此，在某些你希望直接从源获取它的情况下，使用 Snap 可能是有利的，例如 在 Arch 上安装 Spotify。
-
-希望本教程对你有所帮助。如果你有任何问题，请告诉我。
-
-
-via: https://itsfoss.com/install-snap-arch-linux/
-
-作者：Pranav Krishna 选题：lkxed 译者：geekpi 校对：wxy
-
-本文由 LCTT 原创编译，Linux中国 荣誉推出]]></summary>
-        <author>
-            <name>linux@linux.cn (linux)</name>
         </author>
     </entry>
     <entry>
@@ -2159,18 +2327,6 @@ via: https://itsfoss.com/install-snap-arch-linux/
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Shinify  — Get a Shiny R server for your ML model with one line of code]]></title>
-        <id>https://www.producthunt.com/posts/shinify</id>
-        <link href="https://www.producthunt.com/posts/shinify"/>
-        <updated>2022-10-20T19:54:37.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Computer Programmer Salary – How Much Do Coders Make?]]></title>
         <id>https://www.freecodecamp.org/news/computer-programmer-salary-how-much-do-coders-make/</id>
         <link href="https://www.freecodecamp.org/news/computer-programmer-salary-how-much-do-coders-make/"/>
@@ -2191,39 +2347,15 @@ via: https://itsfoss.com/install-snap-arch-linux/
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Code Google Docs with Flutter]]></title>
-        <id>https://www.freecodecamp.org/news/code-google-docs-with-flutter/</id>
-        <link href="https://www.freecodecamp.org/news/code-google-docs-with-flutter/"/>
-        <updated>2022-10-20T14:15:37.000Z</updated>
-        <summary type="html"><![CDATA[Creating a Google Docs clone will help you learn a lot of new concepts. We just published a full course on the freeCodeCamp.org YouTube channel that will teach you how to use Flutter to create a Google Docs clone. Rivaan Ranawat created this course. Rivaan has created many popular technical]]></summary>
-        <author>
-            <name>Beau Carnes</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Link transformer — Transform links to plain text to share on any social media]]></title>
-        <id>https://www.producthunt.com/posts/link-transformer</id>
-        <link href="https://www.producthunt.com/posts/link-transformer"/>
-        <updated>2022-10-20T13:39:05.000Z</updated>
-        <summary type="html"><![CDATA[https://tools.devapt.com/link-tr...
+        <title type="html"><![CDATA[WHERETOCOP — A curated shopping marketplace]]></title>
+        <id>https://www.producthunt.com/posts/wheretocop</id>
+        <link href="https://www.producthunt.com/posts/wheretocop"/>
+        <updated>2022-10-20T16:30:39.000Z</updated>
+        <summary type="html"><![CDATA[@draftbit, @supabase, @webflow, @gadget.dev) Shoutout to them for helping me out on this journey. 
+- Always thought there were so many good brands online but its such a hassle to shop. So many different apps, websites and places to buy. I really just wanted something to make it easier to shop online. 
 
-
-𝗜𝗱𝗲𝗮 𝗳𝗼𝗿 𝘁𝗵𝗲 𝗽𝗿𝗼𝗱𝘂𝗰𝘁:
-I saw quite a many times people sharing domain names of useful sites with a space between the extension and the domain name on Twitter. e.g, google. com. The reason for that was Twitter shows previews for links which could be a distraction and also sharing too many links may look spammy sometimes. 
-
-For that reason, people started sharing links with a space between the extension and name. Sometimes even I do not want to share clickable links on Twitter and so for that, I thought to have a tool that highlights links and transforms them into plain text that can be shared on Social media. 
-
-That's where this idea for making the link transformer occurred. 
-
-𝗙𝘂𝘁𝘂𝗿𝗲 𝘂𝗽𝗱𝗮𝘁𝗲𝘀:
-1. Theme styles for different social media
-2. Enhance UI/UX
-
-Hope this Link Transformer tool will be helpful to all those who want to share plain text links on social media platforms easily. 💫
-
-Please share your views/feedback about this product.
-
-Thank you for stopping by 🙏
+Thanks,
+Ceno
               ”
               
 Discussion
@@ -2231,6 +2363,16 @@ Discussion
             Link]]></summary>
         <author>
             <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Code Google Docs with Flutter]]></title>
+        <id>https://www.freecodecamp.org/news/code-google-docs-with-flutter/</id>
+        <link href="https://www.freecodecamp.org/news/code-google-docs-with-flutter/"/>
+        <updated>2022-10-20T14:15:37.000Z</updated>
+        <summary type="html"><![CDATA[Creating a Google Docs clone will help you learn a lot of new concepts. We just published a full course on the freeCodeCamp.org YouTube channel that will teach you how to use Flutter to create a Google Docs clone. Rivaan Ranawat created this course. Rivaan has created many popular technical]]></summary>
+        <author>
+            <name>Beau Carnes</name>
         </author>
     </entry>
     <entry>
@@ -2291,56 +2433,6 @@ Discussion
         <summary type="html"><![CDATA[The Vera C. Rubin Observatory’s key instrument is almost ready to be installed on the telescope, where it will image tens of billions of cosmic objects.]]></summary>
         <author>
             <name>Ramin Skibba</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[硬核观察 #795 首个可以翻译无文字语言的口语翻译 AI]]></title>
-        <id>https://linux.cn/article-15159-1.html?utm_source=rss&amp;utm_medium=rss</id>
-        <link href="https://linux.cn/article-15159-1.html?utm_source=rss&amp;utm_medium=rss"/>
-        <updated>2022-10-20T11:20:32.000Z</updated>
-        <summary type="html"><![CDATA[首个可以翻译无文字语言的口语翻译 AI
-
-世界上大约 7000 种已知的语言中，40% 没有文字。这给现代机器学习翻译系统带来了问题，因为它们通常需要在翻译到新语言之前将口头语言转换为书面文字，并将文字还原为语音，但 Meta 公司已经通过其最新的 AI 进展解决了这个问题。这个通用语音翻译器（UST）正致力于开发实时的语音到语音的翻译。目前，该系统已经支持讲闽南话的人与讲英语的人交谈。
-
-
-
-
-
-消息来源：Venture Beat
-
-
-
-老王点评：Meta 要是不瞎搞，其实还是很厉害的，能做出很多很不错的技术的。不过，这个功能应该是为其元宇宙准备的。
-
-
-
-
-GitHub Copilot 将微软引向版权风暴
-
-上周，美国德克萨斯 A&M 大学教授 Tim Davis 发现，Copilot 在建议代码时会复制他拥有版权的稀疏矩阵转置代码。有律师宣布调查对 GitHub 提出版权索赔的可能性。以确定 GitHub 是否在开源代码上对 Copilot 进行了不当的训练，以及该工具是否在向用户推荐代码片段时不适当地发出了其他人的版权作品。Copilot 文档警告说，输出可能包含 “不良模式”，并将侵犯知识产权的责任放在 Copilot 的用户身上。
-
-
-消息来源：The Register
-
-
-
-老王点评：不知道微软会不会使用合规的代码重新训练它的 Copilot。
-
-
-
-
-新的 USB-C 规范传输速率最高可达 120Gbps
-
-USB-C 可以支持各种数据传输速率，从 USB 2.0 的 0.48Gbps 到 USB4、Thunderbolt 3/4 的40Gbps。USB-IF 发布了 USB4 2.0 规范，它增加了双向 80Gbps 带宽的支持，以及 120Gbps/40Gbps 的非对称速率的支持。
-
-
-消息来源：ARS Technica
-
-
-
-老王点评：USB 规范的名字已经晕菜了，只需要关注速率提升了。]]></summary>
-        <author>
-            <name>linux@linux.cn (linux)</name>
         </author>
     </entry>
     <entry>
@@ -2470,6 +2562,40 @@ IoT can consist of any number of different devices using diverse protocols, stru
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[JSON url — Mock backend with JSON generated from URL]]></title>
+        <id>https://www.producthunt.com/posts/json-url</id>
+        <link href="https://www.producthunt.com/posts/json-url"/>
+        <updated>2022-10-20T02:23:33.000Z</updated>
+        <summary type="html"><![CDATA[https://jsonurl.com/{“name”: “Max”}
+you can get this json:
+{“name”: “Max”}
+
+Or you can get it with a delay to simulate a heave request by adding a ?delay param like
+https://jsonurl.com/{“name”: “Max”}?delay=2
+
+Or in UI at jsonurl.com
+              ”
+              
+Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI Persona Generator by GETitOUT — Build detailed buyer personas at light speed]]></title>
+        <id>https://www.producthunt.com/posts/ai-persona-generator-by-getitout</id>
+        <link href="https://www.producthunt.com/posts/ai-persona-generator-by-getitout"/>
+        <updated>2022-10-19T23:03:21.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Git Reverting to Previous Commit – How to Revert to Last Commit]]></title>
         <id>https://www.freecodecamp.org/news/git-reverting-to-previous-commit-how-to-revert-to-last-commit/</id>
         <link href="https://www.freecodecamp.org/news/git-reverting-to-previous-commit-how-to-revert-to-last-commit/"/>
@@ -2490,22 +2616,10 @@ IoT can consist of any number of different devices using diverse protocols, stru
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Notion Social Media Manager — The ultimate social media content planner]]></title>
-        <id>https://www.producthunt.com/posts/notion-social-media-manager</id>
-        <link href="https://www.producthunt.com/posts/notion-social-media-manager"/>
-        <updated>2022-10-19T18:20:47.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ArtBot.ai — Let AI create your perfect Halloween art]]></title>
-        <id>https://www.producthunt.com/posts/artbot-ai</id>
-        <link href="https://www.producthunt.com/posts/artbot-ai"/>
-        <updated>2022-10-19T16:14:57.000Z</updated>
+        <title type="html"><![CDATA[SUPS.vc — Stock Options & SAFE marketplace making future equity liquid]]></title>
+        <id>https://www.producthunt.com/posts/sups-vc</id>
+        <link href="https://www.producthunt.com/posts/sups-vc"/>
+        <updated>2022-10-19T14:39:34.000Z</updated>
         <summary type="html"><![CDATA[Discussion
             |
             Link]]></summary>
@@ -2714,23 +2828,11 @@ Bad Kreuznach是距离法兰克福约一小时车程的一个温泉镇，也是�
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Idiomics — Idiom illustrations for brands and bloggers]]></title>
-        <id>https://www.producthunt.com/posts/idiomics</id>
-        <link href="https://www.producthunt.com/posts/idiomics"/>
-        <updated>2022-10-18T18:46:58.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[I made a full-stack and type-safe personal site using the t3-stack (Next.js)!]]></title>
         <id>https://dev.to/asheeshh/i-made-a-full-stack-portfolio-site-using-nextjs-and-tailwind-366d</id>
         <link href="https://dev.to/asheeshh/i-made-a-full-stack-portfolio-site-using-nextjs-and-tailwind-366d"/>
         <updated>2022-10-18T18:22:28.000Z</updated>
-        <summary type="html"><![CDATA[#showdev #javascript #webdev #beginners]]></summary>
+        <summary type="html"><![CDATA[#javascript #webdev #beginners #react]]></summary>
         <author>
             <name>ashish</name>
         </author>
@@ -2746,36 +2848,11 @@ Bad Kreuznach是距离法兰克福约一小时车程的一个温泉镇，也是�
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[html.to.design — Convert any website into fully editable Figma designs]]></title>
-        <id>https://www.producthunt.com/posts/html-to-design</id>
-        <link href="https://www.producthunt.com/posts/html-to-design"/>
-        <updated>2022-10-18T15:33:09.000Z</updated>
-        <summary type="html"><![CDATA[html.to.design converts any website into fully editable Figma designs.
-It’s like magic! 
-
-Powered by the same technology that we developed for story.to.design, 
-this free plugin imports any website's html into Figma in a click,
-so you have fully editable layers to kick-start your designs.
-
-There are so many reasons we can think of to use html.to.design, but here are just a few:
-- Use another website as inspiration for your own designs
-- Redesign an old website, without building everything from scratch
-- Compare a developed site to your original designs, without tedious screen capturing
-- Check a site’s visual accessibility in Figma
-- Join an existing project with missing designs and easily import them
-- Show copy changes to existing sites in a visual way
-- Experiment with different copy and see exactly how it’ll appear on the site
-- Create UI inventories without taking a single screenshot ever again
-- Quickly modify parts of your site for A/B testing
-- Create competitor benchmarks in Figma in a few clicks
-- Speed-up your workflow: clone your website in Figma, make design changes, then push back to production with your favorite design-to-code tool
-
-Ready to give it a try? 
-➡️ https://www.figma.com/community/... 
-Tell us what you think.
-              ”
-              
-Discussion
+        <title type="html"><![CDATA[Quirk — Get better software recommendations fast.]]></title>
+        <id>https://www.producthunt.com/posts/quirk-3</id>
+        <link href="https://www.producthunt.com/posts/quirk-3"/>
+        <updated>2022-10-18T17:30:02.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
             |
             Link]]></summary>
         <author>
@@ -2799,18 +2876,6 @@ Discussion
 总的来说，租来的状况仅仅是个凑活，对我而言还远远不能达到拎包入住的状态。好在我个人也有一些从上一个家带来的“资产”，和一些软装的小计划，因此这个水平也刚好给了我一些发挥的空间。于是，漫漫“…]]></summary>
         <author>
             <name>EricYoung</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Typejust — An alternative for Ghost and Substack]]></title>
-        <id>https://www.producthunt.com/posts/typejust</id>
-        <link href="https://www.producthunt.com/posts/typejust"/>
-        <updated>2022-10-18T13:26:18.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -2861,16 +2926,6 @@ Discussion
         <summary type="html"><![CDATA[This new iCloud feature makes it super easy to access smartphone pics and videos on your computer—no cords necessary.]]></summary>
         <author>
             <name>Reece Rogers</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[17 Best iPhone 12 Cases and Accessories (2022): Chargers, Screen Protectors, and More]]></title>
-        <id>5f9346632cc0d6153d3f9626</id>
-        <link href="https://www.wired.com/gallery/best-iphone-12-cases-and-accessories/"/>
-        <updated>2022-10-18T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The 2020 Apple smartphone is still a great pick. Kit it out with MagSafe-tested protection, chargers, and other extras.]]></summary>
-        <author>
-            <name>Julian Chokkattu</name>
         </author>
     </entry>
     <entry>
@@ -3013,16 +3068,6 @@ I just read the book Team of Teams, by Stanley McChrystal, which discu…]]></s
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Douban Book+ – 为豆瓣读书页面添加微信读书、Kindle、多看、蜗牛等在线资源链接]]></title>
-        <id>https://www.appinn.com/?p=43653</id>
-        <link href="https://www.appinn.com/douban-book-plus/"/>
-        <updated>2022-10-18T04:40:15.000Z</updated>
-        <summary type="html"><![CDATA[Douban Book+ 是一款浏览器扩展，支持 Chrome、Edge、Firefox，它能为豆瓣读书页面添加微信读书、Kindle、多看、蜗牛等在线资源链接，最新版本添加了 Zlibrary 链接]]></summary>
-        <author>
-            <name>青小蛙</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[The Bruce Willis Deepfake Is Everyone’s Problem]]></title>
         <id>634d9b9173d8e1a1ebea929e</id>
         <link href="https://www.wired.com/story/bruce-willis-deepfake-rights-law/"/>
@@ -3030,47 +3075,6 @@ I just read the book Team of Teams, by Stanley McChrystal, which discu…]]></s
         <summary type="html"><![CDATA[There’s a fight brewing over how Hollywood stars can protect their identities. But it’s not just actors who should be paying attention.]]></summary>
         <author>
             <name>Will Bedingfield</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Negy — Next generation anonymous internet]]></title>
-        <id>https://www.producthunt.com/posts/negy</id>
-        <link href="https://www.producthunt.com/posts/negy"/>
-        <updated>2022-10-17T16:31:20.000Z</updated>
-        <summary type="html"><![CDATA[https://negy.io/docs/quick-start...
-
-🐠 Features
-Negy uses a very popular method called proxy to completely hide routing. Simply put in the settings and the server you are accessing has no way of knowing who is accessing it. (At network level.) It is based on the Tor protocol, the most well-known method of routing cloaking, and further improves ease of use and portability.  Portability is the ease with which the execution environment can be moved from one to another, in other words, the ease of execution. In Negy, all components are containerised, so basically one command is all that is needed to launch all components. For example, it is even possible to reproduce Negy's full network in your local pc using the command docker-compose. Portability is very important in the long term, as it contributes to the ease of joining the network and ease of development. In addition, Negy is written in Rust, a memory-safe programming language, so unexpected runtime errors and memory vulnerabilities are essentially non-existent.
-
-🐞 Conclusion
-We have a roadmap that we create a world where nobody has to worry about routing. Thanks for supporting us!
-              ”
-              
-Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Discord Launches a $3 per Month 'Nitro Basic' Subscription]]></title>
-        <id>634999d6d8c7bf0344fc40bc</id>
-        <link href="https://www.wired.com/story/discord-nitro-basic-activities-apps/"/>
-        <updated>2022-10-17T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The social app with a reputation for being somewhat oblique has dropped several new features that make it easier for newbies to have a good experience.]]></summary>
-        <author>
-            <name>Adrienne So</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Best Veterinary Telemedicine Services for Your Pet (2022)]]></title>
-        <id>5ed7ec6e9323ce8600ac125d</id>
-        <link href="https://www.wired.com/story/best-veterinary-telemedicine-services/"/>
-        <updated>2022-10-17T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Your best friend can receive timely medical help without ever leaving home, and this guide to our favorite televets can help.]]></summary>
-        <author>
-            <name>Medea Giordano</name>
         </author>
     </entry>
     <entry>
@@ -3114,6 +3118,16 @@ Discussion
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Restful API with Golang practical approach]]></title>
+        <id>https://dev.to/firdavs_kasymov/restful-api-with-golang-practical-approach-420a</id>
+        <link href="https://dev.to/firdavs_kasymov/restful-api-with-golang-practical-approach-420a"/>
+        <updated>2022-10-17T08:42:07.000Z</updated>
+        <summary type="html"><![CDATA[#go #tutorial #microservices #devops]]></summary>
+        <author>
+            <name>Firdavs Kasymov</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[The Hunt for Wikipedia's Disinformation Moles]]></title>
         <id>634587f52c2c7a7522a9860e</id>
         <link href="https://www.wired.com/story/wikipedia-state-sponsored-disinformation/"/>
@@ -3121,46 +3135,6 @@ Discussion
         <summary type="html"><![CDATA[Custodians of the crowdsourced encyclopedia are charged with protecting it from state-sponsored manipulators. A new study reveals how.]]></summary>
         <author>
             <name>Masha Borak</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[忍不了了，做了个插件让 OneNote 支持 Markdown]]></title>
-        <id>https://sspai.com/post/76228</id>
-        <link href="https://sspai.com/post/76228"/>
-        <updated>2022-10-17T07:22:15.000Z</updated>
-        <summary type="html"><![CDATA[Matrix 首页推荐
-Matrix 是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选 Matrix 最优质的文章，展示来自用户的最真实的体验和观点。
-文章代表作者个人观点，少数派仅对标题和排版略作修改。
-
-一年多前，由于工作原因，主力开发机换成了 Windows，还入了 Office 365 全家桶。于是在时隔多年后，再次用起了 OneNote。不得不说，都 2022 年了，OneNote 的码字体验还停留在十多年前，一堆大大小小的遗留问题。但我实在懒得折腾什么 Notion、Obsidian（没有复杂的知识管理需求），只想找个本地/靠谱/大厂出品/开箱即用的笔记软件，简单记录下工作相关内容。 毕竟人一旦习惯了 markdown 的符号 # 和 -，就真的回不去了。于是研究了下 OneNote 的 api，决定自己动手，丰衣足食。OneMark 由此诞生。
-实时渲染
-废话不多说，直接上动图。
-
-简单来说，OneMark 实现了基于行的实时渲染，每次按回车时会触发渲染当前行。当然，这个实时 跟新世代编辑器字符级别的没法比，但已经足够好用了。
-不仅如此，终于在 OneNote 上实现了可用级别的代码高亮，输入``` 创建代码块后，每敲一行自动着色。用过 OneNote 的都懂，之前插入代码需要诸多操作，繁琐到想摔键盘。
-
-以及 LaTex 转换到 OneNote 原生的数学公式（不是图片）。
-
-除此之外，还支持TOC / todo / 水平线 / 脚注 等常见的语法，直接拿已有的 markdown 内容粘贴到 OneNote 中， 然后按 F5 渲染，大概率是可以完美还原的。
-
- 
-没有美美的样式主题，怎么能算一个合格的笔记软件呢？众所周知，OneNote 本身的样式功能十分鸡肋，用户很难自定义主题，只能默默忍受一成不变的素面朝天。于是我花了好大力气，实现了解析 css 样式的功能，从此 OneNote 的笔记颜值终于能打了。
-
-双向编辑
-你可能会问：这种转换是单向的吗？我如果有一天想导出 markdown 纯文本怎么办？在我看来，原始 markdown 丢失是绝对不能接受的，所以我花了很大力气来解决这个问题：笔记中每个段落的 markdown 原文都以某种格式隐藏存储在自身之中，可以随时读取，不依赖外部文件，任意编辑也不会破坏。而且这种格式是公开透明的，只需要用 OneNote api 拿到 XML 格式的笔记内容，所有秘密一览无余。
-更重要的是，渲染后的内容可以原地随意增删修改，不必再重新切换回 markdown 形态编辑；而且在导出 markdown 时，内容也会相应更新——是的，实现了双向更新。当然，如果由于某些原因，你想切换回 markdown 形态编辑，也是支持的。按 ctrl + , ，即可在编辑和预览之间切换。
-
-结语
-OneMark 目前只支持 OneNote Windows 桌面版，不支持 UWP 版本以及 Mac 版本（好消息是微软正着手将 UWP 版本的功能迁移到桌面版，以后会只保留桌面版，最近的更新频率也让广大 OneNote 使用者倍感惊喜）。官网 https://onemark.neuxlab.cn/， 欢迎大家试用反馈。
-后记：我为什么选择 OneNote
-有人会问：不是有很多专业的 markdown 笔记软件吗，为什么还要用 OneNote？
-我个人的感悟是：我首先需要的是一个自由轻松的笔记软件，其次是 markdown。我是一个懒人，无论是日常生活，还是工作学习，都没有那么 organized，十分不擅长把东西整理并保持得井井有条。我的笔记中，有一些认真记录和思考产出的内容，但更多时候，是很随意、很碎片、很当下的信息记录。我试过，当面对一个专业的 markdown 笔记软件时，我会变得十分紧张不自在，不知道该把这些零碎、混乱的信息放到哪里。一旦产生了这种情绪，想要记录的念头也随即不了了之。
-而 OneNote 简单直接的界面、清晰的笔记结构、自由的无限画布，让我使用起来没有任何心理压力。唯一的缺点就是当需要认真输出内容时，没有 markdown 这件趁手的兵器，确实有点力不从心。补齐了这点之后，对于我个人而言就别无他求了。
-其实十多年前，OneNote 刚推出的时候也曾惊艳四座， 那时的设计理念和体验还是很超前的，有了现在流行的 block level 编辑器的雏形，无论是列表、段落、表格，书写和调整起来都非常得心应手。也多亏了这些设计，结合 markdown 之后居然毫不违和，整体体验下来有点现代编辑器的味道了。个中玄妙，就待各位亲自上手把玩了。
-> 下载 少数派 2.0 客户端、关注 少数派公众号，解锁全新阅读体验 📰 
-> 实用、好用的 正版软件，少数派为你呈现 🚀]]></summary>
-        <author>
-            <name>siyu</name>
         </author>
     </entry>
     <entry>
@@ -3178,25 +3152,6 @@ The current state of open source DevOps tools
 Let's get one thing straight: There's no way open source tools will disappear from the DevOps world. Right now, there's a balance between open source and vendor DevOps tools, with developers using what works for them. Indeed, there are plenty of cases when a development team chooses an ope…]]></summary>
         <author>
             <name>Will Kelly</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why you should consider Rexx for scripting]]></title>
-        <id>70240 at https://opensource.com</id>
-        <link href="https://opensource.com/article/22/10/rexx-scripting-language"/>
-        <updated>2022-10-17T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Why you should consider Rexx for scripting
-Howard Fosdick
-Mon, 10/17/2022 - 03:00
-
-            
-How do you design a programming language to be powerful yet still easy to use? Rexx offers one example. This article describes how Rexx reconciles these two seemingly contradictory goals. 
-History of Rexx programming language
-Several decades ago, computers were shifting from batch to interactive processing. Developers required a scripting or "glue" language to tie systems together. The tool needed to do everything from supporting application development to issuing operating system commands to functioning as a macro language.
-Mike Cowlishaw, IBM Fellow, created a solution in a language he named Rexx. It is widely considered the first general-purpose scripting language.
-Rexx was so easy to use and…]]></summary>
-        <author>
-            <name>Howard Fosdick</name>
         </author>
     </entry>
     <entry>
@@ -3325,24 +3280,6 @@ Flippa也提供尽职调查的服务，卖家可以选择授权买家查看他�
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[What’s new in GNOME 43?]]></title>
-        <id>70230 at https://opensource.com</id>
-        <link href="https://opensource.com/article/22/10/whats-new-gnome-43-linux"/>
-        <updated>2022-10-16T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[What’s new in GNOME 43? 
-Jim Hall
-Sun, 10/16/2022 - 03:00
-
-            
-I love the GNOME desktop, and I use it as my daily Linux desktop environment. I find with GNOME, I can focus on the stuff I need to get done, but I still have flexibility to make the desktop look and act the way I want.
-The GNOME Project recently released GNOME 43, the latest version of the GNOME desktop. I met with GNOME developer Emmanuele Bassi to ask a few questions about this latest release:
-Jim Hall (Jim): GNOME has lots of great desktop features. What are some of the new features in GNOME 43?
-Emmanuele Bassi (Emmanuele): GNOME 43 has a complete redesign of the system status menu in the Shell. The new design is meant to give quick and easy access to various settings: network connections and VPNs; audio input and …]]></summary>
-        <author>
-            <name>Jim Hall</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[React Just Got Even More Awesome]]></title>
         <id>https://dev.to/dayvster/react-just-got-even-more-awesome-f15</id>
         <link href="https://dev.to/dayvster/react-just-got-even-more-awesome-f15"/>
@@ -3445,39 +3382,6 @@ iPhone 14 Pro 系列 1× 镜头拍摄iPhone 14 Pro 系列 3× 镜头拍摄
 本质上任何的相机都是由机身和镜头两部分组成，其中镜头直接影响着你的取景范围。而取景范围意味着「拍摄题材的选择」。从 iPhone 11 …]]></summary>
         <author>
             <name>果核Group</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[写给所有 Mac 用户的摸鱼指北]]></title>
-        <id>https://sspai.com/post/75805</id>
-        <link href="https://sspai.com/post/75805"/>
-        <updated>2022-10-14T06:41:47.000Z</updated>
-        <summary type="html"><![CDATA[Matrix 首页推荐
-Matrix 是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选 Matrix 最优质的文章，展示来自用户的最真实的体验和观点。
-文章代表作者个人观点，少数派仅对标题和排版略作修改。
-
-这篇文章真的在试图提高你使用 Mac 的效率，让你能节省出时间好好摸鱼。
-本文分为三大部分，共计一万余字，下方导读部分在尽最大可能帮你找到感兴趣的内容：
-
-上篇：基础铺垫。介绍一些桌面端操作系统的基础概念，以及一些 macOS 特有的功能和修饰键。例如「程序坞」、「菜单栏」、「Option」、「Command」等。
-中篇：使用场景。从打开或切换软件，浏览信息或操控电脑等具体的使用场景展开，级级提高，层层深入地介绍各种提高操作效率的技巧或软件。
-下篇：软件推荐。聚焦于分享不同类型的软件，覆盖了同类别下的付费及免费软件。
-
-如果你刚接触 Mac，那么我真诚地建议从「基础铺垫」开始阅读，这会帮助你在后续的进阶阅读中如鱼得水，能够明白文章中的专有名词是什么意思。
-如果你看过很多类似的文章，适当跳读「基础铺垫」，从「使用场景」开始阅读会更加节省时间且不减少收获。
-如果你和我一样苦于找不到一篇成体系地介绍 Mac 高效技巧和实用软件的文章，那么恭喜你，建议全文朗读并背诵。
-又或者你对以上所有概念解析和技巧分享都不太感冒，只对好用的软件感兴趣，那么「软件推荐」部分和这一份 macOS 精选软件集 或许是你的菜。
-上篇：基础铺垫
-macOS 概念解析
-
-macOS 中的一些基础概念，适当了解能够在众多的技巧中不迷失方向，始终知道这个技巧对应的那种类型。
-
-桌面、窗口和标签页之间的关系
-呈现在「桌面」上的 Safari App 的一个「窗口」，在窗口中打开了两个「标签页」
-首先是桌面（Desktop）
-现实生活中的桌面是一个实体，一般用来摆放工作的…]]></summary>
-        <author>
-            <name>毕大业</name>
         </author>
     </entry>
     <entry>
@@ -3601,87 +3505,6 @@ macOS 中的一些基础概念，适当了解能够在众多的技巧中不迷�
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[中国AI绘画行业调查报告——技术，用户，争议与未来]]></title>
-        <id>https://sspai.com/post/76141</id>
-        <link href="https://sspai.com/post/76141"/>
-        <updated>2022-10-13T08:19:53.000Z</updated>
-        <summary type="html"><![CDATA[前言
-多家机构在近期都发布了 AIGC 报告，这个尚在萌芽的赛道获得了巨大的关注，但在更早一些的时候，其中一些更细，更窄的领域，就已经发生了惊天动地的变化，我们将专注其中一个赛道，即 AIGC 中的「生成式文生图」领域，从技术发展，用户调研，商业模式和争议，以及对未来的一些展望，为大家呈现这份报告。
-报告的数据及来源包括公开新闻媒体文章，第三方统计数据，6pen 自身数据，以及我们收回的 2398 份问卷调查和对部分行业资深人士的深度访谈。我们的问卷通过 6pen 自有渠道，即刻，微博，以及行业 KOL 分发，最终有效收到 2398 个提交，它们可能是这个行业首次的大批量对用户的直接调查，并聚焦在国内市场，我们认为其具有相当的参考性。
-利益相关：本报告由 6pen 调查发布，作为行业从业者，本报告将更多从技术，用户及行业整体视角出发。
- 
-AI绘画技术发展的简要脉络
-GAN时代
-在 diffusion 被广泛运用于AI绘画之前，这种艺术形式的主要实现方式 GAN （Generative Adversarial Nets ），以NVlabs的SPADE为例：用户提供草图，由GAN模型将其转化为真实的风景图像。这听起来有点像AI绘画里的img2img，但在这类模型里，用户无法通过文本影响生成结果。
-
-直到类似 CLIP 这种跨模态的图文模型出现，才让用户有办法用文字实现AI作画。后来者如VQGAN+CLIP 或StyleCLIP，均是因为CLIP打通文本和图形域(domain)，用户输入的文本与GAN生成的结果真正有了「可比较性」，这使得计算二者误差并迭代效果成为了可能。
-
-GAN在模拟分布方面有着天然的优势，因此它在人脸属性编辑、风格模仿等领域大放异彩，例如给人戴上墨镜、加上胡子、生成动漫脸、模仿小说风格。也正因如此，它也很容易陷入模型坍缩(Model Collapse)，即…]]></summary>
-        <author>
-            <name>调皮的王登科</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[自由与角色：如何应对「身不由己」的窘境？]]></title>
-        <id>https://sspai.com/post/76151</id>
-        <link href="https://sspai.com/post/76151"/>
-        <updated>2022-10-13T08:02:48.000Z</updated>
-        <summary type="html"><![CDATA[我们大部分人总会身处在一种「身不由己」的状态里，然后内心有一些向往的生活状态，但是现实很残酷，导致自己现在无法去达到目标，于是陷入到了焦虑和无奈的情绪中。
-在国庆的节假日里，我见了一个很久未见的朋友。他的孩子已经两岁了，在聊天时，我能感觉到他因为有了孩子后，产生了很大的压力和焦虑。他说，因为有了孩子以后，以往的时间都不由自己来做主了，然后未来所有的计划都变了，已经买好的不错的房子，会因为学区房做改变的计划，然后自己也舍不得消费，想把挣到的钱给孩子准备上。他是一个很负责的人，也希望能多陪孩子，努力工作把孩子养大。但是他觉得自己牺牲了自己看电影、健身，以及和爱人出门旅游的机会，如果要恢复这些，要等孩子长到18岁的成年以后，也就是说，还要等16年。说到这里，他的眼神里露出了一丝无奈。
-听到这里，我总觉得哪里不太对，于是产生了一些疑问，面临这样的不由己状态，我们只能无奈或者焦虑？我希望通过这篇文章，呈现出我对这个问题的完整思考，希望你看完后，能够从新的视角去看待自己的问题。
-我们不妨先问一个问题：我们为什么讨厌「不由己」的感觉？
-答案是：每个人的内心都在追寻某种「自由」。人为什么要追寻自由？其实不仅是人，只要是生物，就会追求自由，追求一种随性地、自然地、丰富地生长。任何人都不希望自己的眼睛永远只盯着一个地方，耳朵只能听见一成不变的音色和音调；不希望身体被禁锢在一个狭小幽闭的空间里不能动弹，不希望思想停止运行，因为当思考停止，就意味着自己不再存在。
-自由是人的天性，也可以说，自由是我们不得不接受的权利。
-说了那么多自由的不可或缺，那什么才算自由？
-一、什么才算自由？
-提到自由，我最先想到的是时间和地点的自由。比如做一个旅行 up 主，可以随时出去旅游，想去哪儿就去哪儿，这叫自由。而每天在格子间上班，按照准确的时间上下班打卡，一天里重要的时间都交付给公司和老板，这叫不自由。
-这个定义准…]]></summary>
-        <author>
-            <name>猴猴说话</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[一日一技 | 怎样将 iPhone 备份保存到 Mac 的外部存储设备]]></title>
-        <id>https://sspai.com/post/76016</id>
-        <link href="https://sspai.com/post/76016"/>
-        <updated>2022-10-13T06:14:41.000Z</updated>
-        <summary type="html"><![CDATA[Matrix 首页推荐
-Matrix 是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选 Matrix 最优质的文章，展示来自用户的最真实的体验和观点。
-文章代表作者个人观点，少数派仅对标题和排版略作修改。
-
-一、问题描述
-前段时间碰到一个问题，我 iPhone 背板碎了，需要走 AppleCare 交给苹果返厂维修，而我的 iPhone 是 512GB 的，在备份数据时候麻烦了，我笔记本本身就是 512GB 空间的，肯定不够用呀。
-而备份 iPhone 默认的存储位置是在本机的硬盘上，我有个 14T 的硬盘，那么如何将默认的备份位置改到外部存储设备上呢。
-
-二、如何设置备份位置到外部存储器
-默认的备份位置在下面这个目录
-~/Library/Application Support/MobileSync/Backup
-其目录是这样的，Backup 里面就是你的每个设备每次的备份记录
-
-我们要做的就是将这个位置映射到你的移动硬盘上去。
-1. 确定你的移动硬盘位置
-你需要知道自己硬盘的完整文件路径：
-
-打开终端，
-输入 cd 然后将你的硬盘图标拖到终端中，就会看到它的路径了
-回车进入到移动硬盘目录下，指令 ls -al 能看到硬盘中的所有文件（图片中的 ll 是我自定义的一个指令）
-我的就是 /Volumes/Kyle 14TB/ （在终端的路径需要转义空格，所以能看到终端中名字空格前面有个 \）
-
-2. 移动硬盘中新建一个备份文件夹
-在你的移动硬盘中新建一个备份文件夹，用于存储接下来的手机备份文件。
-mkdir Backup
-此时能看到目录中多出一个名为 Backup 的文件夹
- 
-
-进入这个文件夹并展示它的绝对路径
-cd Backup
-pwd
-能看到我的这个文件夹的绝对路径是 /Volumes/Kyle 14TB/Backup，这个会在下…]]></summary>
-        <author>
-            <name>青枫</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Should we hire junior developer advocates?]]></title>
         <id>https://dev.to/blackgirlbytes/should-we-hire-junior-developer-advocates-13m2</id>
         <link href="https://dev.to/blackgirlbytes/should-we-hire-junior-developer-advocates-13m2"/>
@@ -3709,23 +3532,6 @@ pwd
         <summary type="html"><![CDATA[A personalized, authentic experience is an unquestioned building block of digital infrastructure. But what does that really involve?]]></summary>
         <author>
             <name>Tung-Hui Hu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[一二三四，打开心智]]></title>
-        <id>https://sspai.com/post/76149</id>
-        <link href="https://sspai.com/post/76149"/>
-        <updated>2022-10-12T11:30:54.000Z</updated>
-        <summary type="html"><![CDATA[现今社会高速发展，充满了不确定性。我们置身于时代的洪流中，被裹挟着不知冲向何处。诚然，时代给了我们更多的选择，同时也让我们更加迷茫，仿佛处在一个有无数岔路的迷宫里，不知道自己将走向何方。
-「如何在不确定的风浪里，实现确定性的成长？」这应该是现今大多人所关注的问题吧。
-关于成长，市面上有很多方法论，但它往往都不讲背后的原理。不知道大家是否也和我一样，看到一些方法或者教程，经常会收藏起来，跟练一段时间，但大多都是半途而废，坚持一阵子后又打回原形了。
-为什么会这样呢？因为每个人的情况不同，适用的方法也不同。如果只是知其然不知其所以然，那只有不断地尝试各种方法，不断地去磨合，才能找到适合自身的。这个尝试的过程，其实就是通过外界的方法，来获得自身的反馈，从而更了解自己。
-但如果我们换个角度，一开始就从了解自己出发，再剖析方法背后的原理，那是不是更容易找到适合自己的方法呢？所以我认为，知其然又知其所以然，反倒是一条捷径。
-要了解自己，就得先知道我们的心智是怎么运作的。所谓「心智」，就像是大脑里一个可以不断升级的系统，包含了我们对外部世界的所有认知，也包括因此所造就的思维方式。我们的认知和感觉，其实也只是心智对外部世界的投射而已。
-前不久出版的一本新书——《打开心智》，正是围绕「心智」这个概念展开的。兵书有云，「知己知彼，百战不殆」。书中先是阐述了大脑的四个基本原理，帮助我们了解心智是怎么运作的，此为「知己」；然后又围绕情绪、习惯、动力、学习、思考和创造等方面，剖析背后的原理，此为「知彼」。不仅如此，它还提供一套行之有效的方法，让我们能更好地实现自己的目标。所以，这是一本帮助我们认识自我、突破自我的书籍，知己知彼，我们才能更有效实现自我成长，去应对时代的不确定性。
-书籍作者是李睿秋（Lachel），一名深度思考践行者，常年专注于心理学、认知科学与心智研究，同时也是虎嗅年度十大作者、36氪…]]></summary>
-        <author>
-            <name>1A君</name>
         </author>
     </entry>
     <entry>
@@ -3796,16 +3602,6 @@ pwd
         <summary type="html"><![CDATA[Well-meaning efforts to integrate the hand signal with digital technology could expose vulnerable people to detection and escalated violence.]]></summary>
         <author>
             <name>Andrea Gunraj</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Robots Are Helping Immunocompromised Kids 'Go to School']]></title>
-        <id>633dca06669c7202654d7d3d</id>
-        <link href="https://www.wired.com/story/robots-education-sick-kids/"/>
-        <updated>2022-10-11T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Sure, my telepresence robot had some issues—but for students like me who can’t make it to campus because of disability or illness, these tools open new doors.]]></summary>
-        <author>
-            <name>Gillian Okimoto</name>
         </author>
     </entry>
     <entry>
@@ -4019,16 +3815,6 @@ pwd
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The Hottest Startups in Dublin]]></title>
-        <id>633debe681222da12cb0d9a1</id>
-        <link href="https://www.wired.com/story/hottest-startups-in-dublin-2022/"/>
-        <updated>2022-10-08T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The city is celebrating more local talent than ever, as being the only English-speaking country in Europe tempts new founders and drives outside investment.]]></summary>
-        <author>
-            <name>Chris Stokel-Walker</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[What Makes a Champagne Vintage Great? Ask a Deep Learning Model]]></title>
         <id>6340b2c1d01ed05afa60f88b</id>
         <link href="https://www.wired.com/story/what-makes-a-champagne-vintage-great-ask-a-deep-learning-model/"/>
@@ -4139,16 +3925,6 @@ pwd
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Swatted: A Shooting Hoax Spree Is Terrorizing Schools Across the US]]></title>
-        <id>633da05620105ba571069956</id>
-        <link href="https://www.wired.com/story/swatting-schools-us-september-2022/"/>
-        <updated>2022-10-06T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Sixteen states collectively suffered more than 90 false reports of school shooters during three weeks in September—and many appear to be connected.]]></summary>
-        <author>
-            <name>Dhruv Mehrotra</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[The US Needs to Recognize Intimate Privacy as a Civil Right]]></title>
         <id>6317a57979f10149f7bb9f4a</id>
         <link href="https://www.wired.com/story/privacy-intimacy-civil-rights-danielle-citron/"/>
@@ -4186,16 +3962,6 @@ pwd
         <summary type="html"><![CDATA[#html #javascript #css #webdev]]></summary>
         <author>
             <name>Varshith V Hegde</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SOLID Principles Sketches]]></title>
-        <id>https://dev.to/trekhleb/solid-principles-sketches-486p</id>
-        <link href="https://dev.to/trekhleb/solid-principles-sketches-486p"/>
-        <updated>2022-10-05T00:45:15.000Z</updated>
-        <summary type="html"><![CDATA[#javascript #webdev #programming #beginners]]></summary>
-        <author>
-            <name>Oleksii Trekhleb</name>
         </author>
     </entry>
     <entry>
@@ -4466,36 +4232,6 @@ pwd
         <summary type="html"><![CDATA[#html #seo #searchengine #beginners]]></summary>
         <author>
             <name>Sampad Sarker</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Continue Using .env Files As Usual.]]></title>
-        <id>https://dev.to/wiseai/continue-using-env-files-as-usual-2am5</id>
-        <link href="https://dev.to/wiseai/continue-using-env-files-as-usual-2am5"/>
-        <updated>2022-09-24T13:46:35.000Z</updated>
-        <summary type="html"><![CDATA[#javascript #webdev #node]]></summary>
-        <author>
-            <name>Mahmoud Harmouch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JavaScript Local Storage Explained!]]></title>
-        <id>https://dev.to/dboatengx/javascript-local-storage-explained-1di6</id>
-        <link href="https://dev.to/dboatengx/javascript-local-storage-explained-1di6"/>
-        <updated>2022-09-24T09:50:58.000Z</updated>
-        <summary type="html"><![CDATA[#javascript #beginners #webdev]]></summary>
-        <author>
-            <name>Boateng Dickson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quiet Quitting is About Loyalty]]></title>
-        <id>https://dev.to/codenameone/quiet-quitting-is-about-loyalty-1d6m</id>
-        <link href="https://dev.to/codenameone/quiet-quitting-is-about-loyalty-1d6m"/>
-        <updated>2022-09-24T09:23:32.000Z</updated>
-        <summary type="html"><![CDATA[#watercooler #culture #career]]></summary>
-        <author>
-            <name>Shai Almog</name>
         </author>
     </entry>
 </feed>
