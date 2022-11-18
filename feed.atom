@@ -1,57 +1,1305 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-11-17T10:41:10.161Z</id>
+    <id>urn:2022-11-18T10:41:41.296Z</id>
     <title>osmos::feed</title>
-    <updated>2022-11-17T10:41:10.161Z</updated>
+    <updated>2022-11-18T10:41:41.296Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[See how far Pokémon Go creator Niantic’s AR gaming ambitions have come]]></title>
-        <id>https://www.theverge.com/2022/11/17/23463988/niantic-qualcomm-augmented-reality-glasses-ar2-gen-1-processor-platform-snapdragon-spaces</id>
-        <link href="https://www.theverge.com/2022/11/17/23463988/niantic-qualcomm-augmented-reality-glasses-ar2-gen-1-processor-platform-snapdragon-spaces"/>
-        <updated>2022-11-17T10:38:48.000Z</updated>
-        <summary type="html"><![CDATA[Pokémon Go developer Niantic has unveiled its latest tech demo showing off what it thinks could be the future of augmented reality gaming. The trailer, which apparently depicts “actual headset gameplay” shows a handful of players wearing AR glasses as they interact with shared virtual objects, including game elements as well as more practical virtual signage, while out and about. A couple of the players appear to be interacting with the game using handheld motion controllers, but there’s no sign of anyone needing to directly use a smartphone to play.
-The trailer was released to coincide with several announcements made at this year’s Qualcomm Snapdragon Summit. These include a new processor from the mobile chip giant, a new reference...
+        <title type="html"><![CDATA[In One Minute : Maven]]></title>
+        <id>https://dev.to/rakeshkr2/in-one-minute-maven-45o</id>
+        <link href="https://dev.to/rakeshkr2/in-one-minute-maven-45o"/>
+        <updated>2022-11-18T10:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Apache Maven is a build automation tool used primarily for Java projects. Based on the concept of a Project Object Model (POM), Maven can manage a project's build, reporting, and documentation from a central piece of information.
+Maven’s primary goal is to allow a developer to comprehend the complete state of a development effort in the shortest period of time. Maven adheres to the principle of "convention over configuration" that helps building Maven projects with very little configuration. Systems, libraries, and frameworks should assume reasonable defaults, and systems should "just work" without requiring unnecessary configuration. In order to attain this goal, there are several areas of concern that Maven attempts to deal with:
+Making the build process easy
+Providing a uniform build system
+Providing quality project information
+Providing guidelines for best practices development
+Allowing transparent migration to new features
+The configuration of a Maven project is done by creating a file called pom.xml located at the root of the project. This file is referred to as the POM file. Each POM file inherits from a global Super POM that defined common properties for all Maven projects.
+
+
+
+
+
+  
+  
+  More information
+
+
+
+
+Maven Releases History, with documentation
+Apache Maven Wikipedia Article
+Better Builds with Maven
+Sonatype eBooks]]></summary>
+        <author>
+            <name>Rakesh KR</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tailwind CSS tutorial #15: Font Family]]></title>
+        <id>https://dev.to/shubhicodes/tailwind-css-tutorial-15-font-family-fee</id>
+        <link href="https://dev.to/shubhicodes/tailwind-css-tutorial-15-font-family-fee"/>
+        <updated>2022-11-18T10:17:19.000Z</updated>
+        <summary type="html"><![CDATA[In the article, we will go into detail on how to use font-family.
+Format
+flex-{sans|serif|mono}
+
+
+
+Alignment
+Tailwind Class
+CSS Property
+
+
+
+
+Sans
+font-sans
+font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+
+Serif
+flex-row-reverse
+font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+
+
+Mono
+flex-col
+font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+
+
+let's see each of this in action,
+Font-Sans
+
+
+This class is used to apply a websafe sans-serif font family, like ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, “Segoe UI“, Robot…]]></summary>
+        <author>
+            <name>Shubhangi✨</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sonic creator Yuji Naka arrested in insider trading scandal]]></title>
+        <id>https://www.theverge.com/2022/11/18/23465956/sonic-yuji-naka-arrested-insider-trading-scandal-game</id>
+        <link href="https://www.theverge.com/2022/11/18/23465956/sonic-yuji-naka-arrested-insider-trading-scandal-game"/>
+        <updated>2022-11-18T10:12:19.000Z</updated>
+        <summary type="html"><![CDATA[Yuji Naka is best known for co-creating the Sonic the Hedgehog video game series, and worked at Square Enix on Balan Wonderworld 2018 and 2021.   | Image: Square Enix / YouTube
+    
+
+  
+Yuji Naka, the famed co-creator of Sonic the Hedgehog, has reportedly been arrested in Japan (via Fuji News Network) in connection with an insider trading case involving former Square Enix employees.
+The scandal centers around former Square Enix employee Taisuke Sazaki, who obtained information that the Dragon Quest Tact mobile game was being jointly created by game developers Square Enix and Aiming. Sazaki and another ex-Square Enix employee, Fumiaki Suzuki, allegedly purchased 162,000 shares in Aiming between December 2019 and February 2020 for approximately 47.2 million yen (around $336,760) prior to the project’s public announcement on February 5th, 2020.
+FNN: Tokyo District Public Prosecutors Office arrested 57-year-old game...
 Continue reading…]]></summary>
         <author>
             <name>The Verge -  All Posts</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[In One Minute : CodeIgniter]]></title>
-        <id>https://dev.to/rakeshkr2/in-one-minute-codeigniter-pf4</id>
-        <link href="https://dev.to/rakeshkr2/in-one-minute-codeigniter-pf4"/>
-        <updated>2022-11-17T10:30:00.000Z</updated>
-        <summary type="html"><![CDATA[CodeIgniter is an open-source php web application framework created by EllisLab Inc and it is now a project of British Columbia Institute of Technology. The framework implements a modified version of the Model-View-Controller design pattern. It is praised for its performance and the quality of its documentation. It's currently licensed under the MIT License, although the previous version was released under the Open Software License ("OSL") v. 3.0.
-CodeIgniter is loosely based on the popular Model-View-Controller development pattern. While view and controller classes are a necessary part of development under CodeIgniter, models are optional.
-With more than 18.2k stars on Codeigniter's repository, it's also among the most starred PHP Framework on Github.com
+        <title type="html"><![CDATA[Using Rossum.ai to superpower OCR with machine learning]]></title>
+        <id>https://dev.to/finnauto/using-rossumai-to-superpower-ocr-with-machine-learning-b70</id>
+        <link href="https://dev.to/finnauto/using-rossumai-to-superpower-ocr-with-machine-learning-b70"/>
+        <updated>2022-11-18T10:07:27.000Z</updated>
+        <summary type="html"><![CDATA[Intro
 
 
+At FINN, we strongly believe in the principle of do it, do it, automate it. If you find yourself doing something manually twice, you should find a way to automate the process. This holds just as true when it comes to the precious details of invoices and financial document processing. Within the FINN Finance team, we’ve recently started using a platform called Rossum that helps us improve the automatic optical character recognition (OCR) of documents. But to understand why Rossum is so helpful, let’s first dive into the problems you’ll frequently run into with traditional OCR tools.
+Consider the sheer variety of invoices we receive on a daily basis:
 
-
-These are generally regarded as pros of the framework:
-Nearly zero configuration & No restrictive coding rules
-Small footprint
-Performance
-Easy to learn
-Great documentation
-No restrictive coding rules
-These are generally regarded as cons of the framework:
-No built-in ORM
-No built-in templating
-Doesn't utilize namespaces
-Doesn't utilize PHP's auto-loading feature
-Application code is tightly-coupled with the framework
-Official documentation
-Official Wiki
-CodeIgniter Wikipedia Article
-Source Code on GitHub
-Codeigniter forums
-Best Library
-Codeigniter .htaccess examples Github
-Download latest version 4.1.3]]></summary>
+In these invoice PDF snippets, the fields indicating the total amount due are very different from one another. Sometimes the currency …]]></summary>
         <author>
-            <name>Rakesh KR</name>
+            <name>Gazala</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[📦 Everything you need to know: package managers]]></title>
+        <id>https://dev.to/nodesecure/everything-you-need-to-know-package-managers-286c</id>
+        <link href="https://dev.to/nodesecure/everything-you-need-to-know-package-managers-286c"/>
+        <updated>2022-11-18T09:51:21.000Z</updated>
+        <summary type="html"><![CDATA[Welcome everyone! This article is the first one of the Everything you need to know, a Software Engineering series.
+In this series, I will try to give you a solid basic understanding about Software Engineering concepts I consider important.
+All modern computer systems include tools that automate the process of installing, uninstalling and updating software.
+This responsibility is that of a package manager and several can intervene within the same computer system.
+The majority of Unix-based operating systems embed a package manager as standard, providing a multitude of different packages very simply.
+If you have ever used a Linux distribution such as Ubuntu or Debian, you've probably used a package manager before. If I say apt-get update does that ring a bell?
+This command tells APT to updat…]]></summary>
+        <author>
+            <name>Antoine Coulon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Friday’s tech news live: All eyes on Twitter (again)]]></title>
+        <id>https://www.theverge.com/2022/11/18/23465940/november-18th-2022-tech-news-liveblog</id>
+        <link href="https://www.theverge.com/2022/11/18/23465940/november-18th-2022-tech-news-liveblog"/>
+        <updated>2022-11-18T09:06:35.000Z</updated>
+        <summary type="html"><![CDATA[Illustration by Kristen Radtke / The Verge; Getty Images
+    
+
+  
+It’s November 18th, 2022 and at least Mei’s back in Overwatch 2 
+Continue reading…]]></summary>
+        <author>
+            <name>The Verge -  All Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2022 亚马逊黑五：三星 SSD 硬盘专场]]></title>
+        <id>https://www.appinn.com/?p=43923</id>
+        <link href="https://www.appinn.com/2022-black-friday-samsung-ssd/"/>
+        <updated>2022-11-18T09:02:53.000Z</updated>
+        <summary type="html"><![CDATA[一年一度的黑色星期五将要在下周五到来，不过本周五亚马逊已经正式开启黑五促销，无套路无意外，大概率是一年之中的最低价，最佳购物时间。 亚马逊小哥先给青小蛙发来了三星硬盘专场的几个特价，看看有没有需要的吧]]></summary>
+        <author>
+            <name>青小蛙</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Create a Simple Maven Plugin]]></title>
+        <id>https://dev.to/struggzard/create-a-simple-maven-plugin-6gf</id>
+        <link href="https://dev.to/struggzard/create-a-simple-maven-plugin-6gf"/>
+        <updated>2022-11-18T08:21:35.000Z</updated>
+        <summary type="html"><![CDATA[Summary
+
+
+In this post I'll demonstrate how quickly a simple Maven plugin can be created.
+Normally in Maven project you do not need to create own plugins as there likely exists a plugin which covers common scenarios. However, there are edge cases or project specific needs where having own plugin would make sense.
+Installed Maven (I used 3.6.3)
+Java 11+ (for lower Java version sample POM needs to be adjusted)
+Your favorite text editor
+Every project starts from its name. The plugin naming convention is <yourplugin>-maven-plugin. In sample I'll use struggzard-maven-plugin.
+Create project directory struggzard-maven-plugin and add pom.xml file with content bellow:
+<project>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>dev.stuggzard.tutorial</groupId>
+    <artifactId>struggzard-maven-plu…]]></summary>
+        <author>
+            <name>struggzard</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Building a website directory with Next.js, Tailwind CSS, and Prisma]]></title>
+        <id>https://dev.to/krasun/building-a-website-directory-with-nextjs-tailwind-css-and-prisma-bj6</id>
+        <link href="https://dev.to/krasun/building-a-website-directory-with-nextjs-tailwind-css-and-prisma-bj6"/>
+        <updated>2022-11-18T08:00:13.000Z</updated>
+        <summary type="html"><![CDATA[I am seeking a good stack I can switch to for my new projects. So, I decided to try and evaluate Next.js, Tailwind CSS, and Prisma stack with a small project.
+Before I start, I must admit that I have zero experience or don't have experience at all with React, Tailwind CSS, and Prisma. I also don't feel that I am profound in JavaScript. And this is excellent news because you will see this stack through the lens of a newcomer, not a passionate fan of these technologies.
+I picked up Next.js for testing because it is popular and has good tooling around it. Yes, popularity is a good factor for me. I am tired of searching for solutions to infrequent bugs for the "underground" framework I chose in the past.
+I want to find one widespread stack with good developer experience that is performant and …]]></summary>
+        <author>
+            <name>Dmytro Krasun</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[My favorite Git tools]]></title>
+        <id>70319 at https://opensource.com</id>
+        <link href="https://opensource.com/article/22/11/git-tools"/>
+        <updated>2022-11-18T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[My favorite Git tools
+Dwayne McDaniel
+Fri, 11/18/2022 - 03:00
+
+            
+As with any other technology or skill, just reading about Git cannot make you proficient at it or make you an "advanced" user. Now it's time to dig into some of the tools in Git that I've found useful, and hopefully, that will help you use Git.
+Git reflog
+In my previous article, I wrote about Git history as a chain of commits, and that's a very good model for most purposes. However, Git actually remembers everything you do with Git, not just commits. You can see your entire recent history with git reflog.
+  
+Image by: 
+(Dwayne McDaniel, CC BY-SA 4.0)
+The log that reflog refers to is found in .git/logs, and it's called HEAD. Opening this file, you can quickly see all the actions taken recently. Inside .git/logs/HEAD…]]></summary>
+        <author>
+            <name>Dwayne McDaniel</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Get verified on Mastodon with your website]]></title>
+        <id>70316 at https://opensource.com</id>
+        <link href="https://opensource.com/article/22/11/verified-mastodon-website"/>
+        <updated>2022-11-18T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Get verified on Mastodon with your website
+Seth Kenlon
+Fri, 11/18/2022 - 03:00
+
+            
+If you're migrating away from Twitter, you might be looking for a way to ensure your followers that you are who you say you are. Ignoring debates of how anyone can be sure of anyone's true identity online, it's easy to verify yourself on Mastodon if you already have your own website. This requires a very basic understanding of HTML, so if you don't maintain your own website, then send this article to your web maintainer instead.
+1. Get your verification code
+Sign in to your Mastodon account and click the edit profile link under your Mastodon handle.
+  
+Image by: 
+(Seth Kenlon, CC BY-SA 4.0)
+In the Edit Profile screen that appears, scroll down to the Verification section. This section contains a spe…]]></summary>
+        <author>
+            <name>Seth Kenlon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Woofz — Must-have dog training app for all dog owners & owners-to-be]]></title>
+        <id>https://www.producthunt.com/posts/woofz</id>
+        <link href="https://www.producthunt.com/posts/woofz"/>
+        <updated>2022-11-18T07:53:13.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Flutter Failed To Compile Application With Flutter 1.22.3]]></title>
+        <id>https://dev.to/kuldeeptarapara/flutter-failed-to-compile-application-with-flutter-1223-2a17</id>
+        <link href="https://dev.to/kuldeeptarapara/flutter-failed-to-compile-application-with-flutter-1223-2a17"/>
+        <updated>2022-11-18T07:18:59.000Z</updated>
+        <summary type="html"><![CDATA[Are you unable to compile the Flutter application with Flutter 1.22.3? If yes, then here, this guide can let you know more. If you cannot compile the flutter application with Flutter 1.22.3, you have five unique solutions to eliminate such issues. 
+At first, you have to run the  flutter clean and flutter pub get
+Then rebuilt and sprung back the flutter into action
+First, launch the iOS application from the Runner.Workspace
+Rename the project name from Runner to Runner.ap
+Go to Runner(target app) > Build Phases > Run Script and then update the run script like mentioned below:
+/bin/sh "$FLUTTER_ROOT/packages/flutter_tools/bin/xcode_backend.sh" build
+The verify the Runner(target app) > Build Phases > This Binary contains the scripts like in XCode 11.4 Support by the highly skilled flutter tea…]]></summary>
+        <author>
+            <name>Kuldeep Tarapara</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What is Rest Api - A beginner's guide]]></title>
+        <id>https://dev.to/codestring/what-is-rest-api-a-beginners-guide-5ed7</id>
+        <link href="https://dev.to/codestring/what-is-rest-api-a-beginners-guide-5ed7"/>
+        <updated>2022-11-18T06:59:45.000Z</updated>
+        <summary type="html"><![CDATA[For many beginners in tech, REST is a foreign concept, sometimes, it's another buzzword in the layers of complex concepts to learn. As a non-computer science graduate myself, i had the same feeling when i was told to consume a REST api my team created in a hackathon.
+This is why in this article, I aim to explain REST in the simplest language possible.
+What REST Api is
+Why REST Api
+Principles of REST Api
+REST Api methods
+
+
+
+Let start by identifying what a REST Api is not.
+REST Api is not a protocol.
+REST Api is not a standard.
+Now, that's no longer in the way. What is a REST Api?
+Representational State Transfer. The REST architectural constraints can be implemented in different ways.
+
+
+
+As the saying goes, 
+Necessity is the mother of invention - Plato
+It's important that you understand the …]]></summary>
+        <author>
+            <name>Fatunbi David Oluwakayode</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[1Password Passkeys 将在 2023 年初开始支持无密码技术]]></title>
+        <id>https://www.appinn.com/?p=43920</id>
+        <link href="https://www.appinn.com/1password-passkeys-future/"/>
+        <updated>2022-11-18T06:53:46.000Z</updated>
+        <summary type="html"><![CDATA[1Password 在昨天发布了一个视频和 DEMO 页面，演示了将于 2023 年推出的无密码技术 1Password Passkeys 的外观和示例，为一个没有密码的世界做好准备。@Appinn]]></summary>
+        <author>
+            <name>青小蛙</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Mock an API in ONE minute]]></title>
+        <id>https://dev.to/ismailkamil/how-to-mock-an-api-in-one-minute-eip</id>
+        <link href="https://dev.to/ismailkamil/how-to-mock-an-api-in-one-minute-eip"/>
+        <updated>2022-11-18T06:45:23.000Z</updated>
+        <summary type="html"><![CDATA[Front-end developers usually meet this problem. The API is designed, but it's not been implemented yet. I need to make some fake data for my interface, which means I have to set up a mock server and add some response examples. If there are no response examples in the API documentation, I must make up some response data myself.
+Each time I do this, I think it's not what a front-end developer should do. 
+There should be a better way to accomplish this.
+I tried many tools. I used postman as a mock server, but all response data must be added manually. I tried faker.js, but I have to write mocking code for every field.
+In my expectation, an excellent mocking server should generate data itself. Developers should pay attention to real essential things.
+Great news: Now, you can mock an API in only…]]></summary>
+        <author>
+            <name>IsmailKamil</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[7-ES6++: Object Destruction]]></title>
+        <id>https://dev.to/hassanzohdy/7-es6-object-destruction-27eh</id>
+        <link href="https://dev.to/hassanzohdy/7-es6-object-destruction-27eh"/>
+        <updated>2022-11-18T05:40:41.000Z</updated>
+        <summary type="html"><![CDATA[Object Destruction
+
+
+Working with objects is essential in JavaScript. We use objects to store data, to pass data to functions, to return data from functions, and so on. In ES6 we have a new way to work with objects, which is called object destruction.
+Let's see an example:
+const person = {
+  name: "Hasan",
+  age: 30,
+  city: "Cairo",
+};
+
+const { name, age, city } = person;
+
+console.log(name); // Hasan
+
+Here we defined an object called person, that object contains three properties, name, age, and city. Then we used object destruction to get the values of those properties and store them in variables with the same names.
+We can also use object destruction to get the values of properties and store them in variables with different names.
+const person = {
+  name: "Hasan",
+  age: 30,
+  city: "Cai…]]></summary>
+        <author>
+            <name>Hasan Zohdy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Odd Circles — Start, grow and manage your community with ease]]></title>
+        <id>https://www.producthunt.com/posts/odd-circles</id>
+        <link href="https://www.producthunt.com/posts/odd-circles"/>
+        <updated>2022-11-18T03:56:31.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[内存对象搜索原理剖析]]></title>
+        <id>https://xz.aliyun.com/t/11857</id>
+        <link href="https://xz.aliyun.com/t/11857"/>
+        <updated>2022-11-18T03:33:00.000Z</updated>
+        <summary type="html"><![CDATA[内存对象搜索原理剖析]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Twitter’s living wake kicked off with Elon’s 5PM deadline]]></title>
+        <id>https://www.theverge.com/2022/11/17/23465659/rip-twitter-trending-elon-musk-ultimatum</id>
+        <link href="https://www.theverge.com/2022/11/17/23465659/rip-twitter-trending-elon-musk-ultimatum"/>
+        <updated>2022-11-18T03:31:00.000Z</updated>
+        <summary type="html"><![CDATA[We don’t know how many of Twitter’s employees looked at Elon Musk’s “take three months’ severance or agree to stay and get Xtreme” offer and decided to head for the exits, but by all available accounts, it was a lot of them. 
+As my colleagues Alex Heath and Mia Sato report, the departure of entire important teams leads people who know Twitter well to think that it’s only a matter of time until things break down. According to the New York Times, some “critical” employees were pulled into meetings with Musk and his advisors, who tried to persuade them to stay as the time ticked down.
+
+
+How do you make a small fortune in social media?
+Start out with a large one.
+— Elon Musk (@elonmusk) November 18, 2022
+
+
+
+
+So if this is the end of Twitter,...
+Continue reading…]]></summary>
+        <author>
+            <name>The Verge -  All Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何在 Linux 上安装 AWS 命令行工具]]></title>
+        <id>https://linux.cn/article-15265-1.html?utm_source=rss&amp;utm_medium=rss</id>
+        <link href="https://linux.cn/article-15265-1.html?utm_source=rss&amp;utm_medium=rss"/>
+        <updated>2022-11-18T03:30:31.000Z</updated>
+        <summary type="html"><![CDATA[本文讲述如何一步步在 Linux 上安装 AWS CLI（命令行工具）。
+
+
+AWS CLI 是一个能够和 AWS 账户进行交互的命令行程序。开发者和系统管理员用它管理日常的活动和自动化。
+
+准备环节
+
+
+安装好的 Linux 系统
+
+具有管理员权限的 sudo 账户
+
+能够联网
+
+
+现在让我们开始安装：
+
+1、下载安装文件
+
+打开终端使用 curl 命令下载 AWS CLI 的安装文件：
+
+$ curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+
+
+
+
+以上命令会在当前工作目录下载一个 awscliv2.zip 的文件。
+
+使用 ls 命令 确认当前下载下来的文件：
+
+$ ls -l awscliv2.zip
+-rw-rw-r-- 1 linuxtechi linuxtechi 47244662 Oct 20 10:53 awscliv2.zip
+$
+
+
+2、解压缩下载的文件
+
+使用 unzip 命令 解压安装包：
+
+$ unzip awscliv2.zip
+
+
+它会在当前目录创建一个 aws 文件夹，把解压好的文件放进去：
+
+$ ls -ld aws
+drwxr-xr-x 3 linuxtechi linuxtechi 4096 Oct 19 17:18 aws
+$
+
+
+3、运行安装脚本
+
+使用以下命令运行安装脚本：
+
+$ sudo ./aws/install
+
+
+
+
+脚本会把所有安装的文件放到 /usr/local/aws-cli 目录下，然后创建一个链接文件到 /usr/local/bin 目录。
+
+4、检查 AWS CLI 的版本
+
+运行以下脚本检查版本：
+
+$ aws --version
+aws-cli/2.8.4 Python/3.9.11 Linux/5.15.0-48-generic exe/x86_64.ubuntu.22 prompt/off
+$
+
+
+5、配置 AWS CLI
+
+为了验证 AWS CLI 是否安装正确，开始配置 AWS CLI：
+
+登录你的 AWS 管理控制台，取得 AWS 访问密钥 IDAccess Key ID 和 安全访问密钥Secret Access Key。
+
+如果还没完成创建，请先创建，并把它们复制到安全的地方。
+
+
+
+然后回到命令行，运行以下命令：
+
+$ aws configure
+AWS Access Key ID [None]: xxxxxxxxxxxxxxxxxxx
+AWS Secret Access Key [None]: xxxxxxxxxxxxxxxxxxx
+Default region name [None]: us-west-2
+Default output format [None]: json
+$
+
+
+以上的证书会被保存到这个文件：
+
+$ cat  ~/.aws/credentials
+
+
+上面的命令的输出：
+
+
+
+运行 aws 命令列出你账户中的 s3 储存和 VPC：
+
+$ aws s3 ls
+$ aws ec2 describe-vpcs
+
+
+输出如下：
+
+
+
+成功输出内容，说明你的 AWS CLI 已经配置完成。
+
+这就是这篇文章的全部内容，请在下面的评论区发表你的疑问和反馈。
+
+
+via: https://www.linuxtechi.com/how-to-install-aws-cli-on-linux/
+
+作者：Pradeep Kumar 选题：lkxed 译者：littlebirdnest 校对：wxy
+
+本文由 LCTT 原创编译，Linux中国 荣誉推出]]></summary>
+        <author>
+            <name>linux@linux.cn (linux)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Jeeves — Your butler for instant insights, cya csvs!]]></title>
+        <id>https://www.producthunt.com/posts/jeeves-2</id>
+        <link href="https://www.producthunt.com/posts/jeeves-2"/>
+        <updated>2022-11-18T02:22:07.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[在 Linux 上使用 Checksec 识别二进制文件的安全属性]]></title>
+        <id>https://linux.cn/article-15264-1.html?utm_source=rss&amp;utm_medium=rss</id>
+        <link href="https://linux.cn/article-15264-1.html?utm_source=rss&amp;utm_medium=rss"/>
+        <updated>2022-11-18T01:57:08.000Z</updated>
+        <summary type="html"><![CDATA[这篇文章能让你了解如何使用 Checksec ，来识别一个可执行文件的安全属性，了解安全属性的含义，并知道如何使用它们。
+
+
+
+
+编译源代码会生成一个二进制文件（LCTT 译注：即 .o 文件）。在编译期间，你可以向 gcc 编译器提供 标志flags，以启用或禁用二进制文件的某些属性，这些属性与安全性相关。
+
+Checksec 是一个漂亮的小工具，同时它也是一个 shell 脚本。Checksec 可以识别编译时构建到二进制文件中的安全属性。编译器可能会默认启用一些安全属性，你也可以提供特定的标志，来启用其他的安全属性。
+
+本文将介绍如何使用 Checksec ，来识别二进制文件的安全属性，包括：
+
+
+Checksec 在查找有关安全属性的信息时，使用了什么底层的命令
+
+在将源代码编译成二进制文件时，如何使用GNU 编译器套件GNU Compiler Collection（即 GCC）来启用安全属性。
+
+
+安装 checksec
+
+要在 Fedora 和其他基于 RPM 的 Linux 系统上，安装 Checksec，请使用以下命令：
+
+$ sudo dnf install checksec
+
+
+对于基于 Debian 的 Linux 发行版，使用对应的 apt 命令，来安装 Checksec。
+
+$ sudo apt install checksec
+
+
+shell 脚本
+
+在安装完 Checksec 后，能够发现 Checksec 是一个单文件的 shell 脚本，它位于 /usr/bin/checksec，并且这个文件挺大的。Checksec 的一个优点是你可以通过快速通读这个 shell 脚本，从而了解 Checksec 的执行原理、明白所有能查找有关二进制文件或可执行文件的安全属性的系统命令：
+
+$ file /usr/bi…]]></summary>
+        <author>
+            <name>linux@linux.cn (linux)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Here’s How Bad a Twitter Mega-Breach Would Be]]></title>
+        <id>637260a4d12193bd58db2501</id>
+        <link href="https://www.wired.com/story/twitter-mega-breach-what-if/"/>
+        <updated>2022-11-18T01:41:44.000Z</updated>
+        <summary type="html"><![CDATA[Elon Musk laid off half the staff, and mass resignations seem likely. If nobody’s there to protect the fort, what’s the worst that could happen?]]></summary>
+        <author>
+            <name>Lily Hay Newman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Here’s How Bad a Twitter Mega-Breach Would Be]]></title>
+        <id>637260a4d12193bd58db2501</id>
+        <link href="https://www.wired.com/story/twitter-mega-breach-what-if/"/>
+        <updated>2022-11-18T01:41:44.000Z</updated>
+        <summary type="html"><![CDATA[Elon Musk laid off half the staff, and mass resignations seem likely. If nobody’s there to protect the fort, what’s the worst that could happen?]]></summary>
+        <author>
+            <name>Lily Hay Newman</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Table stakes for Detection Engineering]]></title>
+        <id>https://dev.to/teachmetechy/table-stakes-for-detection-engineering-2ekh</id>
+        <link href="https://dev.to/teachmetechy/table-stakes-for-detection-engineering-2ekh"/>
+        <updated>2022-11-18T01:38:32.000Z</updated>
+        <summary type="html"><![CDATA[What is a rule, really?
+
+
+
+Alucard will not be sold any snake oil
+For as long as I have been in the security industry, there has been a concerted effort to sort through massive troves of data with powerful and mysterious tools called “rules”. It allows us mere mortals to take a million line logfile and separate each line into two buckets: interesting or not interesting, malicious or not malicious, vulnerable or not vulnerable. If you know what “bad” or “vulnerable” is, then you can codify it and let the computer do the sorting for you. 
+I cut my teeth in security research writing WAF rules for modsecurity and looking for interesting HTTP-based attacks on behalf of a customer base. I also launched the security detection and research team at startups that are now public. At my current gig, I…]]></summary>
+        <author>
+            <name>Zack Allen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Making Progress: How I've learned to move towards my goals]]></title>
+        <id>https://dev.to/chad_r_stewart/making-progress-how-ive-learned-to-move-towards-my-goals-2jnl</id>
+        <link href="https://dev.to/chad_r_stewart/making-progress-how-ive-learned-to-move-towards-my-goals-2jnl"/>
+        <updated>2022-11-18T01:11:56.000Z</updated>
+        <summary type="html"><![CDATA[Introduction
+
+
+Sometimes you have plans that you want to move towards, long term career goals, short term career goals but you can’t seem to make progress on them. I was definitely in that position for years honestly. It really took a lot of understanding my pitfalls and setbacks then having a lot of revelation moments to get to a point where I can consistently make progress. I don’t want to say my system is a magic bullet, in fact, my system likely won’t completely work for you. What I want to do here is talk about the insights I came across as I finally came to something that worked for me. Hopefully those insights and examples of me leveraging them will help you start to make progress consistently.
+So the key things I find useful are:
+Having a long-term goal, a vision of your perfect fu…]]></summary>
+        <author>
+            <name>Chad R. Stewart</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hundreds of employees say no to being part of Elon Musk’s ‘extremely hardcore’ Twitter]]></title>
+        <id>https://www.theverge.com/2022/11/17/23465274/hundreds-of-twitter-employees-resign-from-elon-musk-hardcore-deadline</id>
+        <link href="https://www.theverge.com/2022/11/17/23465274/hundreds-of-twitter-employees-resign-from-elon-musk-hardcore-deadline"/>
+        <updated>2022-11-17T23:53:01.000Z</updated>
+        <summary type="html"><![CDATA[Illustration: Jovana Mugosa / The Verge
+    
+
+
+  		 
+Musk gave Twitter staff a deadline to say if they are staying for his cultural reset of the company. And right on deadline, the farewell emojis started pouring into Twitter’s Slack.
+Continue reading…]]></summary>
+        <author>
+            <name>The Verge -  All Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Birth Control Database — A nonprofit doing the dirty work of birth control research]]></title>
+        <id>https://www.producthunt.com/posts/the-birth-control-database</id>
+        <link href="https://www.producthunt.com/posts/the-birth-control-database"/>
+        <updated>2022-11-17T23:33:45.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[inkdex — For your next tattoo]]></title>
+        <id>https://www.producthunt.com/posts/inkdex</id>
+        <link href="https://www.producthunt.com/posts/inkdex"/>
+        <updated>2022-11-17T23:32:29.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lost 8th century Japanese medical text by Buddhist monk has been found]]></title>
+        <id>https://arstechnica.com/?p=1898509</id>
+        <link href="https://arstechnica.com/?p=1898509"/>
+        <updated>2022-11-17T23:17:19.000Z</updated>
+        <summary type="html"><![CDATA[The surviving 766 prescriptions include recipes for soups, powders, pills, and ointments]]></summary>
+        <author>
+            <name>Jennifer Ouellette</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amazon’s CEO says more layoffs will happen in 2023]]></title>
+        <id>https://www.theverge.com/2022/11/17/23465169/amazon-layoffs-continuing-2023-ceo-andy-jassy</id>
+        <link href="https://www.theverge.com/2022/11/17/23465169/amazon-layoffs-continuing-2023-ceo-andy-jassy"/>
+        <updated>2022-11-17T22:32:50.000Z</updated>
+        <summary type="html"><![CDATA[Illustration by Alex Castro / The Verge
+    
+
+  
+Amazon will be cutting jobs again at some point in early 2023, CEO Andy Jassy informed employees in a memo on Thursday. The company publicly confirmed some layoffs on Wednesday, and Jassy says that as Amazon’s annual planning process extends into the new year, “there will be more role reductions as leaders continue to make adjustments.” 
+Jassy says the company hasn’t determined exactly how many additional roles will be cut but did state that there will be “reductions in our Stores and [People, Experience, and Technology] organizations.” Amazon will inform who will be impacted by the future cuts early next year. 
+In the Wednesday notice, devices and services SVP Dave Limp said that some staffers in the organization were being laid off,...
+Continue reading…]]></summary>
+        <author>
+            <name>The Verge -  All Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Meta keeps booting small business owners for being hacked on Facebook]]></title>
+        <id>https://arstechnica.com/?p=1898688</id>
+        <link href="https://arstechnica.com/?p=1898688"/>
+        <updated>2022-11-17T22:29:26.000Z</updated>
+        <summary type="html"><![CDATA[Sophisticated hack hits small business owners ahead of the holidays.]]></summary>
+        <author>
+            <name>Ashley Belanger</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Roku lays off 200 US employees]]></title>
+        <id>https://www.theverge.com/2022/11/17/23464849/roku-streaming-layoffs-200-employees-costs-advertising</id>
+        <link href="https://www.theverge.com/2022/11/17/23464849/roku-streaming-layoffs-200-employees-costs-advertising"/>
+        <updated>2022-11-17T21:57:46.000Z</updated>
+        <summary type="html"><![CDATA[Photo by Chris Welch / The Verge
+    
+
+  
+Roku has announced that it’s laying off 200 US employees, or around 7 percent of its workforce, according to Variety. According to the company’s statement, the cuts are meant to reduce its “headcount expenses” by around 5 percent as it tries to spend less on operations in the face of “current economic conditions” in the advertising and streaming industry.
+In some ways, the move isn’t necessarily surprising — several of Roku’s peers, such as Disney, Netflix, and Meta, have also announced layoffs in recent weeks and months. 
+However, cutting 200 jobs is a much harsher change than the company was predicting just over two weeks ago when it released its Q3 earnings report. Its shareholder letter does call attention to the fact that its staff...
+Continue reading…]]></summary>
+        <author>
+            <name>The Verge -  All Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Blockchain for Beginners Tutorial – Learn to Code Smart Contracts with JavaScript and Solidity]]></title>
+        <id>https://www.freecodecamp.org/news/introduction-to-blockchain/</id>
+        <link href="https://www.freecodecamp.org/news/introduction-to-blockchain/"/>
+        <updated>2022-11-17T21:42:46.000Z</updated>
+        <summary type="html"><![CDATA[The first time I tried to learn blockchain development, I felt overwhelmed.  This tutorial you're reading is what I wish I could send back in time to myself.  This will give you a strong foundation in blockchain development, and set you up for success in coding your own]]></summary>
+        <author>
+            <name>Njoku Samson Ebere</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Industry Books — Best books to learn about 40+ industries]]></title>
+        <id>https://www.producthunt.com/posts/industry-books</id>
+        <link href="https://www.producthunt.com/posts/industry-books"/>
+        <updated>2022-11-17T21:08:21.000Z</updated>
+        <summary type="html"><![CDATA[https://twitter.com/TrungTPhan/s...)
+
+We loved this list so much we decided to give it its own page.
+
+Why? Because we truly believe reading these books will give you a great mental map of how the modern world works (did you know there was a sand industry?? 🤯) I'm definitely planning on doing this myself.
+
+We hope you like it too 🙂
+
+P.S. All credit goes to Trung for curating it (seriously, go follow him on Twitter!)
+              ”
+              
+Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Create a Path-Finding Algorithm Visualizer with React]]></title>
+        <id>https://www.freecodecamp.org/news/path-finding-algorithm-visualizer-tutorial/</id>
+        <link href="https://www.freecodecamp.org/news/path-finding-algorithm-visualizer-tutorial/"/>
+        <updated>2022-11-17T21:07:02.000Z</updated>
+        <summary type="html"><![CDATA[Path-finding algorithms are algorithms used to find optimal path between two locations. These algorithms are widely used in map applications like Google Maps, for example. In this tutorial we will be building a path finding algorithm visualizer with React. It will support Breadth-First Search (BFS), Depth-First Search (DFS), adding walls,]]></summary>
+        <author>
+            <name>Houssein Badra</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Strange black hole merger may have been a rare random encounter]]></title>
+        <id>https://arstechnica.com/?p=1898648</id>
+        <link href="https://arstechnica.com/?p=1898648"/>
+        <updated>2022-11-17T21:00:50.000Z</updated>
+        <summary type="html"><![CDATA[Instead of an orbiting binary, two black holes may have met by chance.]]></summary>
+        <author>
+            <name>John Timmer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unlighthouse Online — A tool to scan your whole site with Google Lighthouse online]]></title>
+        <id>https://www.producthunt.com/posts/unlighthouse-online</id>
+        <link href="https://www.producthunt.com/posts/unlighthouse-online"/>
+        <updated>2022-11-17T20:50:47.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pokémon Scarlet and Violet deliver a fully open world beset by technical problems]]></title>
+        <id>https://arstechnica.com/?p=1897848</id>
+        <link href="https://arstechnica.com/?p=1897848"/>
+        <updated>2022-11-17T20:45:43.000Z</updated>
+        <summary type="html"><![CDATA[Choppy frame rates and animations distract from an entertaining entry.]]></summary>
+        <author>
+            <name>Andrew Cunningham</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Buddy Texts — Reply-to-buy texting]]></title>
+        <id>https://www.producthunt.com/posts/buddy-texts</id>
+        <link href="https://www.producthunt.com/posts/buddy-texts"/>
+        <updated>2022-11-17T20:29:08.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Posterity Automations — Get things done from the afterlife]]></title>
+        <id>https://www.producthunt.com/posts/posterity-automations</id>
+        <link href="https://www.producthunt.com/posts/posterity-automations"/>
+        <updated>2022-11-17T20:16:56.000Z</updated>
+        <summary type="html"><![CDATA[https://posterity.life/how/death...
+
+Automations currently integrates with IFTTT, allowing you to build your own custom actions from over 700+ services with hundreds of different possibilities. Check out our actions and queries there: https://ifttt.com/posterity
+
+Soon, we’ll be expanding this feature with support for webhooks, allowing anyone to trigger anything that can respond to a POST request. 
+
+We’re excited to hear what you think of the product, and to see what automations you come up with!
+              ”
+              
+Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Koo — Best Twitter alternative, world's second largest microblog]]></title>
+        <id>https://www.producthunt.com/posts/koo-3</id>
+        <link href="https://www.producthunt.com/posts/koo-3"/>
+        <updated>2022-11-17T19:44:10.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Waymo shows off its next truly driverless prototype car]]></title>
+        <id>https://arstechnica.com/?p=1898462</id>
+        <link href="https://arstechnica.com/?p=1898462"/>
+        <updated>2022-11-17T19:41:19.000Z</updated>
+        <summary type="html"><![CDATA[The Waymo and Geely collaboration features four sliding doors and no controls.]]></summary>
+        <author>
+            <name>Ron Amadeo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SpaceX faces labor charges after firing employees who criticized Elon Musk]]></title>
+        <id>https://arstechnica.com/?p=1898568</id>
+        <link href="https://arstechnica.com/?p=1898568"/>
+        <updated>2022-11-17T19:25:01.000Z</updated>
+        <summary type="html"><![CDATA[Employees wrote letter calling Musk a "source of distraction and embarrassment."]]></summary>
+        <author>
+            <name>Jon Brodkin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Study: AirPods Pro are this close to being full-fledged hearing aids]]></title>
+        <id>https://arstechnica.com/?p=1898461</id>
+        <link href="https://arstechnica.com/?p=1898461"/>
+        <updated>2022-11-17T18:41:37.000Z</updated>
+        <summary type="html"><![CDATA[Apple's social isolation sticks are useful for low to moderate hearing loss.]]></summary>
+        <author>
+            <name>Kevin Purdy</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Credos — Find out honest public opinion on any issue and share yours]]></title>
+        <id>https://www.producthunt.com/posts/credos</id>
+        <link href="https://www.producthunt.com/posts/credos"/>
+        <updated>2022-11-17T18:36:59.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Crack Passwords using John The Ripper – Pentesting Tutorial]]></title>
+        <id>https://www.freecodecamp.org/news/crack-passwords-using-john-the-ripper-pentesting-tutorial/</id>
+        <link href="https://www.freecodecamp.org/news/crack-passwords-using-john-the-ripper-pentesting-tutorial/"/>
+        <updated>2022-11-17T18:13:08.000Z</updated>
+        <summary type="html"><![CDATA[If you are a pen-tester, cracking passwords is something you will be doing on a daily basis. This can include login passwords, file passwords, and almost anything that is protected using a password. John the Ripper (JtR) is a popular password-cracking tool. John supports many encryption technologies for Windows and]]></summary>
+        <author>
+            <name>Manish Shivanandhan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Feds arrest Russians accused of running the largest pirated e-book library]]></title>
+        <id>https://arstechnica.com/?p=1898501</id>
+        <link href="https://arstechnica.com/?p=1898501"/>
+        <updated>2022-11-17T18:07:27.000Z</updated>
+        <summary type="html"><![CDATA[Textbook piracy platform Z-Library sunk by popular TikTok hashtag.]]></summary>
+        <author>
+            <name>Ashley Belanger</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Checkeden — Hospital management made easy]]></title>
+        <id>https://www.producthunt.com/posts/checkeden</id>
+        <link href="https://www.producthunt.com/posts/checkeden"/>
+        <updated>2022-11-17T17:56:11.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The next Toyota Prius has been revealed, and it’s even more efficient]]></title>
+        <id>https://arstechnica.com/?p=1898479</id>
+        <link href="https://arstechnica.com/?p=1898479"/>
+        <updated>2022-11-17T17:18:04.000Z</updated>
+        <summary type="html"><![CDATA[It's quicker and slightly more economical, but we're still waiting on pricing.]]></summary>
+        <author>
+            <name>Jonathan M. Gitlin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cable company’s accidental email to rival discusses plan to block competition]]></title>
+        <id>https://arstechnica.com/?p=1898440</id>
+        <link href="https://arstechnica.com/?p=1898440"/>
+        <updated>2022-11-17T17:12:54.000Z</updated>
+        <summary type="html"><![CDATA[Cable One: Fighting publicly funded rivals one of our "most important tasks."]]></summary>
+        <author>
+            <name>Jon Brodkin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Is Ubisoft thwarting cheaters with “100 versions” of Rainbow Six Siege?]]></title>
+        <id>https://arstechnica.com/?p=1898475</id>
+        <link href="https://arstechnica.com/?p=1898475"/>
+        <updated>2022-11-17T17:01:15.000Z</updated>
+        <summary type="html"><![CDATA[New versions "every two hours" could feature small, obfuscating code changes.]]></summary>
+        <author>
+            <name>Kyle Orland</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Doughnut — Community for freelancers]]></title>
+        <id>https://www.producthunt.com/posts/doughnut</id>
+        <link href="https://www.producthunt.com/posts/doughnut"/>
+        <updated>2022-11-17T17:00:27.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Basket — Save products from anywhere online and get price drop alerts]]></title>
+        <id>https://www.producthunt.com/posts/basket-5</id>
+        <link href="https://www.producthunt.com/posts/basket-5"/>
+        <updated>2022-11-17T16:58:13.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Python String Contains – Python 3 Substring Tutorial]]></title>
+        <id>https://www.freecodecamp.org/news/python-string-contains-python-3-substring-tutorial-2/</id>
+        <link href="https://www.freecodecamp.org/news/python-string-contains-python-3-substring-tutorial-2/"/>
+        <updated>2022-11-17T16:47:04.000Z</updated>
+        <summary type="html"><![CDATA[In this article, you will learn how to check if a string contains a substring in Python. Checking if a string contains a substring comes in handy when you have received user input and want your program to behave a certain way – or even when you want to replace]]></summary>
+        <author>
+            <name>Dionysia Lemonaki</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Simpleish — Remove Background from Images & Download]]></title>
+        <id>https://www.producthunt.com/posts/simpleish</id>
+        <link href="https://www.producthunt.com/posts/simpleish"/>
+        <updated>2022-11-17T16:29:40.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Data Analyst VS Data Scientist – What's the Difference?]]></title>
+        <id>https://www.freecodecamp.org/news/data-analyst-vs-data-scientist-whats-the-difference/</id>
+        <link href="https://www.freecodecamp.org/news/data-analyst-vs-data-scientist-whats-the-difference/"/>
+        <updated>2022-11-17T16:18:21.000Z</updated>
+        <summary type="html"><![CDATA[Data analyst and data scientist are two career paths in big data. And while they do have similarities, each requires different skills. The basic difference between the two is that a data scientist works to capture data while a data analyst tries to gain insights from that data. This article]]></summary>
+        <author>
+            <name>Kolade Chris</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Frank Green’s 3-in-1 Is the Only Cup You Need]]></title>
+        <id>63765a46fcaede4a988a47ff</id>
+        <link href="https://www.wired.com/story/frank-greens-3-in-1-is-the-only-cup-you-need/"/>
+        <updated>2022-11-17T16:02:11.000Z</updated>
+        <summary type="html"><![CDATA[Is this the ideal reusable cup? We think so. A clever lid, drinking straw, sensible size, and insulation make for a heady caffeine-fueled combo.]]></summary>
+        <author>
+            <name>Adam Speight</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Miro Teams Workspace — Your content always up to date on Miro]]></title>
+        <id>https://www.producthunt.com/posts/miro-teams-workspace</id>
+        <link href="https://www.producthunt.com/posts/miro-teams-workspace"/>
+        <updated>2022-11-17T16:00:38.000Z</updated>
+        <summary type="html"><![CDATA[https://miro-survey.typeform.com...
+              ”
+              
+Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[12 Best Black Friday Deals on Google Hardware (2022): Pixel 7, Pixel Watch, Nest Cam]]></title>
+        <id>636e224cab9086067e9f26ce</id>
+        <link href="https://www.wired.com/story/best-black-friday-google-device-deals-2022/"/>
+        <updated>2022-11-17T15:48:49.000Z</updated>
+        <summary type="html"><![CDATA[The sale has started early, and you can nab a brand-new Pixel 7 or Pixel Watch at a discount.]]></summary>
+        <author>
+            <name>Eric Ravenscraft</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FTX lacked “accurate list” of bank accounts, failed at basic bookkeeping]]></title>
+        <id>https://arstechnica.com/?p=1898451</id>
+        <link href="https://arstechnica.com/?p=1898451"/>
+        <updated>2022-11-17T15:32:40.000Z</updated>
+        <summary type="html"><![CDATA[Employee expenses were approved by posting emoji in Slack channels, DMs.]]></summary>
+        <author>
+            <name>Financial Times</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WordPress and Elementor Tutorial – How to Easily Create a Blog or Website]]></title>
+        <id>https://www.freecodecamp.org/news/easily-create-a-wordpress-blog-or-website/</id>
+        <link href="https://www.freecodecamp.org/news/easily-create-a-wordpress-blog-or-website/"/>
+        <updated>2022-11-17T15:31:07.000Z</updated>
+        <summary type="html"><![CDATA[WordPress is one of the most popular–and easiest–ways to create a website or blog. People can make all kinds of websites with WordPress. Some popular types include business websites, eCommerce sites, portfolios, and blogs. We just published a course on the freeCodeCamp.org YouTube channel that will teach you how to]]></summary>
+        <author>
+            <name>Beau Carnes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Twitter Bubble Let Democrats Defy Political Gravity]]></title>
+        <id>637647ed07aaf5e4eb27d0ac</id>
+        <link href="https://www.wired.com/story/election-twitter-midterms-trans-kids/"/>
+        <updated>2022-11-17T15:15:50.000Z</updated>
+        <summary type="html"><![CDATA[The midterm elections showed that the far-right's manufactured narrative about trans kids doomed the GOP when they made it policy.]]></summary>
+        <author>
+            <name>Katherine Cross</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BIKLING — The one and only Apple Watch bike mount]]></title>
+        <id>https://www.producthunt.com/posts/bikling</id>
+        <link href="https://www.producthunt.com/posts/bikling"/>
+        <updated>2022-11-17T15:04:11.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[dotte — A quick and easy way to buy and sell your kid's clothes]]></title>
+        <id>https://www.producthunt.com/posts/dotte</id>
+        <link href="https://www.producthunt.com/posts/dotte"/>
+        <updated>2022-11-17T15:03:50.000Z</updated>
+        <summary type="html"><![CDATA[https://lnkd.in/eZa9cych
+
+or on Android https://lnkd.in/e4-zVxcM
+
+Tell your friends, tell your network, share our shiny new app far and wide ❤️
+              ”
+              
+Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Air Purifiers, Dehumidifiers, and Air Quality Testers for Breathing Easier (2022)]]></title>
+        <id>60e488f6f7ad3fd19eba72f9</id>
+        <link href="https://www.wired.com/story/when-to-use-air-purifier-dehumidiers-humidifiers/"/>
+        <updated>2022-11-17T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Different climates and seasons call for different solutions. Here’s what you need to know about pollutants and particulates, and the gear that might help.]]></summary>
+        <author>
+            <name>Medea Giordano</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Yoodli — AI powered speech coach]]></title>
+        <id>https://www.producthunt.com/posts/yoodli</id>
+        <link href="https://www.producthunt.com/posts/yoodli"/>
+        <updated>2022-11-17T14:26:52.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why the Emoji Skin Tone You Choose Matters]]></title>
+        <id>636e9f884afa8ea305a9eb9d</id>
+        <link href="https://www.wired.com/story/why-the-emoji-skin-tone-you-choose-matters/"/>
+        <updated>2022-11-17T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[WIRED's spiritual advice columnist on whether to use the tone that most resembles your own—or to stick with the original Simpsons-esque color.]]></summary>
+        <author>
+            <name>Meghan O'Gieblyn</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Why the Emoji Skin Tone You Choose Matters]]></title>
+        <id>636e9f884afa8ea305a9eb9d</id>
+        <link href="https://www.wired.com/story/why-the-emoji-skin-tone-you-choose-matters/"/>
+        <updated>2022-11-17T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[WIRED's spiritual advice columnist on whether to use the tone that most resembles your own—or to stick with the original Simpsons-esque color.]]></summary>
+        <author>
+            <name>Meghan O'Gieblyn</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Shark FlexStyle Drying & Styling System Review: A Cheaper Dyson Alternative]]></title>
+        <id>63497771b81d4ee3991ffad1</id>
+        <link href="https://www.wired.com/review/shark-flexstyle-drying-and-styling-system/"/>
+        <updated>2022-11-17T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The FlexStyle is an all-in-one system that can curl, smooth, and dry your hair—for a much more palatable price.]]></summary>
+        <author>
+            <name>Medea Giordano</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What Happens If Twitter Gets Hacked?]]></title>
+        <id>637530cd4934747117c3498b</id>
+        <link href="https://www.wired.com/story/gadget-lab-podcast-575/"/>
+        <updated>2022-11-17T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This week, we discuss the implications Elon Musk’s takeover of Twitter—and his high-profile firings—could have for security and data privacy on the platform.]]></summary>
+        <author>
+            <name>WIRED Staff</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MailxTo V2 — Mailto short link generator]]></title>
+        <id>https://www.producthunt.com/posts/mailxto-v2</id>
+        <link href="https://www.producthunt.com/posts/mailxto-v2"/>
+        <updated>2022-11-17T12:39:11.000Z</updated>
+        <summary type="html"><![CDATA[https://mailxto.com/SmartFill
+
+✅ Customize the short link
+💡 Make the randomly generated BORING link ID into something that's readable.
+ℹ️ From  mailxto.com/5gldzf6w0h to mailxto.com/instant  😊
+
+✅ Link Click Analytics
+💡 Get Insightful data from your generated mailto link.
+
+✅ Multiple Recipients per single link and CC is now Supported
+💡 Add multiple Recipients and make sure everyone in your team gets the email sent from your clients. 
+
+✅ Modify the content of the link after generating 
+💡 Made a typo while generating the link? don't worry you can now update the contents after generating. 
+
+✅ Disable Enable Instant Redirect - Demo https://mailxto.com/Instant
+Disable Instant redirect so that your clients can choose mail clients to compose with like (Gmail, Yahoo, and outlook more to be added soon)
+              ”
+              
+Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Twitter’s Moderation System Is in Tatters]]></title>
+        <id>637589ac197cd825272582e3</id>
+        <link href="https://www.wired.com/story/twitters-moderation-system-is-in-tatters/"/>
+        <updated>2022-11-17T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Disinformation researchers have spent years asking Twitter to remove toxic and fake posts. After Elon Musk’s staff cuts, there’s hardly anyone to talk to.]]></summary>
+        <author>
+            <name>Vittoria Elliott, Chris Stokel-Walker</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Clean Your Keyboard]]></title>
+        <id>635b87b893ea9ed771dc5199</id>
+        <link href="https://www.wired.com/story/how-to-clean-your-keyboard/"/>
+        <updated>2022-11-17T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[With the right supplies and our trusty tips, your keypad will look good as new in no time.]]></summary>
+        <author>
+            <name>Simon Hill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[This Plastic Packaging Alternative Can Compost in a Year]]></title>
+        <id>637587474934747117c34995</id>
+        <link href="https://www.wired.com/story/wired-impact-shellworks-biodegradable-plastic/"/>
+        <updated>2022-11-17T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[British startup Shellworks is fed up with waste, so it created a vegan material that can be turned into fertilizer.]]></summary>
+        <author>
+            <name>Matt Burgess</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bureaucracy Is Blocking the Green Energy Revolution]]></title>
+        <id>63758a9e5bad9cf74491b038</id>
+        <link href="https://www.wired.com/story/wired-impact-green-energy-bureaucracy/"/>
+        <updated>2022-11-17T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Greg Jackson, CEO of Octopus Energy, tells WIRED Impact that red tape is causing “disastrous” delays to sustainable energy projects.]]></summary>
+        <author>
+            <name>Joel Khalili</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vectormaker — Convert images to SVG vectors, PNG-to-SVG]]></title>
+        <id>https://www.producthunt.com/posts/vectormaker</id>
+        <link href="https://www.producthunt.com/posts/vectormaker"/>
+        <updated>2022-11-17T11:42:32.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GreptimeDB — Open-source database for large-scale time-series data]]></title>
+        <id>https://www.producthunt.com/posts/greptimedb</id>
+        <link href="https://www.producthunt.com/posts/greptimedb"/>
+        <updated>2022-11-17T11:33:41.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[He3 App — Free and modern developer utilities toolbox]]></title>
+        <id>https://www.producthunt.com/posts/he3-app</id>
+        <link href="https://www.producthunt.com/posts/he3-app"/>
+        <updated>2022-11-17T11:32:20.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Subscription Force — Exponential growth of your WooCommerce subscriptions revenue]]></title>
+        <id>https://www.producthunt.com/posts/subscription-force</id>
+        <link href="https://www.producthunt.com/posts/subscription-force"/>
+        <updated>2022-11-17T11:06:16.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What AI-Generated Art Really Means for Human Creativity]]></title>
+        <id>63642ed083fe12d97101a106</id>
+        <link href="https://www.wired.com/story/picture-limitless-creativity-ai-image-generators/"/>
+        <updated>2022-11-17T11:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Artificial intelligence can now make better art than most humans. Soon, these engines of wow will transform how we design just about everything.]]></summary>
+        <author>
+            <name>Kevin Kelly</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PixelPatch — Solution to restore iOS14+ tracking on Facebook ads]]></title>
+        <id>https://www.producthunt.com/posts/pixelpatch</id>
+        <link href="https://www.producthunt.com/posts/pixelpatch"/>
+        <updated>2022-11-17T10:46:53.000Z</updated>
+        <summary type="html"><![CDATA[https://www.pixel-patch.com/
+
+If you have any question you can also write me here, I will be happy to answer.
+              ”
+              
+Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -65,9 +1313,9 @@ Download latest version 4.1.3]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Voltswagen's Star Trek Chair — A mobile office chair built for a Start Trek captain]]></title>
-        <id>https://www.producthunt.com/posts/voltswagen-s-star-trek-chair</id>
-        <link href="https://www.producthunt.com/posts/voltswagen-s-star-trek-chair"/>
+        <title type="html"><![CDATA[Volkswagen's Star Trek Chair — A mobile office chair built for a Start Trek captain]]></title>
+        <id>https://www.producthunt.com/posts/volkswagen-s-star-trek-chair</id>
+        <link href="https://www.producthunt.com/posts/volkswagen-s-star-trek-chair"/>
         <updated>2022-11-17T09:45:26.000Z</updated>
         <summary type="html"><![CDATA[Discussion
             |
@@ -77,7 +1325,22 @@ Download latest version 4.1.3]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[DataTable.dev — A grid library for instant big data processing.]]></title>
+        <title type="html"><![CDATA[MyAlice Live Chat — The all-in-one live chat]]></title>
+        <id>https://www.producthunt.com/posts/myalice-live-chat</id>
+        <link href="https://www.producthunt.com/posts/myalice-live-chat"/>
+        <updated>2022-11-17T09:33:06.000Z</updated>
+        <summary type="html"><![CDATA[growth@myalice.ai
+              ”
+              
+Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DataTable.dev — A grid library for instant big data processing]]></title>
         <id>https://www.producthunt.com/posts/datatable-dev</id>
         <link href="https://www.producthunt.com/posts/datatable-dev"/>
         <updated>2022-11-17T09:10:26.000Z</updated>
@@ -89,96 +1352,27 @@ Download latest version 4.1.3]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[What is Bcrypt. How to use it to hash passwords]]></title>
-        <id>https://dev.to/documatic/what-is-bcrypt-how-to-use-it-to-hash-passwords-5c0g</id>
-        <link href="https://dev.to/documatic/what-is-bcrypt-how-to-use-it-to-hash-passwords-5c0g"/>
-        <updated>2022-11-17T09:01:00.000Z</updated>
-        <summary type="html"><![CDATA[The bcrypt npm package is a JavaScript implementation of the bcrypt password hashing function that allows you to easily create a hash out of a password string. Unlike encryption which you can decode to get back the original password, hashing is a one-way function that can’t be reversed once done.
-When the user submits a password, the password will be hashed and your JavaScript application needs to store the hash in the database. Later when the user wants to authenticate his or her account, you need to compare the password input with the hash stored in your database to see if it matches.
-The bcrypt library makes the process easy by providing you with methods to hash and compare passwords.
-** To start using the library, you need to install it with your package manager: **
-npm install bcrypt
-…]]></summary>
+        <title type="html"><![CDATA[Google Fonts Auditor for Webflow — Find and replace embedded Google fonts for GDPR-compliance]]></title>
+        <id>https://www.producthunt.com/posts/google-fonts-auditor-for-webflow</id>
+        <link href="https://www.producthunt.com/posts/google-fonts-auditor-for-webflow"/>
+        <updated>2022-11-17T08:59:59.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
         <author>
-            <name>Shubham Sharma</name>
+            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Build a Chatbot Using Python, Django]]></title>
-        <id>https://dev.to/documatic/build-a-chatbot-using-python-django-46hb</id>
-        <link href="https://dev.to/documatic/build-a-chatbot-using-python-django-46hb"/>
-        <updated>2022-11-17T09:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A ChatBot has become one of the must-have features of modern-day web applications. It plays a huge role in customer service which was once traditionally held by human beings. Through ChatBot, you can automatically generate a response to a user’s input by making use of different machine-learning techniques.
-Note:- If you encounter any issues throughout the tutorial, you can check out the code in the GitHub repository.
-Prerequisite
-Project Configuration
-WebSockets Using Django Channels
-Tailwind CSS Configuration
-Frontend - Create a WebSocket Connection
-Enable a Channel Layer
-Backend - WebSocket Consumers
-ChatterBot - Generate Automated Response
-ChatterBot Training
-Offload Automated Response Generation to Celery
-Conclusion
-
-
-
-This guide assumes that you have intermediate-level Django knowledg…]]></summary>
+        <title type="html"><![CDATA[Typito Fitness Video Editor — Make fitness videos without breaking a sweat]]></title>
+        <id>https://www.producthunt.com/posts/typito-fitness-video-editor</id>
+        <link href="https://www.producthunt.com/posts/typito-fitness-video-editor"/>
+        <updated>2022-11-17T08:47:25.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
         <author>
-            <name>Hana Belay</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pokémon Violet and Scarlet are the vast open worlds the series has been building to]]></title>
-        <id>https://www.theverge.com/23462858/pokemon-violet-scarlet-review-nintendo-switch</id>
-        <link href="https://www.theverge.com/23462858/pokemon-violet-scarlet-review-nintendo-switch"/>
-        <updated>2022-11-17T09:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A trainer riding Koraidon, one of the new additions to Pokémon Violet and Scarlet. | Image: Nintendo
-    
-
-
-  		 
-The latest Pokémon release is a big, expansive adventure that also pushes the Nintendo Switch to its limits.  
-Continue reading…]]></summary>
-        <author>
-            <name>The Verge -  All Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Web Development JWT Practices]]></title>
-        <id>https://dev.to/baize1998/web-development-jwt-practices-59cn</id>
-        <link href="https://dev.to/baize1998/web-development-jwt-practices-59cn"/>
-        <updated>2022-11-17T08:42:15.000Z</updated>
-        <summary type="html"><![CDATA[Foreword
-
-
-The previous post briefly introduced a high-performance Go HTTP framework - Hertz. This article is based on a demo from the Hertz open-source repository. tree/main/bizdemo/hertz_jwt), which describes how to use Hertz to complete the JWT authentication and authorization process.
-It should be noted here that hertz-jwt is one of many external extensions to Hertz, it is forked from gin-jwt and adapted to Hertz.
-Hertz's rich extension ecosystem is a great convenience for developers and worth exploring beyond this article.
-
-Use hz to generate code
-Use JWT to complete login and authentication
-Use Gorm and MySQL
-
-
-
-
-  
-  
-  Download
-
-
-
-
-
-git clone https://github.com/cloudwego/hertz-examples.git
-cd bizdemo/hertz_jwt
-
-hertz_jwt
-├── Makefile # Generate hertz scaffolding code using the hz c…]]></summary>
-        <author>
-            <name>baize</name>
+            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -245,38 +1439,10 @@ $ ssh sk@192.168.225.22 'uname -a'
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Building recursive logic with Step Functions]]></title>
-        <id>https://dev.to/aws-builders/building-recursive-logic-with-step-functions-3hm5</id>
-        <link href="https://dev.to/aws-builders/building-recursive-logic-with-step-functions-3hm5"/>
-        <updated>2022-11-17T08:20:38.000Z</updated>
-        <summary type="html"><![CDATA[We can create serverless iteration solutions like pagination with Step Functions. This way, we won't face the Lambda functions' timeout limit and can process many items without interruptions.
-Bob just got the task to write a logic that backfills some fields in a 3rd party application. The solution should get secret agent data from the database, then transform and upload them to the 3rd party application.
-Bob decided to create a Lambda function to run the script. He allocated it a large memory and added the 15 minutes maximum timeout. We should address a restriction: the 3rd party API has a rate limit cap and can only accept two requests per second. Considering the number of agents Bob's company stores in the database, he believes 15 minutes should be enough for the migration to complete.
-B…]]></summary>
-        <author>
-            <name>Arpad Toth</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1000 Email Marketing Ideas — Monthly list of fun and effective ideas to inspire emails]]></title>
-        <id>https://www.producthunt.com/posts/1000-email-marketing-ideas</id>
-        <link href="https://www.producthunt.com/posts/1000-email-marketing-ideas"/>
-        <updated>2022-11-17T08:12:02.000Z</updated>
-        <summary type="html"><![CDATA[https://1000emailideas.com
-              ”
-              
-Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[rfrd — Personalized videos for an enhanced customer journey]]></title>
-        <id>https://www.producthunt.com/posts/rfrd</id>
-        <link href="https://www.producthunt.com/posts/rfrd"/>
-        <updated>2022-11-17T08:03:35.000Z</updated>
+        <title type="html"><![CDATA[Publer — Create, schedule & analyze all social posts on one platform]]></title>
+        <id>https://www.producthunt.com/posts/publer</id>
+        <link href="https://www.producthunt.com/posts/publer"/>
+        <updated>2022-11-17T08:18:54.000Z</updated>
         <summary type="html"><![CDATA[Discussion
             |
             Link]]></summary>
@@ -327,18 +1493,6 @@ The man page is functional, and it works well for what it does. However, man pag
         <summary type="html"><![CDATA[Evernote 宣布被来自意大利的开发商 Bending Spoons 收购，交易预计将于 2023 年初完成。@appinn Evernote 是著名且老牌的笔记工具，曾经估值高达 10 亿美元，]]></summary>
         <author>
             <name>青小蛙</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ahsuite Client Portals — Embed Anything in an Easy-to-Use Client Portal]]></title>
-        <id>https://www.producthunt.com/posts/ahsuite-client-portals</id>
-        <link href="https://www.producthunt.com/posts/ahsuite-client-portals"/>
-        <updated>2022-11-17T07:55:29.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -395,234 +1549,15 @@ Fedora Linux 获准 进行现代 C 语言的 移植工作，这些变化包�
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Is local a bad part in Perl?]]></title>
-        <id>https://dev.to/yukikimoto/is-local-a-bad-part-in-perl-ffg</id>
-        <link href="https://dev.to/yukikimoto/is-local-a-bad-part-in-perl-ffg"/>
-        <updated>2022-11-17T07:39:05.000Z</updated>
-        <summary type="html"><![CDATA[Q. Is local a bad part in Perl?
-
-
-A. In my opinion, Yes. local is a bad part in Perl. If I could re-implement Perl, I will not implement local.
-local $foo;
-
-A. This is because the variable that is the operand of local is a global variable although at a glance it looks like a local variable in C.
-int32_t foo;
-
-Using my in all Perl programs is recommended strongly.
-my $foo;
-
-This is called a lexical variable. This is strange name we don't usually hear in daily life.
-Q. I want to say No, but in some cases, local is used in current days. One is to save and restore predefined global variable.
-{
-  # Save
-  local @ARGV;
-}
-
-# Restore @ARGV at the end of the scope
-
-Tow is to get the whole content of a file.
-my $content = do { local $/; <$fh>; };
-
-Ugly, user experience is worse than other programing languages, but most efficient way because Perl doesn't have the function to get the whole content of a file.
-The efficient is sacrificed, the following code can be written.
-my $content = join('', <$fh>);
-
-Yes, using Scope::Guard.]]></summary>
-        <author>
-            <name>Yuki Kimoto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Improve Product Discoverability with New Walmart Item Spec v4.X]]></title>
-        <id>https://dev.to/themagentohumor/improve-product-discoverability-with-new-walmart-item-spec-v4x-1lfo</id>
-        <link href="https://dev.to/themagentohumor/improve-product-discoverability-with-new-walmart-item-spec-v4x-1lfo"/>
-        <updated>2022-11-17T07:34:40.000Z</updated>
-        <summary type="html"><![CDATA[Walmart will no longer entertain any item setup and maintenance requests via Item Spec 3.2 from 1st October 2022. This Walmart API update announcement came in 2021 for sellers using an API-based third-party Integration for selling on Walmart. But still, many sellers haven’t moved their product catalog to the new Walmart Item Spec v4.X!
-As per Walmart’s announcement, this new API will bring many benefits to your store, like improved inventory & order management, better product visibility & discoverability in search results, increased traffic, and much more. So, if you haven’t upgraded your product catalog yet, you are missing all these benefits plus any chance to earn a higher profit margin during the upcoming festive season sale. So, now is the best time to upgrade to the new Walmart Item …]]></summary>
-        <author>
-            <name>The Magento Humor Society</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Replicate the way Elon and Peter think — Mindset absorption smashed with AI and spaced repetition]]></title>
-        <id>https://www.producthunt.com/posts/replicate-the-way-elon-and-peter-think</id>
-        <link href="https://www.producthunt.com/posts/replicate-the-way-elon-and-peter-think"/>
+        <title type="html"><![CDATA[Absorb  the Mindset by Adstra — Mindset absorption smashed with AI and spaced repetition]]></title>
+        <id>https://www.producthunt.com/posts/absorb-the-mindset-by-adstra</id>
+        <link href="https://www.producthunt.com/posts/absorb-the-mindset-by-adstra"/>
         <updated>2022-11-17T07:24:51.000Z</updated>
         <summary type="html"><![CDATA[Discussion
             |
             Link]]></summary>
         <author>
             <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[One of the ways to use Context API]]></title>
-        <id>https://dev.to/giorgiparunov/one-of-the-ways-to-use-context-api-65f</id>
-        <link href="https://dev.to/giorgiparunov/one-of-the-ways-to-use-context-api-65f"/>
-        <updated>2022-11-17T06:44:32.000Z</updated>
-        <summary type="html"><![CDATA[As you know a lot of developers replaced redux with react context feature. So I want to show you how I am using it in my products.
-We will create a Todo list using context API (based on typescript). 
-I will use bootstrap for design._
-
-Final view of our code.
-At first, we must create our context in the contexts folder.
-TodoContext.ts
-import { createContext } from "react";
-
-export interface ITodo {
-    name: string;
-    completed: boolean;
-}
-
-interface ITodoContext {
-    data: ITodo[];
-    updateData: Function;
-}
-
-export const TodoContext = createContext<ITodoContext>({
-    data: [],
-    updateData: (data: ITodo[]) => {
-        throw new Error('updateData not implemented')
-    }
-})
-
-Here we can see that we are creating an interface for todo items, and also for todo context.
-My context has tw…]]></summary>
-        <author>
-            <name>Giorgi Parunov</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kore.ai Experience Optimization Platform — Build powerful bots to automate support and engage leads]]></title>
-        <id>https://www.producthunt.com/posts/kore-ai-experience-optimization-platform</id>
-        <link href="https://www.producthunt.com/posts/kore-ai-experience-optimization-platform"/>
-        <updated>2022-11-17T06:34:32.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PHP Monolith to Microservices Using the Strangler Pattern]]></title>
-        <id>https://dev.to/mkurzeja/php-monolith-to-microservices-using-the-strangler-pattern-14g4</id>
-        <link href="https://dev.to/mkurzeja/php-monolith-to-microservices-using-the-strangler-pattern-14g4"/>
-        <updated>2022-11-17T06:33:43.000Z</updated>
-        <summary type="html"><![CDATA[Dealing with the legacy system can be a real pain, both for developers and for business owners. It comes with a handful of consequences: longer time-to-market, difficult-to-debug issues, performance problems, and higher development effort - just to name a couple of them.
-Sticking to a monolithic architecture might also be one of the "legacy" issues to have. It usually hits bigger companies, where the development is split between multiple teams.
-Let's quickly imagine a legacy monolithic application that was built when the company was smaller, and then extended rapidly as the company grew. Now developed by four teams that need to share the same codebase. As always (in legacy systems), there is spaghetti code, and the modules are tightly coupled. The overall software architecture is rather po…]]></summary>
-        <author>
-            <name>Michał Kurzeja</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MerLoc - Debug Lambdas with real data — Switch where your Lambda runs like you switch lanes!]]></title>
-        <id>https://www.producthunt.com/posts/merloc-debug-lambdas-with-real-data</id>
-        <link href="https://www.producthunt.com/posts/merloc-debug-lambdas-with-real-data"/>
-        <updated>2022-11-17T06:23:46.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Web3 Dubai MetaMask Workshop]]></title>
-        <id>https://dev.to/httpjunkie/web3-dubai-metamask-workshop-4afh</id>
-        <link href="https://dev.to/httpjunkie/web3-dubai-metamask-workshop-4afh"/>
-        <updated>2022-11-17T06:17:18.000Z</updated>
-        <summary type="html"><![CDATA[Web3 Dubai MetaMask Workshop (Follow Along)
-
-
-Workshop GitHub Repo
-NodeJS & NPM
-Code Editor
-Git & GitHub account 
-MetaMask Extension Installed
-Knowledge of JavaScript, TypeScript and React (is a plus)
-Eagerness to learn NextJS, Solidity smart contracts, Truffle and Ganache
-
-
-
-
-npm i truffle ganache -g
-
-Welcome to the Web3 Dubai Metamask Workshop, to get started, please clone the workshop repo on your machine and checkout the start branch:
-git clone https://github.com/metamask/web3-dubai-mm-workshop && 
-cd web3-dubai-mm-workshop && 
-git checkout start && npm i
-
-With our repo cloned and our dependencies installed we should take minute to discuss our choices for the decisions and architecture of this web3 project.
-A mono repo using Turbo 
-
-
-Incremental bundler/build system optimized for mono …]]></summary>
-        <author>
-            <name>Eric Bishard</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Answer.dev v0.3.0 released!]]></title>
-        <id>https://dev.to/answerdev/answerdev-v030-released-4cff</id>
-        <link href="https://dev.to/answerdev/answerdev-v030-released-4cff"/>
-        <updated>2022-11-17T06:00:54.000Z</updated>
-        <summary type="html"><![CDATA[Thanks to our contributors! Answer.dev 0.3.0 has already been released, which contains some bug fixes, optimizations, and improvements. Let's together see more details.
-Added timezone and locale support
-Added Administrator dashboard
-Added version check feature that keeps your Answer always updated
-Added installation guide; now you can install Answer with just one click!
-Improved search support for the Administrator
-User interface language does not meet expectations #75
-
-Dashboard will remind you how to configure SMTP  #64 #44 
-Fix bug for problem search #71 
-Fix bug for delete problem #68 
-Change upload directory
-#77 
-Answer is still under very active development. Watch on GitHub to receive updates.
-Being highly scalable and modern, Answer.dev is an open-source knowledge-based community software with which you can efficiently build various Q&A communities, ranging from customer support to user communication. 
-For more information on past and future versions of Answer.dev, please see: https://github.com/answerdev/answer]]></summary>
-        <author>
-            <name>Answer.dev</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A glance at Turbopack]]></title>
-        <id>https://dev.to/dailydevtips1/a-glance-at-turbopack-epd</id>
-        <link href="https://dev.to/dailydevtips1/a-glance-at-turbopack-epd"/>
-        <updated>2022-11-17T05:58:40.000Z</updated>
-        <summary type="html"><![CDATA[Turbopack got announced with the release of Next 13, and is deemed to become the successor of Webpack.
-If you're currently using Webpack for bundling, you might know the struggles of long first boots and generic slow bundling.
-But bundling certainly could happen faster, so the creators of Webpack, Vercel, and Next came together and introduced us to Turbpack.
-At the time of writing, it's still in the alpha phase, so not ready for production, but a perfect time to explore it.
-Turbopack can already be used with Next 13; in the future, you can also migrate your non-Next projects to it.
-To test out Turbopack, you can start an example code with the following command.
-npx create-next-app --example with-turbopack
-
-Now run the dev server by running:
-npm run dev
-
-Your startup and update time should …]]></summary>
-        <author>
-            <name>Chris Bongers</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Blizzard will suspend World of Warcraft in China over licensing dispute]]></title>
-        <id>https://www.theverge.com/2022/11/17/23463818/blizzard-netease-china-hearthstone-diablo-world-of-warcraft-unavailable</id>
-        <link href="https://www.theverge.com/2022/11/17/23463818/blizzard-netease-china-hearthstone-diablo-world-of-warcraft-unavailable"/>
-        <updated>2022-11-17T05:15:25.000Z</updated>
-        <summary type="html"><![CDATA[Blizzard
-    
-
-  
-Blizzard will suspend games in China because it can’t reach an agreement with its licensing and publishing partner NetEase, it said in a press release. World of Warcraft, Hearthstone, Overwatch 2, Starcraft, Heroes of the Storm, Diablo III, and Warcraft III: Reforged won’t be available in China after January 23, 2023.
-Blizzard will suspend the sale of games and offer guidance to Chinese players “in the coming days,” according to the press release, which did not offer a specific timeline. Development of Diablo Immortal is in a separate agreement and will continue, NetEase said in a statement. Upcoming releases, including the latest World of Warcraft expansion, Dragonflight, and the second season of Overwatch 2, “will proceed later this...
-Continue reading…]]></summary>
-        <author>
-            <name>The Verge -  All Posts</name>
         </author>
     </entry>
     <entry>
@@ -633,78 +1568,6 @@ Continue reading…]]></summary>
         <summary type="html"><![CDATA[本文来自发现频道，作者：@L_hiil，原文链接：https://meta.appinn.net/t/topic/38094 Fluent Search 是 Windows 下一款有着高颜值且可以自定]]></summary>
         <author>
             <name>青小蛙</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SavvyCal Time Zone API — Never have to debug time zone insanity again]]></title>
-        <id>https://www.producthunt.com/posts/savvycal-time-zone-api</id>
-        <link href="https://www.producthunt.com/posts/savvycal-time-zone-api"/>
-        <updated>2022-11-17T03:31:51.000Z</updated>
-        <summary type="html"><![CDATA[selling your by-products was penned by @jasonfried:
-
-“The software and web industry can learn a lot from the lumber industry, the oil business, and corn and soybean farmers. Lumber was originally cut for boards for building. Oil was originally drilled for fuel. Corn and soybeans were originally farmed for food. But today these industries have figured out how to use the waste to make even more products.”
-
-When we took a look around our codebase, we realized we were sitting on some pretty useful sawdust!
-
-This project came to life when we set out to build a time zone selector for SavvyCal that humans could actually use (a pretty important thing for a scheduling app!)
-
-It turns out, deduplicating and sourcing reasonable names for the 595 worldwide time zones is a lot trickier than it might seem!
-
-We’ve spent hundreds of hours aggregating, normalizing, and organizing all the ridiculous time zone nuances. For example: Nepal runs on GMT+5¾, Hawaii and Arizona ignore Daylight Savings Time, and UTC+12 and UTC–12 are the same time zone… with a different date.
-
-Use the SavvyCal Time Zone API to fetch everything you need to incorporate time zone elements in your app, such as human-friendly names, abbreviations, UTC offsets, and exemplar cities. Query the API right from your JavaScript front-end (using a public API token), or from your backend — wherever you need to use the data!
-
-Check out the documentation and let me know what you think.
-              ”
-              
-Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WayAway — Find cheap flights and get cashback on all your travel deals]]></title>
-        <id>https://www.producthunt.com/posts/wayaway</id>
-        <link href="https://www.producthunt.com/posts/wayaway"/>
-        <updated>2022-11-17T03:26:15.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Only the iPhone 15 Pro will get a speed upgrade with USB-C, says analyst]]></title>
-        <id>https://www.theverge.com/2022/11/16/23463612/iphone-15-pro-usb-c-high-speed-rumors-quo-2023</id>
-        <link href="https://www.theverge.com/2022/11/16/23463612/iphone-15-pro-usb-c-high-speed-rumors-quo-2023"/>
-        <updated>2022-11-17T02:44:51.000Z</updated>
-        <summary type="html"><![CDATA[A longstanding criticism of the pro phones is that it takes forever to get data off of them. | Photo by Amelia Holowaty Krales / The Verge
-    
-
-  
-The iPhone 15 Pro models are in line for a massive upgrade to their wired transfer speeds with the switch to USB-C, according to noted analyst Ming-Chi Kuo. Unfortunately, he doesn’t believe that benefit is coming to the regular 2023 iPhones. He predicts that the 15 and 15 Plus will also swap in USB-C ports but, just like the 2022 10th-gen iPad, they’ll be stuck with the same USB 2.0 speeds they had with Lighting. 
-Kuo made the prediction in a series of tweets on Wednesday and says the information is from his “latest survey.” (The analyst is known for getting information from supply chain sources.) He specified by predicting that the “15 Pro & 15 Pro Max will support at least USB 3.2 or Thunderbolt 3.” If that’s true, that’d mean they...
-Continue reading…]]></summary>
-        <author>
-            <name>The Verge -  All Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Qualcomm has a new chip brand]]></title>
-        <id>https://www.theverge.com/2022/11/16/23463632/qualcomm-has-a-new-chip-brand</id>
-        <link href="https://www.theverge.com/2022/11/16/23463632/qualcomm-has-a-new-chip-brand"/>
-        <updated>2022-11-17T02:39:02.000Z</updated>
-        <summary type="html"><![CDATA[Qualcomm has announced a new subbrand of CPUs for its Snapdragon family of products, called Oryon. The new CPU will be released in 2023 and available to manufacturers to use in devices such as Windows PCs, smartphones, and other applications. The company announced the new CPU at its Snapdragon Summit on Wednesday, but provided few details about what it entails.
-The company has made Snapdragon-branded chips for Windows and Chrome OS computers for a few years now but has had slow traction getting them into many Windows devices. The few ultraportable computers that have used Qualcomm’s Arm chips have been niche, premium devices that appeal to a specific subset of PC buyers, but not the broader market.
-Image: Qualcomm
-     ...
-  
-Continue reading…]]></summary>
-        <author>
-            <name>The Verge -  All Posts</name>
         </author>
     </entry>
     <entry>
@@ -743,22 +1606,6 @@ $ sudo apt install python3.10-venv
 接下来，在你的电脑上 安装 Codium。在 Linux 上，你可以下载一个包…]]></summary>
         <author>
             <name>linux@linux.cn (linux)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apple makes iCloud.com look like an iPad’s homescreen]]></title>
-        <id>https://www.theverge.com/2022/11/16/23463422/apple-icloud-website-redesign-update</id>
-        <link href="https://www.theverge.com/2022/11/16/23463422/apple-icloud-website-redesign-update"/>
-        <updated>2022-11-17T01:45:01.000Z</updated>
-        <summary type="html"><![CDATA[It’s a very new look for Apple’s online portal to your documents, pictures, and more.
-    
-
-  
-Apple has updated iCloud.com to make the site look and feel significantly more modern, adding widget-like tiles that show you information from photos, notes, mail, and more (via MacRumors). It’s a big change from the previous version of the site, which basically just showed a handful of icons that acted as links to web apps, and should be a welcome upgrade for anyone who has to regularly access their iCloud data from a browser rather than an app running on an iPhone or Mac.
-With the new design, which was available to beta testers last month, you can customize your iCloud.com homepage, adding tiles that can show your most recent photos, emails, documents, calendar events, notes, and more. Like with most iOS widgets, though, you’ll still...
-Continue reading…]]></summary>
-        <author>
-            <name>The Verge -  All Posts</name>
         </author>
     </entry>
     <entry>
@@ -830,18 +1677,6 @@ $ sudo dnf groupinstall 'Dev…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Standerd Figma UI Kit — Standerd is a simple Figma design system.]]></title>
-        <id>https://www.producthunt.com/posts/standerd-figma-ui-kit</id>
-        <link href="https://www.producthunt.com/posts/standerd-figma-ui-kit"/>
-        <updated>2022-11-17T01:12:11.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Record number of parents miss work as respiratory illnesses spike in kids]]></title>
         <id>https://arstechnica.com/?p=1898421</id>
         <link href="https://arstechnica.com/?p=1898421"/>
@@ -852,65 +1687,13 @@ $ sudo dnf groupinstall 'Dev…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Random Picker — Deciding 'who goes next' made a little easier.]]></title>
-        <id>https://www.producthunt.com/posts/random-picker</id>
-        <link href="https://www.producthunt.com/posts/random-picker"/>
-        <updated>2022-11-16T23:16:40.000Z</updated>
-        <summary type="html"><![CDATA[https://chrome.google.com/websto...
-
-Demo: 
-
-Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Blast Mic (by Blast Radio) — A professional radio broadcast studio in your hand.]]></title>
-        <id>https://www.producthunt.com/posts/blast-mic-by-blast-radio</id>
-        <link href="https://www.producthunt.com/posts/blast-mic-by-blast-radio"/>
-        <updated>2022-11-16T22:59:01.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[New test shows loose RTX 4090 power connectors cause overheating and melting]]></title>
         <id>https://arstechnica.com/?p=1898349</id>
         <link href="https://arstechnica.com/?p=1898349"/>
         <updated>2022-11-16T22:50:03.000Z</updated>
-        <summary type="html"><![CDATA[Failure is rare, but can be caused by any kind of 12VHPWR cable or adapter.]]></summary>
+        <summary type="html"><![CDATA[Failure is rare but can be caused by any kind of 12VHPWR cable or adapter.]]></summary>
         <author>
             <name>Andrew Cunningham</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MARBLE — A business dashboard + Link-in-bio for content creators.]]></title>
-        <id>https://www.producthunt.com/posts/marble-5</id>
-        <link href="https://www.producthunt.com/posts/marble-5"/>
-        <updated>2022-11-16T22:40:06.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Coolors  — Super fast color schemes generator for cool designers]]></title>
-        <id>https://www.producthunt.com/posts/coolors-4</id>
-        <link href="https://www.producthunt.com/posts/coolors-4"/>
-        <updated>2022-11-16T22:37:28.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -921,30 +1704,6 @@ Discussion
         <summary type="html"><![CDATA[AI supercomputer will use "tens of thousands" of Nvidia A100 and H100 GPUs.]]></summary>
         <author>
             <name>Benj Edwards</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Stake Social - World Cup Predictor — Challenge your friends to be the Last Man Standing ⚽]]></title>
-        <id>https://www.producthunt.com/posts/stake-social-world-cup-predictor</id>
-        <link href="https://www.producthunt.com/posts/stake-social-world-cup-predictor"/>
-        <updated>2022-11-16T22:10:48.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Brand API — The ultimate API to retrieve any company's brand assets]]></title>
-        <id>https://www.producthunt.com/posts/brand-api</id>
-        <link href="https://www.producthunt.com/posts/brand-api"/>
-        <updated>2022-11-16T21:23:03.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -968,7 +1727,7 @@ Discussion
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[LiveAlerts Shopify App — iOS Inspired Popups to Collect Email + SMS contacts]]></title>
+        <title type="html"><![CDATA[LiveAlerts Shopify App — iOS inspired popups to collect email + SMS contacts]]></title>
         <id>https://www.producthunt.com/posts/livealerts-shopify-app</id>
         <link href="https://www.producthunt.com/posts/livealerts-shopify-app"/>
         <updated>2022-11-16T19:28:30.000Z</updated>
@@ -990,7 +1749,7 @@ Discussion
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Producter — Product Management Tool for customer-centric SaaS startups]]></title>
+        <title type="html"><![CDATA[Producter — Product management tool for customer-centric SaaS startups]]></title>
         <id>https://www.producthunt.com/posts/producter-2</id>
         <link href="https://www.producthunt.com/posts/producter-2"/>
         <updated>2022-11-16T18:58:19.000Z</updated>
@@ -1051,18 +1810,6 @@ Discussion
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Cabinet — Find great apps and games hand-picked by Android specialists]]></title>
-        <id>https://www.producthunt.com/posts/cabinet</id>
-        <link href="https://www.producthunt.com/posts/cabinet"/>
-        <updated>2022-11-16T18:31:05.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[EcommChecklist Notion Template — Create eCommerce conversion roadmap using drag & drop system]]></title>
         <id>https://www.producthunt.com/posts/ecommchecklist-notion-template</id>
         <link href="https://www.producthunt.com/posts/ecommchecklist-notion-template"/>
@@ -1075,19 +1822,7 @@ Discussion
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Fowl Language by Duolingo — Cheer on or insult teams in other languages]]></title>
-        <id>https://www.producthunt.com/posts/fowl-language-by-duolingo</id>
-        <link href="https://www.producthunt.com/posts/fowl-language-by-duolingo"/>
-        <updated>2022-11-16T17:49:28.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Lab-Grown Meat Startup Gets the FDA’s Stamp of Approval]]></title>
+        <title type="html"><![CDATA[A Lab-Grown-Meat Startup Gets the FDA’s Stamp of Approval]]></title>
         <id>637520f6d0a7e54d87737b2b</id>
         <link href="https://www.wired.com/story/lab-grown-meat-approval/"/>
         <updated>2022-11-16T17:46:05.000Z</updated>
@@ -1097,22 +1832,10 @@ Discussion
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Tool Finder by No Code Founders — Easily find the right no-code tool(s) for your project]]></title>
+        <title type="html"><![CDATA[Tool Finder by No Code Founders — Easily find the right no-code tools for your project]]></title>
         <id>https://www.producthunt.com/posts/tool-finder-by-no-code-founders</id>
         <link href="https://www.producthunt.com/posts/tool-finder-by-no-code-founders"/>
         <updated>2022-11-16T17:25:07.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DropForm — Build interactive forms, give NFT rewards, get 3x responses!]]></title>
-        <id>https://www.producthunt.com/posts/dropform-2</id>
-        <link href="https://www.producthunt.com/posts/dropform-2"/>
-        <updated>2022-11-16T17:24:32.000Z</updated>
         <summary type="html"><![CDATA[Discussion
             |
             Link]]></summary>
@@ -1131,26 +1854,6 @@ Discussion
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Measles outbreak jumps to 7 Ohio daycares, 1 school—all with unvaccinated kids]]></title>
-        <id>https://arstechnica.com/?p=1898258</id>
-        <link href="https://arstechnica.com/?p=1898258"/>
-        <updated>2022-11-16T17:13:02.000Z</updated>
-        <summary type="html"><![CDATA[The highly contagious virus is spreading amid slipping vaccination rates.]]></summary>
-        <author>
-            <name>Beth Mole</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Razer doubles its latest Blade laptop’s USB speeds with a firmware update]]></title>
-        <id>https://arstechnica.com/?p=1898209</id>
-        <link href="https://arstechnica.com/?p=1898209"/>
-        <updated>2022-11-16T17:03:08.000Z</updated>
-        <summary type="html"><![CDATA[New update lights up functionality present in all of AMD's Ryzen 6000 CPUs.]]></summary>
-        <author>
-            <name>Andrew Cunningham</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How to Build a Modern Documentation Site with VitePress]]></title>
         <id>https://www.freecodecamp.org/news/how-to-build-a-modern-documentation-site-with-vitepress/</id>
         <link href="https://www.freecodecamp.org/news/how-to-build-a-modern-documentation-site-with-vitepress/"/>
@@ -1161,110 +1864,10 @@ Discussion
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How the PS5’s DualSense controller is failing disabled players]]></title>
-        <id>https://arstechnica.com/?p=1898244</id>
-        <link href="https://arstechnica.com/?p=1898244"/>
-        <updated>2022-11-16T16:55:52.000Z</updated>
-        <summary type="html"><![CDATA[Two years after PS5 launch, Sony doesn't offer accessible-control alternatives.]]></summary>
-        <author>
-            <name>Ars Staff</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[State of Bitcoin — Track and learn about Bitcoin with widgets]]></title>
-        <id>https://www.producthunt.com/posts/state-of-bitcoin</id>
-        <link href="https://www.producthunt.com/posts/state-of-bitcoin"/>
-        <updated>2022-11-16T15:56:14.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Alloy Sports — Create winning sports betting systems in seconds]]></title>
-        <id>https://www.producthunt.com/posts/alloy-sports</id>
-        <link href="https://www.producthunt.com/posts/alloy-sports"/>
-        <updated>2022-11-16T15:53:12.000Z</updated>
-        <summary type="html"><![CDATA[Brad@alloysports.com
-
-We are currently operational in the United States, Canada, Europe, Israel, India, Australia, and New Zealand, and we plan to launch in more countries as we grow.
-
-📲 Sign up and Download the app here!
-              ”
-              
-Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Laser-driven fusion’s internal energies not matching up with predictions]]></title>
-        <id>https://arstechnica.com/?p=1898219</id>
-        <link href="https://arstechnica.com/?p=1898219"/>
-        <updated>2022-11-16T15:42:19.000Z</updated>
-        <summary type="html"><![CDATA[There's a change in behavior when the plasma starts burning, and nobody knows why.]]></summary>
-        <author>
-            <name>John Timmer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Nastix Design — Free browser-based application for quick design of clothes]]></title>
-        <id>https://www.producthunt.com/posts/nastix-design</id>
-        <link href="https://www.producthunt.com/posts/nastix-design"/>
-        <updated>2022-11-16T15:31:43.000Z</updated>
-        <summary type="html"><![CDATA[https://nastix-design.com/) where there is a minimum of design, and the main task is to fold the product details like a puzzle and choose a fabric.
-
-Since the application is free and browser-based, it is available to everyone without any additional installations.
-
-The set of parts and templates that I uploaded to the applications may only partially coincide with the assortment of the enterprise. So I added a new feature. Its essence is that you can prepare an archive with your own templates. And then upload it to the application while working with it. And then you can assemble the product both from my default parts and your own.
-
-At the same time, I did not give the opportunity to save them in the application, so as not to take responsibility for the safety of storing other people's designs. This is less convenient for the client, but he can be calm that his ideas will not be stolen.
-
-But the target audience is not only sales managers of garment factories.
-
-I realized that the site is convenient in the educational process.
-
-Teachers often have to show mock-ups of products. Of course, this can be done using pre-prepared pictures. But with the help of my application, he is free to change the look of the product - add a pocket, change the fabric, and so on. The same can be achieved with the help of respected graphic editors, but there such operations will take much more time.
-              ”
-              
-Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AdScale: Facebook Ads, Google Ads & SMS — Run first-party data ads on Google Ads, Facebook Ads & SMS]]></title>
-        <id>https://www.producthunt.com/posts/adscale-facebook-ads-google-ads-sms</id>
-        <link href="https://www.producthunt.com/posts/adscale-facebook-ads-google-ads-sms"/>
-        <updated>2022-11-16T15:22:41.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[City birds are changing their tune]]></title>
-        <id>https://arstechnica.com/?p=1898208</id>
-        <link href="https://arstechnica.com/?p=1898208"/>
-        <updated>2022-11-16T15:14:34.000Z</updated>
-        <summary type="html"><![CDATA[Many urban-dwelling birds have modified their songs in response to human-generated noise.]]></summary>
-        <author>
-            <name>Knowable Magazine</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[bagel — Web3-Native communication app for using NFTs]]></title>
-        <id>https://www.producthunt.com/posts/bagel-2</id>
-        <link href="https://www.producthunt.com/posts/bagel-2"/>
-        <updated>2022-11-16T15:03:57.000Z</updated>
+        <title type="html"><![CDATA[Lodgify App — Manage your vacation rental from your smartphone]]></title>
+        <id>https://www.producthunt.com/posts/lodgify-app</id>
+        <link href="https://www.producthunt.com/posts/lodgify-app"/>
+        <updated>2022-11-16T15:31:03.000Z</updated>
         <summary type="html"><![CDATA[Discussion
             |
             Link]]></summary>
@@ -1293,21 +1896,41 @@ Discussion
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Musk tells Twitter staff: Agree to work “long hours at high intensity” or quit now]]></title>
-        <id>https://arstechnica.com/?p=1898200</id>
-        <link href="https://arstechnica.com/?p=1898200"/>
-        <updated>2022-11-16T14:50:42.000Z</updated>
-        <summary type="html"><![CDATA[Musk's all-staff email: "Click yes on the link below" to keep your job.]]></summary>
-        <author>
-            <name>Jon Brodkin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tusmo — A daily and multiplayer word game]]></title>
-        <id>https://www.producthunt.com/posts/tusmo</id>
-        <link href="https://www.producthunt.com/posts/tusmo"/>
-        <updated>2022-11-16T14:26:57.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
+        <title type="html"><![CDATA[getimg.ai — Magical AI art tools]]></title>
+        <id>https://www.producthunt.com/posts/getimg-ai</id>
+        <link href="https://www.producthunt.com/posts/getimg-ai"/>
+        <updated>2022-11-16T14:12:28.000Z</updated>
+        <summary type="html"><![CDATA[getimg.ai, which started as a simple website to generate images with text input. During that time, thanks to fantastic community feedback, it has become a suite of 3 unique AI art tools (with more to come):
+
+
+🪄 AI Editor
+
+A graphics-like editor based on an infinite canvas putting different AI models together in one interface. An advanced and professional tool that can be used for:
+👉🏻 Outpainting → expanding pictures beyond their original borders
+👉🏻 Inpainting → erasing part of an image and filling it with new objects based on a given text
+👉🏻 Text to image → generating images with just text
+👉🏻 Image to image → modifying the style of an image
+👉🏻 Find & Replace → replacing parts of an image using only text, e.g., replace "t-shirt." with a "suit."
+👉🏻 Face enhancement → improving the quality of generated faces
+
+
+📝 Text to Image
+
+Simple interface for generating images with just text. Great start for AI art beginners that offers more advanced users the possibility to play with a set of generation guiding parameters.
+
+
+🖼️ Image to Image
+
+A tool for modifying existing images or generating their variations with text prompts. Best for changing the style of the picture, e.g., "make this image look like van Gogh painting."
+
+______
+
+Let me know what you think! All feedback is appreciated and helpful in shaping the future of getimg.ai!
+
+PS: Get 20% OFF for 3 months of any plan using the code: PH20 (valid until Saturday)
+              ”
+              
+Discussion
             |
             Link]]></summary>
         <author>
@@ -1335,27 +1958,13 @@ Discussion
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[AweMyFace — AI skincare app and your guide on the way to the glow skin]]></title>
-        <id>https://www.producthunt.com/posts/awemyface</id>
-        <link href="https://www.producthunt.com/posts/awemyface"/>
-        <updated>2022-11-16T13:39:52.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
+        <title type="html"><![CDATA[React - Best Practices]]></title>
+        <id>https://dev.to/iambilalriaz/react-best-practices-ege</id>
+        <link href="https://dev.to/iambilalriaz/react-best-practices-ege"/>
+        <updated>2022-11-16T13:14:05.000Z</updated>
+        <summary type="html"><![CDATA[#react #webdev #javascript #beginners]]></summary>
         <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Blarb 2.0 — Ephemeral microblogging for unfiltered sharing.]]></title>
-        <id>https://www.producthunt.com/posts/blarb-2-0</id>
-        <link href="https://www.producthunt.com/posts/blarb-2-0"/>
-        <updated>2022-11-16T13:34:48.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
+            <name>Hafiz Muhammad Bilal</name>
         </author>
     </entry>
     <entry>
@@ -1376,40 +1985,6 @@ Discussion
         <summary type="html"><![CDATA[Interested in trying the social network everyone's flocking to? Here's what you need to know to find your way around and build community.]]></summary>
         <author>
             <name>Justin Pot</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Product Coach — Meet on-demand with proven product experts.]]></title>
-        <id>https://www.producthunt.com/posts/product-coach</id>
-        <link href="https://www.producthunt.com/posts/product-coach"/>
-        <updated>2022-11-16T12:19:07.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Juisci — Freshly squeezed science]]></title>
-        <id>https://www.producthunt.com/posts/juisci</id>
-        <link href="https://www.producthunt.com/posts/juisci"/>
-        <updated>2022-11-16T12:18:53.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ISP deploys fiber service with a wrinkle—the users themselves own each network]]></title>
-        <id>https://arstechnica.com/?p=1896595</id>
-        <link href="https://arstechnica.com/?p=1896595"/>
-        <updated>2022-11-16T12:00:01.000Z</updated>
-        <summary type="html"><![CDATA[Despite costly Silicon Valley project, CEO says this isn't just for wealthy areas.]]></summary>
-        <author>
-            <name>Jon Brodkin</name>
         </author>
     </entry>
     <entry>
@@ -1443,34 +2018,10 @@ Discussion
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[PLAYΞRS: living 3D avatars  — Kick off the 2022 World Cup in the metaverse with PLAYΞRS]]></title>
-        <id>https://www.producthunt.com/posts/play-rs-living-3d-avatars</id>
-        <link href="https://www.producthunt.com/posts/play-rs-living-3d-avatars"/>
-        <updated>2022-11-16T10:56:36.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Quizwiz.io — Ready-to-use quiz decks for your next social event]]></title>
-        <id>https://www.producthunt.com/posts/quizwiz-io</id>
-        <link href="https://www.producthunt.com/posts/quizwiz-io"/>
-        <updated>2022-11-16T10:45:10.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Tweep — Distinguish b/w Twitter Blue & Verified Users]]></title>
-        <id>https://www.producthunt.com/posts/tweep</id>
-        <link href="https://www.producthunt.com/posts/tweep"/>
-        <updated>2022-11-16T10:37:29.000Z</updated>
+        <title type="html"><![CDATA[LogoCereal Jobs — Discover your dream job from companies across the globe.]]></title>
+        <id>https://www.producthunt.com/posts/logocereal-jobs</id>
+        <link href="https://www.producthunt.com/posts/logocereal-jobs"/>
+        <updated>2022-11-16T11:19:01.000Z</updated>
         <summary type="html"><![CDATA[Discussion
             |
             Link]]></summary>
@@ -1489,10 +2040,18 @@ Windows 系统仅对多屏用户提供了简单主显示器的设置，默认情
 
 这时微软自家的 Power Toys 里的 FancyZones 就可以派上用场了，除了我们熟知的窗口布局设置外，它还可以调整窗口行为，在这里我们可以通过启用「将新创建的窗口移动到当前 活动的监视器（实验性）」来达到这一效果，美中不足的是动画不够优雅。
 
+窗口出现的问题解决了，但任务栏上默认是显示所有屏幕上的窗口，不能让我们快速区分哪些应用是在当前屏幕下的。
+
+为了解决该问题，如下图所示，Windows 提供了简陋的选项加让人摸不着头脑的翻译。设置后，每个屏幕下的任务栏就只显示当前屏幕下打开的窗口，更符合直觉，不过 Win + 数字 的快捷键就只能在主显示器上使用了。
+
 内容显示优化
 现在 Windows 下大部分的应用都适配高 DPI 的，少部分不支持的，也可以通过 Windows 自带的属性 - 兼容性选项来调整。
 
-但对于我们网上冲浪必备的浏览器，它的缩放是固定的，且只有一个设置选项。不知道有没有人跟我一样两个屏幕的缩放比例是不一样的，在两个屏幕间移动浏览器时，网页内容并不会根据 DPI 而变化，导致观感割裂。在这里我推荐一个 FireFox 浏览器插件：ffreszoom，它可以实时感知屏幕宽度的变化，当宽度超过指定值时，自动调整到指定缩放比例。设置前先通过这个网站查看自己的屏幕宽度：http://whatismyscreenresolution.net/，需要将 Firefox 浏览器移动到不同显示器上刷新。
+上面的设置仅解决了单个应用在高分辨率屏幕下的问题，并不能解决应用在分辨率相差太大的显示器间移动时会出现界面变形问题。这时，如果你使用的 AMD 显卡，那你可以通过启用 AMD Radeon Software 里的「超虚拟分辨率」来让低分辨率屏切换到更高的逻辑分辨率，不仅缩小的多屏间的分辨率差距，还有抗锯齿的效果。由于个人没有使用 Nvidia 和 Intel 显卡，相关选项是否存在请自行到显卡设置里翻找。
+
+设置完成后到 Windows 设置调整下逻辑分辨率和缩放即可。
+
+除此之外，对于我们网上冲浪必备的浏览器，它的缩放是固定的，且只有一个设置选项。不知道有没有人跟我一样两个屏幕的缩放比例是不一样的，在两个屏幕间移动浏览器时，网页内容并不会根据 DPI 而变化，导致观感割裂。在这里我推荐一个 FireFox 浏览器插件：ffreszoom，它可以实时感知屏幕宽度的变化，当宽度超过指定值时，自动调整到指定缩放比例。设置前先通过这个网站查看自己的屏幕宽度：http://whatismyscreenresolution.net/，需要将 Firefox 浏览器移动到不同显示器上刷新。
 
 如图所示我的外屏宽度是 1728 px，笔记本内屏为 1024，所以我在两者之间随意取了一个值用于判断，若当前屏幕宽度超过 1600 px，就自动设置缩放为 1.5，也即 150%。若小于 1600 px，则使用浏览器设置里的值。两种缩放无缝切换，只会多了一个缩放的动画。由于本人没使用 Chromium 类浏览器，并没有对应的插件推荐，不过其用户这么多，应该会有类似的插件。
 
@@ -1558,13 +2117,26 @@ Windows 系统仅对多屏用户提供了简单主显示器的设置，默认情
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[NASA gets its mojo back with a stunning nighttime launch of the SLS rocket]]></title>
-        <id>https://arstechnica.com/?p=1898017</id>
-        <link href="https://arstechnica.com/?p=1898017"/>
-        <updated>2022-11-16T08:33:59.000Z</updated>
-        <summary type="html"><![CDATA[The US space agency had not launched an orbital rocket since 2011.]]></summary>
+        <title type="html"><![CDATA[Natively — Publish any website to App Store/Google Play without coding]]></title>
+        <id>https://www.producthunt.com/posts/natively-2</id>
+        <link href="https://www.producthunt.com/posts/natively-2"/>
+        <updated>2022-11-16T08:46:39.000Z</updated>
+        <summary type="html"><![CDATA[@roman_furman.
+Today, we are incredibly proud to launch Natively here on Product Hunt. 
+
+📲WHAT EXACTLY CAN NATIVELY DO?
+
+Natively is a no-code development tool that helps you create mobile applications in a few minutes. It wraps(converts) your website/web app to the native mobile app by adding it to the WebView.
+
+You can easily access mobile native features with our SDK & Plugins and continue updating your website without re-submitting it to AppStore/GooglePlay.
+
+🚀WHY NATIVELY IS FAST AND EASY
+
+You can build a mobile app yourself just in 5-10 minutes. No coding skills are required. A fully automated flow with clear steps minimizes potential developer mistakes.
+Natively works with any website. 
+We have excellent documentation, helpful support, and a friendly Slack community to help each o…]]></summary>
         <author>
-            <name>Eric Berger</name>
+            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -1662,6 +2234,18 @@ Second, you need to anticipate how …]]></summary>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Friday Go — The best 1st search result]]></title>
+        <id>https://www.producthunt.com/posts/friday-go</id>
+        <link href="https://www.producthunt.com/posts/friday-go"/>
+        <updated>2022-11-16T06:57:00.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[如何上好一堂线上课？这是我的实践与思考]]></title>
         <id>https://sspai.com/post/76839</id>
         <link href="https://sspai.com/post/76839"/>
@@ -1747,6 +2331,22 @@ PicGo 对于剪贴板图片一直是采用脚本的方式获取的，同时不�
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Lumos Health — Lumos finds the health insurance plan that's right for you]]></title>
+        <id>https://www.producthunt.com/posts/lumos-health</id>
+        <link href="https://www.producthunt.com/posts/lumos-health"/>
+        <updated>2022-11-16T02:33:15.000Z</updated>
+        <summary type="html"><![CDATA[About Us
+My name is Moonish and I co-created Lumos Health (Lumos) with my friend, Esteban. We are both data-nerds, economists, and big on personal finance. We created Lumos to help people save money and bring more transparency to the US health insurance industry.
+
+Problem Statement
+When we both quit our corporate jobs earlier this year and became self-employed, we had to pick our own health insurance using healthcare.gov and only then  realized how difficult it was to pick the right plan, especially from a financial perspective.
+
+After more research, we realized that most Americans ( insurance brokers included) struggle to make the right financial choice, overpaying by an estimated ~$400-$1,250 annually. Picking the right plan assumes you know how much you’ll pay in both premiums AND out-o…]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Fedora Linux 37 发布]]></title>
         <id>https://linux.cn/article-15258-1.html?utm_source=rss&amp;utm_medium=rss</id>
         <link href="https://linux.cn/article-15258-1.html?utm_source=rss&amp;utm_medium=rss"/>
@@ -1770,18 +2370,6 @@ Fedora Workstation 专注于桌面体验。像往常一样，Fedora Workstation 
 在这个版本中，我们做了一些改变，让你的安装变得更精简。我们把 Firefox 浏览器的语言包分成了子包。这意味着如果你不需要本地化，你可以删除 firefo…]]></summary>
         <author>
             <name>linux@linux.cn (linux)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Wobo — Build & share interactive workbooks for online learning]]></title>
-        <id>https://www.producthunt.com/posts/wobo</id>
-        <link href="https://www.producthunt.com/posts/wobo"/>
-        <updated>2022-11-16T01:50:43.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -1899,36 +2487,6 @@ via: https://news.itsfoss.com/linux-mint-update-manager/
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The Snapdragon 8 Gen 2 brings Wi-Fi 7, sticks with some 32-bit support]]></title>
-        <id>https://arstechnica.com/?p=1897640</id>
-        <link href="https://arstechnica.com/?p=1897640"/>
-        <updated>2022-11-15T23:00:49.000Z</updated>
-        <summary type="html"><![CDATA[Features 32-bit support, Wi-Fi 7, the AV1 codec, and hardware ray tracing.]]></summary>
-        <author>
-            <name>Ron Amadeo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hobbyist adds a hinge to the Game Boy Pocket, delighting everyone]]></title>
-        <id>https://arstechnica.com/?p=1898074</id>
-        <link href="https://arstechnica.com/?p=1898074"/>
-        <updated>2022-11-15T22:24:43.000Z</updated>
-        <summary type="html"><![CDATA[No, it's not a Game Boy Advance SP. This is the monochrome Pocket with hinge.]]></summary>
-        <author>
-            <name>Benj Edwards</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Study: Ötzi the Iceman probably thawed and refroze several times]]></title>
-        <id>https://arstechnica.com/?p=1897727</id>
-        <link href="https://arstechnica.com/?p=1897727"/>
-        <updated>2022-11-15T22:13:22.000Z</updated>
-        <summary type="html"><![CDATA[This would increase the odds of finding another prehistoric human body in melting ice.]]></summary>
-        <author>
-            <name>Jennifer Ouellette</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How to Provision a Home Lab with Oracle Cloud and Ansible]]></title>
         <id>https://www.freecodecamp.org/news/provision-home-lab-with-oracle-cloud-and-ansible/</id>
         <link href="https://www.freecodecamp.org/news/provision-home-lab-with-oracle-cloud-and-ansible/"/>
@@ -1939,13 +2497,15 @@ via: https://news.itsfoss.com/linux-mint-update-manager/
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Right-wing doctor group led by anti-vaccine insurrectionist implodes in scandal]]></title>
-        <id>https://arstechnica.com/?p=1898062</id>
-        <link href="https://arstechnica.com/?p=1898062"/>
-        <updated>2022-11-15T21:24:22.000Z</updated>
-        <summary type="html"><![CDATA[Simone Gold used charity funds to buy $3.6M house, group leaders claim.]]></summary>
+        <title type="html"><![CDATA[Email Warmup by Boxward — Get more cold emails opened, get more sales, automatically]]></title>
+        <id>https://www.producthunt.com/posts/email-warmup-by-boxward</id>
+        <link href="https://www.producthunt.com/posts/email-warmup-by-boxward"/>
+        <updated>2022-11-15T21:30:53.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
         <author>
-            <name>Beth Mole</name>
+            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -1959,7 +2519,7 @@ via: https://news.itsfoss.com/linux-mint-update-manager/
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[ConvertKit Pack for Coda — Manage and grow your ConvertKit audience from Coda.]]></title>
+        <title type="html"><![CDATA[ConvertKit Pack for Coda — Manage and grow your ConvertKit audience from Coda]]></title>
         <id>https://www.producthunt.com/posts/convertkit-pack-for-coda</id>
         <link href="https://www.producthunt.com/posts/convertkit-pack-for-coda"/>
         <updated>2022-11-15T18:53:40.000Z</updated>
@@ -1968,95 +2528,6 @@ via: https://news.itsfoss.com/linux-mint-update-manager/
             Link]]></summary>
         <author>
             <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Bunny Studio ONE — Unify your content creation needs.]]></title>
-        <id>https://www.producthunt.com/posts/bunny-studio-one</id>
-        <link href="https://www.producthunt.com/posts/bunny-studio-one"/>
-        <updated>2022-11-15T16:54:40.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Add ESLint to an Angular Application]]></title>
-        <id>https://www.freecodecamp.org/news/how-to-add-eslint-to-an-angular-application/</id>
-        <link href="https://www.freecodecamp.org/news/how-to-add-eslint-to-an-angular-application/"/>
-        <updated>2022-11-15T16:39:58.000Z</updated>
-        <summary type="html"><![CDATA[In this article, we'll build a web application using the latest version of  Angular [https://angular.io/]. Then we'll add ESLint [https://eslint.org/] which analyzes the JavaScript code statically to find any problems. Prerequisites Before you start, you need to install and configure the tools below (if you don't already have them]]></summary>
-        <author>
-            <name>Rodrigo Kamada</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What is Stratified Random Sampling? Definition and Python Example]]></title>
-        <id>https://www.freecodecamp.org/news/what-is-stratified-random-sampling-definition-and-python-example/</id>
-        <link href="https://www.freecodecamp.org/news/what-is-stratified-random-sampling-definition-and-python-example/"/>
-        <updated>2022-11-15T16:33:52.000Z</updated>
-        <summary type="html"><![CDATA[When we wish to conduct an experiment on a population – for example, the entire population of a country – it is not always practical or realistic to include every subject (citizen) in the experiment.  Instead, we rely on a sample, which is a subset of the population, and]]></summary>
-        <author>
-            <name>Ibrahim Abayomi Ogunbiyi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Malloc VPN: Privacy & Security — Enjoy privacy and spyware protection at the same time.]]></title>
-        <id>https://www.producthunt.com/posts/malloc-vpn-privacy-security</id>
-        <link href="https://www.producthunt.com/posts/malloc-vpn-privacy-security"/>
-        <updated>2022-11-15T16:09:25.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[YepCode Recipes — JavaScript snippets to connect any service, database or API]]></title>
-        <id>https://www.producthunt.com/posts/yepcode-recipes</id>
-        <link href="https://www.producthunt.com/posts/yepcode-recipes"/>
-        <updated>2022-11-15T16:02:58.000Z</updated>
-        <summary type="html"><![CDATA[https://yepcode.io/book-a-demo/)
-
-We would love to hear feedback from the PH community about our product ❤️. If you have any questions, feel free to post them here and we'll be happy to answer them.
-
-Some other useful links:
-* 👩‍🎓 Docs platform: https://docs.yepcode.io/
-* ❓ FAQs: https://yepcode.io/faqs/
-* 📅 Book a demo: https://yepcode.io/book-a-demo/
-* 🙋‍♂️ Create your FREE account: https://cloud.yepcode.io/
-
-Thanks a lot 🙏  and happy coding 🧑‍💻
-              ”
-              
-Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cannot use import statement outside a module [React TypeScript Error Solved]]]></title>
-        <id>https://www.freecodecamp.org/news/cannot-use-import-statement-outside-a-module-react-typescript-error-solved/</id>
-        <link href="https://www.freecodecamp.org/news/cannot-use-import-statement-outside-a-module-react-typescript-error-solved/"/>
-        <updated>2022-11-15T15:30:56.000Z</updated>
-        <summary type="html"><![CDATA[When building a web application, you may encounter the SyntaxError: Cannot use import statement outside a module error.  This error might be raised when using either JavaScript or TypeScript in the back-end. So you could be working on the client side with React, Vue, and so on, and still]]></summary>
-        <author>
-            <name>Ihechikara Vincent Abba</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Manage State in React]]></title>
-        <id>https://www.freecodecamp.org/news/how-to-manage-state-in-react/</id>
-        <link href="https://www.freecodecamp.org/news/how-to-manage-state-in-react/"/>
-        <updated>2022-11-15T15:17:14.000Z</updated>
-        <summary type="html"><![CDATA[React state management is a process for managing the data that React components need in order to render themselves. This data is typically stored in the component's state object. When the state object changes, the component will re-render itself. React state management is basically half of a React app. It]]></summary>
-        <author>
-            <name>Beau Carnes</name>
         </author>
     </entry>
     <entry>
@@ -2100,18 +2571,6 @@ Discussion
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Talent Ferret — Revolutionising the future of creative talent discovery.]]></title>
-        <id>https://www.producthunt.com/posts/talent-ferret</id>
-        <link href="https://www.producthunt.com/posts/talent-ferret"/>
-        <updated>2022-11-15T13:54:01.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[How a Translation App Helped My Mother and Me Say ‘I Love You’]]></title>
         <id>633f48cbbcdcb5ab4377293e</id>
         <link href="https://www.wired.com/story/how-translation-app-helped-me-say-i-love-you-my-mother/"/>
@@ -2129,6 +2588,18 @@ Discussion
         <summary type="html"><![CDATA[If you hate your TV interface but love your iPhone, this is probably the device for you.]]></summary>
         <author>
             <name>Parker Hall</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[App.io — Fully coded multipurpose app template for iOS]]></title>
+        <id>https://www.producthunt.com/posts/app-io-2</id>
+        <link href="https://www.producthunt.com/posts/app-io-2"/>
+        <updated>2022-11-15T12:36:55.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -2169,121 +2640,6 @@ Discussion
         <summary type="html"><![CDATA[The team uses a secret technique to locate AlphaBay’s server. But just as the operation heats up, the agents have an unexpected run-in with their target.]]></summary>
         <author>
             <name>Andy Greenberg</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[如何在 Linux 中确定运行的是那种初始化系统]]></title>
-        <id>https://linux.cn/article-15256-1.html?utm_source=rss&amp;utm_medium=rss</id>
-        <link href="https://linux.cn/article-15256-1.html?utm_source=rss&amp;utm_medium=rss"/>
-        <updated>2022-11-15T10:30:13.000Z</updated>
-        <summary type="html"><![CDATA[你可以通过以下方式确定你的 Linux 发行版中是否正在运行 systemd 或其它初始化系统。
-
-
-首个进程在你启动 Linux 发行版时开始运行，它称为初始化进程 init（初始化initialization的缩写）。它的进程标识符为 1（即 pid=1）。基于 Unix 的系统中的所有进程和应用程序都是这个初始化进程的后代。
-
-根据功能和特性，存在不同类型的初始化进程。例如，systemd、Runit、OpenRC、sysVinit 等。其中，systemd 是最流行和最现代的一种，被包括 Ubuntu 和 Fedora 在内的所有现代 Linux 发行版使用和采用。
-
-与传统的基于 Unix 的初始化系统相比，systemd 及其性能一直存在争议。但这就是另外一个话题了。
-
-让我们看看如何确定在 Linux 发行版中运行的是 systemd 还是其它初始化系统。
-
-systemd 还是其它初始化系统？
-
-不幸的是，没有直接的命令可以找到它。你可以从初始化进程追溯它，它基本上是到 /sbin/init 的符号链接，即 pid=1。
-
-使用 strings 命令打印嵌入在二进制文件 /sbin/init 中的文本并使用以下命令搜索 init：
-
-strings /sbin/init | grep init
-
-
-示例 1
-
-在下面的输出中，它是一个运行 Debian（Peppermint OS）的 sysVinit 系统。如你所见，它清楚地显示了 init 进程名称。
-
-strings /sbin/init | grep init
-
-
-
-
-如果在上述同一个系统中找 systemd，那么不会有任何结果。因此，你可以得出结论，你正在运行 sysVinit 而不是 systemd。
-
-示例 2
-
-如果你在 systemd 系统中运行上述命令，你可以在输出的第一行轻松看到 systemd 及其版本。
-
-strings /sbin/init | grep systemd
-
-
-
-
-示例 3
-
-你也可以尝试使用 pstree 命令打印进程树，它应该会显示第一个进程名称。它应该是 systemd 或 init，如下例所示。
-
-pstree
-
-
-
-
-
-
-这就好了。这样你就可以轻松找出你的发行版是使用 systemd 还是其他的。
-
-
-via: https://www.debugpoint.com/systemd-or-init/
-
-作者：Arindam 选题：lkxed 译者：geekpi 校对：wxy
-
-本文由 LCTT 原创编译，Linux中国 荣誉推出]]></summary>
-        <author>
-            <name>linux@linux.cn (linux)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[硬核观察 #821 手写代码导致美国宇航局的水手号探测器失败]]></title>
-        <id>https://linux.cn/article-15255-1.html?utm_source=rss&amp;utm_medium=rss</id>
-        <link href="https://linux.cn/article-15255-1.html?utm_source=rss&amp;utm_medium=rss"/>
-        <updated>2022-11-15T08:48:00.000Z</updated>
-        <summary type="html"><![CDATA[手写代码导致美国宇航局的水手号探测器失败
-
-1962 年夏天，美国宇航局启动了水手 1 号任务，这是一项无人驾驶的任务，该装置将飞过金星并探测数据。当时的工程师通常在纸上写出他们的代码。然后这些代码通过一个复杂的系统被翻译成计算机可读的卡片，然后通过计算机执行该程序。这种手工使得意外错误率变得很高。缺失的符号与字符最终导致了水手 1 号任务的彻底失败。这次任务在当时花费了大约 1800 万美元，相当于今天的 1.5 亿美元。
-
-
-消息来源：Slash Gear
-
-
-
-老王点评：计算机发展早期，不说流程，就是工具也很简陋。但是就是这样，也送上天那么多飞行器。
-
-
-
-
-一个简单的安卓锁屏漏洞获得了 7 万美元
-
-研究人员发现，任何能拿到谷歌 Pixel 手机的人都可以通过换上自己的 SIM 卡，并输入预设的恢复代码，从而绕过安卓操作系统的锁屏保护。这个漏洞的利用非常简单，但谷歌花了大约五个月的时间来修复。谷歌为此向他支付了 7 万美元的奖金。
-
-
-消息来源：Tech Crunch
-
-
-
-老王点评：看似这个钱挣的容易，但是实际上研究人员投入了大量精力才可能遇到这样一块“狗头金”。
-
-
-
-
-英特尔推出深度伪造实时检测工具
-
-深度伪造视频现在无处不在，你可能见过名人做或说他们实际上从未做过的事情的视频。英特尔开发了 FakeCatcher，这项技术能够以 96% 的准确率检测虚假人脸视频。这是世界上第一个实时深度伪造检测器，它可以在几毫秒内返回结果。该工具是通过检测视频像素中微妙的“血流”信号，在真实视频中寻找真实的线索。当心脏泵血时，人的静脉会改变颜色，这些血流信号是可以从面部各处收集的，算法将这些信号翻译成时空图。然后，利用深度学习，就可以立即检测出一个视频是真的还是假的。
-
-
-消息来源：PC Gamer
-
-
-
-老王点评：果然魔高一尺，道高一丈。不过我想深度伪造可能很快就会学会添加血流信号。]]></summary>
-        <author>
-            <name>linux@linux.cn (linux)</name>
         </author>
     </entry>
     <entry>
@@ -2376,7 +2732,7 @@ It is natural for developers to leave a project. Maybe they change jobs, have a 
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Fluent Search | 一款高颜值 Windows 搜索软件]]></title>
+        <title type="html"><![CDATA[Fluent Search | 一款支持工作流的高颜值 Windows 搜索软件]]></title>
         <id>https://sspai.com/post/76810</id>
         <link href="https://sspai.com/post/76810"/>
         <updated>2022-11-15T06:08:18.000Z</updated>
@@ -2450,51 +2806,19 @@ Fluent Search 不仅自带不同风格的主题，同时也提供大量的选项
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Notion AI — Meet your new partner in thought]]></title>
-        <id>https://www.producthunt.com/posts/notion-ai-alpha</id>
-        <link href="https://www.producthunt.com/posts/notion-ai-alpha"/>
-        <updated>2022-11-14T22:12:35.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
+        <title type="html"><![CDATA[Repeating Group as Chips — Bubble.io plugin creating amazing chips from repeating group]]></title>
+        <id>https://www.producthunt.com/posts/repeating-group-as-chips</id>
+        <link href="https://www.producthunt.com/posts/repeating-group-as-chips"/>
+        <updated>2022-11-14T20:14:32.000Z</updated>
+        <summary type="html"><![CDATA[Innovatee.
+They develop several bubble.io plugins to save other no-code developer time. I'm honored to hunt one of their most successful plugins today: https://plugins.innovatee.com/re...
+              ”
+              
+Discussion
             |
             Link]]></summary>
         <author>
             <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Declare an Array in JavaScript – Creating an Array in JS]]></title>
-        <id>https://www.freecodecamp.org/news/how-to-declare-an-array-in-javascript-creating-an-array-in-js/</id>
-        <link href="https://www.freecodecamp.org/news/how-to-declare-an-array-in-javascript-creating-an-array-in-js/"/>
-        <updated>2022-11-14T21:38:37.000Z</updated>
-        <summary type="html"><![CDATA[In JavaScript, an array is one of the most commonly used data types. It stores multiple values and elements in one variable. These values can be of any data type — meaning you can store a string, number, boolean, and other data types in one variable. There are two standard]]></summary>
-        <author>
-            <name>Joel Olawanle</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Radiance Voice Chrome Extension — Record and share voice notes straight from your brower tab]]></title>
-        <id>https://www.producthunt.com/posts/radiance-voice-chrome-extension</id>
-        <link href="https://www.producthunt.com/posts/radiance-voice-chrome-extension"/>
-        <updated>2022-11-14T20:24:19.000Z</updated>
-        <summary type="html"><![CDATA[Radiance Voice Extension will be one of them.
-
-😄*Why did we make this?*
-All of us spend the majority of our time on web apps that help us work such as Sheets/Excel or Word/Docs, Notion/Confluence, Jira/Basecamp, Figma, Miro, Hubspot, Zoho, Salesforce, Gmail, etc. Many times we want to explain to others what we think about something on our screen, like a dashboard, a customer's account, or many times, the apps that we ourselves are building. I thought if there were a way to create voice notes straight from the browser and share them with others, the other person could listen to it in their own time, as opposed to getting on a call and discussing things.
-
-🤨*What's so different about this extension?*
-How many times do keep your camera off in our online meetings? I think many times. Especial…]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What is Recursion in JavaScript?]]></title>
-        <id>https://www.freecodecamp.org/news/recursion-in-javascript/</id>
-        <link href="https://www.freecodecamp.org/news/recursion-in-javascript/"/>
-        <updated>2022-11-14T18:44:18.000Z</updated>
-        <summary type="html"><![CDATA[Recursion is a problem-solving technique in programming. In this article, you will learn how to use recursive functions in JavaScript. What is a Recursive Function? A recursive function is a function that calls itself somewhere within the body of the function. Below is a basic example of a recursive function.]]></summary>
-        <author>
-            <name>Benjamin Semah</name>
         </author>
     </entry>
     <entry>
@@ -2515,151 +2839,6 @@ How many times do keep your camera off in our online meetings? I think many time
         <summary type="html"><![CDATA[浅析PHP GC垃圾回收机制及常见利用方式]]></summary>
         <author>
             <name>先知安全技术社区</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[为什么有时候域名的末尾有个点？]]></title>
-        <id>https://linux.cn/article-15254-1.html?utm_source=rss&amp;utm_medium=rss</id>
-        <link href="https://linux.cn/article-15254-1.html?utm_source=rss&amp;utm_medium=rss"/>
-        <updated>2022-11-14T16:11:00.000Z</updated>
-        <summary type="html"><![CDATA[大家好！今年早些时候，我在写《DNS 是如何工作的》 时，有人问我——为什么人们有时在域名的末尾加一个点？例如，如果你通过运行 dig example.com 查询 example.com 的 IP，你会看到一下内容：
-
-$ dig example.com
-example.com.        5678    IN  A   93.184.216.34
-
-
-执行完 dig 命令后，example.com 有一个 . ——变成了 example.com.！发生了什么？
-
-有些 DNS 工具也要求传给它的域名后加一个 .：如果你在使用 miekg/dns 时传给它 example.com，它会报错：
-
-// trying to send this message will return an error
-m := new(dns.Msg)
-m.SetQuestion("example.com", dns.TypeA)
-
-
-最初我以为我知道这个问题的答案（“呃，末尾的点意味着域名是完全限定的？”）。这是对的 —— 一个完全限定域名fully qualified domain name（FQDN）是一个末尾有 . 的域名！
-
-但是为什么末尾的点是有用且重要的呢？
-
-在 DNS 的请求/响应中，域名的末尾并没有 “.”
-
-我曾经（错误地）认为 “为什么末尾有一个点？”的答案可能是 “在 DNS 请求/响应中，域名末尾有一个 .，所以我们把它放进去，以匹配你的计算机实际发送/接收的内容”。但事实并不是这样！
-
-当计算机发送 DNS 请求/响应时，域名的末尾并没有点。实际上，域名中没有点。
-
-域名会被编码成一系列的长度/字符串对。例如，域名 example.com 被编码为这 13 个字节。
-
-7example3com0
-
-
-编码后的内容一个点也没有…]]></summary>
-        <author>
-            <name>linux@linux.cn (linux)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Digital Care Platform by Nabla — The Machine Learning powered patient engagement platform.]]></title>
-        <id>https://www.producthunt.com/posts/digital-care-platform-by-nabla</id>
-        <link href="https://www.producthunt.com/posts/digital-care-platform-by-nabla"/>
-        <updated>2022-11-14T16:09:06.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[如何在没有互联网连接的情况下离线更新 Ubuntu]]></title>
-        <id>https://linux.cn/article-15253-1.html?utm_source=rss&amp;utm_medium=rss</id>
-        <link href="https://linux.cn/article-15253-1.html?utm_source=rss&amp;utm_medium=rss"/>
-        <updated>2022-11-14T15:29:53.000Z</updated>
-        <summary type="html"><![CDATA[本指南介绍了如何在没有互联网连接的情况下离线更新 Ubuntu 的步骤。
-
-
-在很多情况下，你可能需要在没有互联网连接的情况下更新你的 Ubuntu 系统。你可能在外地不方便上网，也可能你需要更新一堆未联网的 Ubuntu，不管是哪种情况，保持你的系统更新最新的软件包总是需要的。
-
-当然，始终建议通过联网来更新系统。
-
-但有时，出于安全考虑，这是不行的。连接到互联网可能需要给你的系统进行额外的加固，以保护它们免受黑客和恶意软件的攻击。
-
-以下的方法使用 apt-offline 来解决这些问题，并概述了在没有互联网的情况下离线更新 Ubuntu 的步骤。
-
-准备环节
-
-
-一台能连接到网络的 Ubuntu（你朋友的、咖啡馆、实验室系统）
-
-存储了软件包的 U 盘
-
-两个系统都安装了 apt-offline：一个系统离线，另一个系统联网
-
-
-安装 apt-offline
-
-在两个系统下安装 apt-offline。你可以使用以下命令安装：
-
-sudo apt install apt-offline
-
-
-如果你想在离线的目标系统安装 apt-offline，你可以提前下载到 U 盘里，然后复制到目标系统，再使用下面的命令安装。
-
-Ubuntu 22.04 LTS 和其他版本的下载链接如下所示。你可以选择一个镜像并下载 deb 文件。
-
-
-下载 .deb 文件 – apt-offline
-
-
-sudo dpkg -i name_of_package.deb
-
-
-如何更新 Ubuntu
-
-在离线的目标系统上打开终端，使用以下命令创建一个 .sig 签名文件：
-
-sudo apt-offline set ~/offline-data.sig
-
-
-
-
-在这个刚创建的签名文件中，包含下载所需的软件包的路径和详细信息。
-
-
-
-把签名文件复制到 U 盘中，再插到联网的 Ubuntu 系统上。
-
-在联网的 Ubuntu 上创建一个目录（参见下面）来存放这些文件。
-
-打开一个终端，运行以下命令来下载所需的软件包。记得根据你的系统，更改下载目录和 .sig 签名文件的路径。
-
-apt-offline get -d ~/offline-data-dir offline-data.sig
-
-
-
-
-你可以看到文件相应下载，然后复制整个下载目录到 U 盘，再插到离线的 Ubuntu 系统。
-
-运行以下命令将下载的软件包安装到离线系统，记得根据你的系统更改目录路径。
-
-sudo apt-offline install offline-data-dir/
-
-
-
-
-如果一切顺利，你将获得一个更新完的 Ubuntu。
-
-重复以上步骤，就可以保持你的离线 Ubuntu 为最新版本。
-
-希望以上教程能帮到你更新离线的 Ubuntu 系统，如果你遇到任何问题，请在下面的评论框中告诉我。
-
-
-via: https://www.debugpoint.com/how-to-update-or-upgrade-ubuntu-offline-without-internet/
-
-作者：Arindam 选题：lkxed 译者：littlebirdnest 校对：wxy
-
-本文由 LCTT 原创编译，Linux中国 荣誉推出]]></summary>
-        <author>
-            <name>linux@linux.cn (linux)</name>
         </author>
     </entry>
     <entry>
@@ -2713,26 +2892,6 @@ via: https://www.debugpoint.com/how-to-update-or-upgrade-ubuntu-offline-without
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Syng Cell Alpha Wireless Speakers Review: Spatial Sorcery, Bass Bother]]></title>
-        <id>636e5d57557521d0988d5004</id>
-        <link href="https://www.wired.com/review/review-syng-cell-alpha-wireless-speakers/"/>
-        <updated>2022-11-14T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In a quest to reimagine the loudspeaker, this audio company has worked serious magic—but there's a big bass problem.]]></summary>
-        <author>
-            <name>Simon Lucas</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Best Ebikes for Elderly Riders: Trek, Rad Power, Gazelle]]></title>
-        <id>636c3829557521d0988d4fe6</id>
-        <link href="https://www.wired.com/story/ebikes-for-elders/"/>
-        <updated>2022-11-14T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Electric bikes may seem like the perfect transport for active, aging folks, but do your homework before plugging into the trend.]]></summary>
-        <author>
-            <name>Stephanie Pearson</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[The Man Behind Mastodon, Eugen Rochko, Built It for This Moment]]></title>
         <id>636ed7f60ae5a121565fd72a</id>
         <link href="https://www.wired.com/story/the-man-behind-mastodon-eugen-rochko-built-it-for-this-moment/"/>
@@ -2760,6 +2919,18 @@ via: https://www.debugpoint.com/how-to-update-or-upgrade-ubuntu-offline-without
         <summary type="html"><![CDATA[Despite efforts to reduce emissions, the 2022 FIFA tournament is highly carbon-intensive. And its road to net-zero relies on questionable carbon credits.]]></summary>
         <author>
             <name>William Ralston</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[World Cup Sweepstake — Celebrate the World Cup with your friends and family]]></title>
+        <id>https://www.producthunt.com/posts/world-cup-sweepstake</id>
+        <link href="https://www.producthunt.com/posts/world-cup-sweepstake"/>
+        <updated>2022-11-14T11:33:36.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -2877,41 +3048,6 @@ Excel
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Sortd 2.0 for Gmail — "Trello for Gmail” Assign & track email with Kanban in Gmail]]></title>
-        <id>https://www.producthunt.com/posts/sortd-2-0-for-gmail</id>
-        <link href="https://www.producthunt.com/posts/sortd-2-0-for-gmail"/>
-        <updated>2022-11-13T20:48:07.000Z</updated>
-        <summary type="html"><![CDATA[Sortd 2.0 for Gmail.
-
-Why we made Sortd
-
-When we started Sortd, we wanted to change the way email is used to manage work. Since we first launched, we’ve learnt a lot more about our customers’ needs. In many companies IM has largely replaced email for internal communication. But for customer communication, it seems that email is here to stay.  The problem is - email is messy and hard to keep track of.
-
-There just aren't many good tools for keeping track of email and customer-facing work.  The few tools that are good take you away from your email (giving you yet another tool to manage).
-
-Unlike Trello, Asana, Monday, Clickup etc (all amazing tools, which primarily focus on internal collaboration), Sortd gives you a way to manage both internal and external work in the same place. Customer facing teams can use the same communication tool they use every day to work more cohesively with their partners, customers and suppliers (rather than constantly jumping between browser tabs).
-
-We’ve spent countless hours grappling with how best to deal with the needs of a rapidly changing world. And… I think we just might have cracked the code! 🤞
-
-While Sortd remains one of the most tightly email-integrated solutions on planet Earth, it’s now become far more than a workspace for managing tasks and email. Years of learning and speaking with thousands of customers have led us to what we now believe truly is the future of work.
-
-Sortd is a blend of email, shared mailboxes, CRM, team Chat, task management & business workflows. All in one system, in Gmail where you are working already, and your entire team is comfortable.
-
-We would love you to take Sortd for a spin. Please let us know what you think. Enjoy 🥰
-
-[Update Sortd 2.0]
-Faster, slicker, easier to use.
-Now incorporates new Team mailbox features, Zapier integration and automations.
-              ”
-              
-Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Extensive List of Best Development Resources - 121 Links to Guides, Cheat Sheets and More List of Resources]]></title>
         <id>https://dev.to/perssondennis/extensive-list-of-best-development-resourses-121-links-to-guides-cheat-sheets-and-more-list-of-resources-366l</id>
         <link href="https://dev.to/perssondennis/extensive-list-of-best-development-resourses-121-links-to-guides-cheat-sheets-and-more-list-of-resources-366l"/>
@@ -2919,26 +3055,6 @@ Discussion
         <summary type="html"><![CDATA[#webdev #beginners #productivity #programming]]></summary>
         <author>
             <name>Dennis Persson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[11 Best USB-C Cables (2022): For iPhones, Android Phones, Tablets, and Laptops]]></title>
-        <id>62b97bc32944b6cfb7625f47</id>
-        <link href="https://www.wired.com/gallery/best-usb-c-cables/"/>
-        <updated>2022-11-13T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Unravel the tangled world of cords and find the ones you need to charge your gadgets and transfer data.]]></summary>
-        <author>
-            <name>Simon Hill</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[8 Best TV Streaming Devices for 2022 (4K, HD): Roku vs. Fire TV vs. Apple TV vs. Google]]></title>
-        <id>5aeb210a4eef286ed17e4266</id>
-        <link href="https://www.wired.com/gallery/best-4k-streaming-devices/"/>
-        <updated>2022-11-13T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[We've tested dozens of ways to watch stuff on 4K or HD TVs. These are our favorites.]]></summary>
-        <author>
-            <name>Medea Giordano, Jeffrey Van Camp</name>
         </author>
     </entry>
     <entry>
@@ -2962,26 +3078,6 @@ Discussion
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[This Anker MagGo Charger Defeated My Battery Anxiety]]></title>
-        <id>636ecdfbc7672aac035d7a34</id>
-        <link href="https://www.wired.com/story/anker-maggo-charger-rave/"/>
-        <updated>2022-11-13T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Anker’s iPhone MagSafe accessories may look like power packs, but they are actually little bundles of life-changing joy.]]></summary>
-        <author>
-            <name>Adam Speight</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[I'm Obsessed With Bloody Marys. This Is the Best Mix I've Tried]]></title>
-        <id>635185da3363e916e706cdcc</id>
-        <link href="https://www.wired.com/story/haand-toma-bloody-mary-kit-rave/"/>
-        <updated>2022-11-13T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[You don't have to say a ghost's name three times in the mirror. The Haand x Toma Brunch Kit makes bloody brunches easy.]]></summary>
-        <author>
-            <name>Medea Giordano</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[求将照片转为「手绘头像」的应用]]></title>
         <id>https://www.appinn.com/?p=43895</id>
         <link href="https://www.appinn.com/photo-to-hand-painted/"/>
@@ -2999,34 +3095,6 @@ Discussion
         <summary type="html"><![CDATA[#react #javascript #webdev #beginners]]></summary>
         <author>
             <name>Andrew Lee</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Use a hashmap in Java]]></title>
-        <id>70310 at https://opensource.com</id>
-        <link href="https://opensource.com/article/22/11/hashmap-java"/>
-        <updated>2022-11-13T08:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Use a hashmap in Java
-Seth Kenlon
-Sun, 11/13/2022 - 03:00
-
-            
-In the Java programming language, a hashmap is a list of associated values. Java uses hashmaps to store data. If you keep a lot of structured data, it's useful to know the various retrieval methods available.
-
-More on Java
-What is enterprise Java programming?
-An open source alternative to Oracle JDK
-Java cheat sheet
-Red Hat build of OpenJDK
-Free online course: Developing cloud-native applications with microservices
-Fresh Java articles
-Create a hashmap
-Create a hashmap in Java by importing and using the HashMap class. When you create a hashmap, you must define what constitutes a valid value (such as Integer or String). A hashmap holds pairs of values.
-package com.opensource.example;
-import java.util.HashMap;
-public clas…]]></summary>
-        <author>
-            <name>Seth Kenlon</name>
         </author>
     </entry>
     <entry>
@@ -3080,35 +3148,6 @@ public clas…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Learn Python: 7 of my favorite resources]]></title>
-        <id>70285 at https://opensource.com</id>
-        <link href="https://opensource.com/article/22/11/learn-python"/>
-        <updated>2022-11-12T08:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Learn Python: 7 of my favorite resources
-Don Watkins
-Sat, 11/12/2022 - 03:00
-
-            
-I made a decision recently that I wanted to learn more Python so I could improve my instructional skills and broaden the horizons of my students. In the process, I have discovered these excellent resources that have me learning new code and improving my understanding of Python in general.
-1. Teach your kids to code
-I began the Python journey about seven years ago when I discovered connections between Apple LOGO and the Turtle module in Python. The Linux computer I was using at the time defaulted to Python 2.7, and I soon discovered that I wanted to use Python 3. I managed to get it installed and began writing some simple programs using the Turtle module. After reading Dr. Bryson Payne’s Teach Your Ki…]]></summary>
-        <author>
-            <name>Don Watkins</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ultimate List of Startup Tools — The top 44 tools startup founders need to run their business]]></title>
-        <id>https://www.producthunt.com/posts/ultimate-list-of-startup-tools</id>
-        <link href="https://www.producthunt.com/posts/ultimate-list-of-startup-tools"/>
-        <updated>2022-11-11T22:39:04.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[The Fallout of the FTX Collapse]]></title>
         <id>636e8d8e627a555fd99f22f5</id>
         <link href="https://www.wired.com/story/the-fallout-of-the-ftx-collapse/"/>
@@ -3116,6 +3155,18 @@ I began the Python journey about seven years ago when I discovered connections b
         <summary type="html"><![CDATA[As Sam Bankman-Fried's crypto empire crumbles, its customers, and other crypto traders, are paying the price.]]></summary>
         <author>
             <name>Joel Khalili</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Questo Creators’ Room — Create a city game generating upwards of $30k per year]]></title>
+        <id>https://www.producthunt.com/posts/questo-creators-room</id>
+        <link href="https://www.producthunt.com/posts/questo-creators-room"/>
+        <updated>2022-11-11T16:52:44.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -3213,16 +3264,6 @@ I began the Python journey about seven years ago when I discovered connections b
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[OpenCore Legacy Patcher – 为老款 Mac 电脑（2006 年以后）安装最新 macOS Ventura 13 操作系统]]></title>
-        <id>https://www.appinn.com/?p=43886</id>
-        <link href="https://www.appinn.com/opencore-legacy-patcher/"/>
-        <updated>2022-11-11T09:12:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenCore Legacy Patcher 是一个开源项目，用来让老款 Mac 电脑（2006 年以后）也能安装最新 macOS 操作系统。@Appinn 感谢 @蚁工厂 的推荐。 在苹果不久前发]]></summary>
-        <author>
-            <name>青小蛙</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[jpress代码审计分享]]></title>
         <id>https://xz.aliyun.com/t/11832</id>
         <link href="https://xz.aliyun.com/t/11832"/>
@@ -3240,16 +3281,6 @@ I began the Python journey about seven years ago when I discovered connections b
         <summary type="html"><![CDATA[[Java安全]关于Rhino的一些姿势利用]]></summary>
         <author>
             <name>先知安全技术社区</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[可逆打码 – 居然可以「涩图打码，付费解码」😂]]></title>
-        <id>https://www.appinn.com/?p=43883</id>
-        <link href="https://www.appinn.com/kenidama-for-windows/"/>
-        <updated>2022-11-11T04:06:26.000Z</updated>
-        <summary type="html"><![CDATA[可逆打码是一款有趣的 Windows 工具，它可以为图片添加马赛克，但只需要输入密码，即可去掉马赛克，还原图片。@Appinn 来自发现频道，开发者 @lzn1007 自荐：可以无损解码的打码软件。]]></summary>
-        <author>
-            <name>青小蛙</name>
         </author>
     </entry>
     <entry>
@@ -3363,6 +3394,23 @@ I began the Python journey about seven years ago when I discovered connections b
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Mailchain — Web3 email and messaging for everyone]]></title>
+        <id>https://www.producthunt.com/posts/mailchain</id>
+        <link href="https://www.producthunt.com/posts/mailchain"/>
+        <updated>2022-11-10T15:05:51.000Z</updated>
+        <summary type="html"><![CDATA[http://app.mailchain.com  
+Whitepaper → https://go.mailchain.com/whitepaper 
+Docs & SDK → https://docs.mailchain.com
+              ”
+              
+Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[This Billion-Dollar Crypto Collective Is Tearing Itself Apart]]></title>
         <id>636c3adf77d2621bc8030707</id>
         <link href="https://www.wired.com/story/makerdao-rune-christensen-decentralize/"/>
@@ -3420,6 +3468,18 @@ I began the Python journey about seven years ago when I discovered connections b
         <summary type="html"><![CDATA[Weblogic CVE-2020-2551 绕过NAT网络分析]]></summary>
         <author>
             <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tikdin — TikTok of professional life]]></title>
+        <id>https://www.producthunt.com/posts/tikdin</id>
+        <link href="https://www.producthunt.com/posts/tikdin"/>
+        <updated>2022-11-09T21:19:45.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -3510,16 +3570,6 @@ I began the Python journey about seven years ago when I discovered connections b
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The Great Crypto-Cop Brain Drain]]></title>
-        <id>636b01903505151fbc0b01e9</id>
-        <link href="https://www.wired.com/story/the-great-crypto-cop-brain-drain/"/>
-        <updated>2022-11-09T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Hunting down crypto criminals is a dying art as law enforcement officers jump in-house.]]></summary>
-        <author>
-            <name>Gian M. Volpicelli</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Brace Yourself for a Triple Wave of Seasonal Viruses]]></title>
         <id>636adfae1bc1a3ed38dc3b02</id>
         <link href="https://www.wired.com/story/covid-flu-rsv-tripledemic/"/>
@@ -3589,31 +3639,6 @@ Matrix 是少数派的写作社区，我们主张分享真实的产品体验，
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[A Race to Bridge the Analog Divide in US Politics]]></title>
-        <id>636a86a41bc1a3ed38dc3afb</id>
-        <link href="https://www.wired.com/story/retail-politics-analog-divide/"/>
-        <updated>2022-11-08T21:40:12.000Z</updated>
-        <summary type="html"><![CDATA[Nothing beats in-person efforts to boost a campaign. But rising platforms are helping connect politicians with the rest of us.]]></summary>
-        <author>
-            <name>Matt Laslo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Facet 2.0 — Image creation, reimagined]]></title>
-        <id>https://www.producthunt.com/posts/facet-2-0</id>
-        <link href="https://www.producthunt.com/posts/facet-2-0"/>
-        <updated>2022-11-08T18:46:02.000Z</updated>
-        <summary type="html"><![CDATA[@effie_jia @kyleschaeffer @sophie_xie @m_l_stanton and so many more folks not on producthunt yet.
-              ”
-              
-Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Announcing the MongoDB Atlas Hackathon 2022 on DEV!]]></title>
         <id>https://dev.to/devteam/announcing-the-mongodb-atlas-hackathon-2022-on-dev-2107</id>
         <link href="https://dev.to/devteam/announcing-the-mongodb-atlas-hackathon-2022-on-dev-2107"/>
@@ -3644,16 +3669,6 @@ Discussion
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Inside the ‘Election Integrity App’ Built to Purge US Voter Rolls]]></title>
-        <id>63657b621bc1a3ed38dc3ace</id>
-        <link href="https://www.wired.com/story/true-the-vote-iv3-app-voter-fraud/"/>
-        <updated>2022-11-08T15:59:44.000Z</updated>
-        <summary type="html"><![CDATA[True the Vote’s IV3 app is meant to catch election cheaters. But it has a fundamental flaw.]]></summary>
-        <author>
-            <name>Dhruv Mehrotra</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[All your JavaScript code is polluted]]></title>
         <id>https://dev.to/jankapunkt/all-your-javascript-code-is-polluted-3e8l</id>
         <link href="https://dev.to/jankapunkt/all-your-javascript-code-is-polluted-3e8l"/>
@@ -3661,38 +3676,6 @@ Discussion
         <summary type="html"><![CDATA[#javascript #security]]></summary>
         <author>
             <name>Jan Küster</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Pathfndr — Launch your own intelligent Travel Site in less than 15 mins]]></title>
-        <id>https://www.producthunt.com/posts/pathfndr</id>
-        <link href="https://www.producthunt.com/posts/pathfndr"/>
-        <updated>2022-11-08T13:05:46.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scientists Are Uncovering Ominous Waters Under Antarctic Ice]]></title>
-        <id>63693c6c7484c01b9b6e9653</id>
-        <link href="https://www.wired.com/story/scientists-are-uncovering-ominous-waters-under-antarctic-ice/"/>
-        <updated>2022-11-08T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[A super-pressurized, 290-mile-long river is running under the ice sheet. That could be bad news for sea-level rise.]]></summary>
-        <author>
-            <name>Matt Simon</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Anthony Fauci’s Sign-Off Message]]></title>
-        <id>6361a5e7d58ae0592b0f00cf</id>
-        <link href="https://www.wired.com/story/anthony-faucis-sign-off-message/"/>
-        <updated>2022-11-08T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[While America’s top doc fought Covid, deniers fought him. He still can’t figure out why.]]></summary>
-        <author>
-            <name>Steven Levy</name>
         </author>
     </entry>
     <entry>
@@ -4476,16 +4459,6 @@ B站视频字幕朗读（中文同传）插件地址-> Microsoft Edge Addons
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[You Need to Update Google Chrome, Windows, and Zoom Right Now]]></title>
-        <id>635c5bbfa8552c961517a88e</id>
-        <link href="https://www.wired.com/story/google-chrome-windows-zoom-critical-update/"/>
-        <updated>2022-10-31T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Plus: Important patches from Apple, VMWare, Cisco, Zimbra, SAP, and Oracle.]]></summary>
-        <author>
-            <name>Kate O'Flaherty</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Folder Structure for NodeJS & ExpressJS project]]></title>
         <id>https://dev.to/mr_ali3n/folder-structure-for-nodejs-expressjs-project-435l</id>
         <link href="https://dev.to/mr_ali3n/folder-structure-for-nodejs-expressjs-project-435l"/>
@@ -4503,6 +4476,16 @@ B站视频字幕朗读（中文同传）插件地址-> Microsoft Edge Addons
         <summary type="html"><![CDATA[#docker #devops #kubernetes]]></summary>
         <author>
             <name>Pavan Belagatti, Docker</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Awesome VS Code Extensions for Navigating Large Codebases]]></title>
+        <id>https://dev.to/surajondev/awesome-vs-code-extensions-for-navigating-large-codebases-256n</id>
+        <link href="https://dev.to/surajondev/awesome-vs-code-extensions-for-navigating-large-codebases-256n"/>
+        <updated>2022-10-30T11:30:00.000Z</updated>
+        <summary type="html"><![CDATA[#beginners #webdev #javascript #react]]></summary>
+        <author>
+            <name>Suraj Vishwakarma</name>
         </author>
     </entry>
     <entry>
@@ -4833,16 +4816,6 @@ B站视频字幕朗读（中文同传）插件地址-> Microsoft Edge Addons
         <summary type="html"><![CDATA[#vscode #opensource #beginners #devops]]></summary>
         <author>
             <name>Sebastian Tiedtke</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Iran's Internet Blackouts Are Part of a Global Menace]]></title>
-        <id>634db7f67e817d200a6cc6ba</id>
-        <link href="https://www.wired.com/story/iran-mahsa-amini-internet-shutdown/"/>
-        <updated>2022-10-19T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Repressive regimes are teaching each other how to control protesters' web access with increasingly surgical precision.]]></summary>
-        <author>
-            <name>Yasmin Green</name>
         </author>
     </entry>
 </feed>
