@@ -1,48 +1,1121 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-11-26T10:38:20.863Z</id>
+    <id>urn:2022-11-27T10:38:02.611Z</id>
     <title>osmos::feed</title>
-    <updated>2022-11-26T10:38:20.863Z</updated>
+    <updated>2022-11-27T10:38:02.611Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="index.html"/>
     <entry>
-        <title type="html"><![CDATA[63 Best Black Friday Deals Under $50 (2022): Electric Toothbrushes, Games, and More]]></title>
+        <title type="html"><![CDATA[Bridge pattern in TypeScript]]></title>
+        <id>https://dev.to/jmalvarez/bridge-pattern-in-typescript-3hmj</id>
+        <link href="https://dev.to/jmalvarez/bridge-pattern-in-typescript-3hmj"/>
+        <updated>2022-11-27T10:03:47.000Z</updated>
+        <summary type="html"><![CDATA[Introduction
+
+
+The Bridge pattern is a structural design pattern that allows you to separate a big class or set of related classes into two different domains: abstraction (also called interface) and implementation (also called platform).
+The abstraction layer is the one that the client will use to interact with our application. This layer is not going to contain the business logic of our application. Instead, it will delegate the work to the implementation layer.
+Imagine that you have a class that represents a vehicle. The vehicles can have different engines. You could start with a Mercedes and a BMW vehicles with V6 and V8 as possible engines. Initially you would have 4 combinations of vehicles (each one being a class in your application):
+Mercedes V6
+Mercedes V8
+BMW V6
+BMW V8
+Imagine now…]]></summary>
+        <author>
+            <name>José Miguel Álvarez Vañó</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Offline Terraform Provider]]></title>
+        <id>https://dev.to/rdamrong/offline-terraform-provider-2bgf</id>
+        <link href="https://dev.to/rdamrong/offline-terraform-provider-2bgf"/>
+        <updated>2022-11-27T09:25:24.000Z</updated>
+        <summary type="html"><![CDATA[พอดีว่าระบบที่บ้านเป็น Open-Source Virtualization Solution ที่ชื่อว่า oVirt ซึ่งก็มีความสุขดี ใช้สร้างโน่นนี่นั่นเพื่อทดสอบอะไรไปเรื่อง ... เพียงแต่ว่า ขี้เกียจไม่อยากมานั่งสร้าง VM ที่ละตัว ช่วงแรก ๆ ใช้ Ansible ก็ต้องเขียน playbook สำหรับสร้าง พอจะเปลี่ยงแปลงระบบที่ต้องการทดสอบ ก็ต้องมานั่งแก้ playbook จะลบทิ้งตอนไม่ใช้แล้ว ก็ต้องเขียนอีก playbook อีกชุดเพื่อทำหน้าที่ลบ VM ทั้งหมด ... ซึ่งเป็นจุดอ่อนของการใช้งาน Ansible เพื่อ provisioning แต่พอได้รู้จัก Terraform บอกเลยว่า ตอนโจทย์ในช่วงการ provisioning มากเลย 
+ตัวอย่างนี้ เป็นตัวอย่างที่ทำงานบนระบบปฏิบัติการ macOS และ ยังเป็น Macbook Pro รุ่นที่ยังใช้ chip Intel X86_64 อยู่ ดังนั้น การเลือกใช้งาน อาจมีความแตกต่างกันบ้างตามระบบที่ต่างกัน
+ลำดับแรก download ตัว Terraform Provider ที่ต้องการมาเก็บไว้ใน directory ที่วางแผนไว้ก่อน
+
+
+
+
+d8k-bpr…]]></summary>
+        <author>
+            <name>Damrongsak Reetanon</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Learn CSS layouts by example - Flex (part 1)]]></title>
+        <id>https://dev.to/mohsenkamrani/learn-css-layouts-by-example-flex-part-1-4g62</id>
+        <link href="https://dev.to/mohsenkamrani/learn-css-layouts-by-example-flex-part-1-4g62"/>
+        <updated>2022-11-27T09:06:24.000Z</updated>
+        <summary type="html"><![CDATA[Mastering CSS layouts is one of the most challenging parts of web design. Specially, if you just go to the documentations and start reading dry materials with very basic examples, it's even harder to get a practical understanding of the concepts.
+In this series of posts, you'll learn CSS layouts through practical examples you can use in your projects. 
+The simplest way to directly see the result of our work is to build our website with DoTenX UI-builder.
+If you don't have an account there, you can create one for free and follow along this tutorial. It's worth mentioning you can build unlimited number websites on DoTenX for free and whenever you reach the initial limit of your projects, you can ask for an increase.
+Note: When you create a project on DoTenX, switch to advanced mode because w…]]></summary>
+        <author>
+            <name>mohsen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[4 Steps to Create Google Authentication API in Node.js]]></title>
+        <id>https://dev.to/shreyvijayvargiya/4-steps-to-create-google-authentication-api-in-nodejs-41d3</id>
+        <link href="https://dev.to/shreyvijayvargiya/4-steps-to-create-google-authentication-api-in-nodejs-41d3"/>
+        <updated>2022-11-27T08:52:07.000Z</updated>
+        <summary type="html"><![CDATA[Under the Hood
+Getting Started
+Overall Flow
+Initialize the passport by adding configuration to the strategy instance.
+Create a route /v1/auth/google, which will begin the google authentication and open the google email selection modal for users. (Basically redirect to the google login page)
+Add passport google authentication as a middleware for /v1/auth/google the route; being middleware, we will call the passport authentication method and provide our client id and the secret to the middleware function.
+Once the passport _verify callback is called successfully, it will return the profile containing the user email and username. Using the user profile details produced from passport middleware, create a JWT token and store the user details in the database with a ticket if you want.
+Lastly, ha…]]></summary>
+        <author>
+            <name>shrey vijayvargiya</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Delete Local and Remote Git Branches]]></title>
+        <id>https://dev.to/refine/how-to-delete-local-and-remote-git-branches-311f</id>
+        <link href="https://dev.to/refine/how-to-delete-local-and-remote-git-branches-311f"/>
+        <updated>2022-11-27T08:14:10.000Z</updated>
+        <summary type="html"><![CDATA[Author: Muhammad Khabbab
+Branches are kind of blocks in a repository where we write new features, fix bugs etc. For example, if three developers are working on a project, they can create their own branches and work on them as the branches are isolated, so everyone can work in their branch.
+A branch can be:
+  Local – only on your local machine.
+  Remote – it is on a remote location, for example in the GitHub repo
+Actually, there is a third type of branch, which is the reference to the remote branches. During the cleanup, these branches should be cleaned up too. 
+delete local and remote branches on GitHub. We will also go through some common errors while deleting a branch. 
+For this article, we assume you have installed GIT, and you have the access rights to delete a branch. Let's start with…]]></summary>
+        <author>
+            <name>Necati Özmen</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Maps Hound]]></title>
+        <id>https://www.producthunt.com/posts/maps-hound</id>
+        <link href="https://www.producthunt.com/posts/maps-hound"/>
+        <updated>2022-11-27T08:09:19.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Break The Silence]]></title>
+        <id>https://www.producthunt.com/posts/break-the-silence</id>
+        <link href="https://www.producthunt.com/posts/break-the-silence"/>
+        <updated>2022-11-27T08:02:14.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[硬核观察 #833 欧盟允许在飞行中使用智能手机]]></title>
+        <id>https://linux.cn/article-15295-1.html?utm_source=rss&amp;utm_medium=rss</id>
+        <link href="https://linux.cn/article-15295-1.html?utm_source=rss&amp;utm_medium=rss"/>
+        <updated>2022-11-27T07:52:53.000Z</updated>
+        <summary type="html"><![CDATA[欧盟允许在飞行中使用智能手机
+
+欧盟委员会已经根据最现代的标准调整了关于移动通信的立法。在欧盟范围内，航空公司将能够在其飞机上安装最新的 5G 技术，允许乘客像在地面上一样使用他们的智能手机和其他连接设备。5G 覆盖将通过在飞机上安装一个所谓的 “微蜂窝” 来实现。
+
+
+消息来源：Slashdot
+
+
+
+老王点评：手机真的影响飞行安全吗？
+
+
+
+
+96% 下载的脆弱的依赖关系是可避免的
+
+据一份软件供应链状况报告，对软件供应链攻击的数量在过去的三年里增加了 742%。根据该报告，每月下载的脆弱的依赖关系多达 12 亿个。其中，96% 的下载有一个安全版本。此外，68% 的受访者确信他们的应用程序没有使用脆弱的库。然而，在对企业应用程序的随机扫描中，68% 的人在其开源软件组件中存在已知的漏洞。
+
+
+消息来源：Venture Beat
+
+
+
+老王点评：说到底，安全不仅仅是上游开发者的问题，更多是下游使用者的问题。
+
+
+
+
+72% 的美国员工希望将简单重复的工作交给 AI
+
+根据一项调查，72% 的美国员工会将发票管理、审计和简单的报告等工作任务委托给 AI，以便他们能够专注于使他们在工作中成长的任务。调查还发现，比起年长的工人，更多的 Z 世代对 AI 帮助他们工作感兴趣。
+
+
+消息来源：Venture Beat
+
+
+
+老王点评：这是大势所趋，其实我们身边也逐渐有了越来越多的 AI 接管的工作。]]></summary>
+        <author>
+            <name>linux@linux.cn (linux)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[30 Best Walmart Black Friday Deals (2022): TVs, Earbuds, and More]]></title>
+        <id>637d54194c3b99e448162ead</id>
+        <link href="https://www.wired.com/story/best-walmart-black-friday-deals-2022-1/"/>
+        <updated>2022-11-27T07:44:00.000Z</updated>
+        <summary type="html"><![CDATA[Smartwatches, video games, tech, and toys are on sale at the retailer for Cyber Weekend—and you can pick up your purchases as soon as today.]]></summary>
+        <author>
+            <name>Louryn Strampe</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub Repositories : Part 1]]></title>
+        <id>https://dev.to/manthanank/github-repositories-part-1-5hb7</id>
+        <link href="https://dev.to/manthanank/github-repositories-part-1-5hb7"/>
+        <updated>2022-11-27T07:37:54.000Z</updated>
+        <summary type="html"><![CDATA[Developer Roadmap :
+
+
+Interactive roadmaps, guides and other educational content to help developers grow in their careers.
+
+https://github.com/kamranahmedse/developer-roadmap
+🗂 The perfect Front-End Checklist for modern websites and meticulous developers.
+
+https://github.com/thedaviddias/front-end-checklist
+Manually curated collection of resources for frontend web developers.
+
+https://github.com/dypsilon/frontend-dev-bookmarks
+A complete computer science study plan to become a software engineer.
+
+https://github.com/jwasham/coding-interview-university
+ A curated awesome list of lists of interview questions. Feel free to contribute! 🎓.
+
+https://github.com/DopplerHQ/awesome-interview-questions
+Short JavaScript code snippets for all your development needs
+
+https://github.com/30-seconds/30-seconds-of-code
+A professional front-end template for building fast, robust, and adaptable web apps or sites.
+
+https://github.com/h5bp/html5-boilerplate
+A book series on JavaScript. @YDKJS on twitter.
+
+https://github.com/getify/you-dont-know-js/
+⚡️ A collection of tips to help take your CSS skills pro 🦾.
+
+https://github.com/allthingssmitty/css-protips
+📚 Freely available programming books.
+
+https://github.com/ebookfoundation/free-programming-books
+
+
+  
+  
+  More Coming Soon…]]></summary>
+        <author>
+            <name>Manthan Ank</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[68 Best Black Friday Phone Deals (2022): Phones, Cases, Tablets, Smartwatches, and More]]></title>
+        <id>636e22af06a9fc0e80b10a8d</id>
+        <link href="https://www.wired.com/story/best-black-friday-phone-deals-tablet-watch-2022-1/"/>
+        <updated>2022-11-27T07:36:00.000Z</updated>
+        <summary type="html"><![CDATA[Treat yourself to a bargain as we serve up a platter of irresistible discounts on small screens and mobile accessories.]]></summary>
+        <author>
+            <name>Simon Hill</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[30 Black Friday Deals on Amazon Devices (2022): Kindle, Echo, Fire TV Stick]]></title>
+        <id>636e222e77d2621bc8030714</id>
+        <link href="https://www.wired.com/story/best-black-friday-amazon-device-deals-2022/"/>
+        <updated>2022-11-27T07:32:00.000Z</updated>
+        <summary type="html"><![CDATA[Alexa might be going through some hardships, but you can save on Kindles, Fire tablets, and Fire TV sticks.]]></summary>
+        <author>
+            <name>Brenda Stolyar</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SSH connection to Github]]></title>
+        <id>https://dev.to/amogh2019/setting-up-laptop-ssh-connection-to-github-5039</id>
+        <link href="https://dev.to/amogh2019/setting-up-laptop-ssh-connection-to-github-5039"/>
+        <updated>2022-11-27T07:28:55.000Z</updated>
+        <summary type="html"><![CDATA[setting this up on ubuntu / linux
+assuming no existing key is present // generate ssh keypair
+
+
+
+
+$ ssh-keygen -t ed25519 -C "your_email@example.com or username"
+
+add private key to ssh-agent // why??
+
+
+
+
+$ ssh-add ~/.ssh/id_ed25519
+
+copy public key  and add to github account (settings>access>ssh keys)
+
+
+
+
+public key details is here
+$ cat ~/.ssh/id_ed25519.pub
+  # Then select and copy the contents of the id_ed25519.pub file
+  # displayed in the terminal to your clipboard
+
+test ssh connection from terminal
+
+
+
+
+$ ssh -T git@github.com
+
+Ref : https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh]]></summary>
+        <author>
+            <name>amogh2019</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[6 Best Black Friday Sonos Deals (2022): Soundbars, Speakers, Subwoofers]]></title>
+        <id>6373e432b25bbf8e38fd5bdc</id>
+        <link href="https://www.wired.com/story/best-black-friday-sonos-deals-2022-1/"/>
+        <updated>2022-11-27T07:14:00.000Z</updated>
+        <summary type="html"><![CDATA[Kit out your home with wireless multi-room audio. These discounts end on November 28.]]></summary>
+        <author>
+            <name>Haley Sprankle</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[148 Absolute Best Black Friday Deals Right Now (2022)]]></title>
+        <id>636e23146f531d47fb071254</id>
+        <link href="https://www.wired.com/story/best-black-friday-deals-2022-2/"/>
+        <updated>2022-11-27T07:05:00.000Z</updated>
+        <summary type="html"><![CDATA[These are the top discounts we’ve found across the web this weekend. Whether you want binoculars or a robot vac, there’s something for everyone.]]></summary>
+        <author>
+            <name>Scott Gilbertson, Gear Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Card reveal on hover]]></title>
+        <id>https://dev.to/sarmunbustillo/card-reveal-on-hover-36id</id>
+        <link href="https://dev.to/sarmunbustillo/card-reveal-on-hover-36id"/>
+        <updated>2022-11-27T06:56:50.000Z</updated>
+        <summary type="html"><![CDATA[Let's create a hover effect to incrementally reveal the card's content.
+This effect is pretty simple, within the card we have 2 things, the content and the 'spotlight' or circle. The trick is to make the spotlight to follow the cursor within the card's bounds and the more it moves the bigger it gets.
+So for each card we want to listen for any mouse movement. let's create a function for that:
+function onHoverCard(card) {
+    const cardSpotlight = card.querySelector('.card__spotlight');
+    let size = 50;
+
+    card.addEventListener('mousemove', (e) => {
+        const { x, y } = card.getBoundingClientRect();
+        const mouseX = e.clientX - x;
+        const mouseY = e.clientY - y;
+        const cardSpotlightX = mouseX - cardSpotlight.offsetWidth / 2;
+        const cardSpotlightY = mouseY - cardSpotlight.offsetHeight / 2;
+
+        size += 2.5;
+        cardSpotlight.style.setProperty('--_spotlight-size', `${size}px`);
+
+        cardSpotlight.style.transform = `translate(${cardSpotlightX}px, ${cardSpotlightY}px)`;
+    });
+
+    card.addEventListener('mouseleave', () => {
+        size = 50;
+    });
+}
+
+
+To attach the spotlight element to the mouse within the card's bounds, we first need to find the card's x and Y coords in relation to the page. Then we find the current x and y coords from the mouse event being fired. With those we can calculate the spotlight's coords. Well, just to make the spotlight right in the middle of the cursor we need to deduct half of its size from the coords. Finally, we use the CSS transform property to move the element to the correct coords.
+To make the spotlight grow we increment its size everytime the mouse moves and we reset it when the mouse leaves the card. We do this by keeping track of its current size with a variable (size).
+Aaaand that is pretty much it!
+Here is a demo
+My Twitter
+Checkout my blog 
+Thank you!]]></summary>
+        <author>
+            <name>Sarmun Bustillo</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[7 Developer Portfolio for inspiration]]></title>
+        <id>https://dev.to/ruppysuppy/7-developer-portfolio-for-inspiration-4no7</id>
+        <link href="https://dev.to/ruppysuppy/7-developer-portfolio-for-inspiration-4no7"/>
+        <updated>2022-11-27T06:44:00.000Z</updated>
+        <summary type="html"><![CDATA[Coming up with original ideas for your portfolio can be a challenge. Here are some ideas to draw inspiration from!
+Bruno Simon
+
+
+If you have ever tried to get your feet wet in the world of 3D websites, you must have heard Bruno Simon's name. He is the creator of Three.js Journey and boy oh boy, his portfolio reflects quite well why he is the leader in this niche!
+His website is a video game, where you take control of a jeep and drive around a 3D world, where you can explore the different sections of his portfolio. The website is an incredible example of how you can make your portfolio stand out!
+
+Robby Leonardi
+
+
+Another example of a website that stands out! Robby Leonardi's portfolio is another interactive resume, where you can scroll down to explore his work and learn more about him!
+
+Ni…]]></summary>
+        <author>
+            <name>Tapajyoti Bose</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Futicons]]></title>
+        <id>https://www.producthunt.com/posts/futicons</id>
+        <link href="https://www.producthunt.com/posts/futicons"/>
+        <updated>2022-11-27T06:18:01.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[68 Best Target Black Friday Deals Still Going (2022)]]></title>
+        <id>636e22fa3bb084d7eff587df</id>
+        <link href="https://www.wired.com/story/best-target-black-friday-deals-2022-2/"/>
+        <updated>2022-11-27T05:14:00.000Z</updated>
+        <summary type="html"><![CDATA[The retailer started its holiday sales early this year, but it's still going strong, with deals on soundbars, iPads, and games.]]></summary>
+        <author>
+            <name>Medea Giordano</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ZenScrum]]></title>
+        <id>https://www.producthunt.com/posts/zenscrum</id>
+        <link href="https://www.producthunt.com/posts/zenscrum"/>
+        <updated>2022-11-27T04:52:11.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[68 Best Black Friday Laptop and Home Office Deals (2022): Office Chairs, Standing Desks, Portable Monitors]]></title>
+        <id>636e2209557521d0988d5003</id>
+        <link href="https://www.wired.com/story/best-black-friday-laptop-deals-2022-2/"/>
+        <updated>2022-11-27T04:36:00.000Z</updated>
+        <summary type="html"><![CDATA[Get discounted office chairs, standing desks, and plenty more to furnish your remote workstation.]]></summary>
+        <author>
+            <name>Adam Speight, Gear Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ODIAPP]]></title>
+        <id>https://www.producthunt.com/posts/odiapp</id>
+        <link href="https://www.producthunt.com/posts/odiapp"/>
+        <updated>2022-11-27T04:24:43.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[22 Best Black Friday Sex Toy Deals (2022): Dame, Lelo, and More]]></title>
+        <id>636e229632968364ac1a7b5e</id>
+        <link href="https://www.wired.com/story/best-black-friday-sex-toy-deals-2022-2/"/>
+        <updated>2022-11-27T04:18:00.000Z</updated>
+        <summary type="html"><![CDATA[The weather is getting colder, which means it's a great time to warm things up inside.]]></summary>
+        <author>
+            <name>Jaina Grey</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5 个 htop 替代：增强你的 Linux 系统监控体验]]></title>
+        <id>https://linux.cn/article-15294-1.html?utm_source=rss&amp;utm_medium=rss</id>
+        <link href="https://linux.cn/article-15294-1.html?utm_source=rss&amp;utm_medium=rss"/>
+        <updated>2022-11-27T03:37:00.000Z</updated>
+        <summary type="html"><![CDATA[htop 是一个流行的命令行工具，可以帮助监测 Linux 上的系统资源和性能。
+
+它比通常默认开箱即用的 top 好。
+
+使用 htop，你可以对进程进行过滤和排序，以便更好地了解情况，获得正在运行的进程的树状视图，并在需要时杀死进程。
+
+
+
+我使用 htop 而不是其他系统监控工具，因为它可以显示对我来说至关重要的东西，并允许在我需要控制运行中的服务时终止流氓进程或冻结进程。
+
+但是，如果你想要其他显示更多信息，或一个看起来不同的东西，有哪些htop 替代品呢？让我们来看看。
+
+1、atop
+
+
+
+atop 可以提供所有运行的进程的细节。你可以得到你需要的所有数据，以了解你系统上的进程情况。
+
+它还提供了对资源利用率进行永久记录的能力，以便进行长期分析。系统管理员可能会发现这比其他工具更有用。
+
+不幸的是，它并没有为你提供漂亮的输出。因此，如果你想要的话，请继续看下面的其他替代品。
+
+如何安装 atop？
+
+对于基于 Ubuntu/Debian 的发行版，键入：
+
+sudo apt install atop
+
+
+2、vtop
+
+
+
+如果你想要一个漂亮的输出和管理进程的基本功能，vtop 是一个完美的系统监控工具。
+
+正如我在其他一些文章中所说，它的输出看起来像终端中的 GUI。你可以使用鼠标，也可以选择禁用它。也可以定制它的主题。
+
+它是用 Node.js 构建的。所以，你需要安装额外的包来安装它。
+
+不幸的是，这个项目似乎不再积极维护。但是，在写这篇文章的时候，它对我来说还是有用的。
+
+如何安装 vtop？
+
+对于基于 Ubuntu 的发行版，在终端输入以下命令：
+
+sudo apt install nodejs
+sudo apt install npm
+sudo npm install -g vtop
+
+
+3、btop++
+
+
+
+btop++ 是 bashtop 和 bpytop 的一个 C++ 版本。是的，它是这些项目的第三次迭代，由同一个开发者完成。
+
+btop++ 包括完全的鼠标支持，带有一个受游戏启发的菜单系统，可以让你过滤进程、树状视图等等。
+
+如何安装 btop++？
+
+使用官方软件库，你可以很容易地在 Fedora、openSUSE 和 FreeBSD 上安装它。
+
+对于 Fedora，你可以键入：
+
+sudo dnf install btop
+
+
+你可以探索它的 GitHub 页面，了解在其他 Linux 发行版上的安装方式。
+
+4、Glances
+
+
+
+Glances 与 htop 类似，但有更多的功能。
+
+它是一个跨平台的系统监控工具，可以将数据以 CSV 或其他格式导出，用于 InfluxDB、Elasticsearch 等。
+
+你也可以利用它的网页用户界面，远程（或在不能访问终端的情况下）查看统计数据。
+
+如何安装 Glances？
+
+对于基于 Ubuntu 的发行版，你可以键入：
+
+sudo apt install glances
+
+
+5、nmon
+
+
+
+nmon 是一个令人印象深刻的监测工具，它可以让你控制你想显示的输出内容。
+
+你可以提取监测数据（以 CSV 格式导出）并用于进一步分析。它很容易切换统计数据和在不同的视图之间进行切换。
+
+默认情况下，它每两秒刷新一次数据，但你可以自定义它，并使用更多的选项来调整你的体验。
+
+如何安装 nmon？
+
+你可以在官方软件库中找到它。对于基于 Ubuntu 的发行版，在终端键入以下内容：
+
+sudo apt install nmon
+
+
+总结
+
+top 2022
+
+top 命令工具被植入在你的 Linux 系统中。如果你想要一个基本的监控工具，想要关注系统进程和一些统计信息，top 就足够了。
+
+我不确定它是否可以算作比 htop 更强的体验，这也是 top 没有被列入主要列表的原因。
+
+正如你在这里看到的，一些监控工具可能很有趣，而且证明比 htop 更有洞察力。
+
+你最喜欢的 htop 替代品是什么？你认为 htop 对你的使用情况来说已经足够了吗？欢迎在下面的评论中让我知道你的想法。
+
+
+via: https://itsfoss.com/htop-alternatives/ 
+
+作者：Ankush Das 选题：lkxed 译者：wxy 校对：wxy
+
+本文由 LCTT 原创编译，Linux中国 荣誉推出]]></summary>
+        <author>
+            <name>linux@linux.cn (linux)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[68 Best Black Friday Deals Under $50 (2022): Electric Toothbrushes, Games, and More]]></title>
         <id>636e22bf0757f7d06dd27205</id>
         <link href="https://www.wired.com/story/best-black-friday-deals-under-50-2022-2/"/>
-        <updated>2022-11-26T09:51:00.000Z</updated>
+        <updated>2022-11-27T03:30:00.000Z</updated>
         <summary type="html"><![CDATA[Limited budget? These affordable gizmos are WIRED favorites, and now they're even cheaper.]]></summary>
         <author>
             <name>Brenda Stolyar, Medea Giordano</name>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[JavaScript Loops: The Ins and Out]]></title>
-        <id>https://dev.to/mwendwabundi/javascript-loops-the-ins-and-out-dhh</id>
-        <link href="https://dev.to/mwendwabundi/javascript-loops-the-ins-and-out-dhh"/>
-        <updated>2022-11-26T09:49:12.000Z</updated>
-        <summary type="html"><![CDATA[Introduction
+        <title type="html"><![CDATA[工作十年，这些个人管理习惯让我受益良多]]></title>
+        <id>https://sspai.com/post/76984</id>
+        <link href="https://sspai.com/post/76984"/>
+        <updated>2022-11-27T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Matrix 首页推荐 
+Matrix 是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选 Matrix 最优质的文章，展示来自用户的最真实的体验和观点。 
+文章代表作者个人观点，少数派仅对标题和排版略作修改。
 
-
-JavaScript loops are a way of automating repeated tasks and concepts in your code. Loops will iterate, to mean repeat, a specific task until a condition is met. In other words, if a condition is true, the loop will keep running until it's false.
-Loops simplify your work as a developer. It would be tedious to re-write one hundred repeated tasks, which is where loops come in!
-'for' loop, 'while' loop and **'do...while' loop.
-The 'for' loop typically functions by initializing an iterator variable, followed by a condition and an increment.
-The Code Syntax
-
-
-
-
-for (initial iterator variable; condition; increment value) {
-// code execution
-}
-
-Note that a 'for' loop is always separated by ; inside the parentheses.
-Code example
-
-
-Here we will initialize people at 8, however, we expe…]]></summary>
+近期做了工作的调整，离职前和团队做了一些经验分享和自我的反思，作为自己的告别礼物。未曾想老东家做内部培训的同事在听闻这件事之后，联系到我希望我可以聊聊离职前的感受（可能很少有工作十年的中年人会坦然地向上下级谈自己的欠缺或不足，即便是即将离职的人），索性便有了这篇文章。希望自省的同时也可以提供一些包括但不限于工作习惯，职场心态和自我规划的建议。
+笔者过去工作经验均在传统机械行业，所思所想会有一定的局限性，还请批判性阅读，择其善者而从之。
+主动沟通
+刚工作的时候，笔者自忖是一个乐观主动的人，从未想过自己在工作的时候可以如此「内向」：经常遇到了问题会卡在那里默默思考和钻研，看起来很努力，实际上却数日毫无进展，直到临近交付节点才会意识到问题的严重性，最终使自己日渐焦虑。直到汇报前才向直线领导坦承自己无法搞定一份材料且没有临时解决方案。
+这时候领导的一句话让我茅塞顿开：这个任务并不是让你一个人完成，你要学会去和相关方沟通，调动资源。实际上，我也不清楚这份材料里的数据如何得出来，但我相信可以通过项目经理那边拿到解释相关数据的人名单。
+这件事之后，便明白了主动沟通的必要性：遇到不确定或者不明白的事情，主动问询并不丢脸。反而能够让你用最短的时间更加深度了解事件原委，而非像我一样把事情积压在自己手里，硬生生把大家的工作变成了自己的问题。但在问别人问题之前也需要要求自己从自我专业的角度做出合理的理解和判断，而非诸事仰赖他人。
+而对于经常要做汇报的职场人，总是不可避免的会涉及的其他业务相关方。那么建议在向更高级领导汇报前可以事前和相关方进行沟通，以…]]></summary>
         <author>
-            <name>Mwendwa Bundi Emma</name>
+            <name>James_Tu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何在 Arch Linux 中安装 elementary OS 的 Pantheon 桌面]]></title>
+        <id>https://linux.cn/article-15293-1.html?utm_source=rss&amp;utm_medium=rss</id>
+        <link href="https://linux.cn/article-15293-1.html?utm_source=rss&amp;utm_medium=rss"/>
+        <updated>2022-11-27T02:41:18.000Z</updated>
+        <summary type="html"><![CDATA[Pantheon 是 elementary OS 的默认桌面环境。本快速指南解释了在 Arch Linux 中安装 Pantheon 桌面环境的步骤。
+
+
+Pantheon 是 elementary OS 使用的一个漂亮的桌面环境。它基于 GTK3（GTK4 移植正在进行中）和 Vala，是一个漂亮而干净的桌面，为你提供了一个精致的 Linux 桌面体验。
+
+该桌面主要由 elementary OS 使用。elementary OS 提供了 Pantheon 桌面的修改版，它是基于 GNOME 的。
+
+elementary OS 基于 Ubuntu LTS 版本。因此，在基于 Ubuntu 的发行版中安装 Pantheon 桌面是超级容易的。这意味着如果你想在不安装 elementary OS 的情况下体验 Pantheon，在 Ubuntu 中这只需要一两个命令就可以安装。
+
+在 Fedora 中，你也可以使用组包进行安装。然而，一个以 Fedora 为基础，名为 Ultramarine Linux 的发行版默认提供了它。
+
+但是，在 Arch Linux 中安装 Pantheon 需要一些工作。它不是用简单的 pacman 命令就能直接完成的，而且不能开箱即用。需要一些配置，这可能会破坏你的系统。
+
+这里我给你提供了在 Arch Linux 中安装 Pantheon 桌面的指南和步骤。
+
+警告： 第一次可能不顺利，所以我建议你在物理系统上安装前先在虚拟机上进行。因为在 Arch 中安装 Pantheon 并不像在 Arch Linux 中安装 GNOME、Xfce 和 KDE Plasma 桌面那样流畅。它还需要一些额外的手动配置。
+
+下面是在 Arch Linux 中安装 Pantheon 桌面的步骤。
+
+在 Arch Linux 中安装 Pant…]]></summary>
+        <author>
+            <name>linux@linux.cn (linux)</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[20 Best Black Friday Soundbar and TV Deals (2022): Samsung, Vizio, LG, and More]]></title>
+        <id>636e23073bb084d7eff587e0</id>
+        <link href="https://www.wired.com/story/best-black-friday-tv-soundbar-deals-2022-1/"/>
+        <updated>2022-11-27T02:40:00.000Z</updated>
+        <summary type="html"><![CDATA[Upgrade your viewing experience this holiday with these steep discounts on WIRED-tested home theater gear.]]></summary>
+        <author>
+            <name>Parker Hall</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Release 0.2 - PR #2]]></title>
+        <id>https://dev.to/aparris21/release-02-pr-2-1il2</id>
+        <link href="https://dev.to/aparris21/release-02-pr-2-1il2"/>
+        <updated>2022-11-27T02:27:40.000Z</updated>
+        <summary type="html"><![CDATA[Issue I worked on
+
+
+The html.org.in project is a website which has several simple tutorials aimed at teaching new web developers the basics of HTML.
+The website supports "light" theme and "dark" theme for readibility. I worked on issue #69, where the drop-down menu for choosing the theme was overlapping with list of tutorials, making it difficult to read some of the titles.
+There was not much setup required to apply the fix. After forking the repo, I got to work on fixing the problem.
+As stated, the website supports "light" and "dark" themes for readibility purposes. CHanging between these two themes can be done via the "theme-box", which is a <div> element that functions as a drop-down menu.
+
+On the website's home page, there is a list of all the tutorials currently hosted on the website,…]]></summary>
+        <author>
+            <name>a-parris21</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[40 Best Kitchen and Home Deals for Black Friday (2022): Cookware, Vacs, and More]]></title>
+        <id>636e2286f31adb902c7b826b</id>
+        <link href="https://www.wired.com/story/best-black-friday-kitchen-and-home-deals-2022/"/>
+        <updated>2022-11-27T02:13:00.000Z</updated>
+        <summary type="html"><![CDATA[Whether you need a new coffee maker or Smart Home gadget, here are the best Black Friday discounts on brands like All-Clad, KitchenAid and Honeywell.]]></summary>
+        <author>
+            <name>Haley Sprankle, Gear Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[88 Best Amazon Deals For Black Friday (2022): iPads, Apple Watches, and More]]></title>
+        <id>636e226c35f3894f6c57f166</id>
+        <link href="https://www.wired.com/story/best-amazon-black-friday-deals-2022-2/"/>
+        <updated>2022-11-27T01:53:00.000Z</updated>
+        <summary type="html"><![CDATA[It's time to score some amazing deals on Amazon.]]></summary>
+        <author>
+            <name>Eric Ravenscraft</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[37 Best Apple Black Friday Deals (2022): Apple Watch, iPads, AirPods]]></title>
+        <id>637bd6c9cd00500bc152f484</id>
+        <link href="https://www.wired.com/story/apple-black-friday-deals-2022-2/"/>
+        <updated>2022-11-27T01:21:00.000Z</updated>
+        <summary type="html"><![CDATA[Need a new Apple Watch, MacBook, or iPhone case? Now's the time to snag one at a discount.]]></summary>
+        <author>
+            <name>Brenda Stolyar, Gear Team</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The best Black Friday deals that you can still get]]></title>
+        <id>https://www.theverge.com/23475097/black-friday-2022-deals-best-still-available-weekend-sales-tech-earbuds-laptops</id>
+        <link href="https://www.theverge.com/23475097/black-friday-2022-deals-best-still-available-weekend-sales-tech-earbuds-laptops"/>
+        <updated>2022-11-27T00:51:57.000Z</updated>
+        <summary type="html"><![CDATA[The Noc Design / The Verge
+    
+
+  
+Black Friday is now in the past, but many of the year’s best deals on 4K TVs, video games, noise-canceling earbuds, robot vacuums, laptops, and much more are still available this weekend in the run-up to Cyber Monday. So, no, you haven’t missed out on much at all.
+Most of what’s listed below should look familiar if you’ve already been shopping online throughout the past week — especially since standouts like Apple’s latest AirPods Pro have been on sale for nearly a week — but keep in mind there will likely be several adjustments taking place throughout the weekend as we approach the official kickoff to Cyber Week. 
+
+
+
+
+
+The best Black Friday deals
+Black Friday standouts
+You can buy Apple’s new second-gen AirPods Pro at Amazon, T...
+
+Continue reading…]]></summary>
+        <author>
+            <name>The Verge -  All Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[HyperX's Insane 300-Hour Gaming Headphones Are on Sale for Cyber Monday (2022)]]></title>
+        <id>638286fcb3576f0731dda8cc</id>
+        <link href="https://www.wired.com/story/hyperx-cloud-alpha-sale-black-friday-2022/"/>
+        <updated>2022-11-27T00:36:13.000Z</updated>
+        <summary type="html"><![CDATA[HyperX's Cloud Alpha Wireless, one of the few devices to ever get a 10/10 from WIRED, are cheaper than ever right now.]]></summary>
+        <author>
+            <name>Eric Ravenscraft</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to make a to-do list using Javascript]]></title>
+        <id>https://dev.to/lensco825/how-to-make-a-to-do-list-using-javascript-23j0</id>
+        <link href="https://dev.to/lensco825/how-to-make-a-to-do-list-using-javascript-23j0"/>
+        <updated>2022-11-27T00:14:46.000Z</updated>
+        <summary type="html"><![CDATA[HTML
+
+
+For the html you'll simply need an input element and a button that'll be used to add the task, below them is a div element with a list that's where the tasks will be at. You can also add a placeholder to the input if you want or just stylize it. Below it we'll make a div element with a list, that'll be where the tasks will be. Each of these elements will have an id that we'll use to attatch the javascript. We can also use a checkbox but the javascript for it is a little bit more complex so i'll just go with the simple way.
+<html>
+<body>
+<!--we put them in a div so they can be aligned-->
+<div>
+<input placeholder="Add a task!" id="enterTask">
+<button id="AddBtn">Create</button>
+</div>
+<div>
+<ul id="taskList">
+
+</ul>
+</div>
+</body>
+</html>
+
+
+First we need to get the input, button, and …]]></summary>
+        <author>
+            <name>Lens</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Opertivo]]></title>
+        <id>https://www.producthunt.com/posts/opertivo</id>
+        <link href="https://www.producthunt.com/posts/opertivo"/>
+        <updated>2022-11-26T23:09:55.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OSD600: Adding CI to Siteit]]></title>
+        <id>https://dev.to/tdaw/osd600-adding-ci-to-siteit-c71</id>
+        <link href="https://dev.to/tdaw/osd600-adding-ci-to-siteit-c71"/>
+        <updated>2022-11-26T23:08:52.000Z</updated>
+        <summary type="html"><![CDATA[Overview
+
+
+For Lab 9, I was tasked with adding continuous integration to Siteit - an SSG tool that parses markdown and text files and renders results in HTML files.
+I could have chosen other popular options, such as Travis CI, to integrate continuous integration, but since Siteit is already on GitHub, I decided to integrate CI using only GitHub Actions.
+My initial workflow file was pretty simple, as I had one "build" job that did more than just building. It also ran linter, formatter, and unit tests. Everything seemed to work as expected until I looked at how my lab partner had integrated his CI workflow. 
+My lab partner had sectioned jobs based on their purpose. This approach seemed more logical, and I realized I could improve my  CI workflow without running all scripts as part of the build job. Therefore, I decided to refactor my workflow by adding the following jobs:
+linter
+formatter
+tests
+The job names implies the function of each job. 
+linter runs checks for linting errors using eslint and fixes them. On the other hand, formatter runs checks for formatting using prettier and corrects them. Finally, tests runs unit tests using the jest framework.
+To view CI workflow implementation for Siteit, click here.
+Implementing Continuous Integration using GitHub Actions was an overall fun experience. I got to familiarize myself with the YAML syntax and gain valuable experience using GitHub Actions.]]></summary>
+        <author>
+            <name>TD</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The best Black Friday deals you can still get that make for great gifts]]></title>
+        <id>https://www.theverge.com/23475599/black-friday-deals-gift-ideas-cyber-monday-holiday-shopping</id>
+        <link href="https://www.theverge.com/23475599/black-friday-deals-gift-ideas-cyber-monday-holiday-shopping"/>
+        <updated>2022-11-26T23:00:15.000Z</updated>
+        <summary type="html"><![CDATA[You can save hundreds on LG’s C2 OLED, which is currently on sale in numerous size configurations. | Photo by Chris Welch / The Verge
+    
+
+  
+Times are hard, and if you’ve been stressing about how you’re going to afford a good gift this holiday season, it’s understandable. Thankfully, Black Friday offers one of the best (and last) opportunities to save big before the holidays. And while the official shopping holiday may have come and gone, we’re still seeing some steep discounts on some of the newest and most popular products, including the new AirPods Pro and LG’s latest C2 OLED. There are also deals still available that won’t absolutely destroy your budget — like those on the new fifth-gen Echo Dot and even a year of Hulu. 
+
+
+Below, we’ve curated a guide to some of the best deals on presents you can still get. Many of these are taken right from our various holiday gift guides...
+Continue reading…]]></summary>
+        <author>
+            <name>The Verge -  All Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The best Black Friday deals on Amazon devices]]></title>
+        <id>https://www.theverge.com/23466621/black-friday-2022-amazon-deals-cyber-monday-kindle-paperwhite-echo-dot-deal-sale</id>
+        <link href="https://www.theverge.com/23466621/black-friday-2022-amazon-deals-cyber-monday-kindle-paperwhite-echo-dot-deal-sale"/>
+        <updated>2022-11-26T22:51:31.000Z</updated>
+        <summary type="html"><![CDATA[Amazon’s Echo Show 15 is $169.99 at various retailers, which is an $80 discount. | Photo by Jennifer Pattison Tuohy / The Verge
+    
+
+  
+Don’t worry if you missed out on the steep Amazon device discounts we saw during July’s Amazon Prime Day and October’s Prime Early Access Sale: Black Friday is here, and the deals, in some cases, are even better. With the holiday season just around the corner, the timing’s perfect, too, as even popular presents like the Kindle Paperwhite are on sale at new all-time low prices. Even better, we’re seeing some of the first significant discounts on Amazon’s recently launched tech, like the fifth-gen Echo Dot, which just came out last month and is already half off. 
+
+
+For your convenience, we’ve curated all the best deals you can currently get on Amazon devices in this post. If you want to save even more, though, be sure to check out our other...
+Continue reading…]]></summary>
+        <author>
+            <name>The Verge -  All Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Twitter executive got a court injunction to prevent Elon Musk from firing her]]></title>
+        <id>https://www.theverge.com/2022/11/26/23479275/twitter-executive-court-injunction-elon-musk-fired-sinead-mcsweeney</id>
+        <link href="https://www.theverge.com/2022/11/26/23479275/twitter-executive-court-injunction-elon-musk-fired-sinead-mcsweeney"/>
+        <updated>2022-11-26T22:39:42.000Z</updated>
+        <summary type="html"><![CDATA[Illustration by Alex Castro / The Verge
+    
+
+  
+Sinead McSweeney, Twitter’s Ireland-based global vice president of public policy, secured a temporary injunction from the High Court of Dublin to prevent her from getting fired, according to a report from The Irish Times. McSweeney claims she was locked out of her work accounts and Twitter’s Dublin office after not responding to the email Elon Musk sent to employees, which asked workers to reply “yes” to commit to Twitter’s “extremely hardcore” culture, or otherwise leave.
+Musk sent out the email shortly after his Twitter takeover on November 16th, and gave employees a little over a day to confirm whether they wanted to stay at the company. If an employee didn’t click “yes” on the form included in the email, Twitter said it would “treat...
+Continue reading…]]></summary>
+        <author>
+            <name>The Verge -  All Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The best Black Friday deals on smartwatches and fitness trackers]]></title>
+        <id>https://www.theverge.com/23475045/black-friday-2022-smartwatch-deals-cyber-monday-fitness-trackers</id>
+        <link href="https://www.theverge.com/23475045/black-friday-2022-smartwatch-deals-cyber-monday-fitness-trackers"/>
+        <updated>2022-11-26T22:29:11.000Z</updated>
+        <summary type="html"><![CDATA[The Apple Watch Ultra is $60 off at multiple retailers. | Photo by Amelia Holowaty Krales / The Verge
+    
+
+  
+Picking a smartwatch or fitness tracker can be daunting. There are dozens of factors to consider, such as style, durability, connectivity options, battery life, and the types of metrics tracked. Plus, there are enough models to make your head spin. With all the Black Friday and Cyber Monday deals, it can be hard to know what’s worth it and what isn’t. 
+No worries. We’ve picked out the best deals so you don’t have to. They’re separated into three categories: smartwatches, multisport watches (for your hardcore athletes), and fitness trackers.
+
+
+The best Black Friday smartwatch deals
+The 41mm Apple Watch Series 8 with GPS is $349, which is $50 off its normal price, at Amazon, Walmart, and Target. It lacks cellular capability, but it’s still...
+Continue reading…]]></summary>
+        <author>
+            <name>The Verge -  All Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The best Black Friday 2022 deals on headphones and earbuds]]></title>
+        <id>https://www.theverge.com/23475130/black-friday-2022-headphones-earbuds-deals-cyber-monday-airpods-bose-sony</id>
+        <link href="https://www.theverge.com/23475130/black-friday-2022-headphones-earbuds-deals-cyber-monday-airpods-bose-sony"/>
+        <updated>2022-11-26T22:13:24.000Z</updated>
+        <summary type="html"><![CDATA[Photo by Chris Welch / The Verge
+    
+
+  
+Whether you’re shopping for yourself or trying to come through with an amazing gift for someone else, Black Friday and Cyber Monday are great opportunities to pick up the latest wireless earbuds and headphones. Some of this year’s best models from Apple, Samsung, Sony, Bose, Beats, and others have now been on the market for a few months and seeing their first big discounts. Meanwhile, old favorites are hitting all-time lows. 
+You can expect most of the deals to continue through Cyber Monday; we’ll be keeping an eye on this list and updating it with notable new discounts as they pop up. 
+
+
+The best AirPods deals during Black Friday and Cyber Monday
+Apple’s new AirPods Pro (second-gen) are $50 off at Best Buy, Target, and Amazon, putting...
+
+  
+Continue reading…]]></summary>
+        <author>
+            <name>The Verge -  All Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The best Black Friday 2022 phone deals you can still get]]></title>
+        <id>https://www.theverge.com/23475851/black-friday-2022-phone-deals-cyber-monday-apple-iphone-samsung-google-motorola</id>
+        <link href="https://www.theverge.com/23475851/black-friday-2022-phone-deals-cyber-monday-apple-iphone-samsung-google-motorola"/>
+        <updated>2022-11-26T22:13:16.000Z</updated>
+        <summary type="html"><![CDATA[The deals are at hand. | Photo by Amelia Holowaty Krales / The Verge
+    
+
+  
+If you’ve been putting off replacing an old phone until the end of the year, then well done — there are plenty of Black Friday and Cyber Monday deals still available to take the sting out of a new phone purchase. This year’s batch of deals features some healthy discounts on the latest flagships, including the iPhone 14 Pro and Google’s excellent Pixel 7, as well as some steep price cuts on already well-priced midrange models. If you’re shopping for a new phone, take a look at our picks for the best deals of the bunch.
+
+
+The best Black Friday iPhone deals
+Apple isn’t one for Black Friday, but you can still find a few ways to save on a new iPhone. Verizon is offering a free iPhone 14 Pro when you trade in an old phone on a select 5G...
+Continue reading…]]></summary>
+        <author>
+            <name>The Verge -  All Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The best Black Friday gaming deals]]></title>
+        <id>https://www.theverge.com/23475747/best-black-friday-gaming-deals-games-xbox-ps5-headsets-mice-keyboards-controllers</id>
+        <link href="https://www.theverge.com/23475747/best-black-friday-gaming-deals-games-xbox-ps5-headsets-mice-keyboards-controllers"/>
+        <updated>2022-11-26T21:54:57.000Z</updated>
+        <summary type="html"><![CDATA[Consoles like the Xbox Series S and accessories are discounted over Black Friday | Photo by Vjeran Pavic / The Verge
+    
+
+  
+It doesn’t matter which console you play on, there are tons of great discounts being served up over Black Friday and Cyber Monday. While finding a discount on a PlayStation 5 is still wishful thinking, you can actually get a Nintendo Switch bundle or Xbox Series S for less than retail price this year, which is pretty cool. Everything from consoles to gaming headsets is receiving some sort of discount, so whether you’re looking for discounts on games or accessories, our roundup of the best Black Friday gaming deals has got you covered.
+For even more Black Friday deals coverage, make sure to follow our Black Friday storystream for regular updates and check out our Black Friday hub to see the growing collection of all our roundups.  
+
+
+Continue reading…]]></summary>
+        <author>
+            <name>The Verge -  All Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Nintendo Switch is on sale with Mario Kart 8 Deluxe for just $299.99]]></title>
+        <id>https://www.theverge.com/2022/11/26/23479297/black-friday-2022-nintendo-switch-bundle-mario-kart-online-deal-sale</id>
+        <link href="https://www.theverge.com/2022/11/26/23479297/black-friday-2022-nintendo-switch-bundle-mario-kart-online-deal-sale"/>
+        <updated>2022-11-26T21:43:23.000Z</updated>
+        <summary type="html"><![CDATA[My actual face after destroying my nephews with a blue shell.
+    
+
+  
+The holidays (excluding Black Friday) are truly a time to show a little extra compassion and empathy toward our fellow humans, but if you feel the need to use that blue shell, don’t hesitate. Right now, multiple retailers still have an excellent Nintendo Switch bundle that includes a digital copy of Mario Kart 8 Deluxe, a three-month individual membership to Nintendo Switch Online, and a standard Nintendo Switch. Normally, the combined price of everything included in this bundle would cost roughly $368, but it’s currently available at Walmart, Target, and Best Buy for just $299.99.
+
+
+Mario Kart is a game that needs no introduction, but Mario Kart 8 Deluxe is arguably the best entry in the series to date thanks to not only the portable...
+Continue reading…]]></summary>
+        <author>
+            <name>The Verge -  All Posts</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[38 Best Black Friday Fitness and Outdoor Deals (2022): Shoes, Socks, Helmets, and More]]></title>
+        <id>636e22d1ab9086067e9f26d1</id>
+        <link href="https://www.wired.com/story/best-black-friday-fitness-deals-outdoors-2022-1/"/>
+        <updated>2022-11-26T21:29:00.000Z</updated>
+        <summary type="html"><![CDATA[Chase away the winter blues with discounts on hiking and camping gear, wearable fitness gadgets, and more.]]></summary>
+        <author>
+            <name>Matt Jancer</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rovalty]]></title>
+        <id>https://www.producthunt.com/posts/rovalty</id>
+        <link href="https://www.producthunt.com/posts/rovalty"/>
+        <updated>2022-11-26T18:33:35.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[43 Best Video Game Black Friday Deals (2022): Switch, Playstation, Xbox, and More]]></title>
+        <id>636e225da3291a07ef8cdbe5</id>
+        <link href="https://www.wired.com/story/best-black-friday-video-game-deals-2022-1/"/>
+        <updated>2022-11-26T18:04:00.000Z</updated>
+        <summary type="html"><![CDATA[Snag deals on Nintendo Switch, Playstation, and Xbox consoles and accessories.]]></summary>
+        <author>
+            <name>Eric Ravenscraft</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[24 Best Black Friday Coffee Maker Deals (2022): Drip Coffee, Espresso Machines, Grinders, Subscriptions]]></title>
+        <id>636e22a435f3894f6c57f167</id>
+        <link href="https://www.wired.com/story/best-black-friday-coffee-deals-2022-1/"/>
+        <updated>2022-11-26T16:08:00.000Z</updated>
+        <summary type="html"><![CDATA[Keep caffeinated this holiday season with some of our favorite beans, espresso machines, and grinders.]]></summary>
+        <author>
+            <name>Jaina Grey</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[feedbacks.dev]]></title>
+        <id>https://www.producthunt.com/posts/feedbacks-dev</id>
+        <link href="https://www.producthunt.com/posts/feedbacks-dev"/>
+        <updated>2022-11-26T15:46:23.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dollar$ign]]></title>
+        <id>https://www.producthunt.com/posts/dollar-ign</id>
+        <link href="https://www.producthunt.com/posts/dollar-ign"/>
+        <updated>2022-11-26T15:29:21.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Passphoto.ai]]></title>
+        <id>https://www.producthunt.com/posts/passphoto-ai</id>
+        <link href="https://www.producthunt.com/posts/passphoto-ai"/>
+        <updated>2022-11-26T14:59:38.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[34 Best Black Friday Headphone and Speaker Deals (2022): AirPods Pro, Sonos, and Record Players]]></title>
+        <id>636e227a5323b9770a54b100</id>
+        <link href="https://www.wired.com/story/best-black-friday-headphone-deals-speakers-2022-1/"/>
+        <updated>2022-11-26T14:52:00.000Z</updated>
+        <summary type="html"><![CDATA[Apple, Sonos, Sony, and more of our favorite audio brands are having huge sales this cyber weekend. We've even found discounts on record players.]]></summary>
+        <author>
+            <name>Haley Sprankle</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple Tracks You More Than You Think]]></title>
+        <id>6381030fb266fb68ac7610a3</id>
+        <link href="https://www.wired.com/story/apple-iphone-privacy-analytics-security-roundup/"/>
+        <updated>2022-11-26T14:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Plus: WikiLeaks’ website is falling apart, tax websites are sending your data to Facebook, and cops take down a big phone-number-spoofing operation.]]></summary>
+        <author>
+            <name>Matt Burgess</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[23 Best Black Friday Ebike and Escooter Deals (2022): Bike Accessories and More]]></title>
+        <id>636e221e5b833e6d21b64f6f</id>
+        <link href="https://www.wired.com/story/best-black-friday-ebike-escooter-deals-2022-1/"/>
+        <updated>2022-11-26T13:08:00.000Z</updated>
+        <summary type="html"><![CDATA[Gas prices are still high, and bikes are still fun. Here are our favorite discounts on everything you need to get your two wheels on the road.]]></summary>
+        <author>
+            <name>Adrienne So</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Use Technology to Fuel Long-Distance Love]]></title>
+        <id>6361851be89fc0bc793570aa</id>
+        <link href="https://www.wired.com/story/how-to-use-technology-long-distance-relationships/"/>
+        <updated>2022-11-26T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[When I started digitally dating my bicoastal bae, we needed new ways to stay connected. These apps and tips helped us.]]></summary>
+        <author>
+            <name>Kalina Phillips</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Geological Fluke That's Protecting Sea Life in the Galapagos]]></title>
+        <id>637bba765fde9b7339093bf2</id>
+        <link href="https://www.wired.com/story/the-geological-fluke-thats-protecting-sea-life-in-the-galapagos/"/>
+        <updated>2022-11-26T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The islands are in the line of an icy current that provides marine ecosystems refuge amid warming oceans. But the good news might not last for long.]]></summary>
+        <author>
+            <name>Richard Kemeny</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Resource.fyi]]></title>
+        <id>https://www.producthunt.com/posts/resource-fyi</id>
+        <link href="https://www.producthunt.com/posts/resource-fyi"/>
+        <updated>2022-11-26T12:35:53.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rapid Scrapper]]></title>
+        <id>https://www.producthunt.com/posts/rapid-scrapper</id>
+        <link href="https://www.producthunt.com/posts/rapid-scrapper"/>
+        <updated>2022-11-26T12:34:40.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The evolution of whales from land to sea]]></title>
+        <id>https://arstechnica.com/?p=1899963</id>
+        <link href="https://arstechnica.com/?p=1899963"/>
+        <updated>2022-11-26T12:07:36.000Z</updated>
+        <summary type="html"><![CDATA[Genomes of cetaceans help tell story of mammals who returned to life aquatic.]]></summary>
+        <author>
+            <name>Knowable Magazine</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[The Physics of Scuba Diving]]></title>
+        <id>63701d748cea9c3346926041</id>
+        <link href="https://www.wired.com/story/the-physics-of-scuba-diving/"/>
+        <updated>2022-11-26T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A deep dive into the science of staying alive underwater.]]></summary>
+        <author>
+            <name>Rhett Allain</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[win-pwn初探（二）]]></title>
+        <id>https://xz.aliyun.com/t/11891</id>
+        <link href="https://xz.aliyun.com/t/11891"/>
+        <updated>2022-11-26T11:33:39.000Z</updated>
+        <summary type="html"><![CDATA[win-pwn初探（二）]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JAVA开发中涉及的基础安全问题和解决方法初探]]></title>
+        <id>https://xz.aliyun.com/t/11890</id>
+        <link href="https://xz.aliyun.com/t/11890"/>
+        <updated>2022-11-26T09:15:13.000Z</updated>
+        <summary type="html"><![CDATA[JAVA开发中涉及的基础安全问题和解决方法初探]]></summary>
+        <author>
+            <name>先知安全技术社区</name>
         </author>
     </entry>
     <entry>
@@ -132,214 +1205,13 @@ Solder
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[116 Absolute Best Black Friday Deals Right Now (2022)]]></title>
-        <id>636e23146f531d47fb071254</id>
-        <link href="https://www.wired.com/story/best-black-friday-deals-2022-1/"/>
-        <updated>2022-11-26T07:39:00.000Z</updated>
-        <summary type="html"><![CDATA[These are the top discounts we’ve found across the web. Whether you want a new keyboard or a robot vac, there’s something for everyone.]]></summary>
+        <title type="html"><![CDATA[安卓手机，当 PC 的摄像头，哪个软件比较好？ ​​​​]]></title>
+        <id>https://www.appinn.com/?p=43987</id>
+        <link href="https://www.appinn.com/android-camera-for-pc/"/>
+        <updated>2022-11-26T07:46:34.000Z</updated>
+        <summary type="html"><![CDATA[有群里的同学提问：「安卓手机，当PC 的摄像头，哪个软件比较好？ ​​​​」青小蛙转发到了微博上，就有不少同学发来了应用，当属 @爱口无罪 同学的评论，言简意赅：droidcam 神级软件。@头撞墙]]></summary>
         <author>
-            <name>Gear Team</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Form Validation with JS and Tailwind]]></title>
-        <id>https://dev.to/shubhamtiwari909/form-validation-with-js-and-tailwind-38ab</id>
-        <link href="https://dev.to/shubhamtiwari909/form-validation-with-js-and-tailwind-38ab"/>
-        <updated>2022-11-26T06:50:05.000Z</updated>
-        <summary type="html"><![CDATA[Hello today i will share with you the form validation i created using HTML,Javascript and TailwindCSS.I will give a brief description about it and then you can check the entire code in the codepen below at the bottom.
-Let's get started...
-I put the required attribute in all the inputs to make them required field.
-For the Name input field, i am checking whether it is empty or not.
-For the Email input field, i have taken a regular expression from the web and test it on my email.
-For the Phone number input field , i am checking that whether it has a length of 10 digits or not.
-For the Password input field , i am checking multiple things like does it contain lowercase and uppercase letters, number,it's length is greated than or equal to 10 or not,I am showing these all errors separately and using conditional statements, hiding and showing each one of them using css display property.
-For the Confirm password input field, i am checking the same thing as password except one extra thing here which is whether the confirm password is matching the password or not.
-These functions are called on each "keyup" event so , it is dynamic and will show the error if there is any on each character or letter or number you type.
-
-
-
-
-I hope you will like this simple validation and if there is any correction or suggestion , you can write it in the comment section.
-You can contact me on -
-https://www.instagram.com/supremacism__shubh/
-https://www.linkedin.com/in/shubham-tiwari-b7544b193/
-shubhmtiwri00@gmail.com
-^^You can help me by some donation at the link below Thank you👇👇 ^^
-https://www.buymeacoffee.com/waaduheck <--
-Also check these posts as well
-https://dev.to/shubhamtiwari909/css-iswherehas-and-not-2afd
-https://dev.to/shubhamtiwari909/theme-changer-with-html-and-css-only-4144
-https://dev.to/shubhamtiwari909/swiperjs-3802
-https://dev.to/shubhamtiwari909/going-deep-in-array-sort-js-2n90]]></summary>
-        <author>
-            <name>Mysterio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Access Local Sever on Other Devices]]></title>
-        <id>https://dev.to/j471n/how-to-access-local-sever-on-other-devices-57f1</id>
-        <link href="https://dev.to/j471n/how-to-access-local-sever-on-other-devices-57f1"/>
-        <updated>2022-11-26T06:50:05.000Z</updated>
-        <summary type="html"><![CDATA[In this article, I am going to show you how you can access your local/localhost server on any other device (Android or iOS). 
-To access your local server, you only one thing IP Address of the device where the server is running. Now there could be two scenarios where you are using Windows or Mac. You just need to get the IP Address. Let me show you how:
-Open windows terminal and type ipconfig in the command line and you will get the following output:
-
-
-You only need an IPv4 address and as you get it not type this in your mobile browser followed by PORT. For instance-
-# IPv4:PORT 
-192.168.64.201:3000
-
-And if you are running any web app on localhost:3000 then you will be able to see that on your mobile devices also.
-For Mac users you have to do the same-
-Get the IPv4 (use ifconfig command)
-Put that on your mobile device followed by PORT
-
-
-
-And hurray!!!
-If you are unable to fine the mac IP address then you can take a look the following article: 
-How to Find Your IP Address on a Mac
-Following is the Video demo of how it works:
-That's all you need to run you localhost server on other devices.  If you enjoyed this article, then don't forget to give ❤️ and Bookmark 🏷️for later use and if you have any questions or feedback then don't hesitate to drop them in the comments below. I'll see in the next one.
-🌐 Connect with me:
-Twitter
-Github
-Instagram
-Newsletter
-LinkedIn
-Website
-Buy me a Coffee]]></summary>
-        <author>
-            <name>Jatin Sharma</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Storybook - mocking API calls]]></title>
-        <id>https://dev.to/dailydevtips1/storybook-mocking-api-calls-2b14</id>
-        <link href="https://dev.to/dailydevtips1/storybook-mocking-api-calls-2b14"/>
-        <updated>2022-11-26T06:49:26.000Z</updated>
-        <summary type="html"><![CDATA[Sometimes, our components might call API endpoints, which could add unnecessary load to our Storybook side of things.
-In those cases, we might want to intercept those calls and mock them instead of returning them.
-And luckily for us, Storybook has a mocking addon we can use for this.
-I will add a super simple data loader to the demo stories/Page.jsx file.
-It's simply to demo the use case, so I'll be adding a data fetching mechanism like so:
-export const Page = () => {
-  const [user, setUser] = React.useState();
-  const [data, setData] = useState(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(false);
-
-  useEffect(() => {
-    fetch(`https://jsonplaceholder.typicode.com/posts`)
-      .then((response) => response.json())
-      .then((formattedData) …]]></summary>
-        <author>
-            <name>Chris Bongers</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The best Black Friday 2022 deals on headphones and earbuds]]></title>
-        <id>https://www.theverge.com/23475130/black-friday-2022-headphones-earbuds-deals-cyber-monday-airpods-bose-sony</id>
-        <link href="https://www.theverge.com/23475130/black-friday-2022-headphones-earbuds-deals-cyber-monday-airpods-bose-sony"/>
-        <updated>2022-11-26T06:21:16.000Z</updated>
-        <summary type="html"><![CDATA[Photo by Chris Welch / The Verge
-    
-
-  
-Whether you’re shopping for yourself or trying to come through with an amazing gift for someone else, Black Friday and Cyber Monday are great opportunities to pick up the latest wireless earbuds and headphones. Some of this year’s best models from Apple, Samsung, Sony, Bose, Beats, and others have now been on the market for a few months and seeing their first big discounts. Meanwhile, old favorites are hitting all-time lows. 
-You can expect most of the deals to continue through Cyber Monday; we’ll be keeping an eye on this list and updating it with notable new discounts as they pop up. 
-
-
-The best AirPods deals during Black Friday and Cyber Monday
-Apple’s new AirPods Pro (second-gen) are $50 off at Best Buy, Target, and Amazon, putting...
-
-  
-Continue reading…]]></summary>
-        <author>
-            <name>The Verge -  All Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The best Black Friday 2022 phone deals]]></title>
-        <id>https://www.theverge.com/23475851/black-friday-2022-phone-deals-cyber-monday-apple-iphone-samsung-google-motorola</id>
-        <link href="https://www.theverge.com/23475851/black-friday-2022-phone-deals-cyber-monday-apple-iphone-samsung-google-motorola"/>
-        <updated>2022-11-26T06:10:32.000Z</updated>
-        <summary type="html"><![CDATA[The deals are at hand. | Photo by Amelia Holowaty Krales / The Verge
-    
-
-  
-If you’ve been putting off replacing an old phone until the end of the year, then well done — Black Friday and Cyber Monday deals are here to take the sting out of a new phone purchase. This year’s batch of deals features some healthy discounts on the latest flagships, including the iPhone 14 Pro and Google’s excellent Pixel 7, as well as some steep price cuts on already well-priced midrange models. If you’re shopping for a new phone, take a look at our picks for the best deals of the bunch.
-
-
-The best Black Friday iPhone deals
-Apple isn’t one for Black Friday, but you can still find a few ways to save on a new iPhone. Verizon is offering a free iPhone 14 Pro when you trade in an old phone on a select 5G unlimited plan, while AT&T is...
-
-
-  
-Continue reading…]]></summary>
-        <author>
-            <name>The Verge -  All Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The best Black Friday deals you can get at Target]]></title>
-        <id>https://www.theverge.com/23477770/target-black-friday-2022-deals-cyber-monday-tech-games-streaming</id>
-        <link href="https://www.theverge.com/23477770/target-black-friday-2022-deals-cyber-monday-tech-games-streaming"/>
-        <updated>2022-11-26T06:02:55.000Z</updated>
-        <summary type="html"><![CDATA[Right now, you can save on Vizio’s M6-Series QLED and other cool tech as part of Target’s ongoing Black Friday sale. | Image: Vizio
-    
-
-  
-The holiday shopping season has begun and several retailers, including Target, are offering some spectacular Black Friday deals for this annual shopping event. Some of the best discounts we’re currently seeing extend to wireless earbuds like the Beats Studio Buds ($89.99), as well as TVs like Vizio’s 50-inch M6-Series QLED (now $399.99). And if you’ve been putting off buying up until now, this may be the day to do it: many of the deals that Target is offering have been dropped still lower for Black Friday itself.
-
-
-Here, we’ve collected some of the best discounts you can find at Target, many of which will be available through Thanksgiving weekend and price matched elsewhere. Target has been rolling out new deals every Sunday so we’ll be...
-Continue reading…]]></summary>
-        <author>
-            <name>The Verge -  All Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[69 Best Amazon Deals For Black Friday (2022): iPads, Apple Watches, and More]]></title>
-        <id>636e226c35f3894f6c57f166</id>
-        <link href="https://www.wired.com/story/best-amazon-black-friday-deals-2022-1/"/>
-        <updated>2022-11-26T05:57:00.000Z</updated>
-        <summary type="html"><![CDATA[It's time to score some amazing deals on Amazon.]]></summary>
-        <author>
-            <name>Eric Ravenscraft</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The best Black Friday deals you can get at Best Buy]]></title>
-        <id>https://www.theverge.com/23477726/best-buy-black-friday-2022-cyber-monday-tech-deals-tvs-games-smartwatch</id>
-        <link href="https://www.theverge.com/23477726/best-buy-black-friday-2022-cyber-monday-tech-deals-tvs-games-smartwatch"/>
-        <updated>2022-11-26T05:56:14.000Z</updated>
-        <summary type="html"><![CDATA[The Apple Watch Ultra has received its first big price cut at Best Buy, knocking $60 off. | Photo by Amelia Holowaty Krales / The Verge
-    
-
-  
-This is it, Black Friday. Best Buy is offering its best deals of the year, much like it has been for the past several weeks. But now that Thanksgiving is wrapped up, we took a spin through Best Buy’s catalog to see what else it might have added to the sale. You’ll find its best online and in-store deals below on video games, 4K TVs, headphones, smartwatches, and so much more. We’ll keep this page updated throughout the weekend, as well as during Cyber Week.
-
-
-A few important things to note from Best Buy’s frequently asked questions page: it isn’t offering rain checks on Black Friday deals that sell out, though its great price-matching policy won’t be in effect from now through Cyber Monday, which is November 28th. For items purchased...
-Continue reading…]]></summary>
-        <author>
-            <name>The Verge -  All Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Become a Web Developer (A Complete Guide)]]></title>
-        <id>https://dev.to/elliot_brenyasarfo_18749/how-to-become-a-web-developer-a-complete-guide-30ib</id>
-        <link href="https://dev.to/elliot_brenyasarfo_18749/how-to-become-a-web-developer-a-complete-guide-30ib"/>
-        <updated>2022-11-26T05:12:10.000Z</updated>
-        <summary type="html"><![CDATA[So you're interested in learning how to become a web developer. The good news is that there are plenty of resources available. It takes time, effort, and most importantly practice by working on projects to become a skilled web developer.
-Additional choices include front-end, back-end, and full-stack development, which combines both front-end and back-end development. In comparison to other programming positions, web development career chances are good and you may land a job that pays quickly.
-We'll go over all you need to know about web programming(development) in this post, including how to become a web developer in just 6 easy steps.
-**
-**
-Web developers create the website and make sure that the website function properly. They optimize website experience and stabilize where data are stor…]]></summary>
-        <author>
-            <name>Elliot Brenya sarfo</name>
+            <name>青小蛙</name>
         </author>
     </entry>
     <entry>
@@ -352,82 +1224,6 @@ Web developers create the website and make sure that the website function proper
             Link]]></summary>
         <author>
             <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[63 Best Black Friday Laptop and Home Office Deals (2022): Office Chairs, Standing Desks, Portable Monitors]]></title>
-        <id>636e2209557521d0988d5003</id>
-        <link href="https://www.wired.com/story/best-black-friday-laptop-deals-2022-1/"/>
-        <updated>2022-11-26T04:34:00.000Z</updated>
-        <summary type="html"><![CDATA[Get discounted office chairs, standing desks, and plenty more to furnish your remote workstation.]]></summary>
-        <author>
-            <name>Adam Speight</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[60 Best Black Friday Phone Deals (2022): Phones, Cases, Tablets, Smartwatches, and More]]></title>
-        <id>636e22af06a9fc0e80b10a8d</id>
-        <link href="https://www.wired.com/story/best-black-friday-phone-deals-tablet-watch-2022/"/>
-        <updated>2022-11-26T04:10:00.000Z</updated>
-        <summary type="html"><![CDATA[Treat yourself to a bargain as we serve up a platter of irresistible discounts on small screens and mobile accessories.]]></summary>
-        <author>
-            <name>Simon Hill</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The best Black Friday deals on Apple devices]]></title>
-        <id>https://www.theverge.com/23466789/apple-black-friday-2022-deals-cyber-monday-macbook-ipad-airtags-watch</id>
-        <link href="https://www.theverge.com/23466789/apple-black-friday-2022-deals-cyber-monday-macbook-ipad-airtags-watch"/>
-        <updated>2022-11-26T04:02:33.000Z</updated>
-        <summary type="html"><![CDATA[The Apple Watch Series 8 is $50 off in time for Black Friday. | Photo by Amelia Holowaty Krales / The Verge
-    
-
-  
-Plenty of tech is on sale for Black Friday and Cyber Monday including Apple products. Below, we’ve compiled the best Black Friday deals on Apple devices that we could find, including laptops, iPads, Apple Watches, AirPods, AirTags, and more. We’re still keeping an eye out for any iPhone deals that pop up as well, though the only kind of deal we’ve seen thus far are carrier discounts and not actual price cuts on hardware.
-
-
-The best Black Friday iPad deals
-It’s a great time to buy an iPad. The base iPad from 2021 with a Lightning connector is a good value for $269.99. The $100 discount that brings the 2021 iPad Mini with a USB-C connector down to $399.99 is good, too, even though that deal isn’t new. The next step is a great deal on the 2...
-Continue reading…]]></summary>
-        <author>
-            <name>The Verge -  All Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Trigger precisely at hh:mm:00 with EventBridge and Lambda]]></title>
-        <id>https://dev.to/aws-builders/trigger-precisely-at-hhmm00-with-eventbridge-and-lambda-1ia5</id>
-        <link href="https://dev.to/aws-builders/trigger-precisely-at-hhmm00-with-eventbridge-and-lambda-1ia5"/>
-        <updated>2022-11-26T03:40:40.000Z</updated>
-        <summary type="html"><![CDATA[Motivation
-
-
-In Amazon EventBridge Rules and EventBridge Scheduler, the precision of time is one minute. This is the same as the usual cron jobs. 
-... the minimum precision for a schedule is one minute. Your scheduled rule runs within that minute, but not on the precise 0th second. (aws-doc)
-Sometimes we want to trigger precisely at zero seconds, for example, at 00:00:00.
-In this post, I share the way to trigger precisely using the Lambda function with the EventBridge Schedule.
-
-EventBridge invokes the Lambda function 1 minute before the desired trigger time 00:00:00. That means the EventBridge Schedule is set to invoke the Lambda function at 23:59. As written above, we don't know what seconds in 23:59 the time Lambda function will be invoked. (It might be 23:59:16 or 23:59:38...) 
-
-
-The L…]]></summary>
-        <author>
-            <name>shimo</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The best Black Friday deals under $25]]></title>
-        <id>https://www.theverge.com/23474206/black-friday-2022-tech-deals-under-25-cyber-monday-smart-home-streaming-gaming</id>
-        <link href="https://www.theverge.com/23474206/black-friday-2022-tech-deals-under-25-cyber-monday-smart-home-streaming-gaming"/>
-        <updated>2022-11-26T03:37:30.000Z</updated>
-        <summary type="html"><![CDATA[Individual Apple AirTags are on sale for under $25. | Photo by Vjeran Pavic / The Verge
-    
-
-  
-While much of our Black Friday coverage spans a wide range of prices, it’s no secret that the biggest savings are usually on the expensive, showy stuff like TVs. But if you’ve got a lengthy list for your upcoming holiday gift exchange, or you just need to stretch your budget a little more this year, look no further than these Black Friday deals under $25.
-While anyone can find cheap crap on sale during Black Friday (just open up Amazon’s page and count all the items from brands you’ve never heard of), we’re compiling the best budget-friendly deals we know shouldn’t steer you wrong. These are items we’ve tried or even tested ourselves — which is why we can say an Apple AirTag tracker for $24.98 is totally worth it, or why the latest A...
-Continue reading…]]></summary>
-        <author>
-            <name>The Verge -  All Posts</name>
         </author>
     </entry>
     <entry>
@@ -472,84 +1268,6 @@ flatpak install flathub org.gnome.Connections
 KRDC…]]></summary>
         <author>
             <name>linux@linux.cn (linux)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The best Black Friday 2022 deals you can get]]></title>
-        <id>https://www.theverge.com/23477682/black-friday-2022-best-deals-tech-sales-gaming-headphones-tvs</id>
-        <link href="https://www.theverge.com/23477682/black-friday-2022-best-deals-tech-sales-gaming-headphones-tvs"/>
-        <updated>2022-11-26T03:00:51.000Z</updated>
-        <summary type="html"><![CDATA[The Noc Design / The Verge
-    
-
-  
-Alright, we’ve arrived. It’s here. The monolithic and mythical Black Friday shopping holiday is upon us, and the deals are aplenty. Though we’d be lying if we didn’t say the deals have already been numerous for pretty much the whole week now. But even as Black Friday continues to be stretched out over the course of days, or even weeks, the day-of still shows a lot of promise for having the best of the best at the lowest of the low prices on offer.
-
-
-Just as we are curating our roundups for the best Black Friday deals on many tech-fiend favorites like headphones, TVs, smart home tech, gaming laptops, phones, and even more, we’ve also got collections of some of the best deals happening at specific retailers (Best Buy, Target, and Walmart)....
-Continue reading…]]></summary>
-        <author>
-            <name>The Verge -  All Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5 Web Extension for Web Developers]]></title>
-        <id>https://dev.to/maldexander/5-web-extension-for-web-developers-4j17</id>
-        <link href="https://dev.to/maldexander/5-web-extension-for-web-developers-4j17"/>
-        <updated>2022-11-26T02:58:08.000Z</updated>
-        <summary type="html"><![CDATA[1. Wappalyzer Link Chrome web store
-
-
-
-This extension helps you see what technologies a website uses, what frameworks, languages, video players, etc...
-Link Chrome web store
-
-
-
-This extension will help you quickly test a web page, in a matter of seconds it will tell you that it is also in SEO, optimization, Good Practices, Accessibility... in addition to giving you advice on how to fix the problems you have.
-Link Chrome web store
-
-
-
-This extension will give you tools so that you can do much more complex tests, since it will give you options such as remove CSS, removing javascript, see image alts...
-Link Chrome web store
-
-
-
-This extension will give you many tools for a more profound test of the page, it contains tools like removing CSS, showing alt attributes, remove Javascript among other things.
-Link chrome web store
-
-
-
-This is a search engine designed for programmers that you can add as an extension to google. When you are looking for something, it highlights pages like stack Overflow, as well as gives you some code examples of what you are looking for.]]></summary>
-        <author>
-            <name>Alex Maldonado Soto</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[71 Great Best Buy Black Friday Deals (2022): iPads, Apple Watches, and More]]></title>
-        <id>636e22def31adb902c7b826c</id>
-        <link href="https://www.wired.com/story/best-best-buy-black-friday-deals-2022/"/>
-        <updated>2022-11-26T02:40:00.000Z</updated>
-        <summary type="html"><![CDATA[From iPads to mirrorless cameras, here are the shiniest deals we could find from this popular retailer.]]></summary>
-        <author>
-            <name>Matt Jancer</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The best Black Friday deals you can get at Walmart]]></title>
-        <id>https://www.theverge.com/23477686/walmart-black-friday-2022-best-tech-deals-cyber-monday-earbuds-gaming</id>
-        <link href="https://www.theverge.com/23477686/walmart-black-friday-2022-best-tech-deals-cyber-monday-earbuds-gaming"/>
-        <updated>2022-11-26T02:03:32.000Z</updated>
-        <summary type="html"><![CDATA[Photo by Chris Welch / The Verge
-    
-
-  
-Black Friday has arrived, and while Walmart dropped many of its Black Friday deals ahead of the main event as part of its Deals for Days event earlier this month, it is now featuring a load of excellent deals. In fact, some items, such as the latest Beats earbuds, have been dropped an extra few dollars since we last checked. We’re seeing some steep discounts on a range of popular products, including the first-gen AirPods Pro. 
-For your convenience, we’ve curated some of the best tech deals at Walmart for you to check out here. If you’re looking for even more deals, be sure to check out our roundup of the best Black Friday deals available at all retailers. We’ve also put together retailer-specific roundups for Target, Amazon, and Best Buy,...
-Continue reading…]]></summary>
-        <author>
-            <name>The Verge -  All Posts</name>
         </author>
     </entry>
     <entry>
@@ -633,222 +1351,6 @@ via: https://fedoramagazine.org/how-to-rebase-to-fedora-linux-37-on-silverblue/
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[The best Black Friday gaming deals]]></title>
-        <id>https://www.theverge.com/23475747/best-black-friday-gaming-deals-games-xbox-ps5-headsets-mice-keyboards-controllers</id>
-        <link href="https://www.theverge.com/23475747/best-black-friday-gaming-deals-games-xbox-ps5-headsets-mice-keyboards-controllers"/>
-        <updated>2022-11-26T01:48:48.000Z</updated>
-        <summary type="html"><![CDATA[Consoles like the Xbox Series S and accessories are discounted over Black Friday | Photo by Vjeran Pavic / The Verge
-    
-
-  
-It doesn’t matter which console you play on, there are tons of great discounts being served up over Black Friday and Cyber Monday. While finding a discount on a PlayStation 5 is still wishful thinking, you can actually get a Nintendo Switch bundle or Xbox Series S for less than retail price this year, which is pretty cool. Everything from consoles to gaming headsets is receiving some sort of discount, so whether you’re looking for discounts on games or accessories, our roundup of the best Black Friday gaming deals has got you covered.
-For even more Black Friday deals coverage, make sure to follow our Black Friday storystream for regular updates and check out our Black Friday hub to see the growing collection of all our roundups.  
-
-
-Continue reading…]]></summary>
-        <author>
-            <name>The Verge -  All Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The best Black Friday deals at Amazon]]></title>
-        <id>https://www.theverge.com/2022/11/25/23477656/amazon-black-friday-2022-deals-cyber-monday-tech-games-tv</id>
-        <link href="https://www.theverge.com/2022/11/25/23477656/amazon-black-friday-2022-deals-cyber-monday-tech-games-tv"/>
-        <updated>2022-11-26T00:52:11.000Z</updated>
-        <summary type="html"><![CDATA[The latest Echo Dot with clock is available with a big discount and two free Philips Hue smart bulbs. | Photo by Jennifer Pattison Tuohy / The Verge
-    
-
-  
-Black Friday is here and Amazon has some excellent deals on a variety of tech devices. We’ve rounded up a collection of all the best discounts you can currently get on wireless headphones, 4K TVs, tablets, and more. 
-
-
-If you’re looking for discounts at other retailers, we’ve also put together roundups of the best deals you can find ahead of Black Friday at Target, Best Buy, and Walmart. To stay up to speed with everything happening over Black Friday and Cyber Monday, make sure to bookmark our Black Friday hub and check back for regular updates.  
-
-
-The best Black Friday deals at Amazon
-The best Amazon Black Friday deals on Echo devices
-Amazon’s fifth-gen Echo Dot with a built-in clock is on sale for $39.99 at Amazon, knocking $20...
-
-  
-Continue reading…]]></summary>
-        <author>
-            <name>The Verge -  All Posts</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[33 Best Kitchen and Home Deals for Black Friday (2022): Cookware, Vacs, and More]]></title>
-        <id>636e2286f31adb902c7b826b</id>
-        <link href="https://www.wired.com/story/best-black-friday-kitchen-and-home-deals-2022/"/>
-        <updated>2022-11-26T00:43:00.000Z</updated>
-        <summary type="html"><![CDATA[Whether you need a new coffee maker or Smart Home gadget, here are the best Black Friday discounts on brands like All-Clad, KitchenAid and Honeywell.]]></summary>
-        <author>
-            <name>Haley Sprankle, Gear Team</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Software Release Via NPM]]></title>
-        <id>https://dev.to/lostbutton/software-release-via-npm-3j25</id>
-        <link href="https://dev.to/lostbutton/software-release-via-npm-3j25"/>
-        <updated>2022-11-26T00:31:03.000Z</updated>
-        <summary type="html"><![CDATA[For this lab, I have chosen to release my tool via the use of NPM.
-Create a package.json file if you don't have in the root directory.
-A package.json file:
-Lists the packages your project depends on
-Specifies versions of a package that your project can use using semantic versioning rules
-Makes your build reproducible, and therefore easier to share with other developers
-Make sure to add the name, version and author in your package.json file.
-ADD a README.md file to a package:
-In a text editor, in your package root directory, create a file called README.md.
-In the README.md file, add useful information about your package.
-Save the README.md file.
-Publish your release:
-Use the npm login on your terminal. Login with your username and password.
-Use npm publish --access public to create and publish scoped public packages.
-Note: Update types
-Installing
-
-
-After releasing my static site to install it locally on your device you can use npm i button-ssg to download my program.
-It's important to avoid taking feedback as personal criticism. When people provide us with feedback, we should be grateful because they are actually pointing out areas in which we need to improve.
-This lab was a welcome one, that allowed us to contribute more to the community if anything. It was a first for me when publishing to npm, but this is useful information. I have always wondered how people were publishing their programs and now here I am, doing just that.]]></summary>
-        <author>
-            <name>LostButton</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[22 Best Black Friday Sex Toy Deals (2022): Dame, Lelo, and More]]></title>
-        <id>636e229632968364ac1a7b5e</id>
-        <link href="https://www.wired.com/story/best-black-friday-sex-toy-deals-2022-1/"/>
-        <updated>2022-11-25T23:30:00.000Z</updated>
-        <summary type="html"><![CDATA[The weather is getting colder, which means it's a great time to warm things up inside.]]></summary>
-        <author>
-            <name>Jaina Grey</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Arquitetura: Monolíticos, Monolíticos Distribuídos e Microsserviços]]></title>
-        <id>https://dev.to/otaviovb/arquitetura-monoliticos-monoliticos-distribuidos-e-microsservicos-3epc</id>
-        <link href="https://dev.to/otaviovb/arquitetura-monoliticos-monoliticos-distribuidos-e-microsservicos-3epc"/>
-        <updated>2022-11-25T22:59:21.000Z</updated>
-        <summary type="html"><![CDATA[Nesse post iremos falar um pouco sobre os tipos de arquitetura, cada caso de uso e seus pontos positivos e negativos de acordo com diferentes conjunturas.
-A primeiro momento vale relembrar que a escolha do tipo de arquitetura de software irá depender do contexto em que a equipe de desenvolvimento está inserida, se a equipe possui o conhecimento necessário para aplicar regras de complexidade arquitetural e se a regra de negócios necessite de um tipo de desenvolvimento mais trabalhoso.
-De modo geral, arquitetura monolítica é aquela em que toda aplicação roda em único processo, de forma que cada componente estão ligados a um único programa. Apesar da dependência gerada por esse tipo de arquitetura serem amenizados com técnicas de desenvolvimento, como a Inversão de Controle e/ou Injeção de De…]]></summary>
-        <author>
-            <name>Otávio</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How the AWS Community Builders program made re:Invent 2022 feel like “coming home” even tho I went there on my own]]></title>
-        <id>https://dev.to/aws-builders/how-the-aws-community-builders-program-made-reinvent-2022-feel-like-coming-home-even-tho-i-went-there-on-my-own-3m99</id>
-        <link href="https://dev.to/aws-builders/how-the-aws-community-builders-program-made-reinvent-2022-feel-like-coming-home-even-tho-i-went-there-on-my-own-3m99"/>
-        <updated>2022-11-25T22:40:48.000Z</updated>
-        <summary type="html"><![CDATA[re:Invent 2022 is about to start in Las Vegas and I am really looking forward to all of the sessions, the gamified learning possibilities and all of the other things that make the conference great. But more than that, AWS re:Invent this year feels for me like “coming home” instead of “going to a conference”.
-Let me explain you why:
-
-In march 2022 I received my acceptance to the AWS Community Builders program.
- After that a lot of things changed for me and I would like to share some of them with you!
-I got added to the Community Builders program and with that I gained access to great networking opportunities, sessions, talks and events and also some information that are not publicly available. Next, I introduced myself to a bunch of folks and people and quickly interacted and connected with…]]></summary>
-        <author>
-            <name>Johannes Koch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[27 Best Video Game Black Friday Deals (2022): Switch, Playstation, Xbox, and More]]></title>
-        <id>636e225da3291a07ef8cdbe5</id>
-        <link href="https://www.wired.com/story/best-black-friday-video-game-deals-2022-1/"/>
-        <updated>2022-11-25T22:15:00.000Z</updated>
-        <summary type="html"><![CDATA[Snag deals on Nintendo Switch, Playstation, and Xbox consoles and accessories.]]></summary>
-        <author>
-            <name>Eric Ravenscraft</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Write to the console.log with styles from Blazor]]></title>
-        <id>https://dev.to/kasuken/write-to-the-consolelog-with-styles-from-blazor-1937</id>
-        <link href="https://dev.to/kasuken/write-to-the-consolelog-with-styles-from-blazor-1937"/>
-        <updated>2022-11-25T22:05:19.000Z</updated>
-        <summary type="html"><![CDATA[The console is a very good companion for every web developer.
-To add CSS styles to the console, we use the format specifier %c at the beginning of the string.
-console.log("%cThis is a red text", "red");
-
-Easy.
-Open the razor page where you want to add the console formatting and insert the injection for JSRuntime.
-@code {
-    @inject IJSRuntime JSRuntime
-
-    protected override async Task OnInitializedAsync()
-    {
-        await JSRuntime.InvokeVoidAsync("console.log", "%cRed Origin  5.0.1 🚀", "color:#0dd8d8; background:#0b1021; font-size:1.5rem; padding:0.15rem 0.25rem; margin: 1rem auto; font-family: Rockwell; border: 2px solid #0dd8d8; border-radius: 4px;font-weight: bold; text-shadow: 1px 1px 1px #00af87bf;");
-    }
-}
-
-In this case, in the console you can find a message like in this picture:
-
-Thanks for reading this post, I hope you found it interesting!
-Feel free to follow me to get notified when new articles are out 🙂
-Emanuele BartolesiFollow
-
-    
-🏆 Microsoft MVP & GitHub Star ⭐ | 🔓 Auth0 Ambassador & 📢 Codemotion Ambassador | 
-👨‍🎓 LinkedIn Technical Instructor]]></summary>
-        <author>
-            <name>Emanuele Bartolesi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Adding Tests for ESM using Jest framework]]></title>
-        <id>https://dev.to/tdaw/adding-tests-for-esm-using-jest-framework-1nao</id>
-        <link href="https://dev.to/tdaw/adding-tests-for-esm-using-jest-framework-1nao"/>
-        <updated>2022-11-25T22:01:42.000Z</updated>
-        <summary type="html"><![CDATA[Writing tests for an application is a crucial process, as it helps make debugging easier and forces us, developers, to write better code. 
-In essence, testing is writing code to test that the functionality of your codebase is working and is not breaking in ways unimagined.
-Jest is a testing framework for Javascript projects. It ensures that the implemented core functionality of the codebase is not prone to errors by allowing developers to write convenient tests. 
-ESM
-
-
-The initial step is to install Jest as a dev dependency using npm or yarn 
-Since I use npm to install node packages, I ran the following command:
-npm install --save-dev jest
-
-The next step is to create a jest.config.js file with the following content:
-export default { transform: {} }
-
-Finally, we need to modify the test scri…]]></summary>
-        <author>
-            <name>TD</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[32 Best Apple Black Friday Deals (2022): Apple Watch, iPads, AirPods]]></title>
-        <id>637bd6c9cd00500bc152f484</id>
-        <link href="https://www.wired.com/story/apple-black-friday-deals-2022-1/"/>
-        <updated>2022-11-25T21:46:00.000Z</updated>
-        <summary type="html"><![CDATA[Need a new Apple Watch, MacBook, or iPhone case? Now's the time to snag one at a discount.]]></summary>
-        <author>
-            <name>Brenda Stolyar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[72 Best Target Black Friday Deals (2022): Apple, Nintendo, and More]]></title>
-        <id>636e22fa3bb084d7eff587df</id>
-        <link href="https://www.wired.com/story/best-target-black-friday-deals-2022-1/"/>
-        <updated>2022-11-25T21:37:00.000Z</updated>
-        <summary type="html"><![CDATA[The retailer started its holiday sales early this year, but it's still going strong, with deals on soundbars, iPads, and games.]]></summary>
-        <author>
-            <name>Medea Giordano</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[32 Best Walmart Black Friday Deals (2022): TVs, Earbuds, and More]]></title>
-        <id>637d54194c3b99e448162ead</id>
-        <link href="https://www.wired.com/story/best-walmart-black-friday-deals-2022/"/>
-        <updated>2022-11-25T20:35:00.000Z</updated>
-        <summary type="html"><![CDATA[Smartwatches, video games, tech, and toys are on sale at the retailer—and you can pick up your purchases as soon as today.]]></summary>
-        <author>
-            <name>Louryn Strampe</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Crypto Contagion Is Spreading, Fast]]></title>
         <id>638105df402153462d4975f8</id>
         <link href="https://www.wired.com/story/ftx-collapse-genesis-crypto/"/>
@@ -871,16 +1373,6 @@ Finally, we need to modify the test scri…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[16 Best Black Friday Ebike and Escooter Deals (2022): Bike Accessories and More]]></title>
-        <id>636e221e5b833e6d21b64f6f</id>
-        <link href="https://www.wired.com/story/best-black-friday-ebike-escooter-deals-2022/"/>
-        <updated>2022-11-25T17:29:01.000Z</updated>
-        <summary type="html"><![CDATA[Gas prices are still high, and bikes are still fun. Here are our favorite discounts on everything you need to get your two wheels on the road.]]></summary>
-        <author>
-            <name>Adrienne So</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Langame card game]]></title>
         <id>https://www.producthunt.com/posts/langame-card-game</id>
         <link href="https://www.producthunt.com/posts/langame-card-game"/>
@@ -893,16 +1385,6 @@ Finally, we need to modify the test scri…]]></summary>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Best Black Friday Fitness and Outdoor Deals (2022): Shoes, Socks, Helmets, and More]]></title>
-        <id>636e22d1ab9086067e9f26d1</id>
-        <link href="https://www.wired.com/story/best-black-friday-fitness-deals-outdoors-2022/"/>
-        <updated>2022-11-25T16:26:00.000Z</updated>
-        <summary type="html"><![CDATA[Chase away the winter blues with discounts on hiking and camping gear, wearable fitness gadgets, and more.]]></summary>
-        <author>
-            <name>Matt Jancer</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[[Updated] Here are all the best Black Friday deals live now]]></title>
         <id>https://arstechnica.com/?p=1898433</id>
         <link href="https://arstechnica.com/?p=1898433"/>
@@ -910,36 +1392,6 @@ Finally, we need to modify the test scri…]]></summary>
         <summary type="html"><![CDATA[We're wading through the Black Friday flood so you don't have to.]]></summary>
         <author>
             <name>Corey Gaskin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[19 Best Black Friday Mattress Deals (2022): Bedsheets, Pillows, Blankets]]></title>
-        <id>636e22ec0757f7d06dd27206</id>
-        <link href="https://www.wired.com/story/best-black-friday-mattress-deals-2022-1/"/>
-        <updated>2022-11-25T15:52:00.000Z</updated>
-        <summary type="html"><![CDATA[We've found discounts on bedsheets, weighted blankets, and sound machines to help make bedtime a little sweeter.]]></summary>
-        <author>
-            <name>Medea Giordano</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[20 Best Black Friday Coffee Maker Deals (2022): Drip Coffee, Espresso Machines, Grinders, and More]]></title>
-        <id>636e22a435f3894f6c57f167</id>
-        <link href="https://www.wired.com/story/best-black-friday-coffee-deals-2022/"/>
-        <updated>2022-11-25T15:45:00.000Z</updated>
-        <summary type="html"><![CDATA[Keep caffeinated this holiday season with some of our favorite beans, espresso machines, and grinders.]]></summary>
-        <author>
-            <name>Jaina Grey</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Best Black Friday Headphone and Speaker Deals (2022): AirPods Pro, Sonos, and Beats]]></title>
-        <id>636e227a5323b9770a54b100</id>
-        <link href="https://www.wired.com/story/best-black-friday-headphone-deals-speakers-2022/"/>
-        <updated>2022-11-25T14:12:26.000Z</updated>
-        <summary type="html"><![CDATA[Listen up—Apple, Sonos, Sony, Beats, and more of our favorite audio brands are having huge sales this holiday weekend.]]></summary>
-        <author>
-            <name>Haley Sprankle</name>
         </author>
     </entry>
     <entry>
@@ -962,16 +1414,6 @@ Finally, we need to modify the test scri…]]></summary>
             Link]]></summary>
         <author>
             <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[18 Best Black Friday Soundbar and TV Deals (2022): Samsung, Vizio, LG, and More]]></title>
-        <id>636e23073bb084d7eff587e0</id>
-        <link href="https://www.wired.com/story/best-black-friday-tv-soundbar-deals-2022/"/>
-        <updated>2022-11-25T12:30:57.000Z</updated>
-        <summary type="html"><![CDATA[Upgrade your viewing experience this holiday with these steep discounts on WIRED-tested home theater gear.]]></summary>
-        <author>
-            <name>Parker Hall</name>
         </author>
     </entry>
     <entry>
@@ -1016,16 +1458,6 @@ Finally, we need to modify the test scri…]]></summary>
         <summary type="html"><![CDATA[Popular redaction tools don’t always work as promised, and new attacks can reveal hidden information, researchers say.]]></summary>
         <author>
             <name>Matt Burgess</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[6 Best Black Friday Sonos Deals (2022): Soundbars, Speakers, Subwoofers]]></title>
-        <id>6373e432b25bbf8e38fd5bdc</id>
-        <link href="https://www.wired.com/story/best-black-friday-sonos-deals-2022-1/"/>
-        <updated>2022-11-25T11:06:00.000Z</updated>
-        <summary type="html"><![CDATA[Kit out your home with wireless multi-room audio. These discounts end on November 28.]]></summary>
-        <author>
-            <name>Haley Sprankle</name>
         </author>
     </entry>
     <entry>
@@ -1422,32 +1854,10 @@ via: https://www.debugpoint.com/enable-usb-virtualbox/
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[14 Best Black Friday Google Device Deals (2022): Pixel 7, Pixel Watch, Nest Cam]]></title>
-        <id>636e224cab9086067e9f26ce</id>
-        <link href="https://www.wired.com/story/best-black-friday-google-device-deals-2022-1/"/>
-        <updated>2022-11-25T02:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The sale started early, but there's still plenty of time to grab a brand-new Pixel 7 or Pixel Watch at a discount.]]></summary>
-        <author>
-            <name>Eric Ravenscraft</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[BLOONY]]></title>
         <id>https://www.producthunt.com/posts/bloony</id>
         <link href="https://www.producthunt.com/posts/bloony"/>
         <updated>2022-11-24T23:15:01.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Alternatives]]></title>
-        <id>https://www.producthunt.com/posts/alternatives</id>
-        <link href="https://www.producthunt.com/posts/alternatives"/>
-        <updated>2022-11-24T21:25:06.000Z</updated>
         <summary type="html"><![CDATA[Discussion
             |
             Link]]></summary>
@@ -1550,18 +1960,6 @@ via: https://www.debugpoint.com/enable-usb-virtualbox/
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Lumi]]></title>
-        <id>https://www.producthunt.com/posts/lumi-ea26cc3e-3e01-433c-9c44-b364d4b399b2</id>
-        <link href="https://www.producthunt.com/posts/lumi-ea26cc3e-3e01-433c-9c44-b364d4b399b2"/>
-        <updated>2022-11-24T17:13:10.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Books Billionaires Read]]></title>
         <id>https://www.producthunt.com/posts/books-billionaires-read</id>
         <link href="https://www.producthunt.com/posts/books-billionaires-read"/>
@@ -1586,70 +1984,10 @@ via: https://www.debugpoint.com/enable-usb-virtualbox/
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Life After Tweets]]></title>
-        <id>https://www.producthunt.com/posts/life-after-tweets</id>
-        <link href="https://www.producthunt.com/posts/life-after-tweets"/>
-        <updated>2022-11-24T16:25:12.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Slim]]></title>
-        <id>https://www.producthunt.com/posts/slim-4</id>
-        <link href="https://www.producthunt.com/posts/slim-4"/>
-        <updated>2022-11-24T16:22:54.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Focus & Meaning OS]]></title>
         <id>https://www.producthunt.com/posts/focus-meaning-os</id>
         <link href="https://www.producthunt.com/posts/focus-meaning-os"/>
         <updated>2022-11-24T15:54:11.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lightsats]]></title>
-        <id>https://www.producthunt.com/posts/lightsats</id>
-        <link href="https://www.producthunt.com/posts/lightsats"/>
-        <updated>2022-11-24T15:24:32.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TheLifeSigns]]></title>
-        <id>https://www.producthunt.com/posts/thelifesigns</id>
-        <link href="https://www.producthunt.com/posts/thelifesigns"/>
-        <updated>2022-11-24T14:43:23.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kryptoskatt]]></title>
-        <id>https://www.producthunt.com/posts/kryptoskatt</id>
-        <link href="https://www.producthunt.com/posts/kryptoskatt"/>
-        <updated>2022-11-24T14:19:19.000Z</updated>
         <summary type="html"><![CDATA[Discussion
             |
             Link]]></summary>
@@ -1668,18 +2006,6 @@ via: https://www.debugpoint.com/enable-usb-virtualbox/
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Featbacks]]></title>
-        <id>https://www.producthunt.com/posts/featbacks</id>
-        <link href="https://www.producthunt.com/posts/featbacks"/>
-        <updated>2022-11-24T13:55:30.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[I Lost $17,000 in Crypto. Here’s How to Avoid My Mistake]]></title>
         <id>632a09028990652479ff3938</id>
         <link href="https://www.wired.com/story/i-lost-17000-dollars-crypto-how-to-avoid/"/>
@@ -1697,18 +2023,6 @@ via: https://www.debugpoint.com/enable-usb-virtualbox/
         <summary type="html"><![CDATA[I’m not the first person to suffer this fate, but hopefully I can be the last.]]></summary>
         <author>
             <name>Alexander Webb</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cupfeed 2.0]]></title>
-        <id>https://www.producthunt.com/posts/cupfeed-2-0</id>
-        <link href="https://www.producthunt.com/posts/cupfeed-2-0"/>
-        <updated>2022-11-24T12:58:49.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -1751,30 +2065,6 @@ via: https://www.debugpoint.com/enable-usb-virtualbox/
         <summary type="html"><![CDATA['Tis the season for swindlers and hackers. Use these tips to spot frauds and keep your payment info secure.]]></summary>
         <author>
             <name>David Nield</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[6561]]></title>
-        <id>https://www.producthunt.com/posts/6561</id>
-        <link href="https://www.producthunt.com/posts/6561"/>
-        <updated>2022-11-24T11:45:33.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Universal Data: Airtable]]></title>
-        <id>https://www.producthunt.com/posts/universal-data-airtable</id>
-        <link href="https://www.producthunt.com/posts/universal-data-airtable"/>
-        <updated>2022-11-24T11:08:17.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -1850,77 +2140,6 @@ ls 命令示例
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[EndType]]></title>
-        <id>https://www.producthunt.com/posts/endtype</id>
-        <link href="https://www.producthunt.com/posts/endtype"/>
-        <updated>2022-11-24T09:47:18.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Socially App]]></title>
-        <id>https://www.producthunt.com/posts/socially-app</id>
-        <link href="https://www.producthunt.com/posts/socially-app"/>
-        <updated>2022-11-24T09:14:56.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[硬核观察 #830 奔驰汽车推出年费 1200 美元的加速提升功能]]></title>
-        <id>https://linux.cn/article-15285-1.html?utm_source=rss&amp;utm_medium=rss</id>
-        <link href="https://linux.cn/article-15285-1.html?utm_source=rss&amp;utm_medium=rss"/>
-        <updated>2022-11-24T09:14:44.000Z</updated>
-        <summary type="html"><![CDATA[奔驰汽车推出年费 1200 美元的加速提升功能
-
-每年 1200 美元的订阅费，可以将发动机的输出功率提高 20-24%，增加扭矩，以及在动态驾驶模式下将百公里加速时间缩短近 1 秒来提高性能。这项服务并不附带任何物理硬件的升级，相反，只需要解锁就可以使用。这个功能提供在奔驰的两款电动汽车上。
-
-
-消息来源：The Verge
-
-
-
-老王点评：订阅制汽车，以后或许生活中所有主要家电都要付费使用，像付电费一样。
-
-
-
-
-攻击者利用数十年前的软件入侵电网
-
-微软警告说，恶意黑客正在利用常见的物联网设备中发现的一个已停用的 Boa Web 服务器来攻击能源领域。在 Boa Web 服务器中发现了一个易受攻击的开源组件，尽管该软件于 2005 年退役，但仍被广泛用于一系列路由器和安全摄像头，以及流行的软件开发工具包。微软表示，在一周的时间里，它已经在全球范围内发现了 100 万个暴露在互联网上的 Boa 服务器组件。
-
-
-消息来源：Tech Crunch
-
-
-
-老王点评：遗留的旧软件带来的问题，对无法更新的 IoT 设备是巨大的隐患，这都是历史欠账。
-
-
-
-
-旧金山警方申请部署武装机器人
-
-旧金山警察局目前正在向该市监事会提出申请，要求允许部署机器人来杀死执法部门认为有足够威胁的嫌疑人。警方称，“可能会出现部署致命武力是唯一选择的情况”。这项提案已经遭到了监事会内外的巨大反对。
-
-
-消息来源：Engadget
-
-
-
-老王点评：这是非常危险的趋势，就是一步步的迈向机器管人的未来。]]></summary>
-        <author>
-            <name>linux@linux.cn (linux)</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[得意黑 Smiley Sans – 开源中文字体，可商用：已应用在 CCTV 世界杯转播之中]]></title>
         <id>https://www.appinn.com/?p=43971</id>
         <link href="https://www.appinn.com/smiley-sans/"/>
@@ -1928,18 +2147,6 @@ ls 命令示例
         <summary type="html"><![CDATA[得意黑 Smiley Sans 是一款前几天发布的开源中文字体，基于 SIL Open Font License v1.1 许可证，可免费商用，无需署名，在这几日的 2022卡塔尔世界杯视频转播中，C]]></summary>
         <author>
             <name>青小蛙</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Entertainment Hub]]></title>
-        <id>https://www.producthunt.com/posts/entertainment-hub</id>
-        <link href="https://www.producthunt.com/posts/entertainment-hub"/>
-        <updated>2022-11-24T08:51:10.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -2029,6 +2236,16 @@ String[] myArray = {"foo", "bar", "baz"};
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[5 GitHub Repositories every Developer should know]]></title>
+        <id>https://dev.to/wizdomtek/5-github-repositories-every-developer-should-know-1p93</id>
+        <link href="https://dev.to/wizdomtek/5-github-repositories-every-developer-should-know-1p93"/>
+        <updated>2022-11-24T06:33:10.000Z</updated>
+        <summary type="html"><![CDATA[#javascript #webdev #beginners #productivity]]></summary>
+        <author>
+            <name>Christopher Glikpo</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[TABLERONE tab manager – 带缩略图，可替代 OneTab 的标签页管理器[Chrome]]]></title>
         <id>https://www.appinn.com/?p=43968</id>
         <link href="https://www.appinn.com/tablerone-tab-manager/"/>
@@ -2103,174 +2320,6 @@ Craft 是一款笔记应用。这款应用好在配图和分享非常方便流�
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[如何在 Linux 中使用 Audacity 录制音频（并降噪）]]></title>
-        <id>https://linux.cn/article-15284-1.html?utm_source=rss&amp;utm_medium=rss</id>
-        <link href="https://linux.cn/article-15284-1.html?utm_source=rss&amp;utm_medium=rss"/>
-        <updated>2022-11-24T03:49:57.000Z</updated>
-        <summary type="html"><![CDATA[Audacity 是一个自由开源的跨平台 音频编辑器。专业人士使用它是因为它提供的功能仅需安装很小的软件包。
-
-你不必成为一名专业人士并使用它的所有功能。你可以使用它从麦克风录制音频，并执行一些基本操作，如背景噪声消除。
-
-我将在本教程中向你展示如何做到这一点。
-
-在 Linux 上安装 Audacity
-
-在 Linux 上安装 Audacity 是一个非常简单的过程。由于其受欢迎，可以在大多数 Linux 发行版的官方存储库中找到它。
-
-你可以在发行版的软件中心或软件包管理器中搜索它。
-
-作为一个终端爱好者，让我分享一下常见发行版的命令。
-
-对于基于 Debian 或 Ubuntu 的发行版：
-
-sudo apt install audacity
-
-
-对于基于 RHEL 或 Fedora 的发行版：
-
-sudo dnf install audacity
-
-
-如果你在用基于 Arch 的发行版：
-
-sudo pacman -Syu audacity
-
-
-注意，通过官方存储库安装可能无法获得 最新版本。要获得最新版本，你可以使用 AppImage 或 Flatpak/Snap 软件包。
-
-使用 Audacity 录制音频
-
-安装 Audacity 后，从应用程序菜单打开它或从终端启动它。你会看到这样的界面：
-
-
-
-单击“录制”按钮（红点）即可轻松开始录制。完成后，单击“ 停止”按钮（方形图标）来结束录制。你还可以预览录制的波形，如下所示：
-
-
-
-然后，你可以通过单击“播放”按钮（绿色图标）检查录制的内容。
-
-如果你没有看到任何波形，则表示未录制到任何内容。很可能，你没有正确设置音频输入。确保你选择了正确的麦克风，并确保在“系统设置system settings”中其未被静音。你也可以通过 Audacity 接口设置。
-
-录音不会自动保存为 MP3 或其他格式。要保存录音，你可以转到 “文件File → 导出Export” 并选择 “导出为 MP3Export as MP3”（或任何其他想要的格式）。
-
-使用 Audacity 降低背景噪声
-
-Audacity 还有另一个很棒的功能，你可以使用它来减少录制音频中的白噪声。
-
-最好的做法是在开始使用 Audacity 录制时的前五秒不要说任何话。这将为你提供所需的背景噪声。
-
-在录制音频的波形上，选择你认为是背景噪声的部分。
-
-
-
-选择噪声部分后，从顶部文件菜单中转到 “效果Effects → 降低噪音Noise Reduction”。
-
-它会像这样打开一个弹出窗口。单击此处的 “获取噪音配置文件Get Noise Profile”。
-
-
-
-现在，你已经设置了噪声配置文件。现在，你必须使用它来减少录音中的噪声。
-
-按 Ctrl + A 快捷键选择整段录音。你也可以选择其中的一部分，仅对所选部分减少噪声。
-
-选择音轨后，再次转到 “效果Effects → 降低噪音Noise Reduction”。
-
-这次不要单击 “获取噪音配置文件Get Noise Profile”。这一次，你应该能够按下 “OK” 按钮。
-
-只需按下 “OK” 按钮，即可将降噪效果应用到录音中，并反映在波形上，如下所示：
-
-
-
-现在，相较而言，录制的音频将具有更少的噪声。你可以在选择 “降低噪音Noise Reduction” 效果时微调噪声过滤。
-
-总结如下：
-
-
-选择噪声部分，转到 “效果Effects → 降低噪音Noise Reduction”，然后单击 “获取噪音配置文件Get Noise Profile”
-
-按 Ctrl + A 选择整段音频录制，转到 “效果Effects → 降低噪音Noise Reduction”，这次按 OK 按钮
-
-
-请注意，你无法移除所有类型的噪声，但这应该会有所帮助。
-
-Audacity 能做更多事情
-
-使用 Audacity 录制音频可能不像使用 GNOME 录音机那样简单，但它并不太复杂。如果你正在录制画外音，降噪功能将非常有用。
-
-Audacity 有更多其他功能，不可能在一个教程中涵盖所有这些功能。这就是为什么我会保持简短的原因。
-
-如果你不能接受 2021 年的 Audacity 的隐私政策调整，试试其他可用的工具。
-
-我希望这个小教程能帮助你使用 Audacity 进行音频录制。如果你有问题或建议，请告诉我。
-
-
-via: https://itsfoss.com/audacity-recording/
-
-作者：Anuj Sharma 选题：lkxed 译者：FYJNEVERFOLLOWS 校对：wxy
-
-本文由 LCTT 原创编译，Linux中国 荣誉推出]]></summary>
-        <author>
-            <name>linux@linux.cn (linux)</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[如何在 Ubuntu 和其他 Linux 下安装 LibreOffice Base 数据库]]></title>
-        <id>https://linux.cn/article-15283-1.html?utm_source=rss&amp;utm_medium=rss</id>
-        <link href="https://linux.cn/article-15283-1.html?utm_source=rss&amp;utm_medium=rss"/>
-        <updated>2022-11-24T03:15:11.000Z</updated>
-        <summary type="html"><![CDATA[以下是如何在 Ubuntu 和其他 Linux 发行版中安装 LibreOffice Base 数据库模块。
-
-
-流行的自由开源的办公套件 LibreOffice 由六个独立的组件组成。然而，Ubuntu 和相关发行版中默认安装的 LibreOffice 只包括其中的五个：
-
-
-Calc
-
-Writer
-
-Impress
-
-Draw
-
-Math
-
-
-由于某些原因，数据库模块 LibreOffice Base 没有被包括在内。所以，这里告诉你如何在 Ubuntu 和其他发行版中单独安装它。
-
-在 Ubuntu 和其他 Linux 中安装 LibreOffice Base
-
-你可以使用 “软件Software” 应用或终端来安装 libreoffic-base 包。我建议使用终端来安装它。打开一个终端窗口，运行以下命令来安装它。
-
-sudo apt install libreoffice-base
-
-
-如果你喜欢 “软件Software” 应用 或其他基于 GUI 的安装程序，搜索 “libreoffic-base” 并点击安装。
-
-对于 Fedora 和基于 RPM 的发行版，使用以下命令：
-
-sudo dnf install libreoffice-base
-
-
-如果你在 Arch Linux 中安装了 LibreOffice，无论是 libreoffic-fresh 还是 libreoffic-still，那么就不需要任何操作了。LibreOffice Base 已经包含在这两个软件包中了。你可以开始使用了。
-
-在另一个方面，如果你想看看如何安装最新的 LibreOffice，请查看 这个指南。
-
-
-
-最后，安装完毕后，你可以在应用菜单中找出 LibreOffice Base。
-
-
-via: https://www.debugpoint.com/install-libreoffice-base-ubuntu/
-
-作者：Arindam 选题：lkxed 译者：geekpi 校对：wxy
-
-本文由 LCTT 原创编译，Linux中国 荣誉推出]]></summary>
-        <author>
-            <name>linux@linux.cn (linux)</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Report: FTC “likely” to file suit to block Microsoft/Activision merger]]></title>
         <id>https://arstechnica.com/?p=1899979</id>
         <link href="https://arstechnica.com/?p=1899979"/>
@@ -2278,18 +2327,6 @@ via: https://www.debugpoint.com/install-libreoffice-base-ubuntu/
         <summary type="html"><![CDATA[Any federal action could easily push deal past crucial July 2023 deadline.]]></summary>
         <author>
             <name>Kyle Orland</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Top 8]]></title>
-        <id>https://www.producthunt.com/posts/top-8</id>
-        <link href="https://www.producthunt.com/posts/top-8"/>
-        <updated>2022-11-24T00:49:20.000Z</updated>
-        <summary type="html"><![CDATA[Discussion
-            |
-            Link]]></summary>
-        <author>
-            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -2517,16 +2554,6 @@ via: https://www.debugpoint.com/install-libreoffice-base-ubuntu/
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Sneaky ways cops could access data to widely prosecute abortions in the US]]></title>
-        <id>https://arstechnica.com/?p=1873036</id>
-        <link href="https://arstechnica.com/?p=1873036"/>
-        <updated>2022-11-23T11:45:25.000Z</updated>
-        <summary type="html"><![CDATA[Third-party data brokers give police warrantless access to 250 million devices.]]></summary>
-        <author>
-            <name>Ashley Belanger</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Set up automated software testing with this open source platform]]></title>
         <id>70303 at https://opensource.com</id>
         <link href="https://opensource.com/article/22/11/cerberus-testing"/>
@@ -2581,6 +2608,18 @@ Planby is a React (JavaScript) component to help you create schedules, ti…]]><
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Wasp-lang (Beta)]]></title>
+        <id>https://www.producthunt.com/posts/wasp-lang-beta</id>
+        <link href="https://www.producthunt.com/posts/wasp-lang-beta"/>
+        <updated>2022-11-23T03:01:00.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Here’s Proof Hate Speech Is More Viral on Elon Musk’s Twitter]]></title>
         <id>637bef894e3a003105d9c7cd</id>
         <link href="https://www.wired.com/story/heres-proof-hate-speech-is-more-viral-on-elon-musks-twitter/"/>
@@ -2617,6 +2656,18 @@ Planby is a React (JavaScript) component to help you create schedules, ti…]]><
         <id>https://www.producthunt.com/posts/sobriety-hub-3</id>
         <link href="https://www.producthunt.com/posts/sobriety-hub-3"/>
         <updated>2022-11-22T19:56:44.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Health Hub OS]]></title>
+        <id>https://www.producthunt.com/posts/health-hub-os-2</id>
+        <link href="https://www.producthunt.com/posts/health-hub-os-2"/>
+        <updated>2022-11-22T19:47:35.000Z</updated>
         <summary type="html"><![CDATA[Discussion
             |
             Link]]></summary>
@@ -2779,6 +2830,18 @@ Tue, 11/22/2022 - 03:00
 Why call C functions from Rust? The short answer is software libraries. A longer answer touches on where C stands among programming languages in general and towards Rust in particular. C, C++, and Rust are systems languages, which give programmers access to machine-level data types and operations. Among these three systems languages, C remains the dominant one. The kernels of modern operating systems are written mainly in C, with assembly language accounting for the rest. The standard system libraries for input and output, number crunching, cryptography, security, networking, internationalization, string processing, memory management, and more, are likewise written mostly in C. These libraries r…]]></summary>
         <author>
             <name>Marty Kalin</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AnonymSMS]]></title>
+        <id>https://www.producthunt.com/posts/anonymsms</id>
+        <link href="https://www.producthunt.com/posts/anonymsms"/>
+        <updated>2022-11-22T07:34:02.000Z</updated>
+        <summary type="html"><![CDATA[Discussion
+            |
+            Link]]></summary>
+        <author>
+            <name>Product Hunt — The best new products, every day</name>
         </author>
     </entry>
     <entry>
@@ -2976,16 +3039,6 @@ You have installed and configured Git on your system. You…]]></summary>
         <summary type="html"><![CDATA[#frontend #webdev #css #svgicon]]></summary>
         <author>
             <name>Tarun Mankar</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[一键生成短视频，批量制作自媒体视频的利器 – 万彩微影（限时送会员福利！）]]></title>
-        <id>https://www.appinn.com/?p=43934</id>
-        <link href="https://www.appinn.com/animiz-microvideo/"/>
-        <updated>2022-11-21T06:05:57.000Z</updated>
-        <summary type="html"><![CDATA[新手小白想入门短视频制作，应该从哪个软件开始呢？或者一些文章自媒体博主想要转战短视频，能否把文章一键变视频？接下来要给大家介绍的万彩微影这款软件，能实现大家制作短视频的大部分要求，很厉害！目前在智能领]]></summary>
-        <author>
-            <name>青小蛙</name>
         </author>
     </entry>
     <entry>
@@ -3609,16 +3662,6 @@ Tenshi 天使 「misotsu」
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Telehealth Sites Put Addiction Patient Data at Risk]]></title>
-        <id>63189c13036b54662b510390</id>
-        <link href="https://www.wired.com/story/substance-abuse-telehealth-privacy-tracking-tech/"/>
-        <updated>2022-11-16T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[New research found pervasive use of tracking tech on substance-abuse-focused health care websites, potentially endangering users in a post-Roe world.]]></summary>
-        <author>
-            <name>Lindsey Ellefson</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[The Stereotype of the Woke Teen Is 'Tárring' Art]]></title>
         <id>63725ab8845dc8670fda4f71</id>
         <link href="https://www.wired.com/story/tar-art-social-media-stereotypes/"/>
@@ -3646,16 +3689,6 @@ Tenshi 天使 「misotsu」
         <summary type="html"><![CDATA[The platform's meltdown has shed light on the steep challenge of preserving social media data. But not everything is worth saving.]]></summary>
         <author>
             <name>Amanda Hoover</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[For Alzheimer’s Scientists, the Amyloid Debate Has No Easy Answers]]></title>
-        <id>636a91f27484c01b9b6e9661</id>
-        <link href="https://www.wired.com/story/for-alzheimers-scientists-the-amyloid-debate-has-no-easy-answers/"/>
-        <updated>2022-11-16T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[For years, potential therapies that attack this brain protein have failed to help patients in clinical trials. Now—surprisingly—a new drug shows promise.]]></summary>
-        <author>
-            <name>Grace Huckins</name>
         </author>
     </entry>
     <entry>
@@ -4316,43 +4349,6 @@ Excel
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[透过信息架构 看各笔记软件]]></title>
-        <id>https://sspai.com/post/76736</id>
-        <link href="https://sspai.com/post/76736"/>
-        <updated>2022-11-09T15:18:48.000Z</updated>
-        <summary type="html"><![CDATA[我在 如何搭建知识库 中，将知识库的结构分为了「树状结构」和「网络结构」两种。
-树状结构是自上而下的，网络结构是自下而上的。
-但知识还有多少种结构呢？为什么是这两种？
-知识本质上是信息的一种，想了解知识的结构，也可以类比信息的结构。一直以来我回答不好这个问题。
-日复一日，在日常使用知识库和产品经理的工作中，无论是对知识库中的每一张知识卡片进行整理，还是在工作中经常需要查看数据库的数据结构，都将我指向一个词「信息架构」
-于是，我想起了那本经典的的「北极熊」之书 —— 《信息架构 超越 Web 设计》
-并且，我在这本三年前读过的书里，找到了现在的我想要的答案。
-
-信息结构
-在《信息架构》这本书中，将信息分为了以下三种结构
-组织系统：组织结构可以分为互补的三种结构
-层级结构
-以数据库为导向的模式
-超文本
-
-信息结构会定义用户浏览的主要方式。适用于信息架构的主要组织结构包括层级结构 、以数据库为导向的模式和超文本，每种组织结构都有其优缺点。在某些情况下，只使用一 种是合理的。但在很多情况下，需要以互补的方式使用这 3 种组织 结构。 —— 《信息架构》第六章
-
-看到这三个结构，我恍然大悟，觉得非常了不起。
-简单的三种结构，几乎可以用来解释现在所有的笔记软件。
-下面我将介绍每一种结构在知识库软件中的运用。结合我日常的使用经历，也给出一些建议。
-（注：目前市面上可以作为知识库的软件有很多。我只选取我有使用过的软件作为本次功能的介绍。也就是 Notion、Obsidian、Logseq、wolai…）
-
-信息结构会定义用户浏览的主要方式。适用于信息架构的主要组织结构包括层级结构 、以数据库为导向的模式和超文本， 每种组织结构都有其优缺点。
-
-层级结构
-层级结构，即是上一层级包括下一层级的结构。
-层级结构的优势和劣势都很明显。优势是其层次清晰，劣势是维护成本高。
-层级结构的广度和深度均不宜…]]></summary>
-        <author>
-            <name>潦草学者</name>
-        </author>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[The Quiet Invasion of 'Big Information']]></title>
         <id>636167b2079462a79d02d6c0</id>
         <link href="https://www.wired.com/story/big-information-relx-privacy-surveillance-data/"/>
@@ -4400,16 +4396,6 @@ Excel
         <summary type="html"><![CDATA[通过一个crackme学习逆向基础知识以及Delphi框架]]></summary>
         <author>
             <name>先知安全技术社区</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Use Apple Pay or Google Wallet Instead of Plastic Cards]]></title>
-        <id>636a9127f4db157fcdf20ff1</id>
-        <link href="https://www.wired.com/story/money-privacy-security-settings-apple-google-pay/"/>
-        <updated>2022-11-09T01:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Cash is safe—for now. Contactless payment methods, like Apple Pay or Google Wallet, are more of a threat to the existence of physical cards.]]></summary>
-        <author>
-            <name>Reece Rogers</name>
         </author>
     </entry>
     <entry>
@@ -4930,56 +4916,6 @@ Excel
         <summary type="html"><![CDATA[某软件监控页面RCE漏洞分析]]></summary>
         <author>
             <name>先知安全技术社区</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Art of Hitting Disinformation Where It Lives]]></title>
-        <id>6356a50d3d83d1af9973abd3</id>
-        <link href="https://www.wired.com/story/disinformation-art-science/"/>
-        <updated>2022-10-28T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Combating fake news with facts doesn't work because humans are wired for emotion. It's time for more creative tactics.]]></summary>
-        <author>
-            <name>Tom Southern</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Musk’s Twitter Will Not Be the Town Square the World Needs]]></title>
-        <id>635af6043d7842cc349a2206</id>
-        <link href="https://www.wired.com/story/elon-musk-twitter-town-square/"/>
-        <updated>2022-10-28T12:54:33.000Z</updated>
-        <summary type="html"><![CDATA[This is a moment to choose a different path, inspired by the lessons of thriving offline communities.]]></summary>
-        <author>
-            <name>Eli Pariser</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Europe Prepares to Rewrite the Rules of the Internet]]></title>
-        <id>6359871f68addec416d5b940</id>
-        <link href="https://www.wired.com/story/europe-dma-prepares-to-rewrite-the-rules-of-the-internet/"/>
-        <updated>2022-10-28T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Digital Markets Act will force Big Tech platforms to break open their walled gardens in 2023, says the EU’s new ambassador to Silicon Valley.]]></summary>
-        <author>
-            <name>Khari Johnson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chrome Extensions of the Month - October 2022]]></title>
-        <id>https://dev.to/j471n/chrome-extensions-of-the-month-october-2022-1c0j</id>
-        <link href="https://dev.to/j471n/chrome-extensions-of-the-month-october-2022-1c0j"/>
-        <updated>2022-10-28T06:31:26.000Z</updated>
-        <summary type="html"><![CDATA[#productivity #webdev #javascript #beginners]]></summary>
-        <author>
-            <name>Jatin Sharma</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Master The Art of Content Creation As a Developer?]]></title>
-        <id>https://dev.to/patilganesh1010/how-to-master-the-art-of-content-creation-as-a-developer-kpn</id>
-        <link href="https://dev.to/patilganesh1010/how-to-master-the-art-of-content-creation-as-a-developer-kpn"/>
-        <updated>2022-10-28T03:18:06.000Z</updated>
-        <summary type="html"><![CDATA[#react #tutorial #opensource #career]]></summary>
-        <author>
-            <name>Ganesh Patil</name>
         </author>
     </entry>
 </feed>
